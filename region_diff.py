@@ -59,7 +59,14 @@ def load_shop(key: str) -> dict[str, str]:
             d = json.loads(pathlib.Path(f).read_text(encoding="utf-8"))
         except Exception:
             continue
-        rows = d.get("results") or d.get("merged") or []
+        if isinstance(d, list):
+            rows = d
+        elif isinstance(d, dict):
+            rows = d.get("results") or d.get("merged") or []
+        else:
+            continue
+        if not isinstance(rows, list):
+            continue
         for r in rows:
             k = (r.get("cls") or r.get("v") or "")
             if not k:

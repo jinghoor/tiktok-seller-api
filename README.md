@@ -17,6 +17,7 @@ TikTok Shop **卖家中心**全量接口逆向归档 + 可运行客户端。
 |---|---|
 | [`ALL_API_INVENTORY.md`](ALL_API_INVENTORY.md) | **全量接口主表** —— 4205 个唯一接口，按 26 个业务域分组 |
 | [`API_GAP_REPORT.md`](API_GAP_REPORT.md) | 缺口报告：微前端 → 接口数、域覆盖、P0-P3 优先级 |
+| [`ALL_API_TRAINED.md`](ALL_API_TRAINED.md) | **后训练产物** —— 全量客户端 + 调用配方（389 个 `code=0` 可直接用） |
 | [`SHOP_TYPE_DIFF.md`](SHOP_TYPE_DIFF.md) | **两店型差异矩阵** —— 本土 vs 跨境的实测存在性交叉表 |
 | [`PROBE_RESULTS.md`](PROBE_RESULTS.md) | 真流量实测报告 + 「绑定错误 oracle」方法论 |
 | [`ROUTE_EXISTENCE.md`](ROUTE_EXISTENCE.md) | 路由存在性测绘方法论（**不需要登录**） |
@@ -109,6 +110,21 @@ capture_finance_live.py    CDP 真流量捕获
 ---
 
 ## 客户端
+
+### 广度 —— 覆盖全量 4205 个
+
+| 模块 | 覆盖 |
+|---|---|
+| `tk_base.py` | 传输层基座：借已打开页面做页内 fetch（零打扰、带超时、并发批量） |
+| `tk_api.py` | 全量索引 + 可调用客户端（自动选方法、带实测状态、`search`/`call`/`probe` CLI） |
+
+```bash
+python3 tk_api.py domains                       # 域清单 + 存在率
+python3 tk_api.py search settlement --verified ok
+python3 tk_api.py call /api/v1/pay/settlement/settings --shop tk89
+```
+
+### 深度 —— 单域业务封装
 
 | 模块 | 覆盖 |
 |---|---|
