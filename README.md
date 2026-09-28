@@ -15,8 +15,12 @@ TikTok Shop **卖家中心**全量接口逆向归档 + 可运行客户端。
 
 | 路径 | 内容 |
 |---|---|
-| [`ALL_API_INVENTORY.md`](ALL_API_INVENTORY.md) | **全量接口主表** —— 4000+ 个唯一接口，按 18 个业务域分组 |
-| [`API_GAP_REPORT.md`](API_GAP_REPORT.md) | 缺口报告：微前端 → 接口数、域覆盖、优先级 |
+| [`ALL_API_INVENTORY.md`](ALL_API_INVENTORY.md) | **全量接口主表** —— 4205 个唯一接口，按 26 个业务域分组 |
+| [`API_GAP_REPORT.md`](API_GAP_REPORT.md) | 缺口报告：微前端 → 接口数、域覆盖、P0-P3 优先级 |
+| [`SHOP_TYPE_DIFF.md`](SHOP_TYPE_DIFF.md) | **两店型差异矩阵** —— 本土 vs 跨境的实测存在性交叉表 |
+| [`PROBE_RESULTS.md`](PROBE_RESULTS.md) | 真流量实测报告 + 「绑定错误 oracle」方法论 |
+| [`ROUTE_EXISTENCE.md`](ROUTE_EXISTENCE.md) | 路由存在性测绘方法论（**不需要登录**） |
+| [`PAGE_API_MAP.md`](PAGE_API_MAP.md) | 页面 → 接口映射（783 条前端路由 / 11 个微前端） |
 | [`AFFILIATE_API.md`](AFFILIATE_API.md) | 联盟中心（达人）564 个接口 + 实测状态 |
 | [`FINANCE_API.md`](FINANCE_API.md) | 财务板块 244 个接口 + 导出/批量下载全链 + 调用配方 |
 | [`TIKTOK_PROMOTION_API.md`](TIKTOK_PROMOTION_API.md) | 促销 / 商品机会 / 站内 IM / 验证码，主文档 |
@@ -32,6 +36,21 @@ notes/api_inventory/master.json          全量主表（path / method / domain /
 notes/api_inventory/mf_all.json          11 个微前端各自的接口
 notes/api_inventory/enriched.json        联盟中心
 notes/api_inventory/finance_paths.json   财务
+notes/tk89_exists.json                   本土店实测确认存在的 1983 个接口
+```
+
+### 分析工具
+
+```
+harvest_mf_all.py          抓 11 个微前端 bundle 并抽接口（主力）
+build_api_master.py        汇总所有来源 → 主表 + 缺口报告（含缺前缀去重）
+trace_endpoint.py          拿路径片段回查 bundle 里的真实调用点
+fix_methods_by_trace.py    用调用点证据全量核方法（878 一致 / 0 冲突）
+map_route_existence.py     路由存在性测绘（不需要登录）
+probe_api_master.py        借页面批量探测接口状态
+region_diff.py             两店型差异矩阵
+build_routes.py            前端路由抽取
+capture_finance_live.py    CDP 真流量捕获
 ```
 
 ---
