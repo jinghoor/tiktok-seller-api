@@ -158,6 +158,8 @@ def should_skip(rel: pathlib.Path, size: int) -> bool:
         return True                          # 非白名单 JSON = 原始抓包 → 排除
     if rel.name.endswith(".bak.json"):
         return True
+    if rel.name.startswith(".") and rel.name not in (".gitignore",):
+        return True                      # 点文件（manifest 等）不发布
     return False
 
 
@@ -193,7 +195,7 @@ def main():
     #   改成：覆盖写 + 按 manifest 增量清理，每批 <=40 个。
     if not a.check:
         OUT.mkdir(parents=True, exist_ok=True)
-    prev_manifest = OUT / ".manifest.txt"
+    prev_manifest = HERE / ".publish_manifest.txt"   # ★ 放导出目录外，别推上去
     prev_files = set()
     if prev_manifest.exists():
         prev_files = set(prev_manifest.read_text(encoding="utf-8").split())
