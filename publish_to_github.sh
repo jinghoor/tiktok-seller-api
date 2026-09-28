@@ -35,7 +35,7 @@ DRY=0
 [ "${1:-}" = "--dry-run" ] && DRY=1
 
 echo "══ 1/4 脱敏导出 ══"
-"$PY" "$HERE/sanitize_publish.py" | tail -8
+"$PY" "$HERE/sanitize_publish.py" > /tmp/tsa_sanitize.log 2>&1; tail -8 /tmp/tsa_sanitize.log
 
 echo
 echo "══ 2/4 暂存到 $STAGE ══"
@@ -103,11 +103,11 @@ CHANGED=$(git diff --cached --numstat | wc -l | tr -d ' ')
 git -c core.pager=cat commit -q -m "同步：$(date '+%Y-%m-%d %H:%M') 更新（$CHANGED 个文件）
 
 由 publish_to_github.sh 自动生成（已脱敏）"
-git log --oneline | head -1
+git log -1 --format="  %h %s"
 
 echo
 echo "══ 4/4 推送 ══"
-git push -q origin HEAD:main 2>&1 | tail -3
+git push -q origin HEAD:main 2>&1 || true
 echo "  ✅ https://github.com/$REPO_SLUG"
 echo
 echo "暂存目录: ${STAGE}  (可随时删, 历史在 GitHub 上)"
