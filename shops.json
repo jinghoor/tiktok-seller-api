@@ -26,6 +26,19 @@
    "api_app_name": "i18n_ecom_shop",
    "affiliate_app_name": "i18n_ecom_alliance",
    "timezone_name": "Asia/Ho_Chi_Minh"
+  },
+  "tk56": {
+   "label": "TK56_CrossBorder_TH",
+   "region": "TH",
+   "seller_id": "7494XXXXXXXXXX90",
+   "aid": "6556",
+   "cdp_port": CDP_PORT,
+   "api_host": "https://api16-normal-sg.tiktokshopglobalselling.com",
+   "seller_origin": "https://seller.tiktokshopglobalselling.com",
+   "affiliate_host": "https://affiliate.tiktokshopglobalselling.com",
+   "api_app_name": "i18n_ecom_shop",
+   "affiliate_app_name": "i18n_ecom_alliance",
+   "timezone_name": "Asia/Bangkok"
   }
  }
 }

@@ -73,6 +73,15 @@ def classify(r) -> str:
     if r.get("code") == 0:
         return "✅ 通"
     m = r.get("msg") or ""
+    # ★ 绑定错误 oracle：`binding: expr_path=<字段>, cause=missing required`
+    #   http=400 且不返回 JSON code —— 说明**接口存在且可达**，只是缺 body 字段。
+    #   早期把它归成 `?`（无法识别），157 个里 151 个都是这个，严重低估了覆盖率。
+    if "binding:" in m and "missing required" in m:
+        fld = ""
+        mm = __import__("re").search(r"expr_path=([A-Za-z0-9_.\[\]]+)", m)
+        if mm:
+            fld = f"({mm.group(1)})"
+        return f"◐ 缺 body{fld}"
     if "No matching route" in m:
         return "🚫 无此路由"
     if "请登录" in m or r.get("code") in (98001002,):
@@ -94,6 +103,7 @@ def main():
     ap.add_argument("--p0", action="store_true")
     ap.add_argument("--p1", action="store_true")
     ap.add_argument("--limit", type=int, default=150)
+    ap.add_argument("--offset", type=int, default=0)
     ap.add_argument("--batch", type=int, default=20)
     ap.add_argument("--include-writes", action="store_true")
     ap.add_argument("--tag", default=None, help="输出文件名后缀")
@@ -120,7 +130,7 @@ def main():
     rows = [p for p, v in master.items()
             if (not want or v["domain"] in want)
             and (a.include_writes or not WRITE_RX.search(p))]
-    rows = sorted(rows)[:a.limit]
+    rows = sorted(rows)[a.offset:a.offset + a.limit]
     print(f"[{key}] 目标 {len(rows)} 个接口  api_base={api_base}")
 
     with sync_playwright() as pw:
