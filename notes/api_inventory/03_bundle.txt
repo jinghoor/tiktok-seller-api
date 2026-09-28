@@ -1,0 +1,158 @@
+抽取到唯一路径 130 个；业务相关 18 个
+
+========================================================================================================================
+业务相关（达人联盟 / 达人 / 样品 / CRM / IM / 商品）
+========================================================================================================================
+  /api/v1/affiliate/config
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v1/oec/affiliate/cmp/creator/ec/stats
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_']
+  /api/v1/oec/affiliate/creator/marketplace/profile
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_']
+  /api/v1/oec/affiliate/crm/creator/create
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_']
+  /api/v1/oec/affiliate/seller/wish_list/update/creator
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_']
+  /api/v2/affiliate/open_plan/create
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/open_plan/delete
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/open_plan/list
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/open_plan/product_selection/list
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/open_plan/update
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/shop_plan/create
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/shop_plan/get
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/shop_plan/quit
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/shop_plan/update
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/target_plan/create
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/target_plan/product_selection/guide_new_seller/list
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  /api/v2/affiliate/target_plan/update
+      src=['lf16-oversea.goofy-cdn.com_obj_goofy-sg_', 'lf16-scmcdn.oecstatic.com_obj_oec-magell']
+  v1/message/v1/message/get_by_conversation_search
+      src=['lf16-scmcdn.oecstatic.com_obj_oec-magell']
+
+
+========================================================================================================================
+其余
+========================================================================================================================
+  /api/feelgood/v1/answer
+  /api/v1/bs/rt
+  /api/v1/bs/setting
+  /api/v1/i18n_conf/currency/format_currency
+  /api/v1/i18n_conf/currency/format_currency_v2
+  /api/v1/i18n_conf/currency/get_currency_by_currency_code
+  /api/v1/i18n_conf/currency/get_currency_by_geo_name_id
+  /api/v1/i18n_conf/currency/get_currency_by_region_code
+  /api/v1/i18n_conf/currency/get_currency_list
+  /api/v1/i18n_conf/currency/get_region_list
+  /api/v1/i18n_conf/datetime/format_locale
+  /api/v1/i18n_conf/language/get_language_by_locale
+  /api/v1/i18n_conf/language/get_language_by_region_code
+  /api/v1/i18n_conf/language/get_locales_by_region_code
+  /api/v1/i18n_conf/region/get_eu_region_info
+  /api/v1/i18n_conf/timezone/get_default_timezone
+  /api/v1/i18n_conf/timezone/get_dst_result
+  /api/v1/i18n_conf/timezone/get_exact_timezone
+  /api/v1/i18n_conf/timezone/get_icann_timezone
+  /api/v1/i18n_conf/timezone/get_region_timezone_info
+  /api/v1/i18n_conf/timezone/get_utc_offset
+  /api/v1/i18n_conf/timezone/get_utc_offset_hour
+  /api/v1/i18n_conf/timezone/get_utc_offset_sec
+  /api/v1/im
+  /api/v1/sentry_verify/get_idv
+  /api/v1/sentry_verify/report_user_event
+  /api/v1/sentry_verify/verify_idv
+  /api/v2/sitebuilder
+  /v1/list
+  /v1/list_test
+  /v1/user/webid
+  v1/account/offline
+  v1/account/online
+  v1/blocklist/check
+  v1/blocklist/get
+  v1/blocklist/set
+  v1/broadcast/recv_message
+  v1/broadcast/send_message
+  v1/broadcast/user_counter
+  v1/channel/heartbeat
+  v1/client/batch_ack
+  v1/client/get_unread_count
+  v1/client/input_status
+  v1/client/report_metrics
+  v1/client/unread_count
+  v1/client/user_action
+  v1/config/get
+  v1/conversation/add_participants
+  v1/conversation/batch_get_conversation_participants_readindex
+  v1/conversation/block_conversation
+  v1/conversation/block_member
+  v1/conversation/delete
+  v1/conversation/dissolve
+  v1/conversation/get_audit
+  v1/conversation/get_checkinfo
+  v1/conversation/get_core_info
+  v1/conversation/get_group_list
+  v1/conversation/get_list
+  v1/conversation/get_ticket
+  v1/conversation/leave
+  v1/conversation/list
+  v1/conversation/mget_participants
+  v1/conversation/participants_list
+  v1/conversation/remove_participants
+  v1/conversation/set_core_info
+  v1/conversation/set_setting_info
+  v1/conversation/update_audit
+  v1/conversation/update_participant
+  v1/conversation/upsert_core_ext_info
+  v1/conversation/upsert_settings_ext
+  v1/media/get_status
+  v1/media/get_urls
+  v1/media/upload_config
+  v1/message/ack
+  v1/message/batch_unmark
+  v1/message/delete
+  v1/message/get
+  v1/message/get_by_conversation
+  v1/message/get_by_id
+  v1/message/get_by_user
+  v1/message/get_by_user_combo
+  v1/message/get_checkinfo
+  v1/message/get_mark_count
+  v1/message/get_message_by_init
+  v1/message/mark
+  v1/message/modify_ext
+  v1/message/pull_mark
+  v1/message/recall
+  v1/message/report_mark_count
+  v1/message/send
+  v1/message/set_property
+  v1/profile/get_info
+  v1/send_message/p2p
+  v1/stranger/delete_all_conversations
+  v1/stranger/delete_conversation
+  v1/stranger/delete_message
+  v1/stranger/get_conversation_list
+  v1/stranger/get_messages
+  v1/stranger/mark_read_all_conversations
+  v1/stranger/mark_read_conversation
+  v1/voip/call
+  v1/voip/create
+  v1/voip/update
+  v2/conversation/create
+  v2/conversation/get_by_favorite
+  v2/conversation/get_by_top
+  v2/conversation/get_info
+  v2/conversation/get_info_list
+  v2/message/get_by_user_init
+  v3/conversation/get_min_index
+  v3/conversation/get_read_index
+  v3/conversation/mark_read

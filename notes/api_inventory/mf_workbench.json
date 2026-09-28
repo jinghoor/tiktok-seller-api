@@ -1,0 +1,5644 @@
+[
+ {
+  "path": "/api/v1/app/seller/cancel_conds/verify",
+  "method": "POST",
+  "names": [
+   "VerifyAppCancellationConds"
+  ]
+ },
+ {
+  "path": "/api/v1/app/seller/cancel_criteria/get",
+  "method": "POST",
+  "names": [
+   "GetAPPCancellationCriteria"
+  ]
+ },
+ {
+  "path": "/api/v1/arch/config_center_gw/get_config",
+  "method": "GET",
+  "names": [
+   "GetConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/arch/config_center_gw/mget_config_by_app_name",
+  "method": "GET",
+  "names": [
+   "MGetConfigByAppName"
+  ]
+ },
+ {
+  "path": "/api/v1/arch/config_center_gw/mget_config_by_config_name",
+  "method": "GET",
+  "names": [
+   "MGetConfigByConfigName"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/pop/product/optimize/data/get",
+  "method": "POST",
+  "names": [
+   "GetPopOptimizationData"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/pop/product/optimize/optimized/list",
+  "method": "POST",
+  "names": [
+   "GetPopOptimizedProductPage"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/core/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerCoreStatsExportQuery",
+   "GetSellerCoreStatsExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorListExportQuery",
+   "GetSellerCreatorListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/live/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorLiveDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/data/overview/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/creator/list/search",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveCreatorListSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/details",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorDetailsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/suggestion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorSuggestionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveListExportQuery",
+   "GetSellerLiveListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/account/suggestion",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerAccountSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/session/suggestion",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerSessionSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/summary",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerSummary"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/performance/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLivePerformanceCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications",
+  "method": "POST",
+  "names": [
+   "GetNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications/get",
+  "method": "POST",
+  "names": [
+   "GetSellerNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications/set",
+  "method": "POST",
+  "names": [
+   "SetSellerNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/ab_experiment/enabled",
+  "method": "POST",
+  "names": [
+   "GetSellerShopABExperimentEnabledQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/associated/creators",
+  "method": "?",
+  "names": [
+   "GetSellerShopAssociatedCreators"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/authorization/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShopAuthQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/authorization/set",
+  "method": "POST",
+  "names": [
+   "SetSellerShopAuthQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/annual/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopAnnualCampaignStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/banner/display",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBannerDisplayQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/bcp/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBCPCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/bcp/status",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBCPEnrollmentStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/offline/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignOfflineProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/realtime/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignRealtimeProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/realtime/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignRealtimeStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/report/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignReportStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/target",
+  "method": "POST",
+  "names": [
+   "SetSellerShopCampaignTargetQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/trend/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/list",
+  "method": "POST",
+  "names": [
+   "SellerShopCenterBoostedImpressionProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/list/export",
+  "method": "POST",
+  "names": [
+   "ShopCenterBoostedImpressionProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/stats",
+  "method": "POST",
+  "names": [
+   "ShopCenterBoostedImpressionProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterBoostedImpressionStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/main/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterMainCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/main/core/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterMainCoreStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/product/list/categories",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterHotProductsCategoriesQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/rank/shop/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRankShopCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/rank/shop/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRankShopListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRecommendationCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/core/stats/export",
+  "method": "POST",
+  "names": [
+   "ShopCenterRecommendationCoreStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/issues/list",
+  "method": "POST",
+  "names": [
+   "ShopCenterRecommendationProductsIssuesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/issues/list/export",
+  "method": "POST",
+  "names": [
+   "CenterRecommendationProductsIssuesListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/newly_passed/list",
+  "method": "POST",
+  "names": [
+   "CenterRecommendationProductsNewlyPassedListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/newly_passed/list/export",
+  "method": "POST",
+  "names": [
+   "RecommendationProductsNewlyPassedListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/status/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRecommendationStatusStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/main/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpMainCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpHotProductsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/data/available/date",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPageDataReadyTimeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/export/file",
+  "method": "POST",
+  "names": [
+   "GetSellerShopExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/export/task/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopExportTaskListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsListExportQuery",
+   "GetSellerShopIMAgentStatsListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/details/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordDetailsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/details/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordDetailsListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/ads/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveAdsDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductListExportQuery",
+   "GetSellerShopLogisticsProductListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/order/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductOrderListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/order/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductOrderListExportQuery",
+   "ShopLogisticsProductOrderListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProviderListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/rank",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryBlueOceanKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/rank/export",
+  "method": "POST",
+  "names": [
+   "MarketQueryBlueOceanKeywordRankListExportQuery",
+   "ShopMarketBlueOceanQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryBlueOceanKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/rank/list",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryHighPotentialKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/rank/list/export",
+  "method": "POST",
+  "names": [
+   "QueryHighPotentialKeywordRankListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/stats",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryHighPotentialKeywordStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/rank",
+  "method": "POST",
+  "names": [
+   "SellerShopMarketQueryPopularKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/rank/export",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryPopularKeywordRankListExportQuery",
+   "ShopMarketPopularQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryPopularKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/rank",
+  "method": "POST",
+  "names": [
+   "ShopMarketQuerySkyrocketingKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/rank/export",
+  "method": "POST",
+  "names": [
+   "MarketQuerySkyrocketingKeywordRankListExportQuery",
+   "MarketSkyrocketingQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQuerySkyrocketingKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/negative/review/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopNegativeReviewProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/negative/review/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopNegativeReviewStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/opportunity/center/product/card/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOpportunityCenterProductCardStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/product_card/list",
+  "method": "POST",
+  "names": [
+   "SellerShopOverviewGmvSnapshotProductCardListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/campaign/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingCampaignListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/promotion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingPromotionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/carousel/display",
+  "method": "?",
+  "names": [
+   "SellerShopOverviewPerformanceCarouselDisplayQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/latest_date",
+  "method": "POST",
+  "names": [
+   "GrossRevenueBreakdownLatestReadyDateQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/stats",
+  "method": "POST",
+  "names": [
+   "PerformanceGrossRevenueBreakdownStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/nrr/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceNRRStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/campaign/info",
+  "method": "POST",
+  "names": [
+   "ShopOverviewPerformanceTodayCampaignInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/live/list",
+  "method": "POST",
+  "names": [
+   "SellerShopOverviewPerformanceTodayLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceTodayStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPagePerformanceStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/performance/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPagePerformanceStatsExport"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/diagnosis",
+  "method": "POST",
+  "names": [
+   "MGetSellerShopProductCardDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/product/traffic/stats/export",
+  "method": "POST",
+  "names": [
+   "ShopProductCardProductTrafficStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/sources/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficSourcesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/user/action",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardUserActionQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/user/suggestion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardUserSuggestionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/channel/content",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductChannelContentQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/creator/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCreatorListExportQuery",
+   "GetSellerShopProductCreatorListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/quality/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisQualityListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductListExportQuery",
+   "GetSellerShopProductListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/live/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductLiveListExportQuery",
+   "GetSellerShopProductLiveListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/search",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/sku/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSKUListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/sku/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSKUListExportQuery",
+   "GetSellerShopProductSKUListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductVideoListExportQuery",
+   "GetSellerShopProductVideoListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/shipping/register/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramShippingRegisterInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/shipping/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramShippingStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/detail/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionDetailStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionListExportQuery",
+   "GetSellerShopPromotionListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/livestream/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankLivestreamCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/livestream/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankLivestreamListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/product/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/latest_date",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationLatestReadyDate"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationRankingList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/skill/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationSkillList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/tiktok_data/token",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationTikTokDataToken"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductOptimisedTitleListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchOptimisedTitleStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/trend",
+  "method": "POST",
+  "names": [
+   "SellerShopSearchProductOptimisedTitleTrendQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/sale/keyword/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductSaleKeywordDetailsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/sale/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductSaleListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/details/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordDetailsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/details/list/export",
+  "method": "POST",
+  "names": [
+   "ShopSearchStoreKeywordDetailsListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/service/shipping/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopServiceShippingStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/center/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoCenterVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/center/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoCenterVideoListExportQuery",
+   "GetSellerShopShortVideoCenterVideoExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/toko/feature_flag",
+  "method": "POST",
+  "names": [
+   "GetSellerTokoIntegrationFeatureFlag"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/composition",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserCompositionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/portrait",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserPortraitListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/trend",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserTrendQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/ads/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAdsDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/affiliate/creator/list/search",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAffiliateCreatorListSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/account/performance/list",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsAccountPerformanceListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/ads/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsAdsInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/product/related/video/list",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsProductRelatedVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "SellerShopVideoAnalyticsTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/boost/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsBoostInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/content/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoContentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoDiagnosisQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/diagnosis/suggestion/info",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsDiagnosisSuggestionInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/profile/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProfileStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/content/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoContentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoExportQuery",
+   "GetSellerShopVideoExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/product/related/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProductRelatedVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/profile/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProfileStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic_card/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficCardList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic_card/redeem",
+  "method": "POST",
+  "names": [
+   "SetSellerShopVideoTrafficCardRedeem"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/store/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerStoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/us/shop/rank/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerUsShopScoreRankCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/us/shop/rank/list",
+  "method": "POST",
+  "names": [
+   "GetSellerUsShopScoreRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/data/available/date",
+  "method": "POST",
+  "names": [
+   "GetShopifySellerShopPageDataReadyTimeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/video/analytics/creator/list",
+  "method": "POST",
+  "names": [
+   "ShopifySellerShopVideoAnalyticsCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/video/analytics/video/list",
+  "method": "POST",
+  "names": [
+   "GetShopifySellerShopVideoAnalyticsVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/conversation/get",
+  "method": "GET",
+  "names": [
+   "GetHelpdeskConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/entrance/get",
+  "method": "POST",
+  "names": [
+   "GetByEntrance"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/unread_msg/get",
+  "method": "GET",
+  "names": [
+   "GetUserUnreadMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/user/get",
+  "method": "POST",
+  "names": [
+   "GenIMUser"
+  ]
+ },
+ {
+  "path": "/api/v1/selfsvc/getfaq",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/seller/account/get",
+  "method": "POST",
+  "names": [
+   "GetAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/switch/get",
+  "method": "GET",
+  "names": [
+   "GetAccountSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/update",
+  "method": "POST",
+  "names": [
+   "UpdateAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account_verification/get",
+  "method": "GET",
+  "names": [
+   "GetAccountVerification"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ads_optimizers/get",
+  "method": "GET",
+  "names": [
+   "GetAdsOptimizersCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/affiliate_card/get",
+  "method": "GET",
+  "names": [
+   "GetAffiliateCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/allowed_geo_l0/get",
+  "method": "GET",
+  "names": [
+   "GetAllowedGeoL0"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/auth/tt_user_info/get",
+  "method": "POST",
+  "names": [
+   "GetTTUserInfoByAuth"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/is_read/get",
+  "method": "GET",
+  "names": [
+   "CheckSingleBadgeIsRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/c2b/qrcode/check",
+  "method": "POST",
+  "names": [
+   "CheckC2BQRCodeStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/c2b/trial_period/skip",
+  "method": "POST",
+  "names": [
+   "SkipC2BTrialPeriod"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/get",
+  "method": "GET",
+  "names": [
+   "GetSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common_extra/get",
+  "method": "GET",
+  "names": [
+   "GetCommonExtra"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/contract/detail",
+  "method": "?",
+  "names": [
+   "GetSellerContractDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/contract/list",
+  "method": "?",
+  "names": [
+   "ListSellerContracts"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/contract/notify/get",
+  "method": "POST",
+  "names": [
+   "ListNotification"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/contract/notify/skip",
+  "method": "POST",
+  "names": [
+   "SkipNotification"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/contract/sign",
+  "method": "POST",
+  "names": [
+   "SignContract"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creativityhub/get",
+  "method": "POST",
+  "names": [
+   "GetSellerCreativityHubInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/agg/get",
+  "method": "?",
+  "names": [
+   "GetAppShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/agg/verify/invite",
+  "method": "POST",
+  "names": [
+   "VerifyAndInviteCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/availability/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorAvailability"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/get",
+  "method": "?",
+  "names": [
+   "GetShopCreators"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/info/get",
+  "method": "POST",
+  "names": [
+   "GetShopCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/info/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/invitation/send",
+  "method": "POST",
+  "names": [
+   "SendShopCreatorInvitation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/official_creator/bind",
+  "method": "POST",
+  "names": [
+   "BindOfficialShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/official_creator/get",
+  "method": "POST",
+  "names": [
+   "GetOfficialShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/official_creator/upgrade",
+  "method": "POST",
+  "names": [
+   "UpgradeOfficialShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/qrcode/check",
+  "method": "POST",
+  "names": [
+   "CheckQRCodeStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/remain/get",
+  "method": "POST",
+  "names": [
+   "GetShopCreatorRoleRemainCondition"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/tip/report",
+  "method": "POST",
+  "names": [
+   "ReportShopCreatorTipRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/unbind",
+  "method": "POST",
+  "names": [
+   "UnbindShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/unbind_apply/get",
+  "method": "POST",
+  "names": [
+   "GetUnbindApply"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator/unbind_apply/update",
+  "method": "POST",
+  "names": [
+   "UpdateUnbindApply"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/allowed_config_menu/get",
+  "method": "?",
+  "names": [
+   "GetCustomRoleAllowedConfigMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/menu/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/menu/set",
+  "method": "POST",
+  "names": [
+   "SetCustomRoleMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/set",
+  "method": "POST",
+  "names": [
+   "SetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource_config_list/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleResourceConfigList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/customer_service/im/base_info/get",
+  "method": "POST",
+  "names": [
+   "GetIMBaseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/am/abort",
+  "method": "POST",
+  "names": [
+   "LogoutDelegationByAm"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/history/get",
+  "method": "GET",
+  "names": [
+   "GetDelegationLoginHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/info",
+  "method": "GET",
+  "names": [
+   "GetDelegationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/mode/set",
+  "method": "POST",
+  "names": [
+   "SetDelegationMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/seller/abort",
+  "method": "POST",
+  "names": [
+   "AbortDelegationBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/academy/get",
+  "method": "GET",
+  "names": [
+   "GetEduCompAcademy"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/faq/get",
+  "method": "GET",
+  "names": [
+   "GetEduCompFAQ"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ext_attr/get",
+  "method": "GET",
+  "names": [
+   "GetSellerExtAttr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feelgood/access_token/get",
+  "method": "POST",
+  "names": [
+   "GetFeelGoodAccessToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_product_permission/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalProductPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_onboard_info/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalSellerOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_withdraw/cancel",
+  "method": "POST",
+  "names": [
+   "CancelGlobalSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_withdraw/confirm",
+  "method": "POST",
+  "names": [
+   "ConfirmGlobalSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_withdraw/get",
+  "method": "POST",
+  "names": [
+   "GetGlobalSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_withdraw/publicity_period_open",
+  "method": "POST",
+  "names": [
+   "OpenGlobalSellerWithdrawPublicityPeriod"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/go_seller_center",
+  "method": "GET",
+  "names": [
+   "GoSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/growth/opportunity/config/get",
+  "method": "?",
+  "names": [
+   "GetGrowthOpportunitiesConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/growth/opportunity/education/get",
+  "method": "?",
+  "names": [
+   "GetGrowthOpportunitiesEducations"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/growth/opportunity/history/get",
+  "method": "?",
+  "names": [
+   "GetGrowthOpportunitiesHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/growth/opportunity/home/get",
+  "method": "?",
+  "names": [
+   "GetGrowthOpportunitiesHome"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/growth/opportunity/widget/get",
+  "method": "?",
+  "names": [
+   "GetGrowthOpportunitiesWidget"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/course_detail/get",
+  "method": "POST",
+  "names": [
+   "GetCourseDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/get",
+  "method": "GET",
+  "names": [
+   "GetHelpInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/knowledge_detail/get",
+  "method": "GET",
+  "names": [
+   "GetKnowledgeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_card/get",
+  "method": "GET",
+  "names": [
+   "GetHomeCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_task/get",
+  "method": "GET",
+  "names": [
+   "GetHomeTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage/get",
+  "method": "?",
+  "names": [
+   "AwemeGetHomepage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_allowlist/get",
+  "method": "GET",
+  "names": [
+   "GetHomePageAllowList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_widgets_group/get",
+  "method": "GET",
+  "names": [
+   "GetHomepageWidgetsGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/incentives/overview/get",
+  "method": "?",
+  "names": [
+   "GetIncentivesOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/incentives/tasks/list",
+  "method": "?",
+  "names": [
+   "ListIncentivesTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/banner/get",
+  "method": "?",
+  "names": [
+   "GetBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/banner/v2/get",
+  "method": "?",
+  "names": [
+   "GetBannerV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/contents/get",
+  "method": "?",
+  "names": [
+   "GetContentsTree"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/contents/list",
+  "method": "?",
+  "names": [
+   "ListContents"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/course_detail/get",
+  "method": "?",
+  "names": [
+   "GetCourseDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/courses/list",
+  "method": "?",
+  "names": [
+   "ListCourses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/creator/get",
+  "method": "?",
+  "names": [
+   "GetCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/feedback/create",
+  "method": "POST",
+  "names": [
+   "CreateUserCommentFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/h5/home/get",
+  "method": "?",
+  "names": [
+   "GetH5Home"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/home/explore/get",
+  "method": "POST",
+  "names": [
+   "GetExplore"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/home/faq/get",
+  "method": "?",
+  "names": [
+   "GetHomeFaq"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/home/growth/get",
+  "method": "?",
+  "names": [
+   "GetHomeGrowth"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/id/get",
+  "method": "GET",
+  "names": [
+   "GetLearningCenterId"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/knowledge/list",
+  "method": "?",
+  "names": [
+   "ListKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/knowledge_detail/get",
+  "method": "?",
+  "names": [
+   "GetKnowledgeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/knowledge_detail/simple/get",
+  "method": "?",
+  "names": [
+   "GetKnowledgeDetailSimple"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/module/contents/list",
+  "method": "?",
+  "names": [
+   "ListModuleContents"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/modules/get",
+  "method": "?",
+  "names": [
+   "GetModules"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/obj_detail/get",
+  "method": "?",
+  "names": [
+   "GetObjDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/policy/courses/get",
+  "method": "?",
+  "names": [
+   "GetPolicyCourses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/policy/latest/get",
+  "method": "?",
+  "names": [
+   "GetLatestPolicy"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/policy/notice/get",
+  "method": "?",
+  "names": [
+   "GetPolicyNotice"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/recommend/content/list",
+  "method": "GET",
+  "names": [
+   "ListRecommendContent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/recommend_reads/get",
+  "method": "GET",
+  "names": [
+   "AcademyRecommendReads"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/recommend_reads_default/get",
+  "method": "GET",
+  "names": [
+   "AcademyRecommendReadsDefault"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/search",
+  "method": "POST",
+  "names": [
+   "SearchByKeyword"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/site_links/get",
+  "method": "GET",
+  "names": [
+   "GetSiteLinks"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/sitemap/urls/get",
+  "method": "GET",
+  "names": [
+   "GetSitemapUrls"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/star/create",
+  "method": "POST",
+  "names": [
+   "CreateFiveStarComment"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/star/get",
+  "method": "POST",
+  "names": [
+   "GetFiveStarComment"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/learning_center/video/play_info/get",
+  "method": "?",
+  "names": [
+   "GetVideoPlayInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/locales/get",
+  "method": "GET",
+  "names": [
+   "GetLocales"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/apply",
+  "method": "POST",
+  "names": [
+   "SaveMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/get",
+  "method": "POST",
+  "names": [
+   "GetMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/get",
+  "method": "POST",
+  "names": [
+   "GetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/set",
+  "method": "POST",
+  "names": [
+   "SetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/batch_mark_read",
+  "method": "POST",
+  "names": [
+   "BatchMarkRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/check_mark_others_as_read_ab",
+  "method": "POST",
+  "names": [
+   "CheckMarkOthersAsReadAB"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/clear_others_red_point",
+  "method": "POST",
+  "names": [
+   "ClearOthersRedPoint"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/clear_red_point",
+  "method": "POST",
+  "names": [
+   "ClearRedPoint"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/focus_config/set",
+  "method": "POST",
+  "names": [
+   "SetFocusConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/get",
+  "method": "?",
+  "names": [
+   "GetMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/get_msg_tabs",
+  "method": "?",
+  "names": [
+   "GetMsgTabs"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/get_page_channels",
+  "method": "?",
+  "names": [
+   "GetPageChannels"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/list",
+  "method": "?",
+  "names": [
+   "ListMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/mark_read",
+  "method": "POST",
+  "names": [
+   "MarkMessageRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/pull",
+  "method": "?",
+  "names": [
+   "PullMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/pull_by_category",
+  "method": "?",
+  "names": [
+   "PullMessageByCategory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/pull_by_category_v2",
+  "method": "?",
+  "names": [
+   "PullMessageByCategoryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/report_banner",
+  "method": "?",
+  "names": [
+   "ReportBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/message/report_popup",
+  "method": "?",
+  "names": [
+   "ReportPopupMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/messagev2/get",
+  "method": "?",
+  "names": [
+   "GetMessageV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/get",
+  "method": "GET",
+  "names": [
+   "GetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/set",
+  "method": "GET",
+  "names": [
+   "SetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/namespace/badge_list/get",
+  "method": "POST",
+  "names": [
+   "GetUnreadBadges"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/get",
+  "method": "POST",
+  "names": [
+   "GetNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/read",
+  "method": "POST",
+  "names": [
+   "ReadNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/address_validation",
+  "method": "POST",
+  "names": [
+   "ValidateAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/company_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardCompanyName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "?",
+  "names": [
+   "GetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/action/report",
+  "method": "POST",
+  "names": [
+   "ReportCrossBorderAction"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/appeal",
+  "method": "POST",
+  "names": [
+   "AppealCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/config/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/deposit/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderFirstCategoryDeposit"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCrossBorderEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/experienced_platform/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCrossBorderExperiencedPlatform"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/global_seller/create",
+  "method": "POST",
+  "names": [
+   "CreateCrossBorderGlobalSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/onboard/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/open_shop/states/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderOpenShopStates"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/shop/open",
+  "method": "POST",
+  "names": [
+   "SubmitOpenShopCrossBorder"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderUBO"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo_check/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderUBOCheckState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "GetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "SendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign_callback",
+  "method": "POST",
+  "names": [
+   "DocusignCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "GetFeatureTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code/submit",
+  "method": "POST",
+  "names": [
+   "SubmitInvitationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code_tag/get",
+  "method": "POST",
+  "names": [
+   "GetInvitationCodeTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "JumioOcr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "?",
+  "names": [
+   "GetJumioConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "GetJumioLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalBROnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/config/get",
+  "method": "?",
+  "names": [
+   "GetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalESOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/criteria/check",
+  "method": "?",
+  "names": [
+   "TOKOFastOnboardingCriteriaPreCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/start",
+  "method": "POST",
+  "names": [
+   "StartTOKOFastOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTOKOFastOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/toko_data/prefill",
+  "method": "POST",
+  "names": [
+   "GetTOKOData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIRLOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_info/get",
+  "method": "?",
+  "names": [
+   "GetSingpassInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_link/get",
+  "method": "?",
+  "names": [
+   "GetSingpassLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/state/get",
+  "method": "?",
+  "names": [
+   "GetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/state/get",
+  "method": "?",
+  "names": [
+   "GetLocalUSOnboardBackFillState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboardBackFill"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "ExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/extra_submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/state",
+  "method": "POST",
+  "names": [
+   "GetLocalUSPostOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/raw_lead",
+  "method": "POST",
+  "names": [
+   "CreateRawLead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/additional_submit",
+  "method": "POST",
+  "names": [
+   "AdditionalSubmitOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/address_validation",
+  "method": "POST",
+  "names": [
+   "ValidateAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/config/get",
+  "method": "?",
+  "names": [
+   "GetOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/draft/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/faqs/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/fe_config/get",
+  "method": "POST",
+  "names": [
+   "GetFEConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/fe_config/post",
+  "method": "POST",
+  "names": [
+   "PostFEConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/fe_pre_load_config/get",
+  "method": "POST",
+  "names": [
+   "GetFEPreLoadConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/global_seller_contact/verify",
+  "method": "POST",
+  "names": [
+   "VerifyGlobalSellerContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/global_seller_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyGlobalSellerName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/register_create_global_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateGlobalSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/rfc_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyRFCNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/sentry_list_profile/get",
+  "method": "POST",
+  "names": [
+   "GetSentryListProfile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/shop_contact/submit",
+  "method": "POST",
+  "names": [
+   "SubmitShopContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/state/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v2/submit",
+  "method": "POST",
+  "names": [
+   "SubmitOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/draft/get",
+  "method": "POST",
+  "names": [
+   "GetOpenShopDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveOpenShopDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/register_create_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/state/get",
+  "method": "?",
+  "names": [
+   "GetOpenShopState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/state/list",
+  "method": "POST",
+  "names": [
+   "GetOpenShopStateList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/open_shop/v2/submit",
+  "method": "POST",
+  "names": [
+   "SubmitOpenShop"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/order/conf/get",
+  "method": "GET",
+  "names": [
+   "GetSellerOrderListConf"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/org_account/bind",
+  "method": "POST",
+  "names": [
+   "BindOrgAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/org_account/list",
+  "method": "POST",
+  "names": [
+   "ListOrgAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/org_account/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOrgAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/prompt/update_prompt_ts",
+  "method": "POST",
+  "names": [
+   "UpdatePromptTS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/report_complete",
+  "method": "POST",
+  "names": [
+   "ReportComplete"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/report_exposure",
+  "method": "POST",
+  "names": [
+   "ReportExposure"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/task_message/latest",
+  "method": "?",
+  "names": [
+   "ListLatestTaskMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/task_message/list",
+  "method": "?",
+  "names": [
+   "ListTaskMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/task_message/pull",
+  "method": "?",
+  "names": [
+   "PullTaskMsgByCategory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/task_message/report_action",
+  "method": "POST",
+  "names": [
+   "ReportAction"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/outreach/task_message/unread_get",
+  "method": "?",
+  "names": [
+   "MGetUnReadTaskMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/permissions/get",
+  "method": "GET",
+  "names": [
+   "GetPermissions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/poll/init",
+  "method": "POST",
+  "names": [
+   "Init"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/poll/long",
+  "method": "POST",
+  "names": [
+   "LongPoll"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/poll/msg/ack",
+  "method": "POST",
+  "names": [
+   "MsgAck"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/poll/short",
+  "method": "?",
+  "names": [
+   "ShortPoll"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/popup/list",
+  "method": "POST",
+  "names": [
+   "ListPopupMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/prediction",
+  "method": "POST",
+  "names": [
+   "GetPrediction"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sandbox_full_onboard/v2/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxFullOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search/get",
+  "method": "POST",
+  "names": [
+   "GlobalSearchByKeywords"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search_query_suggestion/get",
+  "method": "GET",
+  "names": [
+   "GetQuerySuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_map/read",
+  "method": "POST",
+  "names": [
+   "ReadSellerMap"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop/timezone/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopTimeZone"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/get",
+  "method": "POST",
+  "names": [
+   "GetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/set",
+  "method": "POST",
+  "names": [
+   "SetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_limit_status/get",
+  "method": "GET",
+  "names": [
+   "GetShopLimitStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/get",
+  "method": "POST",
+  "names": [
+   "GetShopMetrics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/save",
+  "method": "POST",
+  "names": [
+   "SaveShopMetricsPreference"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/click/save",
+  "method": "POST",
+  "names": [
+   "SaveTagsClickEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/get",
+  "method": "POST",
+  "names": [
+   "GetTags"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/banner",
+  "method": "?",
+  "names": [
+   "GetMissionBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/claim_reward",
+  "method": "?",
+  "names": [
+   "ClaimTaskReward",
+   "AwemeClaimReward"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/claim_reward_v2",
+  "method": "?",
+  "names": [
+   "ClaimTaskRewardV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/config/get",
+  "method": "?",
+  "names": [
+   "GetTaskConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/event/post",
+  "method": "POST",
+  "names": [
+   "PostEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/get_all",
+  "method": "?",
+  "names": [
+   "GetAllTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/growth/modal",
+  "method": "?",
+  "names": [
+   "GetGrowthModal"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/join",
+  "method": "POST",
+  "names": [
+   "JoinSellerTask",
+   "AwemeJoinSellerTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/list",
+  "method": "?",
+  "names": [
+   "ListSellerTask",
+   "AwemeListSellerTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/mission/detail/get",
+  "method": "?",
+  "names": [
+   "TaskDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/missions/center/get",
+  "method": "?",
+  "names": [
+   "AppMissionCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/notify",
+  "method": "?",
+  "names": [
+   "GetMissionNotify"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/overview",
+  "method": "?",
+  "names": [
+   "GetOverviewTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/overview/get",
+  "method": "POST",
+  "names": [
+   "OverviewSellerTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/popup_task/auto_popup",
+  "method": "?",
+  "names": [
+   "AutoPopupControl"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/popup_task/entry/get",
+  "method": "?",
+  "names": [
+   "GetSellerPopupTaskEntry"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/popup_task/get",
+  "method": "POST",
+  "names": [
+   "GetSellerPopupTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/popup_task/join",
+  "method": "POST",
+  "names": [
+   "JoinSellerPopupTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/program/get",
+  "method": "?",
+  "names": [
+   "GetSellerProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/program/stage/unlock",
+  "method": "?",
+  "names": [
+   "UnlockSellerProgramStage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/reward_history",
+  "method": "POST",
+  "names": [
+   "GetTaskRewardHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/statistics/get",
+  "method": "?",
+  "names": [
+   "SellerTasksStatistics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/get_all",
+  "method": "?",
+  "names": [
+   "GetStepTaskList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/get_all_v2",
+  "method": "?",
+  "names": [
+   "GetStepTaskV2List"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/get_all_v3",
+  "method": "?",
+  "names": [
+   "GetStepTaskV3List"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/get_all_v4",
+  "method": "?",
+  "names": [
+   "GetStepTaskV4List"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/get_all_v5",
+  "method": "POST",
+  "names": [
+   "GetStepTaskV5List"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/showcase",
+  "method": "?",
+  "names": [
+   "GetStepTaskShowCase"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/step/skip/mission",
+  "method": "POST",
+  "names": [
+   "SkipStartMission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tasks/update_progress",
+  "method": "POST",
+  "names": [
+   "UpdateProgress"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/term/set",
+  "method": "POST",
+  "names": [
+   "TermAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ticket_token/get",
+  "method": "POST",
+  "names": [
+   "GetTicketToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/binding",
+  "method": "POST",
+  "names": [
+   "Binding"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/cancel/process",
+  "method": "POST",
+  "names": [
+   "CancelProcess"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/consolidation/product_merge/query",
+  "method": "POST",
+  "names": [
+   "ConsolidationProductMergeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/consolidation/status",
+  "method": "?",
+  "names": [
+   "QueryConsolidationStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/integration/enter",
+  "method": "POST",
+  "names": [
+   "IntegrationEnter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/integration/profile",
+  "method": "POST",
+  "names": [
+   "IntegrationTokoProfile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/integration/query",
+  "method": "POST",
+  "names": [
+   "IntegrationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/integration/submit",
+  "method": "POST",
+  "names": [
+   "IntegrationSubmit"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/integration/success_query",
+  "method": "?",
+  "names": [
+   "IntegrationSuccessQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/novation_agreement/query",
+  "method": "?",
+  "names": [
+   "NovationAgreementResultQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/toko/novation_agreement/submit",
+  "method": "POST",
+  "names": [
+   "NovationAgreementSubmission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tools",
+  "method": "POST",
+  "names": [
+   "CommonTool"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/content/add",
+  "method": "POST",
+  "names": [
+   "AddContentToCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/content/unbind",
+  "method": "POST",
+  "names": [
+   "UnbindContentToCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/create",
+  "method": "POST",
+  "names": [
+   "CreateCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/delete",
+  "method": "POST",
+  "names": [
+   "DeleteCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/get",
+  "method": "POST",
+  "names": [
+   "GetCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/catalog/update",
+  "method": "POST",
+  "names": [
+   "UpdateCatalog"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/config/list",
+  "method": "POST",
+  "names": [
+   "ListReviewContentConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/config/publish",
+  "method": "POST",
+  "names": [
+   "PublishReviewContentConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/config/update",
+  "method": "POST",
+  "names": [
+   "UpdateReviewContentConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/config/verify",
+  "method": "POST",
+  "names": [
+   "VerifyReviewContentConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/course/tree/get",
+  "method": "?",
+  "names": [
+   "GetCourseTree"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/detail/get",
+  "method": "?",
+  "names": [
+   "GetKnowledgeDetailV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/move",
+  "method": "POST",
+  "names": [
+   "MoveContent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/position/list",
+  "method": "POST",
+  "names": [
+   "ListArticlePositions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/search",
+  "method": "POST",
+  "names": [
+   "SearchContent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/content/status/update",
+  "method": "POST",
+  "names": [
+   "UpdateContentStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/contents_tree/get",
+  "method": "?",
+  "names": [
+   "GetContentsTreeCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/course/create",
+  "method": "POST",
+  "names": [
+   "CreateCourseCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/course/get",
+  "method": "POST",
+  "names": [
+   "GetCourseCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/course/search",
+  "method": "POST",
+  "names": [
+   "SearchCourse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/course/status/update",
+  "method": "POST",
+  "names": [
+   "UpdateCourseStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/course/update",
+  "method": "POST",
+  "names": [
+   "UpdateCourseCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/file/save",
+  "method": "POST",
+  "names": [
+   "SaveFile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/image/save",
+  "method": "POST",
+  "names": [
+   "SaveImage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/knowledge/delete",
+  "method": "POST",
+  "names": [
+   "DeleteKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/knowledge/get",
+  "method": "POST",
+  "names": [
+   "GetKnowledgeCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/knowledge/publish",
+  "method": "POST",
+  "names": [
+   "PublishKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/knowledge/save",
+  "method": "POST",
+  "names": [
+   "SaveKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/knowledge/search",
+  "method": "POST",
+  "names": [
+   "SearchKnowledgeCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/lang/get",
+  "method": "?",
+  "names": [
+   "GetCountryLanguage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/module/config/create",
+  "method": "POST",
+  "names": [
+   "CreateModuleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/module/config/get",
+  "method": "POST",
+  "names": [
+   "GetModuleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/module/config/search",
+  "method": "POST",
+  "names": [
+   "SearchModuleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/module/config/status/update",
+  "method": "POST",
+  "names": [
+   "UpdateModuleConfigStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/module/config/update",
+  "method": "POST",
+  "names": [
+   "UpdateModuleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/option/get",
+  "method": "?",
+  "names": [
+   "GetRegionLanguageOption"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag/create",
+  "method": "POST",
+  "names": [
+   "CreateTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag/get",
+  "method": "POST",
+  "names": [
+   "GetTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag/update",
+  "method": "POST",
+  "names": [
+   "UpdateTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag_relation/add",
+  "method": "POST",
+  "names": [
+   "AddTagRelation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/tag_tree/get",
+  "method": "POST",
+  "names": [
+   "GetTagTreeCMS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/upload/key/get",
+  "method": "POST",
+  "names": [
+   "GetUploadKey"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/video/play_info/get",
+  "method": "POST",
+  "names": [
+   "GetVideoPlayInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/cms/video/save",
+  "method": "POST",
+  "names": [
+   "SaveVideo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/entrance_knowledge_list/get",
+  "method": "GET",
+  "names": [
+   "GetEntranceKnowledgeList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/home/get",
+  "method": "GET",
+  "names": [
+   "GetUniversityHome"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge/get",
+  "method": "POST",
+  "names": [
+   "GetUniversityKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge_feedback/create",
+  "method": "POST",
+  "names": [
+   "CreateKnowledgeFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/widget/get",
+  "method": "POST",
+  "names": [
+   "GetWidget"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/withdraw/cancel",
+  "method": "POST",
+  "names": [
+   "CancelSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/withdraw/get",
+  "method": "POST",
+  "names": [
+   "GetSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/withdraw/promote",
+  "method": "POST",
+  "names": [
+   "PromoteSellerWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/withdraw/publicity_period/open",
+  "method": "POST",
+  "names": [
+   "OpenPublicityPeriod"
+  ]
+ },
+ {
+  "path": "/api/v1/sellerassistant/discover_chatbotevent",
+  "method": "GET",
+  "names": [
+   "DiscoverChatbotEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/sellerassistant/discover_sst",
+  "method": "GET",
+  "names": [
+   "DiscoverSST"
+  ]
+ },
+ {
+  "path": "/api/v1/sellerassistant/event_status/set",
+  "method": "POST",
+  "names": [
+   "SetEventStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/sellerassistant/sst/dismiss",
+  "method": "POST",
+  "names": [
+   "DismissSST"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/multi_shop/user/get_info_list",
+  "method": "?",
+  "names": [
+   "GetShopInfoList",
+   "FocusSession"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/batch_decrypt_token",
+  "method": "POST",
+  "names": [
+   "BatchDecryptToken"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/card/get_card_template_data",
+  "method": "POST",
+  "names": [
+   "GetCardTemplateData"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/cancel_audit_record",
+  "method": "POST",
+  "names": [
+   "CancelAuditRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/get_auto_messages_setting",
+  "method": "POST",
+  "names": [
+   "GetShopAutoMessagesSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/get_greeting_config",
+  "method": "POST",
+  "names": [
+   "GetShopGreetingConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/get_shop_and_customer_service_config",
+  "method": "POST",
+  "names": [
+   "SetShopConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/get_shop_config",
+  "method": "POST",
+  "names": [
+   "CancelAuditRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/set_auto_messages_setting",
+  "method": "POST",
+  "names": [
+   "SetShopAutoMessagesSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/set_automatic_robot_setting",
+  "method": "POST",
+  "names": [
+   "SetShopAutomaticRobotSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/set_greeting_config",
+  "method": "POST",
+  "names": [
+   "SetShopGreetingConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/set_shop_config",
+  "method": "POST",
+  "names": [
+   "SetShopConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/config/set_working_time",
+  "method": "POST",
+  "names": [
+   "SetShopWorkingTime"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/admin_transfer_conversation",
+  "method": "POST",
+  "names": [
+   "AdminTransferConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/assign_conversation",
+  "method": "POST",
+  "names": [
+   "AssignConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/can_create_conversation",
+  "method": "POST",
+  "names": [
+   "CanCreateConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/close_conversation",
+  "method": "POST",
+  "names": [
+   "CloseConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/create_conversation",
+  "method": "POST",
+  "names": [
+   "CreateConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/create_conversation_by_order",
+  "method": "POST",
+  "names": [
+   "CreateConversationByOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/create_tag_meta",
+  "method": "POST",
+  "names": [
+   "CreateConversationTagMeta"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_conversation_count_and_wait_user_count",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_conversation_info",
+  "method": "POST",
+  "names": [
+   "GetConversationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_customer_service_reception_data",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_history_msgs",
+  "method": "POST",
+  "names": [
+   "GetHistoryMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_read_index",
+  "method": "POST",
+  "names": [
+   "GetUserConversationReadIndex"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_translation_info",
+  "method": "?",
+  "names": [
+   "GetConversationTranslationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_wait_user_count",
+  "method": "?",
+  "names": [
+   "Info"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/get_wait_user_count_for_seller_center",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/list",
+  "method": "POST",
+  "names": [
+   "ListConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/list_customer_service_conversation",
+  "method": "POST",
+  "names": [
+   "ListCustomerServiceConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/list_tag_meta",
+  "method": "POST",
+  "names": [
+   "Info"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/list_unassigned_conversation",
+  "method": "POST",
+  "names": [
+   "ListUnassignedConversations"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/mark_tags",
+  "method": "POST",
+  "names": [
+   "MarkConversationTags"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/mget_conversation_meta_info",
+  "method": "POST",
+  "names": [
+   "MGetConversationMetaInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/mset_conversation_meta_info",
+  "method": "POST",
+  "names": [
+   "MSetConversationMetaInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/report_focus_session",
+  "method": "POST",
+  "names": [
+   "ReportFocusSession"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/search",
+  "method": "POST",
+  "names": [
+   "SearchConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/search_es",
+  "method": "POST",
+  "names": [
+   "SearchConversationEs"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/send_template_card",
+  "method": "POST",
+  "names": [
+   "SendTemplateCard"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/set_no_response_needed",
+  "method": "POST",
+  "names": [
+   "SetConversationNoResponseNeeded"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/set_no_response_needed_by_token",
+  "method": "POST",
+  "names": [
+   "SetConversationNoResponseNeededByToken"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/set_total_unread_count",
+  "method": "POST",
+  "names": [
+   "SetTotalUnreadCount"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/set_translation_config",
+  "method": "POST",
+  "names": [
+   "SetConversationTranslationConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/conversation/transfer_conversation",
+  "method": "POST",
+  "names": [
+   "TransferConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/current_timestamp/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/export_daily_agent_performance_table",
+  "method": "POST",
+  "names": [
+   "ExportDailyAgentPerformanceTable"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/get_agent_performance_table",
+  "method": "POST",
+  "names": [
+   "GetAgentPerformanceTable"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/get_chat_details",
+  "method": "?",
+  "names": [
+   "GetChatDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/get_chat_overview",
+  "method": "POST",
+  "names": [
+   "GetChatOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/get_mainpage_metrics",
+  "method": "?",
+  "names": [
+   "GetMainPageMetrics"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/data_analysis/get_shop_performance",
+  "method": "POST",
+  "names": [
+   "GetShopPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/feedback/get_feel_good",
+  "method": "?",
+  "names": [
+   "GetSimpleOrderInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_can_be_assign_customer_services",
+  "method": "?",
+  "names": [
+   "GetCanBeAssignedCustomerServices"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_current_customer_service",
+  "method": "?",
+  "names": [
+   "TemplateData"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_customer_service",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_customer_services_for_transfer",
+  "method": "POST",
+  "names": [
+   "GetCustomerServicesForTransfer"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_shop_experiment_config",
+  "method": "POST",
+  "names": [
+   "UploadImg"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/get_voucher_list",
+  "method": "POST",
+  "names": [
+   "GetVoucherList"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/order/get_buyer_order_outer_url",
+  "method": "POST",
+  "names": [
+   "GetBuyerOrderOuterURL"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/order/get_simple_info",
+  "method": "?",
+  "names": [
+   "GetSimpleOrderInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/order/mget_contact_buyer_link",
+  "method": "?",
+  "names": [
+   "MGetContactBuyerLinkByOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/product/get_detail",
+  "method": "?",
+  "names": [
+   "GetProductDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/product/list_local_products",
+  "method": "?",
+  "names": [
+   "ListLocalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/pull_read_index/sleep_time",
+  "method": "?",
+  "names": [
+   "MGetUserInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/reverse_type/list",
+  "method": "POST",
+  "names": [
+   "ListOrderReverseType"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/risk/can_report_customer",
+  "method": "POST",
+  "names": [
+   "CanReportCustomer"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/risk/get_report_reasons",
+  "method": "POST",
+  "names": [
+   "GetReportReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/risk/report_customer",
+  "method": "POST",
+  "names": [
+   "ReportCustomer"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/translate",
+  "method": "POST",
+  "names": [
+   "Translate"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/upload_img",
+  "method": "POST",
+  "names": [
+   "UploadImg"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/admin_search_customer_service",
+  "method": "POST",
+  "names": [
+   "AdminSearchCustomerService"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/admin_update_customer_service_config",
+  "method": "POST",
+  "names": [
+   "AdminUpdateCustomerServiceConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/batch_get_im_id",
+  "method": "POST",
+  "names": [
+   "BatchGetImId"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/get_customer_service_config",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/get_shop_and_customer_service_info",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/get_target_idc",
+  "method": "POST",
+  "names": [
+   "GetTargetIDC"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/get_token",
+  "method": "?",
+  "names": [
+   "UpdateCustomerServiceStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/info",
+  "method": "POST",
+  "names": [
+   "GetUserInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/list_shop_customer_service_info",
+  "method": "?",
+  "names": [
+   "ListShopCustomerServiceInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/mget_info",
+  "method": "POST",
+  "names": [
+   "MGetUserInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/check",
+  "method": "POST",
+  "names": [
+   "CheckQuickReply"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/create",
+  "method": "POST",
+  "names": [
+   "CreateQuickReply"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/delete",
+  "method": "POST",
+  "names": [
+   "DeleteQuickReply"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/list",
+  "method": "POST",
+  "names": [
+   "ListQuickReply"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/list_for_search",
+  "method": "POST",
+  "names": [
+   "ListQuickReplyForSearch"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply/update",
+  "method": "POST",
+  "names": [
+   "UpdateQuickReply"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/change_rank",
+  "method": "POST",
+  "names": [
+   "ChangeQuickReplyGroupRank"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/check",
+  "method": "POST",
+  "names": [
+   "CheckQuickReplyGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/create",
+  "method": "POST",
+  "names": [
+   "CreateQuickReplyGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/delete",
+  "method": "POST",
+  "names": [
+   "DeleteQuickReplyGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/list",
+  "method": "?",
+  "names": [
+   "ListQuickReplyGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/quick_reply_group/update",
+  "method": "POST",
+  "names": [
+   "UpdateQuickReplyGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/set_customer_service",
+  "method": "POST",
+  "names": [
+   "SetCustomerService"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/set_customer_service_config",
+  "method": "POST",
+  "names": [
+   "SetCustomerServiceConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/shop_im/shop/user/update_customer_service_status",
+  "method": "POST",
+  "names": [
+   "UpdateCustomerServiceStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/company_info/validate",
+  "method": "POST",
+  "names": [
+   "ValidateCompanyNameAndAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/company_info/validate/counter",
+  "method": "?",
+  "names": [
+   "GetCompanyNameAndAddressValidateCounter"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/company_info/validate/query",
+  "method": "POST",
+  "names": [
+   "GetCompanyNameAndAddressValidateResult"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/local/post_onboard/state",
+  "method": "POST",
+  "names": [
+   "GetLocalPostOnboardState",
+   "WidgetGetLocalPostOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/local/post_onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalPostOnboard",
+   "WidgetSubmitLocalPostOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/local/us/landing_page/seller_info",
+  "method": "POST",
+  "names": [
+   "SaveLandingPageSellerInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/local/us/raw_lead",
+  "method": "POST",
+  "names": [
+   "CreateRawLead"
+  ]
+ },
+ {
+  "path": "/api/v1/usseller/onboard/v1/registration_channel",
+  "method": "POST",
+  "names": [
+   "QueryGlobalSellerRegistrationChannel"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/affiliate_card/get",
+  "method": "GET",
+  "names": [
+   "GetAffiliateCardForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/learning_center/video/play_info/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetVideoPlayInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/clear_red_point",
+  "method": "POST",
+  "names": [
+   "ClearRedPointForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/focus_config/set",
+  "method": "POST",
+  "names": [
+   "SetFocusConfigForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/get_msg_tabs",
+  "method": "POST",
+  "names": [
+   "GetMsgTabsForWeidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/list",
+  "method": "?",
+  "names": [
+   "ListMessageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/mark_read",
+  "method": "POST",
+  "names": [
+   "MarkMessageReadForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/message/pull_by_category_v2",
+  "method": "?",
+  "names": [
+   "PullMessageByCategoryV2ForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/messagev2/get",
+  "method": "POST",
+  "names": [
+   "GetMessageV2ForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/address_validation",
+  "method": "POST",
+  "names": [
+   "WidgetValidateAddress"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "?",
+  "names": [
+   "WidgetGetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "WidgetSendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetFeatureTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "WidgetJumioOcr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "?",
+  "names": [
+   "WidgetGetJumioConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetJumioLink"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/config/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/state/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/extra_submit",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/state",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalUSPostOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "WidgetRegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardShopName"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/additional_submit",
+  "method": "POST",
+  "names": [
+   "WidgetAdditionalSubmitOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/address_validation",
+  "method": "POST",
+  "names": [
+   "WidgetValidateAddress"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/config/get",
+  "method": "?",
+  "names": [
+   "WidgetGetOnboardConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/faqs/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/fe_config/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetFEConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/global_seller_contact/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyGlobalSellerContact"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/global_seller_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyGlobalSellerName"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/register_create_global_seller",
+  "method": "POST",
+  "names": [
+   "WidgetRegisterCreateGlobalSeller"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/rfc_number/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyRFCNumber"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/sentry_list_profile/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetSentryListProfile"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/shop_contact/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitShopContact"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/state/get",
+  "method": "?",
+  "names": [
+   "WidgetGetOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v2/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOpenShopDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveOpenShopDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/register_create_seller",
+  "method": "POST",
+  "names": [
+   "WidgetRegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyShopName"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/state/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOpenShopState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/state/list",
+  "method": "POST",
+  "names": [
+   "WidgetGetOpenShopStateList"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/open_shop/v2/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitOpenShop"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/report_complete",
+  "method": "POST",
+  "names": [
+   "ReportCompleteForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/task_message/latest",
+  "method": "?",
+  "names": [
+   "ListLatestTaskMsgForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/task_message/list",
+  "method": "?",
+  "names": [
+   "ListTaskMsgForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/task_message/pull",
+  "method": "?",
+  "names": [
+   "PullTaskMsgByCategoryForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/task_message/report_action",
+  "method": "POST",
+  "names": [
+   "ReportActionForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/outreach/task_message/unread_get",
+  "method": "POST",
+  "names": [
+   "MGetUnReadTaskMsgForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/claim_reward_v2",
+  "method": "POST",
+  "names": [
+   "WidgetClaimTaskRewardV2"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/event/post",
+  "method": "POST",
+  "names": [
+   "WidgetPostEvent"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/growth/modal",
+  "method": "?",
+  "names": [
+   "WidgetGetGrowthModal"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/join",
+  "method": "POST",
+  "names": [
+   "WidgetJoinSellerTask"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/notify",
+  "method": "?",
+  "names": [
+   "WidgetGetMissionNotify"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/program/stage/unlock",
+  "method": "?",
+  "names": [
+   "WidgetUnlockSellerProgramStage"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/tasks/update_progress",
+  "method": "POST",
+  "names": [
+   "WidgetUpdateProgress"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/usseller/onboard/v1/company_info/validate",
+  "method": "POST",
+  "names": [
+   "WidgetValidateCompanyNameAndAddress"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/usseller/onboard/v1/company_info/validate/counter",
+  "method": "?",
+  "names": [
+   "WidgetGetCompanyNameAndAddressValidateCounter"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/usseller/onboard/v1/company_info/validate/query",
+  "method": "POST",
+  "names": [
+   "WidgetGetCompanyNameAndAddressValidateResult"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/usseller/onboard/v1/registration_channel",
+  "method": "POST",
+  "names": [
+   "WidgetQueryGlobalSellerRegistrationChannel"
+  ]
+ }
+]

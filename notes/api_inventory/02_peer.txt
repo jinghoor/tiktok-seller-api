@@ -1,0 +1,63 @@
+同行源码里的路径 23 个
+
+其中与达人联盟/IM 相关 21 个
+
+======================================================================================================================
+/api/v1/im/shop_creator/shop/conversation/search
+    src=['src/inject/script/index.js']
+/api/v1/oec/affiliate/creator/marketplace/4partner/find
+    src=['src/inject/script/index.js']
+/api/v1/oec/affiliate/creator/marketplace/creator/profile/stats
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+/api/v1/oec/affiliate/creator/marketplace/profile
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+/api/v1/oec/affiliate/seller/im/product/list
+    src=['src/inject/script/index.js']
+/api/v1/oec/affiliate/seller/invitation_group/search/creator
+    src=['src/inject/script/index.js']
+/v1/message/send
+    src=['src/inject/content/tiktokRpa/index.js']
+/v2/conversation/create
+    src=['src/inject/content/tiktokRpa/index.js']
+/v2/message/get_by_user_init
+    src=['src/inject/content/tiktokRpa/index.js']
+api/v1/affiliate/product_selection/list
+    src=['src/inject/script/index.js']
+api/v1/oec/affiliate/seller/invitation_group/create
+    src=['src/inject/content/main.js']
+api/v1/oec/affiliate/seller/invitation_group/update
+    src=['src/inject/content/main.js']
+v1/message/get_by_conversation
+    type=['get_by_conversation', 'message_get_by_conversation']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v1/message/send
+    type=['im_send_message', 'message_send']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v1/oec/affiliate/cmp/creator/ec/stats
+    type=['creator_ec_stats']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v1/oec/affiliate/crm/tag/list
+    type=['crm_tag_tist']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v2/message/get_by_user
+    type=['get_by_user_init']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v2/message/get_by_user_init
+    type=['get_by_user_init']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v3/conversation/get_min_index
+    type=['get_min_index']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v3/conversation/get_read_index
+    type=['get_read_index']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+v3/conversation/mark_read
+    type=['im_send_message', 'mark_read']
+    src=['src/inject/content/admin/index.js', 'src/inject/content/comment/index.js', 'src/inject/content/main.js']
+
+
+======================================================================================================================
+其余（非达人联盟，供参考）
+======================================================================================================================
+  /api/v1/web-cookie-privacy/config
+  /v1/list

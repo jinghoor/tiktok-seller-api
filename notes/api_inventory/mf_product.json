@@ -1,0 +1,4189 @@
+[
+ {
+  "path": "/api/v1/app/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetAppImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/bidding/bid/details",
+  "method": "?",
+  "names": [
+   "GetBidDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/bidding/seller/bidding-config",
+  "method": "?",
+  "names": [
+   "GetBiddingConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/bidding/seller/overview",
+  "method": "?",
+  "names": [
+   "GetBiddingSellerOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/bidding/seller/spotlight",
+  "method": "?",
+  "names": [
+   "ListSellerBiddersSpotlight"
+  ]
+ },
+ {
+  "path": "/api/v1/bidding/top/spotlight",
+  "method": "?",
+  "names": [
+   "ListTopBiddersSpotlight"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/category/authorized",
+  "method": "POST",
+  "names": [
+   "GetAuthorizedCategoriesForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/ready_time",
+  "method": "POST",
+  "names": [
+   "GetModuleReadyTimeForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/audit",
+  "method": "POST",
+  "names": [
+   "AuditSellerShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/check",
+  "method": "POST",
+  "names": [
+   "CheckShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/delete",
+  "method": "POST",
+  "names": [
+   "DelSellerShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/edit",
+  "method": "POST",
+  "names": [
+   "EditSellerShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/mget",
+  "method": "POST",
+  "names": [
+   "MGetShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/seller_shop_rel/search",
+  "method": "POST",
+  "names": [
+   "SearchSellerShopRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/shop/list",
+  "method": "POST",
+  "names": [
+   "ListShopInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/sim_product_rel/export",
+  "method": "POST",
+  "names": [
+   "ExportSimProductRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/sim_products/sim_product_rel/list",
+  "method": "POST",
+  "names": [
+   "ListSimProductRel"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/favorite",
+  "method": "POST",
+  "names": [
+   "SaveOrUpdateFavoriteForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/content",
+  "method": "POST",
+  "names": [
+   "GetContentTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/live",
+  "method": "POST",
+  "names": [
+   "GetLiveTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/new",
+  "method": "POST",
+  "names": [
+   "GetTopNewProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/overall",
+  "method": "POST",
+  "names": [
+   "GetOverallTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/prod_card",
+  "method": "POST",
+  "names": [
+   "GetProductCardTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/third_party/live",
+  "method": "POST",
+  "names": [
+   "GetLiveThirdPartyTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/third_party/video",
+  "method": "POST",
+  "names": [
+   "GetVideoThirdPartyTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_selling/product/video",
+  "method": "POST",
+  "names": [
+   "GetVideoTopProductListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/top_viewed/video/list",
+  "method": "POST",
+  "names": [
+   "GetTopViewedVideoListForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/upload_task/create",
+  "method": "POST",
+  "names": [
+   "CreateUploadTask"
+  ]
+ },
+ {
+  "path": "/api/v1/dbmp/pop/product_growth/video",
+  "method": "POST",
+  "names": [
+   "QueryVideosForDBMP"
+  ]
+ },
+ {
+  "path": "/api/v1/dynamic_configs/get",
+  "method": "POST",
+  "names": [
+   "GetDynamicConfigs"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/file/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetFileUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImage",
+   "Image"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/upload_completion/notify",
+  "method": "?",
+  "names": [
+   "NotifyUploadCompletion"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/video/get",
+  "method": "?",
+  "names": [
+   "GetVideo"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/video/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetVideoUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/check",
+  "method": "POST",
+  "names": [
+   "CheckWhiteBackgroundImage",
+   "WhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/get",
+  "method": "POST",
+  "names": [
+   "GetWhiteBackgroundImage",
+   "WhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/category/list",
+  "method": "POST",
+  "names": [
+   "GetProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/compass/mget",
+  "method": "POST",
+  "names": [
+   "MGetProductsForMultiEdit"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/data/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationData"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/data/homepage/get",
+  "method": "POST",
+  "names": [
+   "GetHomePageOptimizationDataCard"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/meta/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationMeta"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/multi_edit",
+  "method": "PUT",
+  "names": [
+   "MEditOptimizedProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/multi_get",
+  "method": "POST",
+  "names": [
+   "MGetOptimizationProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/page/get",
+  "method": "POST",
+  "names": [
+   "GetToBeOptimizedProductPage"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/seo/rank",
+  "method": "POST",
+  "names": [
+   "GetOptimizeProductSeoWordRank"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product/optimize/seo_gain/mget",
+  "method": "POST",
+  "names": [
+   "MGetOptimizeProductSeoExpectGain"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnose"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/ads_list",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseAdsList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/cfg",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/content_list",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseContentList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/content_list/cnt",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseContentListCnt"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/feedback",
+  "method": "POST",
+  "names": [
+   "SubmitProductAiDiagnoseFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/id",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseMsgId"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/product_stats",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseStats"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ai/diagnose/product_trend",
+  "method": "POST",
+  "names": [
+   "GetProductAiDiagnoseTrend"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/category/authorized",
+  "method": "POST",
+  "names": [
+   "GetAuthorizedCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/ready_time",
+  "method": "POST",
+  "names": [
+   "GetModuleReadyTime"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/favorite",
+  "method": "POST",
+  "names": [
+   "SaveOrUpdateFavorite"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/content",
+  "method": "POST",
+  "names": [
+   "GetContentTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/live",
+  "method": "POST",
+  "names": [
+   "GetLiveTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/new",
+  "method": "POST",
+  "names": [
+   "GetTopNewProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/overall",
+  "method": "POST",
+  "names": [
+   "GetOverallTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/prod_card",
+  "method": "POST",
+  "names": [
+   "GetProductCardTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/third_party/live",
+  "method": "POST",
+  "names": [
+   "GetLiveThirdPartyTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/third_party/video",
+  "method": "POST",
+  "names": [
+   "GetVideoThirdPartyTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_selling/product/video",
+  "method": "POST",
+  "names": [
+   "GetVideoTopProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/top_viewed/video/list",
+  "method": "POST",
+  "names": [
+   "GetTopViewedVideoList"
+  ]
+ },
+ {
+  "path": "/api/v1/pop/product_growth/video",
+  "method": "POST",
+  "names": [
+   "QueryVideos"
+  ]
+ },
+ {
+  "path": "/api/v1/product/actions/list",
+  "method": "POST",
+  "names": [
+   "ListProductActions",
+   "ProductActions"
+  ]
+ },
+ {
+  "path": "/api/v1/product/async_task/create",
+  "method": "POST",
+  "names": [
+   "CreateTask",
+   "Task"
+  ]
+ },
+ {
+  "path": "/api/v1/product/async_task/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTask",
+   "Task"
+  ]
+ },
+ {
+  "path": "/api/v1/product/async_task/list",
+  "method": "POST",
+  "names": [
+   "ListTask",
+   "Task"
+  ]
+ },
+ {
+  "path": "/api/v1/product/audit/product/get",
+  "method": "GET",
+  "names": [
+   "GetAuditProduct",
+   "AuditProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/bids/list",
+  "method": "?",
+  "names": [
+   "ListBids"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/cancel",
+  "method": "POST",
+  "names": [
+   "CancelBid"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/get",
+  "method": "?",
+  "names": [
+   "GetBidResult"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/reference-products/list",
+  "method": "?",
+  "names": [
+   "ListReferenceProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/seller-attribute/set",
+  "method": "POST",
+  "names": [
+   "ConfigureSellerAttribute"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/seller-data/get",
+  "method": "POST",
+  "names": [
+   "GetSellerData"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/seller-products/list",
+  "method": "POST",
+  "names": [
+   "ListSellerProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bid/set",
+  "method": "POST",
+  "names": [
+   "SetBid"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/check",
+  "method": "POST",
+  "names": [
+   "CheckBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/create",
+  "method": "POST",
+  "names": [
+   "CreateBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/delete",
+  "method": "POST",
+  "names": [
+   "DeleteBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/detail",
+  "method": "POST",
+  "names": [
+   "BrandDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/list",
+  "method": "GET",
+  "names": [
+   "ListBrand",
+   "Brand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/suggest",
+  "method": "GET",
+  "names": [
+   "SuggestBrands",
+   "Brands"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand/update",
+  "method": "POST",
+  "names": [
+   "UpdateBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/brand_rec/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedBrands",
+   "RecommendedBrands"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bulletin/list",
+  "method": "GET",
+  "names": [
+   "GetProductBulletins",
+   "ProductBulletins"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bundles/mactivate",
+  "method": "POST",
+  "names": [
+   "MActivateBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bundles/mdeactivate",
+  "method": "POST",
+  "names": [
+   "MDeactivateBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/product/bundles/mdelete",
+  "method": "POST",
+  "names": [
+   "MDeleteBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/product/categories/search",
+  "method": "GET",
+  "names": [
+   "SearchCategories",
+   "Categories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/bind_info/get",
+  "method": "GET",
+  "names": [
+   "GetCategoryBindInfo",
+   "GetInstantCategoryBindInfo",
+   "CategoryBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/bind_info/multi_get",
+  "method": "POST",
+  "names": [
+   "MultiGetCategoryBindInfo",
+   "GetCategoryBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/migrate",
+  "method": "POST",
+  "names": [
+   "MigrateCategory",
+   "Category"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/template/list",
+  "method": "GET",
+  "names": [
+   "GetCategoryTemplateList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/template/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCategoryTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category/template/value",
+  "method": "POST",
+  "names": [
+   "GetCategoryTemplateValue"
+  ]
+ },
+ {
+  "path": "/api/v1/product/category_rec/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedCategories",
+   "ListRecommendedCategoriesPost",
+   "RecommendedCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/child_categories/list",
+  "method": "GET",
+  "names": [
+   "ListChildCategories",
+   "ChildCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/commission/config/get",
+  "method": "POST",
+  "names": [
+   "GetCommissionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/product/commission/delete",
+  "method": "POST",
+  "names": [
+   "DeleteCommission"
+  ]
+ },
+ {
+  "path": "/api/v1/product/commission/set",
+  "method": "POST",
+  "names": [
+   "SetCommission"
+  ]
+ },
+ {
+  "path": "/api/v1/product/comp/get_schema",
+  "method": "POST",
+  "names": [
+   "GetSchema",
+   "Schema"
+  ]
+ },
+ {
+  "path": "/api/v1/product/cross/shop/search",
+  "method": "GET",
+  "names": [
+   "CrossShopSearchProduct",
+   "ShopSearchProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/desc/create_generate_task",
+  "method": "POST",
+  "names": [
+   "CreateDescGenerateTask",
+   "DescGenerateTask"
+  ]
+ },
+ {
+  "path": "/api/v1/product/desc/pull_generate_result",
+  "method": "POST",
+  "names": [
+   "PullDescGenerateResult",
+   "DescGenerateResult"
+  ]
+ },
+ {
+  "path": "/api/v1/product/description_prettify/html_to_image",
+  "method": "?",
+  "names": [
+   "ConvertHtmlToImage"
+  ]
+ },
+ {
+  "path": "/api/v1/product/description_prettify/templates",
+  "method": "?",
+  "names": [
+   "GetDescriptionTemplates"
+  ]
+ },
+ {
+  "path": "/api/v1/product/diagnosis/item/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateProductDiagnosticItems"
+  ]
+ },
+ {
+  "path": "/api/v1/product/diagnosis/overview/get",
+  "method": "?",
+  "names": [
+   "GetSellerDiagnosisOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/product/download_instruction/list",
+  "method": "POST",
+  "names": [
+   "ListProductDownloadInstruction"
+  ]
+ },
+ {
+  "path": "/api/v1/product/duplication/title/check",
+  "method": "POST",
+  "names": [
+   "CheckTitleDuplication"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/async_task/create",
+  "method": "POST",
+  "names": [
+   "CreateGlobalTask",
+   "GlobalTask"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/async_task/list",
+  "method": "POST",
+  "names": [
+   "ListGlobalTask",
+   "GlobalTask"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/brand/create",
+  "method": "POST",
+  "names": [
+   "CreateBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/brand/list",
+  "method": "GET",
+  "names": [
+   "ListGlobalBrand",
+   "GlobalBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/brand/suggest",
+  "method": "GET",
+  "names": [
+   "SuggestGlobalBrands",
+   "GlobalBrands"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/categories/search",
+  "method": "GET",
+  "names": [
+   "SearchGlobalCategories",
+   "GlobalCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/category/bind_info/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalCategoryBindInfo",
+   "GlobalCategoryBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/category_rec/list",
+  "method": "GET",
+  "names": [
+   "ListRecommendedCategories",
+   "ListGlobalRecommendedCategories",
+   "GlobalRecommendedCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/child_categories/list",
+  "method": "GET",
+  "names": [
+   "ListGlobalChildCategories",
+   "GlobalChildCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/draft/save",
+  "method": "POST",
+  "names": [
+   "SavaGlobalDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/global_third_party/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalAndThirdPartyProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/guide_context/get",
+  "method": "POST",
+  "names": [
+   "GetGuideContext"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/account",
+  "method": "POST",
+  "names": [
+   "GetAccount",
+   "Account"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/account/initial",
+  "method": "POST",
+  "names": [
+   "InitialAccount",
+   "Account"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/file/list",
+  "method": "POST",
+  "names": [
+   "ListFileView",
+   "FileView"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/folder/create",
+  "method": "POST",
+  "names": [
+   "CreateFolder",
+   "Folder"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/folder/delete",
+  "method": "POST",
+  "names": [
+   "MDeleteFolder",
+   "DeleteFolder"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/folder/edit",
+  "method": "POST",
+  "names": [
+   "EditFolder",
+   "Folder"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/folder/list",
+  "method": "POST",
+  "names": [
+   "ListFolderTree",
+   "FolderTree"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/image/segment",
+  "method": "POST",
+  "names": [
+   "SegmentImage",
+   "Image"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/image_background/optimize",
+  "method": "POST",
+  "names": [
+   "OptimizeImageBackground",
+   "ImageBackground"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/batch_create",
+  "method": "POST",
+  "names": [
+   "BatchCreateMaterial",
+   "CreateMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/create",
+  "method": "POST",
+  "names": [
+   "CreateMaterial",
+   "Material"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/delete",
+  "method": "POST",
+  "names": [
+   "MDeleteMaterial",
+   "DeleteMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/edit",
+  "method": "POST",
+  "names": [
+   "EditMaterial",
+   "Material"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/move",
+  "method": "POST",
+  "names": [
+   "BatchMoveMaterial",
+   "MoveMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/material/query",
+  "method": "POST",
+  "names": [
+   "QueryMaterials",
+   "Materials"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/material_center/slice_switch",
+  "method": "POST",
+  "names": [
+   "SetVideoSliceSwitch",
+   "VideoSliceSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/notifications/get",
+  "method": "POST",
+  "names": [
+   "GetNotifications"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/parcel/check",
+  "method": "POST",
+  "names": [
+   "CheckGlobalProductParcel"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/price/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateGlobalPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/price/limit",
+  "method": "POST",
+  "names": [
+   "GetGlobalPriceLimit"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/price/mcalculate",
+  "method": "POST",
+  "names": [
+   "MCalculateGlobalPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product/get",
+  "method": "POST",
+  "names": [
+   "GetGlobalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product/publish",
+  "method": "POST",
+  "names": [
+   "PublishGlobalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product/save_and_publish",
+  "method": "POST",
+  "names": [
+   "SaveAndPublishProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product/save_live",
+  "method": "POST",
+  "names": [
+   "SaveLiveProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product/stock/edit",
+  "method": "POST",
+  "names": [
+   "EditProductStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product_creation/preload",
+  "method": "GET",
+  "names": [
+   "PreloadGlobalProductCreation"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/product_creation/preload_all_categories",
+  "method": "GET",
+  "names": [
+   "PreloadAllGlobalCategories",
+   "AllGlobalCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/products/delete",
+  "method": "POST",
+  "names": [
+   "MDeleteGlobalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/products/list",
+  "method": "GET",
+  "names": [
+   "ListGlobalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/regions/mget",
+  "method": "GET",
+  "names": [
+   "MGetGlobalRegions"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/batch_save",
+  "method": "POST",
+  "names": [
+   "BatchCreateSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/config_product",
+  "method": "POST",
+  "names": [
+   "ConfigProductSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/edit",
+  "method": "POST",
+  "names": [
+   "EditSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/get_bind_info",
+  "method": "POST",
+  "names": [
+   "GetSizeChartBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/identify",
+  "method": "POST",
+  "names": [
+   "IdentifySizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/list_product_type",
+  "method": "POST",
+  "names": [
+   "ListSizeChartProductType"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/save",
+  "method": "POST",
+  "names": [
+   "CreateSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/size_chart/search",
+  "method": "POST",
+  "names": [
+   "SearchSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/sku/price/edit",
+  "method": "POST",
+  "names": [
+   "EditPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/sku/stock/edit",
+  "method": "POST",
+  "names": [
+   "EditStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/skus/list",
+  "method": "POST",
+  "names": [
+   "ListGlobalProductSKUs"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/spu/match",
+  "method": "POST",
+  "names": [
+   "MatchSpu"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/tab/count/get",
+  "method": "POST",
+  "names": [
+   "GetGlobalProductTabCount"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/texts_translation/get",
+  "method": "POST",
+  "names": [
+   "MGetTextsTranslation"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/third_party/link",
+  "method": "POST",
+  "names": [
+   "LinkThirdPartyProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/third_party/list",
+  "method": "GET",
+  "names": [
+   "ListThirdPartyProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/third_party/unlink",
+  "method": "POST",
+  "names": [
+   "UnLinkThirdPartyProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/unpublished/products/list",
+  "method": "GET",
+  "names": [
+   "ListUnpublishedGlobalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/global/warehouses/mget",
+  "method": "POST",
+  "names": [
+   "MGetGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/product/gpr_overview/get",
+  "method": "POST",
+  "names": [
+   "GetGprOverview",
+   "GprOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/product/gpr_rule/submit",
+  "method": "POST",
+  "names": [
+   "SubmitGprRules",
+   "GprRules"
+  ]
+ },
+ {
+  "path": "/api/v1/product/guide/instructions/get",
+  "method": "POST",
+  "names": [
+   "GetGuideInstructions",
+   "GuideInstructions"
+  ]
+ },
+ {
+  "path": "/api/v1/product/guide_context/get",
+  "method": "POST",
+  "names": [
+   "GetGuideContext"
+  ]
+ },
+ {
+  "path": "/api/v1/product/image/quality/check",
+  "method": "POST",
+  "names": [
+   "CheckImageQuality"
+  ]
+ },
+ {
+  "path": "/api/v1/product/images/msubmit",
+  "method": "POST",
+  "names": [
+   "MSubmitProductImage"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/create",
+  "method": "POST",
+  "names": [
+   "MCreateLinks",
+   "CreateLinks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/deactivate",
+  "method": "POST",
+  "names": [
+   "MDeactivateLinks",
+   "DeactivateLinks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/edit",
+  "method": "POST",
+  "names": [
+   "EditLink",
+   "Link"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/get",
+  "method": "POST",
+  "names": [
+   "GetLink",
+   "Link"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/recommend",
+  "method": "GET",
+  "names": [
+   "SearchRecommendedLinks",
+   "RecommendedLinks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/link/search",
+  "method": "POST",
+  "names": [
+   "SearchLinks",
+   "Links"
+  ]
+ },
+ {
+  "path": "/api/v1/product/list/seller/warehouses",
+  "method": "POST",
+  "names": [
+   "ListSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/bundle/create",
+  "method": "POST",
+  "names": [
+   "CreateLocalBundle"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/bundle/edit",
+  "method": "POST",
+  "names": [
+   "EditLocalBundle"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/bundle/get",
+  "method": "POST",
+  "names": [
+   "GetLocalBundle"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/bundles/list",
+  "method": "POST",
+  "names": [
+   "ListLocalBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/draft/partial_edit",
+  "method": "POST",
+  "names": [
+   "PartialEditLocalDraft",
+   "EditLocalDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalDraft",
+   "LocalDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/edit/template",
+  "method": "POST",
+  "names": [
+   "GetProductLocalEditTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/edit_image/list",
+  "method": "POST",
+  "names": [
+   "ListEditImageProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/edit_pending/list",
+  "method": "POST",
+  "names": [
+   "ListEditPendingProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/has_edit_pending_product/get",
+  "method": "POST",
+  "names": [
+   "HasEditPendingProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/image/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalImageDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/action/pre_check",
+  "method": "POST",
+  "names": [
+   "ProductActionPreCheck",
+   "ActionPreCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/bulk_create",
+  "method": "POST",
+  "names": [
+   "CreateBulkLocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/copy",
+  "method": "POST",
+  "names": [
+   "CopyLocalProduct",
+   "LocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/create",
+  "method": "POST",
+  "names": [
+   "CreateLocalProduct",
+   "CreateLocalInstantProduct",
+   "LocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/edit",
+  "method": "POST",
+  "names": [
+   "EditLocalProduct",
+   "LocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/edit_description_prettify",
+  "method": "POST",
+  "names": [
+   "SubmitDescPrettification"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/extra/get",
+  "method": "POST",
+  "names": [
+   "GetLocalProductExtra",
+   "LocalProductExtra"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/get",
+  "method": "GET",
+  "names": [
+   "GetLocalProduct",
+   "LocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/get_1p",
+  "method": "GET",
+  "names": [
+   "GetFirstPartyProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/get_description_prettify",
+  "method": "POST",
+  "names": [
+   "GetDescPrettification"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/multi_confirm",
+  "method": "POST",
+  "names": [
+   "MConfirmProducts",
+   "ConfirmProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/package/recommend/update",
+  "method": "POST",
+  "names": [
+   "BulkUpdateRecomProductPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/partial/edit",
+  "method": "POST",
+  "names": [
+   "PartialEditLocalProduct",
+   "EditLocalProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/precheck",
+  "method": "POST",
+  "names": [
+   "PreCheckProduct",
+   "CheckProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/schema/get",
+  "method": "POST",
+  "names": [
+   "GetProductSchema",
+   "ProductSchema"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/skus/list",
+  "method": "GET",
+  "names": [
+   "ListLocalProductSKUs",
+   "LocalProductSKUs"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/subscribe/get",
+  "method": "GET",
+  "names": [
+   "GetProductSubscribe",
+   "ProductSubscribe"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/product/subscribe/save",
+  "method": "GET",
+  "names": [
+   "SaveProductSubscribe",
+   "ProductSubscribe"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/products/list",
+  "method": "GET",
+  "names": [
+   "ListLocalProducts",
+   "LocalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/status/get",
+  "method": "?",
+  "names": [
+   "GetInstantProductStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/product/local/upload",
+  "method": "POST",
+  "names": [
+   "UploadCreateProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/lock/register_stock_lock",
+  "method": "POST",
+  "names": [
+   "RegisterStockLock",
+   "StockLock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/lock/request_stock_unlock",
+  "method": "POST",
+  "names": [
+   "RequestStockUnlock",
+   "StockUnlock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/logistics/service/check",
+  "method": "POST",
+  "names": [
+   "CheckLogisticsService"
+  ]
+ },
+ {
+  "path": "/api/v1/product/msubmit",
+  "method": "POST",
+  "names": [
+   "MPublishProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/exchange_rate/get",
+  "method": "POST",
+  "names": [
+   "GetExchangeRateList",
+   "ExchangeRateList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/rp_manufacturer/list",
+  "method": "POST",
+  "names": [
+   "GetRpAndManufacturerList",
+   "RpAndManufacturerList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/rule/get",
+  "method": "POST",
+  "names": [
+   "MultiGetRegionRuleInfo",
+   "GetRegionRuleInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/same_product/get",
+  "method": "POST",
+  "names": [
+   "GetGlobalListingSameProduct",
+   "GlobalListingSameProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/sku/price/stocks/update",
+  "method": "POST",
+  "names": [
+   "UpdateRegionSkuPriceStocks",
+   "RegionSkuPriceStocks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/tax_price_calc",
+  "method": "POST",
+  "names": [
+   "MCalPreTaxPrice2SalePrice",
+   "CalPreTaxPrice2SalePrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/multi_region_listing/translate",
+  "method": "POST",
+  "names": [
+   "MTranslateContent",
+   "TranslateContent"
+  ]
+ },
+ {
+  "path": "/api/v1/product/notifications/get",
+  "method": "GET",
+  "names": [
+   "GetNotifications",
+   "Notifications"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/app_home/lead_top",
+  "method": "POST",
+  "names": [
+   "GetAppHomeLeadList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/app_home/pop/lead_top",
+  "method": "POST",
+  "names": [
+   "GetAppHomePOPLeadList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/auto_submit/set",
+  "method": "POST",
+  "names": [
+   "SetAutoSubmit"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/contract/check",
+  "method": "POST",
+  "names": [
+   "CheckSignedSPOContract"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/contract/sign",
+  "method": "POST",
+  "names": [
+   "SignSPOContract"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/excel/relate/get",
+  "method": "?",
+  "names": [
+   "GetRelateSPOProductTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/excel/relate/upload",
+  "method": "POST",
+  "names": [
+   "UploadRelateSPOProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/exist/same/product/lead",
+  "method": "POST",
+  "names": [
+   "GetExistSameProductLead"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/initial/list",
+  "method": "POST",
+  "names": [
+   "ListSPOInitial"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/mark",
+  "method": "POST",
+  "names": [
+   "MarkSpo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/opportunity_type_by_region/get",
+  "method": "POST",
+  "names": [
+   "GetShowOpportunityTypeByRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/optimization_items_by_country/list",
+  "method": "POST",
+  "names": [
+   "ListOptimizationItemsByCountry"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/optimization_tasks/list",
+  "method": "POST",
+  "names": [
+   "ListSPOOptimizationTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/optimization_tasks/update_status",
+  "method": "POST",
+  "names": [
+   "UpdateSPOOptimizationTaskStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/pop/filter/get",
+  "method": "POST",
+  "names": [
+   "GetPOPSellerShopFilter"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/product/performance/Card",
+  "method": "POST",
+  "names": [
+   "GetSocMySubmissionProductPerformanceCard"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/product/performance/list",
+  "method": "POST",
+  "names": [
+   "GetSocMySubmissionProductPerformanceList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/product/stock/get",
+  "method": "POST",
+  "names": [
+   "GetProductStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/product/stock/update",
+  "method": "POST",
+  "names": [
+   "UpdateProductStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/reasons/list",
+  "method": "POST",
+  "names": [
+   "ListSellerRejectSPOReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/recruit/mark",
+  "method": "POST",
+  "names": [
+   "RecruitMark"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/reject",
+  "method": "POST",
+  "names": [
+   "SellerRejectSPO"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/relate",
+  "method": "POST",
+  "names": [
+   "RelateProductToSPO"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/report/list",
+  "method": "POST",
+  "names": [
+   "ListSPOReport"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/brand/recommend",
+  "method": "POST",
+  "names": [
+   "BrandRecommend"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/eu/config",
+  "method": "POST",
+  "names": [
+   "GetEUSellerConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/lead/detail",
+  "method": "POST",
+  "names": [
+   "GetLeadDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/lead/list",
+  "method": "POST",
+  "names": [
+   "ListLead"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/lead/show_field",
+  "method": "POST",
+  "names": [
+   "GetLeadShowField"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/lead/tag/list",
+  "method": "POST",
+  "names": [
+   "ListLeadTag"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/leafcate/recommend",
+  "method": "POST",
+  "names": [
+   "LeafCateRecommend"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/new_shop_set_up/lead/list",
+  "method": "POST",
+  "names": [
+   "ListNewShopSetUpLead"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/pop/config",
+  "method": "POST",
+  "names": [
+   "GetPOPSellerConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/product/get",
+  "method": "?",
+  "names": [
+   "GetLiveProductsFromSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/report/summary",
+  "method": "POST",
+  "names": [
+   "SellerReportSummary"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/seller/seasonal_festival/tag/list",
+  "method": "POST",
+  "names": [
+   "GetSeasonalFestivalTagList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/sensitive_words/check",
+  "method": "?",
+  "names": [
+   "CheckProductTitleWords"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/shop_experience_score/get",
+  "method": "?",
+  "names": [
+   "GetShopExperienceScore"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/shop_filter/get",
+  "method": "POST",
+  "names": [
+   "GetShopFilter"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/submit/record/list",
+  "method": "POST",
+  "names": [
+   "GetSocMySubmissionSubmitRecordList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/traffic/list",
+  "method": "?",
+  "names": [
+   "ListSPOProductTraffic"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/tts_product/search",
+  "method": "POST",
+  "names": [
+   "SearchTtsProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/tts_product/trending/search",
+  "method": "POST",
+  "names": [
+   "SearchTrendingTtsProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/oc/seller_product_opportunity/upload_details/get",
+  "method": "POST",
+  "names": [
+   "GetSPOUploadDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimization/refresh",
+  "method": "POST",
+  "names": [
+   "RefreshProductOptimization",
+   "ProductOptimization"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimization/report/metrics",
+  "method": "POST",
+  "names": [
+   "ReportOptimizationMetrics"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/comp/get_schema",
+  "method": "POST",
+  "names": [
+   "GetSchema"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/data/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationData"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/generate_suggestion",
+  "method": "POST",
+  "names": [
+   "GenerateProductSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/meta/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationMeta"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/multi_edit",
+  "method": "PUT",
+  "names": [
+   "MEditOptimizedProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/overview/get",
+  "method": "?",
+  "names": [
+   "GetOptimizationOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/page/get",
+  "method": "POST",
+  "names": [
+   "GetToBeOptimizedProductPage"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/product/get",
+  "method": "?",
+  "names": [
+   "GetOptimizationProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/product/multi_get",
+  "method": "?",
+  "names": [
+   "MGetOptimizationProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/products/get",
+  "method": "?",
+  "names": [
+   "GetOptimizationProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/seller_detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/size_chart/construct",
+  "method": "POST",
+  "names": [
+   "GetConstructedSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/size_chart/match",
+  "method": "POST",
+  "names": [
+   "CalculateProductSizeChartMatchedResult"
+  ]
+ },
+ {
+  "path": "/api/v1/product/optimize/translate",
+  "method": "POST",
+  "names": [
+   "Translate"
+  ]
+ },
+ {
+  "path": "/api/v1/product/package/recommend",
+  "method": "POST",
+  "names": [
+   "RecommendPackage",
+   "Package"
+  ]
+ },
+ {
+  "path": "/api/v1/product/parcel/check",
+  "method": "POST",
+  "names": [
+   "CheckProductParcel"
+  ]
+ },
+ {
+  "path": "/api/v1/product/pdp_link/get",
+  "method": "POST",
+  "names": [
+   "GetPDPH5Link",
+   "PDPH5Link"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/app_notify",
+  "method": "POST",
+  "names": [
+   "NotifyPriceChangeForApp"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/change_price",
+  "method": "POST",
+  "names": [
+   "PriceChange"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/diagnosis/list",
+  "method": "PUT",
+  "names": [
+   "ListPriceDiagnoses"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/diagnosis/overview/get",
+  "method": "?",
+  "names": [
+   "GetPriceDiagnosisOverView"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/get_price_info",
+  "method": "POST",
+  "names": [
+   "GetPriceInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/notify",
+  "method": "PUT",
+  "names": [
+   "NotifyPriceChange"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price/subsidy_list",
+  "method": "POST",
+  "names": [
+   "ListSubsidyOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price_appeal/create",
+  "method": "POST",
+  "names": [
+   "CreatePriceAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price_appeal/get_reason",
+  "method": "POST",
+  "names": [
+   "ListAvailableAppealReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/product/price_appeals/list",
+  "method": "?",
+  "names": [
+   "ListPriceAppeals"
+  ]
+ },
+ {
+  "path": "/api/v1/product/product/info/quality/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateProductInfoQuality"
+  ]
+ },
+ {
+  "path": "/api/v1/product/product_creation/preload",
+  "method": "GET",
+  "names": [
+   "PreloadProductCreation",
+   "PreloadInstantProductCreation",
+   "ProductCreation"
+  ]
+ },
+ {
+  "path": "/api/v1/product/product_creation/preload_all_categories",
+  "method": "GET",
+  "names": [
+   "PreloadAllCategories",
+   "AllCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/product_name_rec/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedProductNames",
+   "RecommendedProductNames"
+  ]
+ },
+ {
+  "path": "/api/v1/product/product_property_rec/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedProductProperties",
+   "RecommendedProductProperties"
+  ]
+ },
+ {
+  "path": "/api/v1/product/products/activate",
+  "method": "POST",
+  "names": [
+   "MActivateProducts",
+   "ActivateProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/products/deactivate",
+  "method": "POST",
+  "names": [
+   "MDeactivateProducts",
+   "DeactivateProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/products/delete",
+  "method": "POST",
+  "names": [
+   "MDeleteProducts",
+   "DeleteProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/products/recover",
+  "method": "POST",
+  "names": [
+   "MRecoverProducts",
+   "RecoverProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/prohibited/words/check",
+  "method": "POST",
+  "names": [
+   "CheckProhibitedWords"
+  ]
+ },
+ {
+  "path": "/api/v1/product/promotion/price/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/property/check",
+  "method": "POST",
+  "names": [
+   "CheckProductProperty",
+   "ProductProperty"
+  ]
+ },
+ {
+  "path": "/api/v1/product/property/migrate",
+  "method": "POST",
+  "names": [
+   "MigrateProperty",
+   "Property"
+  ]
+ },
+ {
+  "path": "/api/v1/product/property/normalize_size",
+  "method": "POST",
+  "names": [
+   "NormalizeSize",
+   "Size"
+  ]
+ },
+ {
+  "path": "/api/v1/product/publish/diagnosis/item/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateProductDiagnosticItemsForPublish"
+  ]
+ },
+ {
+  "path": "/api/v1/product/quick_listing/search",
+  "method": "GET",
+  "names": [
+   "QuickListingSuggestion",
+   "ListingSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/product/recommend/item/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateProductRecommendedItems"
+  ]
+ },
+ {
+  "path": "/api/v1/product/regions/mget",
+  "method": "POST",
+  "names": [
+   "MGetRegions"
+  ]
+ },
+ {
+  "path": "/api/v1/product/search/optimized/get",
+  "method": "?",
+  "names": [
+   "GetSearchOptimizationProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller/manufacturer/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerManufacturer",
+   "SellerManufacturer"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller/manufacturer/list",
+  "method": "POST",
+  "names": [
+   "ListSellerManufacturer",
+   "SellerManufacturer"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/collect",
+  "method": "POST",
+  "names": [
+   "CollectItem"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/niche/get_suggested_word",
+  "method": "POST",
+  "names": [
+   "GetSuggestedWord"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/niche/list",
+  "method": "POST",
+  "names": [
+   "ListNiches"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/niche/list_collected",
+  "method": "POST",
+  "names": [
+   "ListCollectedNiches"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/niche/product/list",
+  "method": "POST",
+  "names": [
+   "ListNicheProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/seller_opportunity/niche/product/list_collected",
+  "method": "POST",
+  "names": [
+   "ListCollectedNicheProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/product/shipping/fee/estimate",
+  "method": "POST",
+  "names": [
+   "EstimateShippingFee"
+  ]
+ },
+ {
+  "path": "/api/v1/product/shipping_template/check",
+  "method": "POST",
+  "names": [
+   "CheckSellerShippingTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/product/shipping_template/list",
+  "method": "POST",
+  "names": [
+   "GetShippingTemplateList",
+   "ShippingTemplateList"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/batch_save",
+  "method": "POST",
+  "names": [
+   "BatchCreateSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/config_product",
+  "method": "POST",
+  "names": [
+   "ConfigProductSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/edit",
+  "method": "POST",
+  "names": [
+   "EditSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/get_bind_info",
+  "method": "POST",
+  "names": [
+   "GetSizeChartBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/identify",
+  "method": "POST",
+  "names": [
+   "IdentifySizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/list_product_type",
+  "method": "POST",
+  "names": [
+   "ListSizeChartProductType"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/save",
+  "method": "POST",
+  "names": [
+   "CreateSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/size_chart/search",
+  "method": "POST",
+  "names": [
+   "SearchSizeChart"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/price/cal",
+  "method": "POST",
+  "names": [
+   "CalCrossBoardSKUPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/price/stocks/update",
+  "method": "POST",
+  "names": [
+   "UpdateSKUPriceStocks",
+   "UpdateSkuPriceStocks",
+   "SkuPriceStocks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/price/update",
+  "method": "POST",
+  "names": [
+   "UpdateSKUPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/prices/mcal",
+  "method": "POST",
+  "names": [
+   "MCalCrossBoardSKUPrices"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/stocks/decrease",
+  "method": "POST",
+  "names": [
+   "DecreaseSKUStocks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/sku/stocks/increase",
+  "method": "POST",
+  "names": [
+   "IncreaseSKUStocks"
+  ]
+ },
+ {
+  "path": "/api/v1/product/spu/match",
+  "method": "POST",
+  "names": [
+   "MatchSpu"
+  ]
+ },
+ {
+  "path": "/api/v1/product/spu/recommend",
+  "method": "POST",
+  "names": [
+   "RecommendSPU",
+   "SPU"
+  ]
+ },
+ {
+  "path": "/api/v1/product/spu/search",
+  "method": "POST",
+  "names": [
+   "SearchSpuAndCspu",
+   "SpuAndCspu"
+  ]
+ },
+ {
+  "path": "/api/v1/product/tab/count/get",
+  "method": "?",
+  "names": [
+   "GetProductTabCount"
+  ]
+ },
+ {
+  "path": "/api/v1/product/web/categories/search",
+  "method": "?",
+  "names": [
+   "SearchWebCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/product/web/local/products/list",
+  "method": "GET",
+  "names": [
+   "ListWebLocalProducts",
+   "WebLocalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/create",
+  "method": "POST",
+  "names": [
+   "CreateAllocation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAllocation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/list",
+  "method": "POST",
+  "names": [
+   "ListAllocations"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/prizes/get",
+  "method": "POST",
+  "names": [
+   "GetAllocationPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/prizes/update",
+  "method": "POST",
+  "names": [
+   "UpdateAllocationPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/create",
+  "method": "POST",
+  "names": [
+   "CreateBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/get",
+  "method": "?",
+  "names": [
+   "GetBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/list",
+  "method": "POST",
+  "names": [
+   "ListBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/update",
+  "method": "POST",
+  "names": [
+   "UpdateBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/config",
+  "method": "?",
+  "names": [
+   "GetSellerAppPromotionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/config/get",
+  "method": "?",
+  "names": [
+   "GetSellerBackendConfigFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/create",
+  "method": "POST",
+  "names": [
+   "CreateFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/get",
+  "method": "?",
+  "names": [
+   "GetFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/list",
+  "method": "POST",
+  "names": [
+   "ListFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/home_page_info",
+  "method": "POST",
+  "names": [
+   "GetSellerPromotionHomePageInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotionFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetAppItemData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/price_details/get",
+  "method": "POST",
+  "names": [
+   "MGetAPPPriceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/create",
+  "method": "POST",
+  "names": [
+   "CreateProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/get",
+  "method": "?",
+  "names": [
+   "GetProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/list",
+  "method": "?",
+  "names": [
+   "ListProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/recommended_promotion_tool/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedToolForApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProductsFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/seller_allow_list/get",
+  "method": "POST",
+  "names": [
+   "GetSellerInAllowListFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/batch_upload/products/get_template_excel",
+  "method": "POST",
+  "names": [
+   "GetTemplateExcelDownloadUrl"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/batch_upload/products/upload",
+  "method": "POST",
+  "names": [
+   "UploadAndParseExcel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/create",
+  "method": "POST",
+  "names": [
+   "CreateBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/get",
+  "method": "?",
+  "names": [
+   "GetBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/list",
+  "method": "POST",
+  "names": [
+   "ListBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/update",
+  "method": "POST",
+  "names": [
+   "UpdateBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/create",
+  "method": "POST",
+  "names": [
+   "CreateBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/get",
+  "method": "?",
+  "names": [
+   "GetBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/list",
+  "method": "?",
+  "names": [
+   "ListBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/update",
+  "method": "POST",
+  "names": [
+   "UpdateBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/common_info/get",
+  "method": "?",
+  "names": [
+   "GetCommonInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/config",
+  "method": "?",
+  "names": [
+   "GetSellerPromotionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/config/get",
+  "method": "?",
+  "names": [
+   "GetSellerBackendConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/creator_exclusive_price/create",
+  "method": "POST",
+  "names": [
+   "CreateCreatorExclusivePricePromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/creator_exclusive_price/update",
+  "method": "POST",
+  "names": [
+   "UpdateCreatorExclusivePricePromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/data_report",
+  "method": "POST",
+  "names": [
+   "DataReport"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/diagnosis_recommend_strategy/list",
+  "method": "POST",
+  "names": [
+   "ListDiagnosisAndRecommendStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/create",
+  "method": "POST",
+  "names": [
+   "CreateDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/get",
+  "method": "POST",
+  "names": [
+   "GetSellerDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/list",
+  "method": "POST",
+  "names": [
+   "ListSellerDiscounts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/update",
+  "method": "POST",
+  "names": [
+   "UpdateDiscountPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/create",
+  "method": "POST",
+  "names": [
+   "CreateFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/get",
+  "method": "POST",
+  "names": [
+   "GetFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/list",
+  "method": "POST",
+  "names": [
+   "ListFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/update",
+  "method": "POST",
+  "names": [
+   "UpdateFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/batch_update",
+  "method": "POST",
+  "names": [
+   "BatchUpdateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/create",
+  "method": "POST",
+  "names": [
+   "CreateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/get",
+  "method": "POST",
+  "names": [
+   "GetFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/list",
+  "method": "?",
+  "names": [
+   "ListFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/update",
+  "method": "POST",
+  "names": [
+   "UpdateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/create",
+  "method": "POST",
+  "names": [
+   "CreateFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/get",
+  "method": "POST",
+  "names": [
+   "GetFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/list",
+  "method": "POST",
+  "names": [
+   "ListFreeShippings"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/risk",
+  "method": "POST",
+  "names": [
+   "RiskFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/update",
+  "method": "POST",
+  "names": [
+   "UpdateFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_latest_promotions_by_pid",
+  "method": "POST",
+  "names": [
+   "MGetLatestPromotionsByProductIDs"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_main_page",
+  "method": "?",
+  "names": [
+   "GetMainPage"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_promotions_by_product_id",
+  "method": "POST",
+  "names": [
+   "GetPromotionsByProductID"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_seller_feature",
+  "method": "POST",
+  "names": [
+   "GetSellerFeature"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_seller_status",
+  "method": "?",
+  "names": [
+   "GetSellerStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_summary",
+  "method": "POST",
+  "names": [
+   "GetSummary"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/create",
+  "method": "POST",
+  "names": [
+   "CreateGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/get",
+  "method": "?",
+  "names": [
+   "GetGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/list",
+  "method": "?",
+  "names": [
+   "ListGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/update",
+  "method": "POST",
+  "names": [
+   "UpdateGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list",
+  "method": "POST",
+  "names": [
+   "ListPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_products_by_cursor",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotionByCursor"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_seller_gray_config",
+  "method": "POST",
+  "names": [
+   "ListSellerGrayConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_skus",
+  "method": "POST",
+  "names": [
+   "ListAvailableSkusByProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_strikethrough_price",
+  "method": "POST",
+  "names": [
+   "ListStrikethroughPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_basic_config",
+  "method": "POST",
+  "names": [
+   "GetBasicConfigForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_common_info",
+  "method": "?",
+  "names": [
+   "GetCommonInfoForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_shop_risk_info",
+  "method": "POST",
+  "names": [
+   "GetShopRiskInfoForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProductsForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetItemData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/create",
+  "method": "POST",
+  "names": [
+   "CreatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/data_overview",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlanDataOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/deactivate",
+  "method": "POST",
+  "names": [
+   "DeactivatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/list",
+  "method": "POST",
+  "names": [
+   "ListPromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/list_product",
+  "method": "POST",
+  "names": [
+   "ListPromotionPlanProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/product_label",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlanProductLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/update",
+  "method": "POST",
+  "names": [
+   "UpdatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/update_product",
+  "method": "POST",
+  "names": [
+   "UpdatePromotionPlanProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_estimate_promotion_price",
+  "method": "POST",
+  "names": [
+   "CalcEstimatePromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_future_promotion_price",
+  "method": "POST",
+  "names": [
+   "CalcFuturePromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_promotion_stacking_info",
+  "method": "POST",
+  "names": [
+   "CalcPromotionStackingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/get_promotion_stacking_info",
+  "method": "POST",
+  "names": [
+   "GetPromotionStackingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_details/get",
+  "method": "POST",
+  "names": [
+   "MGetPriceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/create",
+  "method": "POST",
+  "names": [
+   "CreatePrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/delete",
+  "method": "POST",
+  "names": [
+   "DeletePrize"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/get",
+  "method": "POST",
+  "names": [
+   "GetPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/list",
+  "method": "POST",
+  "names": [
+   "ListPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/update_quantity",
+  "method": "POST",
+  "names": [
+   "UpdatePrizeQuantity"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/generate",
+  "method": "POST",
+  "names": [
+   "GenerateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/get",
+  "method": "POST",
+  "names": [
+   "GetSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/validate",
+  "method": "POST",
+  "names": [
+   "ValidateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tool/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedPromotionTool"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tools/label_list",
+  "method": "POST",
+  "names": [
+   "ListSellerRecommendedLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tools/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedPromotionTools"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/restrict_categories/list",
+  "method": "POST",
+  "names": [
+   "ListRestrictCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_bundles",
+  "method": "POST",
+  "names": [
+   "SearchBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_creator",
+  "method": "POST",
+  "names": [
+   "SearchCreatorByNameOrID"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_allow_list/get",
+  "method": "?",
+  "names": [
+   "GetSellerInAllowList"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_experiment_info/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExperimentInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_platform/list",
+  "method": "POST",
+  "names": [
+   "ListSellerPlatformPromotions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_platform/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPlatformPromotions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_recently_used_tools/list",
+  "method": "POST",
+  "names": [
+   "ListSellerRecentlyUsedTools"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/shop_metrics/overview/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionShopMetricsOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/shop_risk_info/get",
+  "method": "?",
+  "names": [
+   "GetShopRiskInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/single_discount/get",
+  "method": "POST",
+  "names": [
+   "GetSingleDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/single_discount/list",
+  "method": "POST",
+  "names": [
+   "ListSingleDiscounts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/check_deactivate",
+  "method": "POST",
+  "names": [
+   "CheckSNSPromoDeactivate"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/create",
+  "method": "POST",
+  "names": [
+   "CreateSNSProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/get",
+  "method": "POST",
+  "names": [
+   "GetSNSProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/update",
+  "method": "POST",
+  "names": [
+   "UpdateSNSPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/tool_info/list",
+  "method": "POST",
+  "names": [
+   "ListPromotionToolInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/tools_metrics/overview/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionToolsMetricsOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/update_products",
+  "method": "POST",
+  "names": [
+   "UpdateProductsInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/update_skus",
+  "method": "POST",
+  "names": [
+   "UpdateSkusInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/check_conflict",
+  "method": "POST",
+  "names": [
+   "CheckConflictVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/check_voucher_overlap",
+  "method": "POST",
+  "names": [
+   "CheckSellerVoucherOverlap"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInVoucherByCursor"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/ab/version/set",
+  "method": "?",
+  "names": [
+   "SetAbTestVersion"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/announcement/get",
+  "method": "?",
+  "names": [
+   "GetAnnouncementData"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/batch/recommendation/tasks",
+  "method": "?",
+  "names": [
+   "GetBatchRecommendationTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/business/log/set",
+  "method": "?",
+  "names": [
+   "SetBusinessLog"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/early_bird/rel_product/get",
+  "method": "?",
+  "names": [
+   "GetSellerEarlyBirdRelProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/home_page/sdk/product/get",
+  "method": "?",
+  "names": [
+   "GetHomePageSDKProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/latest_date",
+  "method": "POST",
+  "names": [
+   "GetLatestDate"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/product_data_drawer",
+  "method": "POST",
+  "names": [
+   "GetProductDataDrawer"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/product_list",
+  "method": "POST",
+  "names": [
+   "GetProductListData"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/sales_inheritance/authorize/set",
+  "method": "POST",
+  "names": [
+   "SetSellerSalesInheritanceAuthorize"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/sales_inheritance/show/get",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesInheritanceShow"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/seller/overview",
+  "method": "POST",
+  "names": [
+   "GetSellerOverviewData"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/set_task_complete",
+  "method": "POST",
+  "names": [
+   "SetTaskComplete"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/shop_data_drawer",
+  "method": "POST",
+  "names": [
+   "GetShopDataDrawer"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/ad_isv_oauth2",
+  "method": "?",
+  "names": [
+   "CustodyAdIsvOAuth2"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/ad_isv_oauth2_shop",
+  "method": "?",
+  "names": [
+   "CustodyAdIsvOAuth2Shop"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/authorize",
+  "method": "POST",
+  "names": [
+   "SmartGrowthCustodyAuthorize"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/candidate/product/performance",
+  "method": "POST",
+  "names": [
+   "GetCandidateProductPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/eligible/product/list",
+  "method": "?",
+  "names": [
+   "GetSmartGrowthEligibleProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/overview",
+  "method": "?",
+  "names": [
+   "GetSmartGrowthCustodyOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/product/suspend",
+  "method": "POST",
+  "names": [
+   "SuspendSmartGrowthProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/ai_video",
+  "method": "POST",
+  "names": [
+   "GetSmartGrowthCustodyAiVideo"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/ai_video/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAiVideo"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/ai_video/delete_reason/list",
+  "method": "?",
+  "names": [
+   "DeleteAiVideoReasonList"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/ai_video/read",
+  "method": "POST",
+  "names": [
+   "ReadAiVideo"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/create",
+  "method": "POST",
+  "names": [
+   "CreateSmartGrowthCustodyProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/detail",
+  "method": "?",
+  "names": [
+   "SmartGrowthCustodyProgramDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/list",
+  "method": "?",
+  "names": [
+   "SmartGrowthCustodyProgramList"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/performance",
+  "method": "?",
+  "names": [
+   "SmartGrowthCustodyProgramPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/program/suspend",
+  "method": "?",
+  "names": [
+   "SuspendSmartGrowthProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/promotion/program",
+  "method": "?",
+  "names": [
+   "GetSmartGrowthProgramIdByPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart/custody/shop_bind_info",
+  "method": "?",
+  "names": [
+   "CustodyGetShopBindInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/home_widget",
+  "method": "?",
+  "names": [
+   "GetShopSmartGrowthHomeWidget"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/product_search",
+  "method": "POST",
+  "names": [
+   "SearchShopSmartGrowthProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program/list_sku",
+  "method": "POST",
+  "names": [
+   "GetShopSmartGrowthSkuByProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program/predict_sales",
+  "method": "POST",
+  "names": [
+   "PredictShopSmartGrowthSales"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program/stats",
+  "method": "POST",
+  "names": [
+   "GetShopSmartGrowthProgramStats"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program/upsert",
+  "method": "POST",
+  "names": [
+   "UpsertShopSmartGrowthProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program_candidate",
+  "method": "POST",
+  "names": [
+   "GetShopSmartGrowthProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/program_strategy/get",
+  "method": "POST",
+  "names": [
+   "GetShopSmartGrowthProgramStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/smart_shop/custody/reject_reason",
+  "method": "?",
+  "names": [
+   "GetStrategyRejectReason"
+  ]
+ },
+ {
+  "path": "/api/v1/sea_product/growth/update_task_status",
+  "method": "POST",
+  "names": [
+   "UpdateTaskStatus"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/list",
+  "method": "?",
+  "names": [
+   "ListVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucherV2"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/dynamic_configs/get",
+  "method": "POST",
+  "names": [
+   "GetDynamicConfigsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImageForWidget",
+   "ImageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadTokenForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/upload_completion/notify",
+  "method": "?",
+  "names": [
+   "NotifyUploadCompletionForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/compass/mget",
+  "method": "POST",
+  "names": [
+   "MGetProductsForMultiEditForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/data/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationDataForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/meta/get",
+  "method": "POST",
+  "names": [
+   "GetOptimizationMetaForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/page/get",
+  "method": "POST",
+  "names": [
+   "GetToBeOptimizedProductPageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/seo/rank",
+  "method": "POST",
+  "names": [
+   "GetOptimizeProductSeoWordRankForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pop/product/optimize/seo_gain/mget",
+  "method": "POST",
+  "names": [
+   "MGetOptimizeProductSeoExpectGainForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/local/product/subscribe/get",
+  "method": "GET",
+  "names": [
+   "GetProductSubscribeForWidget",
+   "ProductSubscribeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/local/product/subscribe/save",
+  "method": "GET",
+  "names": [
+   "SaveProductSubscribeForWidget",
+   "ProductSubscribeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/optimization/report/metrics",
+  "method": "POST",
+  "names": [
+   "ReportOptimizationMetricsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/prohibited/words/check",
+  "method": "POST",
+  "names": [
+   "CheckProhibitedWordsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/batch_save",
+  "method": "POST",
+  "names": [
+   "BatchCreateSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/config_product",
+  "method": "POST",
+  "names": [
+   "ConfigProductSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/edit",
+  "method": "POST",
+  "names": [
+   "EditSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/get_bind_info",
+  "method": "POST",
+  "names": [
+   "GetSizeChartBindInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/identify",
+  "method": "POST",
+  "names": [
+   "IdentifySizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/list_product_type",
+  "method": "POST",
+  "names": [
+   "ListSizeChartProductTypeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/save",
+  "method": "POST",
+  "names": [
+   "CreateSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/product/size_chart/search",
+  "method": "POST",
+  "names": [
+   "SearchSizeChartForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/promotion/list_seller_gray_config",
+  "method": "?",
+  "names": [
+   "ListSellerGrayConfigForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/promotion/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetItemDataForWidget"
+  ]
+ }
+]

@@ -1,0 +1,5935 @@
+[
+ {
+  "path": "/affiliate/account/all_sellers/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/account/all_sellers/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/account/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/account/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/account/info_v2",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/account/info_v2",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/announcement/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/announcement/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/announcement/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/announcement/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/announcement/read",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/announcement/read",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/approve/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/approve/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets/creator-management",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets/creator-management",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets/creator-management/bulk-im",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets/creator-management/bulk-im",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets/creator/bulk-im",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets/creator/bulk-im",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets/quota/overview",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets/quota/overview",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/assets/video-analysis",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/assets/video-analysis",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/auction_stock/products/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/auction_stock/products/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/auction_stock/summary",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/auction_stock/summary",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/app/account/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/app/account/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/category/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/category/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/external_link_program/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/external_link_program/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/feature_switch/mupdate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/feature_switch/mupdate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/feature_switch/types/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/feature_switch/types/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/feature_switch/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/feature_switch/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/information_card/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/information_card/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/todo_dashboard/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/todo_dashboard/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/todo_list/confirm",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/todo_list/confirm",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/backend/homepage/todo_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/backend/homepage/todo_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/banner",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/banner",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/contact_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/contact_info/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/create",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/detail/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/detail/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/edit",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/modify_sample_quota",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/modify_sample_quota",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/partner/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/partner/search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/partners/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/partners/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/product/approve",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/product/approve",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/product/cancel",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/product/cancel",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/product_performance/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/product_performance/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/products/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/products/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/register",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/register",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/register_contact_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/register_contact_info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/registered_products/edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/registered_products/edit",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/registered_products/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/registered_products/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/seller/permission/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/seller/permission/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/seller/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/seller/product/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/single_product_performance/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/single_product_performance/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/campaign/update/status",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/campaign/update/status",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/cmp/contact",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/cmp/contact",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/cmp/contact_types",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/cmp/contact_types",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/auction-stock",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/auction-stock",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/open-collaboration",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/open-collaboration",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/open-collaboration/bulk-edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/open-collaboration/bulk-edit",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/open-collaboration/creator-applications",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/open-collaboration/creator-applications",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/open-collaboration/growth-products",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/open-collaboration/growth-products",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/campaign-create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/campaign-create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/campaign-description",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/campaign-description",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/campaign-detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/campaign-detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/campaign-edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/campaign-edit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/edit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/flat-fee/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/flat-fee/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/flat-fee/send-result",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/send-result",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/collaboration/target-invitation/select",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/collaboration/target-invitation/select",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/commission_unique/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/commission_unique/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/config",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator/rankings",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator/rankings",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator/vertical-list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator/vertical-list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator_application/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator_application/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator_data/filter_option/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator_data/filter_option/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/creator_marketplace/filled/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator_marketplace/filled/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/creator_marketplace/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator_marketplace/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/creator_marketplace/mget",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/creator_marketplace/mget",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/errorpage",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/errorpage",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/export_history",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/export_history",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/export_link",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/export_link",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/export_order",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/export_order",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/export_order_task",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/export_order_task",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/export_order_v2",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/export_order_v2",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/grayscale_strategy/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/grayscale_strategy/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/guide/articles",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/guide/articles",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/has_agent",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/has_agent",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/homepage",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/homepage",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/log_out_agent",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/log_out_agent",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/article",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/article",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/creator/auth_profiles",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/creator/auth_profiles",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/creator/profile",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/creator/profile",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/feelgood/c_token",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/feelgood/c_token",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/feelgood/token",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/feelgood/token",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/image/c_url",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/image/c_url",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/image/upload_token",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/image/upload_token",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/image/url",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/image/url",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/invitation/available_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/invitation/available_list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/invitation/c_detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/invitation/c_detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/invitation/creator/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/invitation/creator/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/invitation/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/invitation/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/notification/im/latest",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/notification/im/latest",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/notification/im/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/notification/im/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/notification/im/unread",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/notification/im/unread",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/notification/im/unread_count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/notification/im/unread_count",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/partner/product/filter",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/partner/product/filter",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/partner/product/ranking/entry",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/partner/product/ranking/entry",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/partner/product/ranking/tab",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/partner/product/ranking/tab",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/creator/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/creator/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/product/c_detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/product/c_detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/product/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/product/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/product/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/target_plan/c_detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/target_plan/c_detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/target_plan/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/target_plan/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/plan/target_plan/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/plan/target_plan/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/product/c_detail_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/product/c_detail_list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/product/category/children",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/product/category/children",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/product/category/childrenv2",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/product/category/childrenv2",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/sample/apply",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/sample/apply",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/sample/c_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/sample/c_info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/sample/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/sample/info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/screenshot",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/screenshot",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/lux/screenshot/status",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/lux/screenshot/status",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/menu",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/menu",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/meta_plan/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/meta_plan/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/name_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/name_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/new_request/count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/new_request/count",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/classify/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/classify/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/config",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/ec_permission",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/ec_permission",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/get_latest_creator_notification",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/get_latest_creator_notification",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/group/schemas",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/group/schemas",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/conversation/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/conversation/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/conversation/update_tag",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/conversation/update_tag",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/entrance_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/entrance_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/permission",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/permission",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/relation/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/relation/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/seller_category",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/seller_category",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/im/shop_quota",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/im/shop_quota",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/list_schemas",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/list_schemas",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/mark_as_clicked",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/mark_as_clicked",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/mark_as_read",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/mark_as_read",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/notification/unread_count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/notification/unread_count",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/ad/account_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/ad/account_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/ad_commission/suggest_commission/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/ad_commission/suggest_commission/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/affected_promotion_info/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/affected_promotion_info/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/auction_commission/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/auction_commission/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/authorized_ad_video/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/authorized_ad_video/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/commission_history/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/commission_history/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/commission_version/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/commission_version/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/creator_application/batch_review",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/creator_application/batch_review",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/creator_application/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/creator_application/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/opt_in/card/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/opt_in/card/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/product_creator_relation/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/product_creator_relation/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/product_creator_relation/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/product_creator_relation/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/product_creator_relation/terminate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/product_creator_relation/terminate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/ad_commission/upsert",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/ad_commission/upsert",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/async_task/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/async_task/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/async_task/submit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/async_task/submit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/auction_commission/upsert",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/auction_commission/upsert",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/count",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/gmv_max/suggest",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/gmv_max/suggest",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/gmv_max/upsert",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/gmv_max/upsert",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/terminate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/terminate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_collaboration/promote_products/upsert",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_collaboration/promote_products/upsert",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/batch_create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/batch_create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/excel_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/excel_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/list_search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/list_search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/performance",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/performance",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/pre_create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/pre_create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/pre_create_v2",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/pre_create_v2",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/open_plan/allowlist/pre_delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/open_plan/allowlist/pre_delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/opt_in/sample/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/opt_in/sample/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/orders",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/orders",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/agency",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/agency",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/agency/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/agency/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/collaboration-overview",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/collaboration-overview",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/discover-partners",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/discover-partners",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/discover-partners/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/discover-partners/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/exclusive",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/exclusive",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/exclusive/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/exclusive/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/find-mcn",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/find-mcn",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/find-mcn/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/find-mcn/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/find-mcn/share",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/find-mcn/share",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/initiated",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/initiated",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/initiated/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/initiated/create",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/initiated/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/initiated/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/marketplace",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/marketplace",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/marketplace/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/marketplace/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/partner-collabs",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/partner-collabs",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/partner-collabs/agency/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/partner-collabs/agency/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/partner-collabs/exclusive/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/partner-collabs/exclusive/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/partner-collabs/seller/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/partner-collabs/seller/create",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/partner-collabs/seller/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/partner-collabs/seller/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/registered",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/registered",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/registered/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/registered/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/partner/root",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/partner/root",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/bind",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/bind",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/check_exist",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/check_exist",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/check_if_has_plans_by_seller_id",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/check_if_has_plans_by_seller_id",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/creator_count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/creator_count",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/gen_share_url",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/gen_share_url",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/mget_seller_landing_task_extra",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/mget_seller_landing_task_extra",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/mset_seller_landing_task_extra",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/mset_seller_landing_task_extra",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/recommend_commissions/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/recommend_commissions/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan/sync",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan/sync",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan_detail/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan_detail/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/plan_status/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/plan_status/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform/account/root",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform/account/root",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform/account/shop",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform/account/shop",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform/homepage",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform/homepage",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform/homepage/announcements",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform/homepage/announcements",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/platform/personalization-settings",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/platform/personalization-settings",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/product/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/product/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/product/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/product/selection_status/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/product/selection_status/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/product_category/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/product_category/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/product_selection/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/product_selection/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/promotion_position",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/promotion_position",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/recommend_commission/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/recommend_commission/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/relation/operate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/relation/operate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/relation/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/relation/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/request/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/request/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/request_status/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/request_status/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/resource/action/report",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/resource/action/report",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/resource/list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/resource/list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/review/creator/metrics",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/review/creator/metrics",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/review/creator/reviews",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/review/creator/reviews",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/sample",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/apply/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/apply/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/approved_fail/count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/approved_fail/count",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/approved_fail/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/approved_fail/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/auto_placement_rule/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/auto_placement_rule/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/auto_placement_rule/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/auto_placement_rule/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/groi/join",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/groi/join",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/groi/perf/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/groi/perf/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/groi/perf/summary",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/groi/perf/summary",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/groi/seller_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/groi/seller_info/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/group/action",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/group/action",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/group/label_menu",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/group/label_menu",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/group/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/group/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/group_order/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/group_order/config",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/group_order/submit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/group_order/submit",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/hint/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/hint/search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/im_fulfillment_reminder/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/im_fulfillment_reminder/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/invite/share/",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/invite/share/",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/notice",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/notice",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/performance",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/performance",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/placement_rule/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/placement_rule/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/placement_rule/open_plan_hosting/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/placement_rule/open_plan_hosting/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/placement_rule/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/placement_rule/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/recommendation/approval/banner",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/recommendation/approval/banner",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/recommendation/approval/inference/trigger",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/recommendation/approval/inference/trigger",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/recommendation/approval/preference/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/recommendation/approval/preference/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/recommendation/approval/result",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/recommendation/approval/result",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/refundable/apply/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/refundable/apply/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/refundable/tab/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/refundable/tab/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/review/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/review/delete",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/review/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/review/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/review/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/review/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/rule/async_task/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/rule/async_task/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/rule/async_task/submit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/rule/async_task/submit",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/rule/del",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/rule/del",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/rule/mget",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/rule/mget",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/rule/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/rule/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/sample-request",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/sample-request",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/sample-settings",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/sample-settings",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/seller_setting/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/seller_setting/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/seller_setting/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/seller_setting/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/batch_save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/batch_save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/config",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/mget",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/mget",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/settings/product/save",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/settings/product/save",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/shipment/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/shipment/info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/sku_config/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/sku_config/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/support4pl/status",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/support4pl/status",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/tab/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/tab/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/tag/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/tag/delete",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/ui/version/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/ui/version/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sample/ui/version/set",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sample/ui/version/set",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/seller/contact_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/seller/contact_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/seller/contact_info/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/seller/contact_info/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/seller/effective_time/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/seller/effective_time/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/seller/invitation/contact_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/seller/invitation/contact_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/seller/invitation/contact_info/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/seller/invitation/contact_info/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/affiliate/shop_plan/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/shop_plan/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/shop_plan/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/shop_plan/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/shop_plan/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/shop_plan/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/shop_setting/change",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/shop_setting/change",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/shop_setting/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/shop_setting/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/sub_plan/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/sub_plan/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/suggest_commission/default",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/suggest_commission/default",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/violation/shop/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/violation/shop/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/violation/unread/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/violation/unread/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/withhold_tax/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/withhold_tax/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/affiliate/withhold_tax/set",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/withhold_tax/set",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/feelgood/v1/answer",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/feelgood/v1/answer",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/affiliate/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/affiliate/config",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/bs/rt",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/bs/rt",
+  "src": [
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/api/v1/bs/setting",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/bs/setting",
+  "src": [
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/format_currency",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/get_currency_list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_region_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/currency/get_region_list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/datetime/format_locale",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/datetime/format_locale",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/im/",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/im/",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/creator/ec/stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/creator/ec/stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/profile",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/profile",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/wish_list/update/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/wish_list/update/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/api/v1/sentry_verify/get_idv",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/sentry_verify/get_idv",
+  "src": [
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/api/v1/sentry_verify/report_user_event",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/sentry_verify/report_user_event",
+  "src": [
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/api/v1/sentry_verify/verify_idv",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/sentry_verify/verify_idv",
+  "src": [
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/open_plan/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/open_plan/delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/open_plan/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/product_selection/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/open_plan/product_selection/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/open_plan/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/shop_plan/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/shop_plan/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/quit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/shop_plan/quit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/shop_plan/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/target_plan/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/affiliate/target_plan/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/api/v2/sitebuilder",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v2/sitebuilder",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/common/cdn_rule",
+  "versions": [
+   "1"
+  ],
+  "url": "/common/cdn_rule",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/common/current_timestamp/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/common/current_timestamp/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/common/region_domain",
+  "versions": [
+   "1"
+  ],
+  "url": "/common/region_domain",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/affiliate/creator/search/suggestions",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/affiliate/creator/search/suggestions",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/affiliate/creator/video/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/affiliate/creator/video/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/creator-outreach",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/creator-outreach",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/sample-analysis",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/sample-analysis",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/transaction-analysis",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/transaction-analysis",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/transaction-analysis/creator-detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/transaction-analysis/creator-detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/transaction-analysis/product-detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/transaction-analysis/product-detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/insights/video-analysis",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/insights/video-analysis",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/campaign/config/options/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/campaign/config/options/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/creator/ec/stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/creator/ec/stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/creator/invite/list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/creator/invite/list/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/creator/rank/list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/creator/rank/list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/filter",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/filter",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/main/industries",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/main/industries",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/shop/invite/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/shop/invite/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/shop/invite/list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/shop/invite/list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/cmp/shop/invite/send",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/cmp/shop/invite/send",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/available_date/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/available_date/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/creator_detail/creator_profile/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/creator_detail/creator_profile/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/creator_detail/detail_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/creator_detail/detail_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/export_task/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/export_task/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/export_task/export",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/export_task/export",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/export_task/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/export_task/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/outreach/creator/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/outreach/creator/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/outreach/funnel_conversion/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/outreach/funnel_conversion/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/outreach/key_metrics/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/outreach/key_metrics/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/posted_video_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/posted_video_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/product_detail/core_performance/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/product_detail/core_performance/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/product_detail/detail_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/product_detail/detail_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/product_detail/product_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/product_detail/product_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/product_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/product_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/sample/core_performance/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/sample/core_performance/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/sample/decomposition/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/sample/decomposition/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/sample/detail_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/sample/detail_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/sample/funnel_conversion/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/sample/funnel_conversion/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/transaction/core_performance/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/transaction/core_performance/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/transaction/decomposition/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/transaction/decomposition/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/compass/transaction/detail_list/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/compass/transaction/detail_list/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/config",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/card/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/card/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/entrance/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/entrance/check",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/get/token",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/get/token",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/last_new_message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/last_new_message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/options",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/options",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/permission",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/permission",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/product/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/product/info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/product/pack",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/product/pack",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/im/translate/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/im/translate/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/accept",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/accept",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/audit/result",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/audit/result",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/auth/banner",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/auth/banner",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/auth/banner/cancel",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/auth/banner/cancel",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/brand/video/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/brand/video/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/campaign/action",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/campaign/action",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/campaign/fe/resource",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/campaign/fe/resource",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/campaign/filter",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/campaign/filter",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/campaign/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/campaign/info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/campaign/product_search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/campaign/product_search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/collection/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/collection/update",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/confirm_page/confirm",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/confirm_page/confirm",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/confirm_page/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/confirm_page/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/decline",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/decline",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/decline/feedback",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/decline/feedback",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/detail",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/entrance",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/entrance",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/filter/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/filter/config",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/new/clear",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/new/clear",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/new_feature_remind",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/new_feature_remind",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/product/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/product/search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/products",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/products",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/reactive",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/reactive",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/recommend",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/recommend",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/search",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/unread/clear",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/unread/clear",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/invitation/unread/count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/invitation/unread/count",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/ai/find",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/ai/find",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/content/stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/content/stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/creator/profile/stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/creator/profile/stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/find",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/find",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/follower/stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/follower/stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/invitation_recommend_creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/invitation_recommend_creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/mcn/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/mcn/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/option",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/option",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/profile",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/profile",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/recommendation",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/recommendation",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/search_new",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/search_new",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/vertical/arrival",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/vertical/arrival",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/vertical/category/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/vertical/category/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/marketplace/vertical/category/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/marketplace/vertical/category/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/search/platform_quest",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/search/platform_quest",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/settings/contact",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/settings/contact",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/settings/contact/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/settings/contact/update",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/settings/preference",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/settings/preference",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/settings/preference/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/settings/preference/update",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/creator/vertical/category/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/creator/vertical/category/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/block_creator/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/block_creator/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/block_creator/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/block_creator/delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/block_creator/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/block_creator/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/block_creator/query",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/block_creator/query",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/cmp/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/cmp/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/batch_create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/batch_create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/batch_task/result/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/batch_task/result/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/batch_task/submit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/batch_task/submit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/block/setting/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/block/setting/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/block/setting/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/block/setting/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/content/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/content/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/detail_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/detail_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/import",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/import",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/import_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/import_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/product/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/tag/bind",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/tag/bind",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/target_collaboration/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/target_collaboration/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/creator/upper_limit/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/creator/upper_limit/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/im_messages/batch_send",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/im_messages/batch_send",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/material/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/material/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/tag/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/tag/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/tag/delete",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/tag/delete",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/tag/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/tag/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm/tag/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm/tag/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/crm_toc/block_creator/query",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/crm_toc/block_creator/query",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/diagnosis/outreach/recommend_invitation/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/diagnosis/outreach/recommend_invitation/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/diagnosis/outreach/recommend_product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/diagnosis/outreach/recommend_product/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/diagnosis/outreach/sample_info/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/diagnosis/outreach/sample_info/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/diagnosis/recommendation/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/diagnosis/recommendation/list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/guidance_page/creator_fans_portrait",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/guidance_page/creator_fans_portrait",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/guidance_page/creator_recommendation",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/guidance_page/creator_recommendation",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/guidance_page/creator_stats",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/guidance_page/creator_stats",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/opportunity_product/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/opportunity_product/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/scopemetas",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/scopemetas",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/dismiss",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/dismiss",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/feature_control",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/feature_control",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/card/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/card/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/get/token",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/get/token",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/product/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/product/info",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/product/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/product/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/remind/can",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/remind/can",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/remind/send",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/remind/send",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/settings/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/settings/get",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/settings/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/settings/update",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/template/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/template/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/im/translate/message",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/im/translate/message",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/creator/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/creator/video/approve",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/approve",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/creator/video/edit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/edit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/creator/video/post",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/post",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/creator/video_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video_list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/pay",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/pay",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/brand_deal/pay/status",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/brand_deal/pay/status",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation/products_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation/products_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/brand_deal/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/brand_deal/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/brand_deal/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/banner",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/banner",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/creator_set",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/creator_set",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/criteria",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/criteria",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/product_set",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/product_set",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/shop_validate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/shop_validate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/campaign/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/campaign/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/commission/history",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/commission/history",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/conflict_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/conflict_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/conflict_check/resolve",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/conflict_check/resolve",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/count",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/count",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/create",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/create",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/creator/relevancy/prediction",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/creator/relevancy/prediction",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/creator_promotion_detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/creator_promotion_detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/creator_video_list",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/creator_video_list",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/creators_add",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/creators_add",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/detail",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/detail",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/detail/creators",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/detail/creators",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/general/config",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/general/config",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/invitation/limit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/invitation/limit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/latest_basic_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/latest_basic_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/product/intra_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/product/intra_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/product_creator_relation",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/product_creator_relation",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/promotion/configs",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/promotion/configs",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/rate_limit_info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/rate_limit_info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/re_update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/re_update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/recommend/cache",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/recommend/cache",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/search",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/search",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/search/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/search/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/search/invitation",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/search/invitation",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/search/product",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/search/product",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/sensitive_text_check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/sensitive_text_check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/share/long_url/",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/share/long_url/",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/share/short_url",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/share/short_url",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/terminate",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/terminate",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/invitation_group/vertical/conflict",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/invitation_group/vertical/conflict",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/previous_invitation/use_status",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/previous_invitation/use_status",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/quota/connected_creators",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/quota/connected_creators",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/quota/connection/check",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/quota/connection/check",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/quota/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/quota/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/search/feedback/submit",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/search/feedback/submit",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/search/initial_questions/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/search/initial_questions/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/shop/info",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/shop/info",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/shoppable_photo_discount/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/shoppable_photo_discount/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/shoppable_photo_discount/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/shoppable_photo_discount/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/wish_list/search/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/wish_list/search/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/seller/wish_list/update/creator",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/seller/wish_list/update/creator",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/shop/settings/get",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/shop/settings/get",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/oec/affiliate/shop/settings/update",
+  "versions": [
+   "1"
+  ],
+  "url": "/api/v1/oec/affiliate/shop/settings/update",
+  "src": [
+   "lf16-oversea.goofy-cdn.com_obj_goo",
+   "lf16-scmcdn.oecstatic.com_obj_oec-"
+  ]
+ },
+ {
+  "path": "/v1/list",
+  "versions": [
+   "1"
+  ],
+  "url": "/v1/list",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-",
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/v1/list_test",
+  "versions": [
+   "1"
+  ],
+  "url": "/v1/list_test",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-",
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ },
+ {
+  "path": "/v1/user/webid",
+  "versions": [
+   "1"
+  ],
+  "url": "/v1/user/webid",
+  "src": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-",
+   "sf16-website-login.neutral.ttwstat"
+  ]
+ }
+]

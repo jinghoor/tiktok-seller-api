@@ -1,0 +1,9 @@
+=== GET /front_api/auth/captcha ===
+404 page not found
+[http 404]
+=== GET /front_api/session/create ===
+404 page not found
+[http 404]
+=== POST /front_api/session 探测(假凭证,只看字段校验) ===
+404 page not found
+[http 404]

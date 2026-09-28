@@ -1,0 +1,4418 @@
+[
+ {
+  "path": "/api/feelgood/v1/answer",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/account/all_sellers/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/account/info",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/account/info_v2",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/announcement/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/announcement/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/announcement/read",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/approve/check",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets/creator-management",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets/creator-management/bulk-im",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets/creator/bulk-im",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets/quota/overview",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/assets/video-analysis",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/auction_stock/products/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/auction_stock/summary",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/app/account/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/category/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/external_link_program/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/feature_switch/mupdate",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/feature_switch/types/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/feature_switch/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/information_card/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/todo_dashboard/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/todo_list/confirm",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/backend/homepage/todo_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/banner",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/contact_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/detail/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/edit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/modify_sample_quota",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/partner/search",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/partners/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/product/approve",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/product/cancel",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/product_performance/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/products/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/register",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/register_contact_info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/registered_products/edit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/registered_products/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/search",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/seller/permission/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/seller/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/single_product_performance/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/campaign/update/status",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/cmp/contact",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/cmp/contact_types",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/auction-stock",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/open-collaboration",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/open-collaboration/bulk-edit",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/open-collaboration/creator-applications",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/open-collaboration/growth-products",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/campaign-create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/campaign-description",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/campaign-detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/campaign-edit",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/edit",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/flat-fee/send-result",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/collaboration/target-invitation/select",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/commission_unique/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/config",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/creator",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator/rankings",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/creator/vertical-list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator_application/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator_data/filter_option/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator_marketplace/filled/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator_marketplace/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/creator_marketplace/mget",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/errorpage",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/export_history",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/export_link",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/export_order",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/export_order_task",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/export_order_v2",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/grayscale_strategy/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/guide/articles",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/has_agent",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/homepage",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/log_out_agent",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/article",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/creator/auth_profiles",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/creator/profile",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/feelgood/c_token",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/feelgood/token",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/image/c_url",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/image/upload_token",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/image/url",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/invitation/available_list",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/invitation/c_detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/invitation/creator/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/invitation/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/notification/im/latest",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/notification/im/message",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/notification/im/unread",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/notification/im/unread_count",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/partner/product/filter",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/partner/product/ranking/entry",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/partner/product/ranking/tab",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/creator/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/product/c_detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/product/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/target_plan/c_detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/target_plan/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/plan/target_plan/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/product/c_detail_list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/product/category/children",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/product/category/childrenv2",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/sample/apply",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/sample/c_info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/sample/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/screenshot",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/lux/screenshot/status",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/menu",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/meta_plan/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/name_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/new_request/count",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/classify/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/config",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/ec_permission",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/get_latest_creator_notification",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/group/schemas",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/conversation/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/conversation/update_tag",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/entrance_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/permission",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/relation/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/seller_category",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/im/shop_quota",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/list_schemas",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/mark_as_clicked",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/mark_as_read",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/notification/unread_count",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/ad/account_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/ad_commission/suggest_commission/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/affected_promotion_info/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/auction_commission/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/authorized_ad_video/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/commission_history/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/commission_version/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/creator_application/batch_review",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/creator_application/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/opt_in/card/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/product_creator_relation/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/product_creator_relation/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/product_creator_relation/terminate",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/ad_commission/upsert",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/async_task/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/async_task/submit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/auction_commission/upsert",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/count",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/gmv_max/suggest",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/gmv_max/upsert",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/terminate",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_collaboration/promote_products/upsert",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/batch_create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/excel_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/list_search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/performance",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/pre_create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/pre_create_v2",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/open_plan/allowlist/pre_delete",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/opt_in/sample/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/orders",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/partner",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/agency",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/agency/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/collaboration-overview",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/discover-partners",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/discover-partners/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/exclusive",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/exclusive/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/find-mcn",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/find-mcn/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/find-mcn/share",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/initiated",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/initiated/create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/initiated/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/marketplace",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/marketplace/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/partner-collabs",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/partner-collabs/agency/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/partner-collabs/exclusive/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/partner-collabs/seller/create",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/partner-collabs/seller/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/registered",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/registered/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/partner/root",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/bind",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/check_exist",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/check_if_has_plans_by_seller_id",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/creator_count",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/gen_share_url",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/mget_seller_landing_task_extra",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/mset_seller_landing_task_extra",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/recommend_commissions/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan/sync",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/plan_detail/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/plan_status/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/platform",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/platform/account/root",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/platform/account/shop",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/platform/homepage",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/platform/homepage/announcements",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/platform/personalization-settings",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/product/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/product/selection_status/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/product_category/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/product_selection/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/promotion_position",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/recommend_commission/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/relation/operate",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/relation/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/request/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/request_status/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/resource/action/report",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/resource/list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/review/creator/metrics",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/review/creator/reviews",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/apply/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/approved_fail/count",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/approved_fail/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/auto_placement_rule/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/auto_placement_rule/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/groi/join",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/groi/perf/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/groi/perf/summary",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/groi/seller_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/group/action",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/group/label_menu",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/group/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/group_order/config",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/group_order/submit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/hint/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/im_fulfillment_reminder/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/notice",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/performance",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/placement_rule/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/placement_rule/open_plan_hosting/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/placement_rule/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/recommendation/approval/banner",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/recommendation/approval/inference/trigger",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/recommendation/approval/preference/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/recommendation/approval/result",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/refundable/apply/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/refundable/tab/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/review/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/review/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/review/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/rule/async_task/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/rule/async_task/submit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/rule/del",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/rule/mget",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/rule/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/sample-request",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/sample-settings",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/seller_setting/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/seller_setting/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/batch_save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/config",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/mget",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/settings/product/save",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/shipment/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/sku_config/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/support4pl/status",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/tab/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/tag/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/ui/version/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sample/ui/version/set",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/seller/contact_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/seller/contact_info/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/seller/effective_time/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/seller/invitation/contact_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/seller/invitation/contact_info/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/shop_plan/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/shop_plan/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/shop_plan/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/shop_setting/change",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/shop_setting/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/sub_plan/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/suggest_commission/default",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/affiliate/violation/shop/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/violation/unread/check",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/withhold_tax/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/affiliate/withhold_tax/set",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/bs/rt",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/bs/setting",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_list",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_region_list",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/datetime/format_locale",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/insights/affiliate/creator/search/suggestions",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/insights/affiliate/creator/video/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/insights/creator-outreach",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/insights/sample-analysis",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/insights/transaction-analysis",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/insights/transaction-analysis/creator-detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/insights/transaction-analysis/product-detail",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/insights/video-analysis",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/campaign/config/options/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/creator/ec/stats",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/creator/invite/list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/creator/rank/list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/filter",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/main/industries",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/shop/invite/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/shop/invite/list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/cmp/shop/invite/send",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/available_date/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/creator_detail/creator_profile/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/creator_detail/detail_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/export_task/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/export_task/export",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/export_task/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/outreach/creator/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/outreach/funnel_conversion/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/outreach/key_metrics/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/posted_video_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/product_detail/core_performance/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/product_detail/detail_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/product_detail/product_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/product_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/sample/core_performance/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/sample/decomposition/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/sample/detail_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/sample/funnel_conversion/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/transaction/core_performance/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/transaction/decomposition/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/compass/transaction/detail_list/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/config",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/card/message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/entrance/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/get/token",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/last_new_message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/options",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/permission",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/product/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/product/pack",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/im/translate/message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/accept",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/audit/result",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/auth/banner",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/auth/banner/cancel",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/brand/video/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/campaign/action",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/campaign/fe/resource",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/campaign/filter",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/campaign/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/campaign/product_search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/collection/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/confirm_page/confirm",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/confirm_page/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/decline",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/decline/feedback",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/entrance",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/filter/config",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/new/clear",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/new_feature_remind",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/product/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/products",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/reactive",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/recommend",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/unread/clear",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/invitation/unread/count",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/ai/find",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/content/stats",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/creator/profile/stats",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/find",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/follower/stats",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/invitation_recommend_creator",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/mcn/info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/option",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/profile",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/recommendation",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/search_new",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/vertical/arrival",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/vertical/category/creator",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/marketplace/vertical/category/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/search/platform_quest",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/settings/contact",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/settings/contact/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/settings/preference",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/settings/preference/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/creator/vertical/category/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/block_creator/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/block_creator/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/block_creator/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/block_creator/query",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/cmp/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/batch_create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/batch_task/result/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/batch_task/submit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/block/setting/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/block/setting/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/content/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/detail_info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/import",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/import_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/tag/bind",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/target_collaboration/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/creator/upper_limit/get",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/im_messages/batch_send",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/material/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/tag/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/tag/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/tag/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm/tag/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/crm_toc/block_creator/query",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/diagnosis/outreach/recommend_invitation/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/diagnosis/outreach/recommend_product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/diagnosis/outreach/sample_info/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/diagnosis/recommendation/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/guidance_page/creator_fans_portrait",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/guidance_page/creator_recommendation",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/guidance_page/creator_stats",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/opportunity_product/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/scopemetas",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/dismiss",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/feature_control",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/card/message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/get/token",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/product/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/product/list",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/remind/can",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/remind/send",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/settings/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/settings/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/template/message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/im/translate/message",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/approve",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/edit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video/post",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/creator/video_list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/pay",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/brand_deal/pay/status",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation/products_info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/brand_deal/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/banner",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/creator_set",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/criteria",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/product_set",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/shop_validate",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/campaign/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/commission/history",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/conflict_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/conflict_check/resolve",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/count",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/creator/relevancy/prediction",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/creator_promotion_detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/creator_video_list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/creators_add",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/detail",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/detail/creators",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/general/config",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/invitation/limit",
+  "ver": [
+   "1"
+  ],
+  "method": "GET",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/latest_basic_info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/product/intra_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/product_creator_relation",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/promotion/configs",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/rate_limit_info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/re_update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/recommend/cache",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/search",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/search/creator",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/search/invitation",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/search/product",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/sensitive_text_check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/share/short_url",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/terminate",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/invitation_group/vertical/conflict",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/previous_invitation/use_status",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/quota/connected_creators",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/quota/connection/check",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/quota/info",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/search/feedback/submit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/search/initial_questions/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/shop/info",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/shoppable_photo_discount/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/shoppable_photo_discount/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/wish_list/search/creator",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "known"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/seller/wish_list/update/creator",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/shop/settings/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/oec/affiliate/shop/settings/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v1/sentry_verify/get_idv",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/sentry_verify/report_user_event",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v1/sentry_verify/verify_idv",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/delete",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/product_selection/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/open_plan/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/get",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/quit",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/shop_plan/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/create",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/affiliate/target_plan/update",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/api/v2/sitebuilder",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ },
+ {
+  "path": "/common/current_timestamp/get",
+  "ver": [
+   "1"
+  ],
+  "method": "POST",
+  "method_src": "bundle"
+ },
+ {
+  "path": "/v1/user/webid",
+  "ver": [
+   "1"
+  ],
+  "method": "?",
+  "method_src": "unknown"
+ }
+]

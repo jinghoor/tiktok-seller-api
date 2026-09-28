@@ -1,0 +1,260 @@
+共 15 个会话
+
+====================================================================================================
+conv=7678XXXXXXXXXX99 type=2 short_id=7678XXXXXXXXXX99 消息=6 参与方=[0, 5038XXXXXXXXXX14, 7196XXXXXXXXXX53] 跨度=1787897534554~1787897541321
+  [2026-08-28 06:12] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7678XXXXXXXXXX99","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX40", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_7196XXXXXXXXXX53", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-08-28 06:12] sender=0 mt=50001 idx=0
+      content='{"added_participant":[7196XXXXXXXXXX53,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7678XXXXXXXXXX99","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-08-28 06:12] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7678XXXXXXXXXX99","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-08-28 06:12:14\"}"}
+  [2026-08-28 06:12] sender=7196XXXXXXXXXX53 mt=1000 idx=1787XXXXXXXXXX95
+      content='你好，东南亚优质达人矩阵  直播+短视频带货   转化率高，有意向+微信: CONTACT_REDACTED   '
+      ext={"sender_im_id": "7196XXXXXXXXXX53", "sender_role": "1", "s:msg_grade": "normal", "s:base_scene": "default", "type": "text", "s:biz_aid": "380360", "srcAppId": "1233", "uname": "creator_handle", "sender_im_role": "4", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-08-28 06:12] sender=7196XXXXXXXXXX53 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7678XXXXXXXXXX99","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1787897541027\",\"s:sync_event_time\":\"2026-08-28 06:12:21\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-08-28 06:12] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7678XXXXXXXXXX99","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-08-28 06:12:21\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7676XXXXXXXXXX48 type=2 short_id=7676XXXXXXXXXX48 消息=6 参与方=[0, 3547XXXXXXXXXX17, 5038XXXXXXXXXX14] 跨度=1787290958667~1787291018813
+  [2026-08-21 05:42] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7676XXXXXXXXXX48","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX04", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_3547XXXXXXXXXX17_5038XXXXXXXXXX14"}
+  [2026-08-21 05:42] sender=0 mt=50001 idx=0
+      content='{"added_participant":[3547XXXXXXXXXX17,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7676XXXXXXXXXX48","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-08-21 05:42] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7676XXXXXXXXXX48","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-08-21 05:42:39\"}"}
+  [2026-08-21 05:43] sender=3547XXXXXXXXXX17 mt=1000 idx=1787XXXXXXXXXX25
+      content='Chào bạn, bên mình chuyên vận hành livestream cho nhãn hàng và hỗ trợ tăng trưởng doanh số bền vững. Quan tâm thì liên hệ VVE.C...HA..T 037...60...10..047 / Z..A…L…O 037...60...10..047 nhé. Nhóm: https://zalo.me/g/upi6hkaqyng3trudw8tv'
+      ext={"sender_im_id": "3547XXXXXXXXXX17", "sender_role": "1", "s:msg_grade": "normal", "s:base_scene": "default", "type": "text", "s:biz_aid": "380360", "srcAppId": "1180", "uname": "creator_handle", "sender_im_role": "4", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-08-21 05:43] sender=3547XXXXXXXXXX17 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7676XXXXXXXXXX48","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1787291018572\",\"s:sync_event_time\":\"2026-08-21 05:43:38\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-08-21 05:43] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7676XXXXXXXXXX48","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-08-21 05:43:38\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7672XXXXXXXXXX64 type=2 short_id=7672XXXXXXXXXX64 消息=3 参与方=[0, 5038XXXXXXXXXX14] 跨度=1786501253913~1786501254744
+  [2026-08-12 02:20] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7672XXXXXXXXXX64","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX29", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_1402XXXXXXXXXX84_5038XXXXXXXXXX14"}
+  [2026-08-12 02:20] sender=0 mt=50001 idx=0
+      content='{"added_participant":[1402XXXXXXXXXX84,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7672XXXXXXXXXX64","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-08-12 02:20] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7672XXXXXXXXXX64","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-08-12 02:20:54\"}"}
+====================================================================================================
+conv=7667XXXXXXXXXX45 type=2 short_id=7667XXXXXXXXXX45 消息=3 参与方=[0, 5038XXXXXXXXXX14] 跨度=1785212039467~1785212040365
+  [2026-07-28 04:13] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7667XXXXXXXXXX45","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX47", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_3208XXXXXXXXXX17_5038XXXXXXXXXX14"}
+  [2026-07-28 04:13] sender=0 mt=50001 idx=0
+      content='{"added_participant":[3208XXXXXXXXXX17,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7667XXXXXXXXXX45","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-07-28 04:14] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7667XXXXXXXXXX45","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-07-28 04:14:00\"}"}
+====================================================================================================
+conv=7598XXXXXXXXXX32 type=2 short_id=7598XXXXXXXXXX32 消息=6 参与方=[0, 3478XXXXXXXXXX29, 5038XXXXXXXXXX14] 跨度=1769137168970~1784652372375
+  [2026-01-23 02:59] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7598XXXXXXXXXX32","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7496XXXXXXXXXX59", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_3478XXXXXXXXXX29_5038XXXXXXXXXX14"}
+  [2026-01-23 02:59] sender=0 mt=50001 idx=0
+      content='{"added_participant":[3478XXXXXXXXXX29,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7598XXXXXXXXXX32","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-01-23 02:59] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7598XXXXXXXXXX32","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-01-23 02:59:30\"}"}
+  [2026-07-21 16:46] sender=3478XXXXXXXXXX29 mt=1000 idx=1784XXXXXXXXXX09
+      content='老板您好，我们达人现在有档期，可以带下店铺产品，加我微信聊合作机制：pptk20999'
+      ext={"sender_im_id": "3478XXXXXXXXXX29", "s:msg_grade": "normal", "s:base_scene": "default", "type": "text", "sender_role": "1", "s:biz_aid": "380360", "srcAppId": "1180", "sender_im_role": "4", "uname": "creator_handle", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-07-21 16:46] sender=3478XXXXXXXXXX29 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7598XXXXXXXXXX32","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1784652372020\",\"s:sync_event_time\":\"2026-07-21 16:46:12\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-07-21 16:46] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7598XXXXXXXXXX32","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\",\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-07-21 16:46:12\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7662XXXXXXXXXX85 type=2 short_id=7662XXXXXXXXXX85 消息=6 参与方=[0, 5038XXXXXXXXXX14, 8845XXXXXXXXXX33] 跨度=1784176240914~1784176324537
+  [2026-07-16 04:30] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7662XXXXXXXXXX85","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX54", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_8845XXXXXXXXXX33"}
+  [2026-07-16 04:30] sender=0 mt=50001 idx=0
+      content='{"added_participant":[5038XXXXXXXXXX14,8845XXXXXXXXXX33],"command_type":7,"conversation_id":"7662XXXXXXXXXX85","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-07-16 04:30] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7662XXXXXXXXXX85","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-07-16 04:30:41\"}"}
+  [2026-07-16 04:32] sender=8845XXXXXXXXXX33 mt=1000 idx=1784XXXXXXXXXX44
+      content='Chào bạn, cho mình hỏi hiện tại bên mình đã có team livestream cố định trên kênh của shop chưa ạ? Team mình đang vận hành livestream cho nhiều thương hiệu lớn và hỗ trợ booking KOC Affiliate để tăng doanh số. Liên hệ mình qua VVE.C...HA..T 037...60...10….047 / Z..A…L…O 037...60...10….047 để trao đổi'
+      ext={"sender_im_id": "8845XXXXXXXXXX33", "s:msg_grade": "normal", "type": "text", "sender_role": "1", "s:base_scene": "default", "s:biz_aid": "380360", "srcAppId": "1180", "sender_im_role": "4", "uname": "creator_handle", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-07-16 04:32] sender=8845XXXXXXXXXX33 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7662XXXXXXXXXX85","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1784176324290\",\"s:sync_event_time\":\"2026-07-16 04:32:04\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-07-16 04:32] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7662XXXXXXXXXX85","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-07-16 04:32:04\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7657XXXXXXXXXX61 type=2 short_id=7657XXXXXXXXXX61 消息=3 参与方=[0, 5038XXXXXXXXXX14] 跨度=1782883394934~1782883395516
+  [2026-07-01 05:23] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7657XXXXXXXXXX61","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX15", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_1098XXXXXXXXXX64_5038XXXXXXXXXX14", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-07-01 05:23] sender=0 mt=50001 idx=0
+      content='{"added_participant":[1098XXXXXXXXXX64,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7657XXXXXXXXXX61","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-07-01 05:23] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7657XXXXXXXXXX61","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-07-01 05:23:15\"}"}
+====================================================================================================
+conv=7655XXXXXXXXXX77 type=2 short_id=7655XXXXXXXXXX77 消息=6 参与方=[0, 1783XXXXXXXXXX58, 5038XXXXXXXXXX14] 跨度=1782409133486~1782409140129
+  [2026-06-25 17:38] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7655XXXXXXXXXX77","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX89", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_1783XXXXXXXXXX58_5038XXXXXXXXXX14", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-06-25 17:38] sender=0 mt=50001 idx=0
+      content='{"added_participant":[1783XXXXXXXXXX58,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7655XXXXXXXXXX77","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-06-25 17:38] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7655XXXXXXXXXX77","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-06-25 17:38:54\"}"}
+  [2026-06-25 17:38] sender=1783XXXXXXXXXX58 mt=1000 idx=1782XXXXXXXXXX54
+      content='你好，本土达人短视频直播带货，*本号选品不直播，期待合作，麻烦加我一下微信: CONTACT_REDACTED  飞书：PHONE_REDACTED'
+      ext={"sender_im_id": "1783XXXXXXXXXX58", "s:msg_grade": "normal", "s:base_scene": "default", "type": "text", "sender_role": "1", "s:biz_aid": "380360", "srcAppId": "1233", "uname": "creator_handle", "sender_im_role": "4", "PIGEON_BIZ_TYPE": "1", "monitor_send_message_platform": "tiktok_h5"}
+  [2026-06-25 17:39] sender=1783XXXXXXXXXX58 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7655XXXXXXXXXX77","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1782409139897\",\"s:sync_event_time\":\"2026-06-25 17:39:00\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-06-25 17:39] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7655XXXXXXXXXX77","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-06-25 17:39:00\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7601XXXXXXXXXX06 type=2 short_id=7601XXXXXXXXXX06 消息=6 参与方=[0, 5038XXXXXXXXXX14, 7467XXXXXXXXXX48] 跨度=1769932094175~1779875722792
+  [2026-02-01 07:48] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7601XXXXXXXXXX06","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX82", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_7467XXXXXXXXXX48", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-02-01 07:48] sender=0 mt=50001 idx=0
+      content='{"added_participant":[7467XXXXXXXXXX48,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7601XXXXXXXXXX06","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-02-01 07:48] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX06","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-02-01 07:48:14\"}"}
+  [2026-05-27 09:55] sender=7467XXXXXXXXXX48 mt=1000 idx=1779XXXXXXXXXX85
+      content='你好，越南、东南亚 本土达人短视频+直播纯佣带货，想带下你的品，需要详聊加我微信: CONTACT_REDACTED'
+      ext={"sender_im_id": "7467XXXXXXXXXX48", "sender_role": "1", "s:msg_grade": "normal", "type": "text", "s:base_scene": "default", "s:biz_aid": "380360", "srcAppId": "1180", "sender_im_role": "4", "uname": "creator_handle", "PIGEON_BIZ_TYPE": "1", "monitor_send_message_platform": "tiktok_h5"}
+  [2026-05-27 09:55] sender=7467XXXXXXXXXX48 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX06","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1779875722494\",\"s:sync_event_time\":\"2026-05-27 09:55:22\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-05-27 09:55] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX06","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_excellent\\\",\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-05-27 09:55:22\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7625XXXXXXXXXX42 type=2 short_id=7625XXXXXXXXXX42 消息=3 参与方=[0, 5038XXXXXXXXXX14] 跨度=1775449349747~1775449350515
+  [2026-04-06 04:22] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7625XXXXXXXXXX42","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX59", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_1163XXXXXXXXXX42_5038XXXXXXXXXX14", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-04-06 04:22] sender=0 mt=50001 idx=0
+      content='{"added_participant":[1163XXXXXXXXXX42,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7625XXXXXXXXXX42","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-04-06 04:22] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7625XXXXXXXXXX42","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_excellent\\\",\\\"c_shop_score_good\\\",\\\"c_shop_score_great\\\"]\",\"s:sync_event_time\":\"2026-04-06 04:22:30\"}"}
+====================================================================================================
+conv=7601XXXXXXXXXX23 type=2 short_id=7601XXXXXXXXXX23 消息=6 参与方=[0, 5038XXXXXXXXXX14, 6135XXXXXXXXXX81] 跨度=1769751264119~1775265976047
+  [2026-01-30 05:34] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7601XXXXXXXXXX23","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7496XXXXXXXXXX64", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_6135XXXXXXXXXX81"}
+  [2026-01-30 05:34] sender=0 mt=50001 idx=0
+      content='{"added_participant":[6135XXXXXXXXXX81,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7601XXXXXXXXXX23","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-01-30 05:34] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX23","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-01-30 05:34:24\"}"}
+  [2026-04-04 01:26] sender=6135XXXXXXXXXX81 mt=1000 idx=1775XXXXXXXXXX98
+      content='我们达人的粉丝有在评论区让我们推荐你家的产品，你们的产品也是我们深度种草的，为了方便沟通，n可以添加我的微信沟通合作：cyy0314happy\n'
+      ext={"sender_im_id": "6135XXXXXXXXXX81", "s:msg_grade": "normal", "type": "text", "s:base_scene": "default", "sender_role": "1", "s:biz_aid": "380360", "srcAppId": "1180", "sender_im_role": "4", "uname": "creator_handle", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-04-04 01:26] sender=6135XXXXXXXXXX81 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX23","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1775265975824\",\"s:sync_event_time\":\"2026-04-04 01:26:15\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-04-04 01:26] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX23","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_excellent\\\",\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-04-04 01:26:16\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7601XXXXXXXXXX14 type=2 short_id=7601XXXXXXXXXX14 消息=6 参与方=[0, 5038XXXXXXXXXX14, 7182XXXXXXXXXX83] 跨度=1769761065782~1773828595301
+  [2026-01-30 08:17] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7601XXXXXXXXXX14","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX98", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_7182XXXXXXXXXX83", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-01-30 08:17] sender=0 mt=50001 idx=0
+      content='{"added_participant":[7182XXXXXXXXXX83,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7601XXXXXXXXXX14","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-01-30 08:17] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX14","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-01-30 08:17:46\"}"}
+  [2026-03-18 10:09] sender=7182XXXXXXXXXX83 mt=1000 idx=1773XXXXXXXXXX90
+      content='你好，越南本土达人短视频+直播纯佣带货，小号选品大号带货，需要详聊加我微信: CONTACT_REDACTED'
+      ext={"sender_im_id": "7182XXXXXXXXXX83", "s:msg_grade": "normal", "type": "text", "s:base_scene": "default", "sender_role": "1", "s:biz_aid": "380360", "srcAppId": "1180", "sender_im_role": "4", "uname": "creator_handle", "monitor_send_message_platform": "tiktok_h5", "PIGEON_BIZ_TYPE": "1"}
+  [2026-03-18 10:09] sender=7182XXXXXXXXXX83 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX14","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1773828595041\",\"s:sync_event_time\":\"2026-03-18 10:09:55\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-03-18 10:09] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7601XXXXXXXXXX14","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\",\\\"c_shop_score_great\\\",\\\"c_shop_score_good\\\"]\",\"s:sync_event_time\":\"2026-03-18 10:09:55\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7597XXXXXXXXXX02 type=2 short_id=7597XXXXXXXXXX02 消息=7 参与方=[0, 5038XXXXXXXXXX14, 7591XXXXXXXXXX91] 跨度=1768821821691~1768821828708
+  [2026-01-19 11:23] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7597XXXXXXXXXX02","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX94", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_7591XXXXXXXXXX91", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-01-19 11:23] sender=0 mt=50001 idx=0
+      content='{"added_participant":[7591XXXXXXXXXX91,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7597XXXXXXXXXX02","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-01-19 11:23] sender=7591XXXXXXXXXX91 mt=1000 idx=1768XXXXXXXXXX99
+      content=''
+      ext={"sender_im_id": "7591XXXXXXXXXX91", "sender_im_role": "4", "s:visible": "5038XXXXXXXXXX14", "type": "notification", "visible_im_roles": "[2]"}
+  [2026-01-19 11:23] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7597XXXXXXXXXX02","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-01-19 11:23:42\"}"}
+  [2026-01-19 11:23] sender=7591XXXXXXXXXX91 mt=1000 idx=1768XXXXXXXXXX50
+      content='你好，越南本土达人短视频+直播纯佣带货，小号选品大号带货，需要详聊加我微信: CONTACT_REDACTED\n    '
+      ext={"sender_im_id": "7591XXXXXXXXXX91", "s:msg_grade": "normal", "type": "text", "s:base_scene": "default", "sender_role": "1", "s:biz_aid": "380360", "srcAppId": "1180", "uname": "creator_handle", "sender_im_role": "4", "PIGEON_BIZ_TYPE": "1", "monitor_send_message_platform": "tiktok_h5"}
+  [2026-01-19 11:23] sender=7591XXXXXXXXXX91 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7597XXXXXXXXXX02","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1768821828424\",\"s:sync_event_time\":\"2026-01-19 11:23:48\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-01-19 11:23] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7597XXXXXXXXXX02","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-01-19 11:23:48\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7595XXXXXXXXXX24 type=2 short_id=7595XXXXXXXXXX24 消息=7 参与方=[0, 5038XXXXXXXXXX14, 5860XXXXXXXXXX42] 跨度=1768542072633~1768542085881
+  [2026-01-16 05:41] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7595XXXXXXXXXX24","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7495XXXXXXXXXX13", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_idemId": "2534030704641_5038XXXXXXXXXX14_5860XXXXXXXXXX42", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}"}
+  [2026-01-16 05:41] sender=0 mt=50001 idx=0
+      content='{"added_participant":[5860XXXXXXXXXX42,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7595XXXXXXXXXX24","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2026-01-16 05:41] sender=5860XXXXXXXXXX42 mt=1000 idx=1768XXXXXXXXXX95
+      content=''
+      ext={"sender_im_id": "5860XXXXXXXXXX42", "sender_im_role": "4", "s:visible": "5038XXXXXXXXXX14", "type": "notification", "visible_im_roles": "[2]"}
+  [2026-01-16 05:41] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7595XXXXXXXXXX24","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-01-16 05:41:13\"}"}
+  [2026-01-16 05:41] sender=5860XXXXXXXXXX42 mt=1000 idx=1768XXXXXXXXXX96
+      content='最高多少佣金？本土垂类达人给你的商品做分销，纯佣达人 带货，带货的形式有直播，短视频,无人直播。+Wechat: CONTACT_REDACTED           CONTACT_REDACTED'
+      ext={"sender_im_id": "5860XXXXXXXXXX42", "sender_role": "1", "s:msg_grade": "normal", "s:base_scene": "default", "type": "text", "s:biz_aid": "380360", "srcAppId": "1233", "uname": "creator_handle", "sender_im_role": "4", "PIGEON_BIZ_TYPE": "1", "monitor_send_message_platform": "tiktok_h5"}
+  [2026-01-16 05:41] sender=5860XXXXXXXXXX42 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7595XXXXXXXXXX24","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1768542085522\",\"s:sync_event_time\":\"2026-01-16 05:41:25\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2026-01-16 05:41] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7595XXXXXXXXXX24","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2026-01-16 05:41:25\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+====================================================================================================
+conv=7580XXXXXXXXXX98 type=2 short_id=7580XXXXXXXXXX98 消息=7 参与方=[0, 4452XXXXXXXXXX35, 5038XXXXXXXXXX14] 跨度=1764914910449~1764914916930
+  [2025-12-05 06:08] sender=5038XXXXXXXXXX14 mt=50001 idx=0
+      content='{"command_type":8,"conversation_id":"7580XXXXXXXXXX98","conversation_type":2,"inbox_type":0}'
+      ext={"conversation_creator_role": "4", "creator_oec_id": "7494XXXXXXXXXX07", "s:visible": "5038XXXXXXXXXX14", "shop_oec_id": "7494XXXXXXXXXX00", "s:sync_create_conversation_cbbizext": "{\"s:s_aid\":\"380360\"}", "s:sync_create_conversation_idemId": "2534030704641_4452XXXXXXXXXX35_5038XXXXXXXXXX14"}
+  [2025-12-05 06:08] sender=0 mt=50001 idx=0
+      content='{"added_participant":[4452XXXXXXXXXX35,5038XXXXXXXXXX14],"command_type":7,"conversation_id":"7580XXXXXXXXXX98","conversation_type":2,"inbox_type":0,"modified_participant":[],"removed_participant":[]}'
+  [2025-12-05 06:08] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7580XXXXXXXXXX98","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2025-12-05 06:08:30\"}"}
+  [2025-12-05 06:08] sender=4452XXXXXXXXXX35 mt=1000 idx=1764XXXXXXXXXX60
+      content=''
+      ext={"sender_im_id": "4452XXXXXXXXXX35", "sender_im_role": "4", "s:visible": "5038XXXXXXXXXX14", "type": "notification", "visible_im_roles": "[2]"}
+  [2025-12-05 06:08] sender=4452XXXXXXXXXX35 mt=1000 idx=1764XXXXXXXXXX23
+      content='你好，越南本土达人短视频+直播纯佣带货，优先对接带货刚结束的优质达人。需要详聊加我微信: CONTACT_REDACTED'
+      ext={"sender_im_id": "4452XXXXXXXXXX35", "s:msg_grade": "normal", "type": "text", "sender_role": "1", "s:base_scene": "default", "s:biz_aid": "380360", "srcAppId": "1180", "uname": "creator_handle", "sender_im_role": "4", "PIGEON_BIZ_TYPE": "1", "monitor_send_message_platform": "tiktok_h5"}
+  [2025-12-05 06:08] sender=4452XXXXXXXXXX35 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7580XXXXXXXXXX98","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"countdown\":\"true\",\"countdown_time\":\"1764914916689\",\"s:sync_event_time\":\"2025-12-05 06:08:36\"}", "s:msg_grade": "normal", "s:base_scene": "default"}
+  [2025-12-05 06:08] sender=0 mt=50001 idx=0
+      content='{"command_type":6,"conversation_id":"7580XXXXXXXXXX98","conversation_type":2,"group_version":NUMBER_REDACTED,"inbox_type":0}'
+      ext={"s:sync_update_core_ext": "{\"b:biz_conversation_tag\":\"[\\\"c_low_score_shop\\\"]\",\"s:sync_event_time\":\"2025-12-05 06:08:36\"}", "s:msg_grade": "normal", "s:base_scene": "default"}

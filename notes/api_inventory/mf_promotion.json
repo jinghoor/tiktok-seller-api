@@ -1,0 +1,5935 @@
+[
+ {
+  "path": "/api/v1/app/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetAppImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/arch/config_center_gw/mget_config_by_app_name",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/common/region_domain",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/dynamic_configs/get",
+  "method": "POST",
+  "names": [
+   "GetDynamicConfigs"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency",
+  "method": "POST",
+  "names": [
+   "FormatCurrency"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "method": "?",
+  "names": [
+   "FormatCurrencyV2"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByCurrencyCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByGEONameID"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_list",
+  "method": "GET",
+  "names": [
+   "GetCurrencySupportCurrencyList"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_region_list",
+  "method": "GET",
+  "names": [
+   "GetCurrencySupportRegionList"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/datetime/format_locale",
+  "method": "POST",
+  "names": [
+   "FormatLocale"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "method": "GET",
+  "names": [
+   "GetLanguageByLocale"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLanguageByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLocalesByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "method": "GET",
+  "names": [
+   "GetEuRegionInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "method": "GET",
+  "names": [
+   "GetDefaultTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "method": "POST",
+  "names": [
+   "GetDSTResult"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "method": "GET",
+  "names": [
+   "GetExactTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "method": "GET",
+  "names": [
+   "GetIANATimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "method": "GET",
+  "names": [
+   "GetRegionTimezoneInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "method": "GET",
+  "names": [
+   "GetUTCOffset"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetHour"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetSec"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/pop/product/optimize/data/get",
+  "method": "POST",
+  "names": [
+   "GetPopOptimizationData"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/pop/product/optimize/optimized/list",
+  "method": "POST",
+  "names": [
+   "GetPopOptimizedProductPage"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/core/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerCoreStatsExportQuery",
+   "GetSellerCoreStatsExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorListExportQuery",
+   "GetSellerCreatorListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/live/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorLiveDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/creator/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/data/overview/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/creator/list/search",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveCreatorListSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/details",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorDetailsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/diagnosis/creator/suggestion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnosisCreatorSuggestionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveListExportQuery",
+   "GetSellerLiveListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/account/suggestion",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerAccountSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/session/suggestion",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerSessionSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/optimizer/summary",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveOptimizerSummary"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/performance/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLivePerformanceCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/live/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications",
+  "method": "POST",
+  "names": [
+   "GetNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications/get",
+  "method": "POST",
+  "names": [
+   "GetSellerNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/notifications/set",
+  "method": "POST",
+  "names": [
+   "SetSellerNotificationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/ab_experiment/enabled",
+  "method": "POST",
+  "names": [
+   "GetSellerShopABExperimentEnabledQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/export",
+  "method": "POST",
+  "names": [
+   "GetShopDiagnosisIndicatorListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/list",
+  "method": "POST",
+  "names": [
+   "GetShopDiagnosisIndicatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/list_v2",
+  "method": "POST",
+  "names": [
+   "GetShopDiagnosisIndicatorListQueryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/report/export",
+  "method": "POST",
+  "names": [
+   "ShopDiagnosisReportExportFile"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/report/stats",
+  "method": "POST",
+  "names": [
+   "ShopDiagnosisReportStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/stats",
+  "method": "POST",
+  "names": [
+   "GetShopDiagnosisIndicatorStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/analytics/insights/stats_v2",
+  "method": "POST",
+  "names": [
+   "GetShopDiagnosisIndicatorStatsQueryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/associated/creators",
+  "method": "?",
+  "names": [
+   "GetSellerShopAssociatedCreators"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/authorization/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShopAuthQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/authorization/set",
+  "method": "POST",
+  "names": [
+   "SetSellerShopAuthQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/annual/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopAnnualCampaignStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/banner/display",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBannerDisplayQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/bcp/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBCPCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/bcp/status",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignBCPEnrollmentStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/offline/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignOfflineProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/realtime/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignRealtimeProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/realtime/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignRealtimeStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/report/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignReportStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/target",
+  "method": "POST",
+  "names": [
+   "SetSellerShopCampaignTargetQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/campaign/trend/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCampaignTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/list",
+  "method": "POST",
+  "names": [
+   "SellerShopCenterBoostedImpressionProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/list/export",
+  "method": "POST",
+  "names": [
+   "ShopCenterBoostedImpressionProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/product/stats",
+  "method": "POST",
+  "names": [
+   "ShopCenterBoostedImpressionProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/boosted/impression/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterBoostedImpressionStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/channel/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterChannelStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/main/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterMainCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/main/core/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterMainCoreStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/product/list/categories",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterHotProductsCategoriesQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/rank/shop/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRankShopCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/rank/shop/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRankShopListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRecommendationCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/core/stats/export",
+  "method": "POST",
+  "names": [
+   "ShopCenterRecommendationCoreStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/issues/list",
+  "method": "POST",
+  "names": [
+   "ShopCenterRecommendationProductsIssuesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/issues/list/export",
+  "method": "POST",
+  "names": [
+   "CenterRecommendationProductsIssuesListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/newly_passed/list",
+  "method": "POST",
+  "names": [
+   "CenterRecommendationProductsNewlyPassedListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/products/newly_passed/list/export",
+  "method": "POST",
+  "names": [
+   "RecommendationProductsNewlyPassedListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/recommendation/status/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterRecommendationStatusStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/main/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpMainCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/center/ttp/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopCenterTtpHotProductsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/data/available/date",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPageDataReadyTimeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/export/file",
+  "method": "?",
+  "names": [
+   "GetSellerShopExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/export/task/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopExportTaskListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/gtm/display/judge",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramGtmDisplayJudgeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/gtm/display/save",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramGtmDisplaySaveQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/high_value_customer/account_list",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveHighValueCustomerAccountListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsListExportQuery",
+   "GetSellerShopIMAgentStatsListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/agent/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMAgentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/im/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopIMStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/details/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordDetailsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/details/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordDetailsListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/keyword/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchKeywordListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/account/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveAccountStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/account/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveAccountStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/account/stats/tooltip",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveAccountStatsTooltipQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/ads/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveAdsDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/benchmark_category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveBenchmarkCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnose/core",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveDiagnoseCoreQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/benchmark_live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisBenchmarkLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/core/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisCoreInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/info/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisInfoExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/label/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisLabelInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/metric_card",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisMetricCardQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/status/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisStatusListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/diagnosis/violation/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveDiagnosisViolationListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/key_metric/tooltips",
+  "method": "POST",
+  "names": [
+   "GetSellerLiveKeyMetricQueryTooltips"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/linked_account/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveLinkedAccountListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/list/tooltip",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveListTooltipQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/recent/query/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveRecentQueryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/stats/tooltip",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveStatsTooltipQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/account/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficAccountStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/account/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficAccountStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/live/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficLiveStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/live/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficLiveStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/live/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductListExportQuery",
+   "GetSellerShopLogisticsProductListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/order/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductOrderListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/product/order/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProductOrderListExportQuery",
+   "ShopLogisticsProductOrderListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsProviderListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/logistics/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLogisticsStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/rank",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryBlueOceanKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/rank/export",
+  "method": "POST",
+  "names": [
+   "MarketQueryBlueOceanKeywordRankListExportQuery",
+   "ShopMarketBlueOceanQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/blueocean/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryBlueOceanKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/rank/list",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryHighPotentialKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/rank/list/export",
+  "method": "POST",
+  "names": [
+   "QueryHighPotentialKeywordRankListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/high_potential/stats",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryHighPotentialKeywordStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/rank",
+  "method": "POST",
+  "names": [
+   "SellerShopMarketQueryPopularKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/rank/export",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryPopularKeywordRankListExportQuery",
+   "ShopMarketPopularQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/popular/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQueryPopularKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/rank",
+  "method": "POST",
+  "names": [
+   "ShopMarketQuerySkyrocketingKeywordRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/rank/export",
+  "method": "POST",
+  "names": [
+   "MarketQuerySkyrocketingKeywordRankListExportQuery",
+   "MarketSkyrocketingQueryRankListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/market/query/skyrocketing/trend",
+  "method": "POST",
+  "names": [
+   "ShopMarketQuerySkyrocketingKeywordTrendStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/negative/review/available/date",
+  "method": "POST",
+  "names": [
+   "GetSellerShopNegativeReviewAvailableDateQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/negative/review/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopNegativeReviewProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/negative/review/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopNegativeReviewStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/opportunity/center/product/card/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOpportunityCenterProductCardStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/os_data",
+  "method": "POST",
+  "names": [
+   "GetOsDataQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/ads_banner/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewAdsBannerInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/product_card/list",
+  "method": "POST",
+  "names": [
+   "SellerShopOverviewGmvSnapshotProductCardListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/gmv_snapshot/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewGmvSnapshotVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/campaign/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingCampaignListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/promotion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingPromotionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/marketing/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewMarketingStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/carousel/display",
+  "method": "?",
+  "names": [
+   "SellerShopOverviewPerformanceCarouselDisplayQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/latest_date",
+  "method": "POST",
+  "names": [
+   "GrossRevenueBreakdownLatestReadyDateQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/latest_date_v2",
+  "method": "POST",
+  "names": [
+   "GrossRevenueBreakdownLatestReadyDateV2Query"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/stats",
+  "method": "POST",
+  "names": [
+   "PerformanceGrossRevenueBreakdownStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/gross_revenue/breakdown/stats_v2",
+  "method": "POST",
+  "names": [
+   "PerformanceGrossRevenueBreakdownStatsV2Query"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/insights/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceInsightsStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/nrr/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceNRRStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/campaign/info",
+  "method": "POST",
+  "names": [
+   "ShopOverviewPerformanceTodayCampaignInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/live/list",
+  "method": "POST",
+  "names": [
+   "SellerShopOverviewPerformanceTodayLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/overview/performance/today/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopOverviewPerformanceTodayStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPagePerformanceStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/performance/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPagePerformanceStatsExport"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/photo/analytics/photo/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPhotoAnalyticsPhotoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/photo/analytics/photo/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPhotoAnalyticsPhotoStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/photo/analytics/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPhotoAnalyticsProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/photo/analytics/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPhotoAnalyticsProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/diagnosis",
+  "method": "POST",
+  "names": [
+   "MGetSellerShopProductCardDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/product/traffic/stats/export",
+  "method": "POST",
+  "names": [
+   "ShopProductCardProductTrafficStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/sources/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficSourcesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/traffic/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrafficStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/user/action",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardUserActionQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/card/user/suggestion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardUserSuggestionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/channel/content",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductChannelContentQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/creator/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCreatorListExportQuery",
+   "GetSellerShopProductCreatorListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/quality/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisQualityListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/diagnosis/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductDiagnosisStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductListExportQuery",
+   "GetSellerShopProductListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/live/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductLiveListExportQuery",
+   "GetSellerShopProductLiveListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/search",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/sku/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSKUListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/sku/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductSKUListExportQuery",
+   "GetSellerShopProductSKUListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductVideoListExportQuery",
+   "GetSellerShopProductVideoListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/product/voc/detail",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductVocDetailQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/bcd/category/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramBcdProductCategoryQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/bcd/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramBcdProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/bcd/register/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramBcdRegisterInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/bcd/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramBcdStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/eams/register/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramEamsRegisterInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/flashsale/category/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramFlashSaleProductCategoryQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/flashsale/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramFlashSaleProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/flashsale/register/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramFlashSaleRegisterInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/flashsale/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramFlashSaleStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/page/display/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramCoFundingPageDisplayQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/shipping/register/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramShippingRegisterInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/shipping/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramShippingStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/program/vxp_plus/status",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProgramVxpPlusStatusQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/creator/performance/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionCreatorPerformanceListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/creator/performance/list/export",
+  "method": "POST",
+  "names": [
+   "ShopPromotionCreatorPerformanceListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/detail/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionDetailStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionListExportQuery",
+   "GetSellerShopPromotionListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/period/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionPeriodStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/promotion/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPromotionStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/livestream/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankLivestreamCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/livestream/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankLivestreamListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/product/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopScoreRankVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/latest_date",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationLatestReadyDate"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationRankingList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/skill/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationSkillList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/rank/video_inspiration/tiktok_data/token",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInspirationTikTokDataToken"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductOptimisedTitleListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchOptimisedTitleStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/optimised/trend",
+  "method": "POST",
+  "names": [
+   "SellerShopSearchProductOptimisedTitleTrendQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/sale/keyword/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductSaleKeywordDetailsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/optimisation/product/sale/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchProductSaleListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/details/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordDetailsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/details/list/export",
+  "method": "POST",
+  "names": [
+   "ShopSearchStoreKeywordDetailsListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/search/store/keyword/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopSearchStoreKeywordListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/service/shipping/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopServiceShippingStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/center/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoCenterVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/center/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoCenterVideoListExportQuery",
+   "GetSellerShopShortVideoCenterVideoExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/short/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopShortVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/available/date",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverAvailableDateQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/contribution/list",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverContributionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/data_source",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverDataSourceQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/add",
+  "method": "POST",
+  "names": [
+   "AddShopSpillOverReport"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/contribution/list",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportContributionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/contribution/list/export",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportContributionListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/delete",
+  "method": "POST",
+  "names": [
+   "DeleteShopSpillOverReport"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/list",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/stats",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/stats/export",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopSpillOverReport"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/user_profile",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportUserProfileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/report/user_profile/export",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverReportUserProfileExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/stats",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/spillover/user_profile",
+  "method": "POST",
+  "names": [
+   "GetShopSpillOverUserProfileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/toko/feature_flag",
+  "method": "POST",
+  "names": [
+   "GetSellerTokoIntegrationFeatureFlag"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/us/overview/data/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUsOverviewDataExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/us/overview/today/data/available",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUsOverviewTodayDataAvailableQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/composition",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserCompositionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/portrait",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserPortraitListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/user/trend",
+  "method": "POST",
+  "names": [
+   "GetSellerShopUserTrendQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/ads/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAdsDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/affiliate/creator/list/search",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAffiliateCreatorListSearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/account/performance/list",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsAccountPerformanceListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/ads/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsAdsInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/inspiration/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoInspirationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/photo/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsPhotoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/photo/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsPhotoListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/photo_product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsPhotoProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/photo_product/list/export",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsPhotoProductListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/product/related/video/list",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsProductRelatedVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "SellerShopVideoAnalyticsTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/boost/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsBoostInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/content/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoContentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/diagnosis",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoDiagnosisQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/diagnosis/suggestion/info",
+  "method": "POST",
+  "names": [
+   "ShopVideoAnalyticsDiagnosisSuggestionInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/key_metric/tooltips",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoKeyMetricQueryTooltips"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/profile/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoProfileStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/analytics/video/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoAnalyticsVideoStatsExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/content/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoContentStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/check",
+  "method": "POST",
+  "names": [
+   "CheckVideoDiagnosis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/content_analysis",
+  "method": "POST",
+  "names": [
+   "VideoDiagnosisContentAnalysis"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/default_state",
+  "method": "POST",
+  "names": [
+   "GetVideoDiagnosisDefaultState"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/penalty",
+  "method": "POST",
+  "names": [
+   "GetVideoPenaltyInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/trend",
+  "method": "POST",
+  "names": [
+   "GetVideoDataTrend"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/diagnosis/video_second_trend",
+  "method": "POST",
+  "names": [
+   "GetVideoSecondTrend"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoExportQuery",
+   "GetSellerShopVideoExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/product/related/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProductRelatedVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/profile/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoProfileStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic/channel/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficChannelStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic_card/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopVideoTrafficCardList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/shop/video/traffic_card/redeem",
+  "method": "POST",
+  "names": [
+   "SetSellerShopVideoTrafficCardRedeem"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/store/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerStoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/core/stats/export",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewCoreStatsExportQuery",
+   "GetSellerDataOverviewCoreStatsExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/ongoing_live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewOngoingLivesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/post_purchase/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewPostPurchaseStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/revenue_ranking/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewRevenueRankingStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/data_overview/todays_performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerDataOverviewTodaysPerformanceStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/edm/get_auth_info",
+  "method": "POST",
+  "names": [
+   "GetSellerEDMAuthInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/edm/set_auth_info",
+  "method": "POST",
+  "names": [
+   "SetSellerEDMAuthInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/ace/stats",
+  "method": "POST",
+  "names": [
+   "GetAceStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/affiliate_retarget_creator/list",
+  "method": "POST",
+  "names": [
+   "SalesOpportunityAffiliateRetargetCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunityFullSiteCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunityProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/suggestion/feedback",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunitySuggestionFeedbackQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/suggestion/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunitySuggestionListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/video_filter/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunityVideoFilterListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/opportunity_insights/viewer_traffic/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesOpportunityViewerTrafficQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/category/list/latest/offline",
+  "method": "POST",
+  "names": [
+   "GetSellerLatestOfflineProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/content/list",
+  "method": "POST",
+  "names": [
+   "GetSellerProductContentListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/content/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerProductContentListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerProductCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerProductCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/creator/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerProductCreatorListExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/detail/info",
+  "method": "POST",
+  "names": [
+   "GetProductDetailInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/inventory",
+  "method": "POST",
+  "names": [
+   "GetSellerProductInventoryQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerProductListExportQuery",
+   "GetSellerProductListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/list/export/v2",
+  "method": "POST",
+  "names": [
+   "GetSellerProductListExportQueryV2",
+   "GetSellerProductListExportFileQueryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/list/v2",
+  "method": "POST",
+  "names": [
+   "GetSellerProductListQueryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/optimisation",
+  "method": "POST",
+  "names": [
+   "GetSellerProductOptimisationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/price/tracking",
+  "method": "POST",
+  "names": [
+   "GetSellerProductPriceTrackingQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerProductPerformanceStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_recommendation/list",
+  "method": "POST",
+  "names": [
+   "GetSellerRecommendedProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_recommendation/not_recommended/list",
+  "method": "POST",
+  "names": [
+   "GetSellerNotRecommendedProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_reward/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerProductRewardStats"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_subscription/behavior/order_type",
+  "method": "POST",
+  "names": [
+   "GetProductSubscriptionBehaviorOrderTypeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_subscription/export",
+  "method": "POST",
+  "names": [
+   "GetProductSubscriptionExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/product_subscription/products/list",
+  "method": "POST",
+  "names": [
+   "GetProductSubscriptionProductsListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/reversed/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerProductReversedStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/review",
+  "method": "POST",
+  "names": [
+   "GetSellerProductReviewQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/sku/count_by_stock_status",
+  "method": "POST",
+  "names": [
+   "GetSellerProductSKUCountByStockStatusQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/sku/list",
+  "method": "POST",
+  "names": [
+   "GetSellerProductSKUListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/sku/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerProductSKUListExportQuery",
+   "GetSellerProductSKUListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/affiliate/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficAffiliateListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/live/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/shop/affiliate/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficShopAffiliateListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/shop/live/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficShopLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/shop/total/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficShopTotalListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/shop/video/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficShopVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/total/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficTotalListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product/traffic/video/list",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product_traffic/export",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficExportQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/product_traffic/stats/get",
+  "method": "POST",
+  "names": [
+   "GetProductTrafficStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/realtime/ongoing_live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerOngoingLivesListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/creator/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/dayofweek/core/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesCoreStatsByDayOfWeekAndHourQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/ecommerce_video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesEcommerceVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/ecommerce_video/list/export",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesEcommerceVideoListExportQuery",
+   "GetSellerSalesEcommerceVideoListExportFileQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/gross_revenue_with_subsidy/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesGrossRevenueWithSubsidyStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/live_count_and_duration/stats",
+  "method": "POST",
+  "names": [
+   "GetLiveCountAndDurationQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSalesProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sales/realtime/core/stats",
+  "method": "POST",
+  "names": [
+   "GetRealtimeSellerSalesRealtimeCoreStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/seller_center/homepage/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerCenterHomepageStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/cancel_and_returns/orders/stats",
+  "method": "POST",
+  "names": [
+   "SellerServiceCancelledAndReturnedOrdersStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/cancel_and_returns/product/list",
+  "method": "POST",
+  "names": [
+   "SellerServiceCancelledAndReturnedProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/cancel_and_returns/product_category/list",
+  "method": "POST",
+  "names": [
+   "CancelledAndReturnedProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/order_complaints/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerServiceOrderComplaintsProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/order_complaints/product_category/list",
+  "method": "POST",
+  "names": [
+   "ServiceOrderComplaintsProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/order_complaints/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerServiceOrderComplaintsStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/review/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerServiceReviewProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/review/product_category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerServiceReviewProductCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/service/review/score_distribution/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerServiceReviewScoreDistributionQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/creator/publish/info",
+  "method": "POST",
+  "names": [
+   "GetSellerCreatorPublishInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/live/highlight/category/script_skills/list",
+  "method": "POST",
+  "names": [
+   "SellerShopLiveHighlightCategoryScriptSkillsList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/live/highlight/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLiveHighlightList"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/live_performance/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopLivePerformanceStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/low/quality/video/stats",
+  "method": "POST",
+  "names": [
+   "GetShopLowQualityVideoStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/os_api/latest_available/date",
+  "method": "POST",
+  "names": [
+   "GetLatestAvailableDate"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/product/card/trending/product/info",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrendingProductInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/product/card/trending/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrendingProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/product/card/trending/product/recommendation/category/list",
+  "method": "POST",
+  "names": [
+   "TrendingProductRecommendationCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/product/card/trending/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerShopProductCardTrendingProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop/video/post/suggestion/info",
+  "method": "POST",
+  "names": [
+   "GetSellerVideoPostSuggestionInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop_page/product/list",
+  "method": "POST",
+  "names": [
+   "GetShopPageProductPerformanceListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/shop_page/stats",
+  "method": "POST",
+  "names": [
+   "GetShopPagePerformanceStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sub_campaign/live/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSubCampaignLiveListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sub_campaign/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSubCampaignProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sub_campaign/product/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSubCampaignProductStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sub_campaign/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerSubCampaignStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/sub_campaign/video/list",
+  "method": "POST",
+  "names": [
+   "GetSellerSubCampaignVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/task/product/list",
+  "method": "POST",
+  "names": [
+   "GetSellerTaskProductListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/ttp/task/stats",
+  "method": "POST",
+  "names": [
+   "GetSellerTaskStatsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/unified/query",
+  "method": "POST",
+  "names": [
+   "UnifiedSellerQueryV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/unified/query/export",
+  "method": "POST",
+  "names": [
+   "UnifiedSellerQueryExportV2"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/unified/query/tooltips",
+  "method": "POST",
+  "names": [
+   "UnifiedSellerToolTipsQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/us/shop/rank/category/list",
+  "method": "POST",
+  "names": [
+   "GetSellerUsShopScoreRankCategoryListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/seller/us/shop/rank/list",
+  "method": "POST",
+  "names": [
+   "GetSellerUsShopScoreRankListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/data/available/date",
+  "method": "POST",
+  "names": [
+   "GetShopifySellerShopPageDataReadyTimeQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/video/analytics/creator/list",
+  "method": "POST",
+  "names": [
+   "ShopifySellerShopVideoAnalyticsCreatorListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/shopify/seller/shop/video/analytics/video/list",
+  "method": "POST",
+  "names": [
+   "GetShopifySellerShopVideoAnalyticsVideoListQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/seller/query",
+  "method": "POST",
+  "names": [
+   "UnifiedSellerQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/universal/product/category/info",
+  "method": "POST",
+  "names": [
+   "ProductCategoryInfoQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/universal/product/category/search",
+  "method": "POST",
+  "names": [
+   "ProductCategorySearchQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/universal/queries",
+  "method": "POST",
+  "names": [
+   "UnifiedQueries"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/universal/query",
+  "method": "POST",
+  "names": [
+   "UnifiedQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/insights/unified_data_gateway/widget/query",
+  "method": "POST",
+  "names": [
+   "UnifiedWidgetQuery"
+  ]
+ },
+ {
+  "path": "/api/v1/jwt",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/login",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/multimedia/file/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetFileUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImage"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/video/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetVideoUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/check",
+  "method": "POST",
+  "names": [
+   "CheckWhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/get",
+  "method": "POST",
+  "names": [
+   "GetWhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/add_on/config",
+  "method": "POST",
+  "names": [
+   "AddOnPromotionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/agent/mget_promotion_card",
+  "method": "POST",
+  "names": [
+   "MGetAgentPromotionCard"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/agent/replace_recommended_tool_config",
+  "method": "POST",
+  "names": [
+   "ReplaceRecommendedPromotionToolConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/create",
+  "method": "POST",
+  "names": [
+   "CreateAllocation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAllocation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/list",
+  "method": "POST",
+  "names": [
+   "ListAllocations"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/prizes/get",
+  "method": "POST",
+  "names": [
+   "GetAllocationPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/allocation/prizes/update",
+  "method": "POST",
+  "names": [
+   "UpdateAllocationPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/create",
+  "method": "POST",
+  "names": [
+   "CreateBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/get",
+  "method": "?",
+  "names": [
+   "GetBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/list",
+  "method": "POST",
+  "names": [
+   "ListBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/buy_more_save_more/update",
+  "method": "POST",
+  "names": [
+   "UpdateBuyMoreSaveMoreFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/config",
+  "method": "?",
+  "names": [
+   "GetSellerAppPromotionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/config/get",
+  "method": "?",
+  "names": [
+   "GetSellerBackendConfigFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/create",
+  "method": "POST",
+  "names": [
+   "CreateFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/get",
+  "method": "?",
+  "names": [
+   "GetFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/flash_sale/list",
+  "method": "POST",
+  "names": [
+   "ListFlashSaleFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/home_page_info",
+  "method": "POST",
+  "names": [
+   "GetSellerPromotionHomePageInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotionFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetAppItemData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/price_details/get",
+  "method": "POST",
+  "names": [
+   "MGetAPPPriceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/create",
+  "method": "POST",
+  "names": [
+   "CreateProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/get",
+  "method": "?",
+  "names": [
+   "GetProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/product_discount/list",
+  "method": "?",
+  "names": [
+   "ListProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/recommended_promotion_tool/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedToolForApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProductsFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/seller_allow_list/get",
+  "method": "POST",
+  "names": [
+   "GetSellerInAllowListFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/app/voucher/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInVoucherFromApp"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/attention_needed/dismiss",
+  "method": "POST",
+  "names": [
+   "DismissAttentionNeeded"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/batch_upload/products/get_template_excel",
+  "method": "POST",
+  "names": [
+   "GetTemplateExcelDownloadUrl"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/batch_upload/products/upload",
+  "method": "POST",
+  "names": [
+   "UploadAndParseExcel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/create",
+  "method": "POST",
+  "names": [
+   "CreateBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/get",
+  "method": "?",
+  "names": [
+   "GetBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/list",
+  "method": "POST",
+  "names": [
+   "ListBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/bundle_deal/update",
+  "method": "POST",
+  "names": [
+   "UpdateBundleDeal"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/create",
+  "method": "POST",
+  "names": [
+   "CreateBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/get",
+  "method": "?",
+  "names": [
+   "GetBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/list",
+  "method": "?",
+  "names": [
+   "ListBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/buy_more_save_more/update",
+  "method": "POST",
+  "names": [
+   "UpdateBuyMoreSaveMore"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/calc_future_seller_promotion_price",
+  "method": "POST",
+  "names": [
+   "CalcFutureSellerPromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/action_record/list",
+  "method": "?",
+  "names": [
+   "ListCampaignApprovalActionRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/agreement/detail",
+  "method": "POST",
+  "names": [
+   "GetAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/agreement/sign",
+  "method": "POST",
+  "names": [
+   "SignAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/app_parents_campaigns/list",
+  "method": "POST",
+  "names": [
+   "ListAppParentCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/download",
+  "method": "POST",
+  "names": [
+   "DownloadAutoEnrollData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/get",
+  "method": "POST",
+  "names": [
+   "GetAutoEnrollInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/product/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAutoEnrollProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/product/list",
+  "method": "POST",
+  "names": [
+   "ListAutoEnrollProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/result_popup/close",
+  "method": "POST",
+  "names": [
+   "GetAutoEnrollResultPopUpClose"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/result_popup/get",
+  "method": "POST",
+  "names": [
+   "GetAutoEnrollResultPopUpInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/submit",
+  "method": "POST",
+  "names": [
+   "SubmitAutoEnroll"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/submit_product",
+  "method": "POST",
+  "names": [
+   "SubmitAutoEnrollProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/submit_product_cache",
+  "method": "POST",
+  "names": [
+   "SubmitAutoEnrollProductCache"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll/switch",
+  "method": "POST",
+  "names": [
+   "AutoEnrollSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_enroll_register/product/list",
+  "method": "POST",
+  "names": [
+   "ListAutoEnrollRegisterProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/auto_register_agreement",
+  "method": "POST",
+  "names": [
+   "UpdateAutoRegisterAgreement",
+   "GetAutoRegisterAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/backend_categories/list",
+  "method": "POST",
+  "names": [
+   "ListBackendCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_async_opt_products",
+  "method": "POST",
+  "names": [
+   "BatchAsyncOperateProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_async_opt_products_close",
+  "method": "POST",
+  "names": [
+   "BatchAsyncOperateProductsClose"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_async_set_commission_rate_and_free_sample",
+  "method": "POST",
+  "names": [
+   "BatchAsyncSetCommissionRateAndFreeSample"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_progress",
+  "method": "POST",
+  "names": [
+   "GetBatchProgress"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_progress_close",
+  "method": "POST",
+  "names": [
+   "BatchProgressClose"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/batch_withdraw",
+  "method": "POST",
+  "names": [
+   "BatchWithdrawCampaignProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/brand/material_product/list",
+  "method": "POST",
+  "names": [
+   "ListSellerMaterialProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/brands/list",
+  "method": "POST",
+  "names": [
+   "ListBrands"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle/get",
+  "method": "POST",
+  "names": [
+   "BundleDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle/list",
+  "method": "?",
+  "names": [
+   "ListBundle"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle/registration_list",
+  "method": "POST",
+  "names": [
+   "ListBundleRegisterRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle/submit_registration",
+  "method": "POST",
+  "names": [
+   "BundleSubmitRegistrationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle_ads/ops_registration/list",
+  "method": "POST",
+  "names": [
+   "ListOpsRegisterBundleAdsRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle_group/detail",
+  "method": "?",
+  "names": [
+   "GetBundleGroupDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/bundle_group/list",
+  "method": "?",
+  "names": [
+   "ListBundleGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/campaign/get",
+  "method": "?",
+  "names": [
+   "GetCampaignInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/campaign/summary_info",
+  "method": "POST",
+  "names": [
+   "GetSummaryInfoByScene"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/campaign_eligibility/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCampaignEligibility"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/campaign_mission_challenge_info/list",
+  "method": "POST",
+  "names": [
+   "GetCampaignMissionChallengeCard"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/change_approval",
+  "method": "POST",
+  "names": [
+   "ChangeApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/check/cookies",
+  "method": "?",
+  "names": [
+   "CheckCookies"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/check_and_fulfill_product",
+  "method": "POST",
+  "names": [
+   "ProductRegistrationCheckAndFulfill"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/check_register_condition",
+  "method": "POST",
+  "names": [
+   "CheckRegisterCondition"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/child_categories/list",
+  "method": "POST",
+  "names": [
+   "ListChildCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_parent_campaigns/list",
+  "method": "POST",
+  "names": [
+   "ListCofundParentCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/associate_sub_campaigns/list",
+  "method": "POST",
+  "names": [
+   "ListCofundAssociateSubCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/get",
+  "method": "?",
+  "names": [
+   "GetCofundProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/list",
+  "method": "POST",
+  "names": [
+   "ListCofundPrograms"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/list_v2",
+  "method": "POST",
+  "names": [
+   "ListCofundProgramsV2"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/seller_budget/history_records",
+  "method": "POST",
+  "names": [
+   "ListCofundProgramBudgetRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/seller_budget/set",
+  "method": "POST",
+  "names": [
+   "SetCofundProgramBudget"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/cofund_program/seller_budget_plan/set",
+  "method": "POST",
+  "names": [
+   "SetCofundProgramBudgetPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/com_campaign/new_list",
+  "method": "?",
+  "names": [
+   "ListNewComCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/com_campaigns/list",
+  "method": "POST",
+  "names": [
+   "ListComCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/com_campaigns_joined/list",
+  "method": "POST",
+  "names": [
+   "ListJoinedComCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/common_info/update",
+  "method": "POST",
+  "names": [
+   "UpdateCampaignCommonInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/config/banner",
+  "method": "POST",
+  "names": [
+   "GetSellerCampaignBannerConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/count",
+  "method": "POST",
+  "names": [
+   "CountCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/count_products",
+  "method": "POST",
+  "names": [
+   "CountCampaignProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/creator/get",
+  "method": "?",
+  "names": [
+   "GetCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/creator/list",
+  "method": "?",
+  "names": [
+   "GetShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/data/metrics_card/get",
+  "method": "POST",
+  "names": [
+   "GetMetricsCardData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/data/metrics_daily/get",
+  "method": "POST",
+  "names": [
+   "GetMetricsDailyData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/data/metrics_table/list",
+  "method": "POST",
+  "names": [
+   "ListMetricsTableData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/data/promotion_calendar/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionCalendar"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/enrollment/action_record_list",
+  "method": "POST",
+  "names": [
+   "ListEnrollmentActionRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/enrollment/change_approval",
+  "method": "POST",
+  "names": [
+   "EnrollmentChangeApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/feedback",
+  "method": "POST",
+  "names": [
+   "CampaignFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/get",
+  "method": "POST",
+  "names": [
+   "GetSubCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/get_payment_bill",
+  "method": "POST",
+  "names": [
+   "GetPaymentBill"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/get_register_regions",
+  "method": "POST",
+  "names": [
+   "ListSellerRegisterRegions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/get_semi_managed_performance",
+  "method": "POST",
+  "names": [
+   "GetSemiManagedPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/campaign_info",
+  "method": "POST",
+  "names": [
+   "GetCampaignSellerGMVMaxInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/list_approval",
+  "method": "POST",
+  "names": [
+   "ListGMVMaxApprovalProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/list_product",
+  "method": "POST",
+  "names": [
+   "ListGMVMaxProductsBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/mget_product",
+  "method": "POST",
+  "names": [
+   "MGetGMVMaxProductsInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/permission",
+  "method": "POST",
+  "names": [
+   "CheckGMVMaxPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/retry",
+  "method": "POST",
+  "names": [
+   "RetryGMVMaxBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/gmv_max/sign_for_Creation",
+  "method": "POST",
+  "names": [
+   "SignForCreation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/investment_hub/guidance",
+  "method": "?",
+  "names": [
+   "GetStrategyGuidance"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/investment_hub/interpretation",
+  "method": "?",
+  "names": [
+   "GetInvestmentInterpretation"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/investment_hub/metric/get",
+  "method": "POST",
+  "names": [
+   "GetInvestmentMetric"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/investment_hub/tags/get",
+  "method": "?",
+  "names": [
+   "GetInvestmentSellerTags"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/investment_hub/time_config/get",
+  "method": "?",
+  "names": [
+   "GetInvestmentHubTimeConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/job/download/v",
+  "method": "POST",
+  "names": [
+   "DownloadJobFile"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/job/get_template",
+  "method": "POST",
+  "names": [
+   "GetJobTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/job/list",
+  "method": "POST",
+  "names": [
+   "ListJob"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/job/mget",
+  "method": "POST",
+  "names": [
+   "MGetJob"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/job/submit",
+  "method": "POST",
+  "names": [
+   "SubmitJob"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/list",
+  "method": "?",
+  "names": [
+   "ListSubCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/list_next_recommend_sub_campaigns",
+  "method": "POST",
+  "names": [
+   "ListNextRecommendSubCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/list_products",
+  "method": "?",
+  "names": [
+   "ListCampaignProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/list_registered_campaigns",
+  "method": "?",
+  "names": [
+   "ListRegisteredCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/list_registered_products",
+  "method": "POST",
+  "names": [
+   "ListRegisteredProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/add",
+  "method": "POST",
+  "names": [
+   "AddLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/batch_add",
+  "method": "POST",
+  "names": [
+   "BatchAddLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/batch_update_event",
+  "method": "POST",
+  "names": [
+   "BatchUpdateLiveEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/cancel",
+  "method": "POST",
+  "names": [
+   "CancelLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/change_approval",
+  "method": "POST",
+  "names": [
+   "ChangeLiveSessionApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/detail",
+  "method": "POST",
+  "names": [
+   "GetLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/gmv_max/retry",
+  "method": "POST",
+  "names": [
+   "RetryLivestreamGMVMax"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/list",
+  "method": "?",
+  "names": [
+   "ListLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/overlap_list",
+  "method": "?",
+  "names": [
+   "ListOverlapLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_session/update",
+  "method": "POST",
+  "names": [
+   "UpdateLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_stream/detail",
+  "method": "POST",
+  "names": [
+   "GetLiveStream"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_stream/gmv_max/qualification",
+  "method": "POST",
+  "names": [
+   "CheckLivestreamGMVMaxQualification"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_stream/list",
+  "method": "?",
+  "names": [
+   "ListLiveStream"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/live_stream/progress",
+  "method": "?",
+  "names": [
+   "GetCampaignGmvTarget"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/livestream_group/list_sessions",
+  "method": "POST",
+  "names": [
+   "ListLivestreamGroupSessions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/marketing/cards/get",
+  "method": "POST",
+  "names": [
+   "GetSellerMarketingCards"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/material/get",
+  "method": "POST",
+  "names": [
+   "GetSellerMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/material/list",
+  "method": "POST",
+  "names": [
+   "ListSellerMaterials"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/material/modify",
+  "method": "POST",
+  "names": [
+   "ModifySellerMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/material/submit",
+  "method": "POST",
+  "names": [
+   "SubmitMaterialEnrollment"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/cofund_programs",
+  "method": "POST",
+  "names": [
+   "ListRegisteredPrograms"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/list_live_session",
+  "method": "POST",
+  "names": [
+   "ListRegisteredLiveSession"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/parent_campaigns",
+  "method": "POST",
+  "names": [
+   "ListRegisteredParentCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/product_campaign_dimension",
+  "method": "POST",
+  "names": [
+   "ListRegisteredProductCampaignDimension"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/product_dimension",
+  "method": "POST",
+  "names": [
+   "ListRegisteredProductDimension"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/list_registered/type_campaigns",
+  "method": "POST",
+  "names": [
+   "ListRegisteredComCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/mgt/registered_stat",
+  "method": "POST",
+  "names": [
+   "RegisteredStat"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/one_link_register/list_campaigns",
+  "method": "POST",
+  "names": [
+   "ListOneLinkComCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/one_link_register/submit_product",
+  "method": "POST",
+  "names": [
+   "SubmitOneLinkBatchRegisterProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/out_reach/callback",
+  "method": "POST",
+  "names": [
+   "OutreachCallBack"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/parent_campaign/detail",
+  "method": "?",
+  "names": [
+   "GetParentCampaignDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/parent_campaigns_recommend/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendParentCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/parents_campaigns/list",
+  "method": "POST",
+  "names": [
+   "ListParentCampaigns"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/popup/action",
+  "method": "POST",
+  "names": [
+   "OperatePopupAction"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/popup/query",
+  "method": "POST",
+  "names": [
+   "QueryPopupDisplayInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/access",
+  "method": "POST",
+  "names": [
+   "GetSellerPriceExemptionAccess"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/application/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerPriceExemptionApplication"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/application/detail/list",
+  "method": "POST",
+  "names": [
+   "ListSellerPriceExemptionApplicationDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/application/list",
+  "method": "POST",
+  "names": [
+   "ListSellerPriceExemptionApplications"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/application/recall",
+  "method": "POST",
+  "names": [
+   "RecallSellerPriceExemptionApplication"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadSellerPriceExemptionFile"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/price_exemption/product/check",
+  "method": "POST",
+  "names": [
+   "CheckSellerPriceExemptionProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product/change_approval",
+  "method": "POST",
+  "names": [
+   "ChangeProductApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_grouping/list",
+  "method": "?",
+  "names": [
+   "ListLivestreamProductGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_grouping/list_product",
+  "method": "POST",
+  "names": [
+   "ListLivestreamSessionProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_schedule/list",
+  "method": "?",
+  "names": [
+   "ListCampaignProductSchedule"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_set/operation_records/list",
+  "method": "POST",
+  "names": [
+   "ListProductSetProductOperationRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_set/products/list",
+  "method": "POST",
+  "names": [
+   "ListProductSetProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_set/products/search",
+  "method": "POST",
+  "names": [
+   "SearchProductSetProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/product_strategy/get",
+  "method": "POST",
+  "names": [
+   "GetProductStrategyBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/program/payment/list",
+  "method": "?",
+  "names": [
+   "ListPaymentRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/program/payment/submit",
+  "method": "POST",
+  "names": [
+   "SubmitPayment"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/program/register_record_list",
+  "method": "POST",
+  "names": [
+   "ListProgramRegisterRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/recommend/list_product",
+  "method": "POST",
+  "names": [
+   "ListRecommendProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/recommend_campaign/list",
+  "method": "POST",
+  "names": [
+   "ListRecSubCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/register_remind",
+  "method": "POST",
+  "names": [
+   "RegisterRemind"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/register_remind_close",
+  "method": "POST",
+  "names": [
+   "RegisterRemindClose"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/register_task/campaign/list",
+  "method": "POST",
+  "names": [
+   "ListRegisterTaskCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/register_task/event/feedback",
+  "method": "POST",
+  "names": [
+   "RegisterTaskFeedbackEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/register_task/statistic/get",
+  "method": "POST",
+  "names": [
+   "MGetRegisterTaskStatisticInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/registered_program/detail",
+  "method": "?",
+  "names": [
+   "GetRegisteredProgramDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/registration_info/list",
+  "method": "POST",
+  "names": [
+   "ListRegistrationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/reminds/change",
+  "method": "POST",
+  "names": [
+   "ChangeCampaignReminds"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/reminds/list",
+  "method": "POST",
+  "names": [
+   "ListCampaignReminds"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/list",
+  "method": "POST",
+  "names": [
+   "ListResourcePkg"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/material/delete",
+  "method": "POST",
+  "names": [
+   "SellerDeleteMaterials"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/material/list",
+  "method": "?",
+  "names": [
+   "ListResourcePkgMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/material/submit",
+  "method": "POST",
+  "names": [
+   "SubmitMaterial"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/material_register_record/list",
+  "method": "POST",
+  "names": [
+   "ListResourcePkgMaterialRegisterRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/register",
+  "method": "POST",
+  "names": [
+   "RegisterResourcePkg"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/register_record/get",
+  "method": "POST",
+  "names": [
+   "GetResourcePkgRegisterDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/register_record/list",
+  "method": "POST",
+  "names": [
+   "ListResourcePkgRegisterRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg/suggestion/list",
+  "method": "POST",
+  "names": [
+   "ListResourcePkgSuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg_associated_campaign/list",
+  "method": "?",
+  "names": [
+   "ListResourcePkgAssociatedCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg_group/get",
+  "method": "?",
+  "names": [
+   "GetResourcePkgGroupDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/resource_pkg_group/list",
+  "method": "?",
+  "names": [
+   "ListResourcePkgGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/retention_target_shop/check",
+  "method": "POST",
+  "names": [
+   "CheckRetentionTargetShop"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/retention_target_shop/discount_pool/add",
+  "method": "POST",
+  "names": [
+   "AddShopToRetentionDiscountPool"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_offering/get",
+  "method": "POST",
+  "names": [
+   "GetSalesOfferings"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_offering/list",
+  "method": "?",
+  "names": [
+   "ListSalesOfferings"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/budget/change",
+  "method": "POST",
+  "names": [
+   "ChangeSalesSubOrderBudget"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/budget/get",
+  "method": "?",
+  "names": [
+   "GetSalesSubOrderBudget"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/budget_record/get",
+  "method": "POST",
+  "names": [
+   "GetSalesSubOrderBudgetRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/create",
+  "method": "POST",
+  "names": [
+   "CreateSalesSubOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/list",
+  "method": "POST",
+  "names": [
+   "ListSalesSubOrderLines"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/operation_record/list",
+  "method": "?",
+  "names": [
+   "ListSalesSubOrderOperationRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/order/product/manage",
+  "method": "POST",
+  "names": [
+   "ManageSalesSubOrderProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sales_subscription/reverse_order/create",
+  "method": "POST",
+  "names": [
+   "CreateSalesSubReverseOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/search_products",
+  "method": "POST",
+  "names": [
+   "SearchCampaignProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/seller_calendar/get",
+  "method": "POST",
+  "names": [
+   "GetSellerCalendar"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/seller_region_creator/info",
+  "method": "POST",
+  "names": [
+   "GetSellerRegionCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/seller_tasks/list",
+  "method": "POST",
+  "names": [
+   "ListCampaignSellerTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/semi_managed/managed_info",
+  "method": "?",
+  "names": [
+   "GetSemiManagedManagedInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sku_in_product/get",
+  "method": "POST",
+  "names": [
+   "GetSKUInProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/sku_tier_prices/mget",
+  "method": "POST",
+  "names": [
+   "MGetCampaignSkuTierPrices"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/skus_in_products/mget",
+  "method": "POST",
+  "names": [
+   "MGetSKUsInProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/smp/get_sc_popup",
+  "method": "POST",
+  "names": [
+   "GetSMPPromotionSCHomepagePopup"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/starling_keys/convert",
+  "method": "POST",
+  "names": [
+   "ConvertStarlingKeys"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/submit",
+  "method": "POST",
+  "names": [
+   "SubmitProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/submit_campaign",
+  "method": "POST",
+  "names": [
+   "SubmitCampaign"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/submit_registration_info",
+  "method": "POST",
+  "names": [
+   "SubmitRegistrationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/suggest_registered_products",
+  "method": "POST",
+  "names": [
+   "SuggestRegisteredProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/verify",
+  "method": "POST",
+  "names": [
+   "SellerVerify"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/video/get",
+  "method": "POST",
+  "names": [
+   "GetVideoInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/campaign/seller/wait_handle_product/get",
+  "method": "?",
+  "names": [
+   "GetWaitHandleProductList"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/common_info/get",
+  "method": "?",
+  "names": [
+   "GetCommonInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/config",
+  "method": "?",
+  "names": [
+   "GetSellerPromotionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/config/get",
+  "method": "?",
+  "names": [
+   "GetSellerBackendConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/creator_exclusive_price/create",
+  "method": "POST",
+  "names": [
+   "CreateCreatorExclusivePricePromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/creator_exclusive_price/update",
+  "method": "POST",
+  "names": [
+   "UpdateCreatorExclusivePricePromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/data_report",
+  "method": "POST",
+  "names": [
+   "DataReport"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/diagnosis_recommend_strategy/list",
+  "method": "POST",
+  "names": [
+   "ListDiagnosisAndRecommendStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/create",
+  "method": "POST",
+  "names": [
+   "CreateDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/get",
+  "method": "POST",
+  "names": [
+   "GetSellerDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/list",
+  "method": "POST",
+  "names": [
+   "ListSellerDiscounts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/discount/update",
+  "method": "POST",
+  "names": [
+   "UpdateDiscountPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/create",
+  "method": "POST",
+  "names": [
+   "CreateFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/get",
+  "method": "POST",
+  "names": [
+   "GetFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/list",
+  "method": "POST",
+  "names": [
+   "ListFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/fixed_price/update",
+  "method": "POST",
+  "names": [
+   "UpdateFixedPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/batch_update",
+  "method": "POST",
+  "names": [
+   "BatchUpdateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/create",
+  "method": "POST",
+  "names": [
+   "CreateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/get",
+  "method": "POST",
+  "names": [
+   "GetFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/list",
+  "method": "?",
+  "names": [
+   "ListFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/flash_sale/update",
+  "method": "POST",
+  "names": [
+   "UpdateFlashSale"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/create",
+  "method": "POST",
+  "names": [
+   "CreateFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/get",
+  "method": "POST",
+  "names": [
+   "GetFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/list",
+  "method": "POST",
+  "names": [
+   "ListFreeShippings"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/risk",
+  "method": "POST",
+  "names": [
+   "RiskFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/update",
+  "method": "POST",
+  "names": [
+   "UpdateFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/free_shipping/update_default",
+  "method": "POST",
+  "names": [
+   "UpdateDefaultFreeShipping"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_latest_promotions_by_pid",
+  "method": "POST",
+  "names": [
+   "MGetLatestPromotionsByProductIDs"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_main_page",
+  "method": "?",
+  "names": [
+   "GetMainPage"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_promotions_by_product_id",
+  "method": "POST",
+  "names": [
+   "GetPromotionsByProductID"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_seller_feature",
+  "method": "POST",
+  "names": [
+   "GetSellerFeature"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_seller_status",
+  "method": "?",
+  "names": [
+   "GetSellerStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/get_summary",
+  "method": "POST",
+  "names": [
+   "GetSummary"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/create",
+  "method": "POST",
+  "names": [
+   "CreateGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/get",
+  "method": "?",
+  "names": [
+   "GetGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/list",
+  "method": "?",
+  "names": [
+   "ListGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/gift_with_purchase/update",
+  "method": "POST",
+  "names": [
+   "UpdateGiftWithPurchase"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list",
+  "method": "POST",
+  "names": [
+   "ListPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_products_by_cursor",
+  "method": "POST",
+  "names": [
+   "ListProductsInPromotionByCursor"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_seller_gray_config",
+  "method": "POST",
+  "names": [
+   "ListSellerGrayConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_skus",
+  "method": "POST",
+  "names": [
+   "ListAvailableSkusByProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/list_strikethrough_price",
+  "method": "POST",
+  "names": [
+   "ListStrikethroughPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_basic_config",
+  "method": "POST",
+  "names": [
+   "GetBasicConfigForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_common_info",
+  "method": "?",
+  "names": [
+   "GetCommonInfoForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/get_shop_risk_info",
+  "method": "POST",
+  "names": [
+   "GetShopRiskInfoForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProductsForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_app/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucherForLive"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/config",
+  "method": "POST",
+  "names": [
+   "GetSellerPromotionConfigForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/list_seller_gray_config",
+  "method": "POST",
+  "names": [
+   "ListSellerGrayConfigForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetItemDataForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/recommended_promotion_tool/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedPromotionForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/seller_experiment_info/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExperimentInfoForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/shop_risk_info/get",
+  "method": "POST",
+  "names": [
+   "GetShopRiskInfoForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/live_manager/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherForLiveManager"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetItemData"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/mget_skpp_promotions_by_pid",
+  "method": "POST",
+  "names": [
+   "MGetSKPPPromotionsByProductID"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/add_one_fee_recommend_product",
+  "method": "POST",
+  "names": [
+   "AddOneFeeRecommendProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/create",
+  "method": "POST",
+  "names": [
+   "CreatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/data_overview",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlanDataOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/deactivate",
+  "method": "POST",
+  "names": [
+   "DeactivatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/list",
+  "method": "POST",
+  "names": [
+   "ListPromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/list_one_fee_recommend_product",
+  "method": "POST",
+  "names": [
+   "ListOneFeeRecommendProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/list_product",
+  "method": "POST",
+  "names": [
+   "ListPromotionPlanProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/product_label",
+  "method": "POST",
+  "names": [
+   "GetPromotionPlanProductLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/update",
+  "method": "POST",
+  "names": [
+   "UpdatePromotionPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/plan/update_product",
+  "method": "POST",
+  "names": [
+   "UpdatePromotionPlanProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_estimate_promotion_price",
+  "method": "POST",
+  "names": [
+   "CalcEstimatePromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_future_promotion_price",
+  "method": "POST",
+  "names": [
+   "CalcFuturePromotionPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/calc_promotion_stacking_info",
+  "method": "POST",
+  "names": [
+   "CalcPromotionStackingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price/get_promotion_stacking_info",
+  "method": "POST",
+  "names": [
+   "GetPromotionStackingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_details/get",
+  "method": "POST",
+  "names": [
+   "MGetPriceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_guardrail/batch_set",
+  "method": "POST",
+  "names": [
+   "BatchSetPriceGuardrailSafetyPrice"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_guardrail/detail",
+  "method": "POST",
+  "names": [
+   "GetPriceGuardrailDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_guardrail/download/template",
+  "method": "POST",
+  "names": [
+   "DownloadPriceGuardrailTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_guardrail/list",
+  "method": "POST",
+  "names": [
+   "ListPriceGuardrailOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_guardrail/progress_bar",
+  "method": "POST",
+  "names": [
+   "GetPriceGuardrailProgressBar"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/price_stacking_detail/get",
+  "method": "POST",
+  "names": [
+   "GetSkuPriceStackingDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/create",
+  "method": "POST",
+  "names": [
+   "CreatePrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/delete",
+  "method": "POST",
+  "names": [
+   "DeletePrize"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/get",
+  "method": "POST",
+  "names": [
+   "GetPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/list",
+  "method": "POST",
+  "names": [
+   "ListPrizes"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/prize/update_quantity",
+  "method": "POST",
+  "names": [
+   "UpdatePrizeQuantity"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/generate",
+  "method": "POST",
+  "names": [
+   "GenerateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/get",
+  "method": "POST",
+  "names": [
+   "GetSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/promo_code/validate",
+  "method": "POST",
+  "names": [
+   "ValidateSellerPromoCode"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_creators/get",
+  "method": "POST",
+  "names": [
+   "GetRecommendedCreators"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tool/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedPromotionTool"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tools/label_list",
+  "method": "POST",
+  "names": [
+   "ListSellerRecommendedLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tools/list",
+  "method": "POST",
+  "names": [
+   "ListRecommendedPromotionTools"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/recommended_promotion_tools/live_overview",
+  "method": "POST",
+  "names": [
+   "ListSellerRecommendedLiveOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/restrict_categories/list",
+  "method": "POST",
+  "names": [
+   "ListRestrictCategories"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/risk_price_product/get",
+  "method": "POST",
+  "names": [
+   "GetRiskPriceProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_bundles",
+  "method": "POST",
+  "names": [
+   "SearchBundles"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_creator",
+  "method": "POST",
+  "names": [
+   "SearchCreatorByNameOrID"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/search_products",
+  "method": "POST",
+  "names": [
+   "SearchProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_allow_list/get",
+  "method": "?",
+  "names": [
+   "GetSellerInAllowList"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_audit_log/query",
+  "method": "POST",
+  "names": [
+   "QueryAuditLog"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_experiment_info/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExperimentInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_platform/list",
+  "method": "POST",
+  "names": [
+   "ListSellerPlatformPromotions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_platform/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPlatformPromotions"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_points/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerPoints"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_points/deactivate",
+  "method": "POST",
+  "names": [
+   "DeactivateSellerPoints"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_points/get",
+  "method": "POST",
+  "names": [
+   "GetSellerPoints"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_points/list_products",
+  "method": "POST",
+  "names": [
+   "ListSellerPointsProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_points/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPoints"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/seller_recently_used_tools/list",
+  "method": "POST",
+  "names": [
+   "ListSellerRecentlyUsedTools"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/shop_metrics/overview/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionShopMetricsOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/shop_risk_info/get",
+  "method": "?",
+  "names": [
+   "GetShopRiskInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/single_discount/get",
+  "method": "POST",
+  "names": [
+   "GetSingleDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/single_discount/list",
+  "method": "POST",
+  "names": [
+   "ListSingleDiscounts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/smart_plan/list_recommended_tools",
+  "method": "POST",
+  "names": [
+   "ListSmartPlanRecommendedTools"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/check_deactivate",
+  "method": "POST",
+  "names": [
+   "CheckSNSPromoDeactivate"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/create",
+  "method": "POST",
+  "names": [
+   "CreateSNSProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/get",
+  "method": "POST",
+  "names": [
+   "GetSNSProductDiscount"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/products/batch_operate",
+  "method": "POST",
+  "names": [
+   "BatchOperateSNSProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/products/check_deactivate",
+  "method": "POST",
+  "names": [
+   "CheckSNSProductsDeactivate"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/products/get_operation_context",
+  "method": "POST",
+  "names": [
+   "GetSNSProductOperationContext"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/products/list",
+  "method": "POST",
+  "names": [
+   "ListSNSProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/sns_product_discount/update",
+  "method": "POST",
+  "names": [
+   "UpdateSNSPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/tool_info/list",
+  "method": "POST",
+  "names": [
+   "ListPromotionToolInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/toolbox/seller_audit_log/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/api/v1/promotion/tools_metrics/overview/get",
+  "method": "POST",
+  "names": [
+   "GetPromotionToolsMetricsOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/update_products",
+  "method": "POST",
+  "names": [
+   "UpdateProductsInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/update_skus",
+  "method": "POST",
+  "names": [
+   "UpdateSkusInPromotion"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/check_conflict",
+  "method": "POST",
+  "names": [
+   "CheckConflictVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/check_voucher_overlap",
+  "method": "POST",
+  "names": [
+   "CheckSellerVoucherOverlap"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/destroy",
+  "method": "POST",
+  "names": [
+   "DestroyVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucher"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/list_products",
+  "method": "POST",
+  "names": [
+   "ListProductsInVoucherByCursor"
+  ]
+ },
+ {
+  "path": "/api/v1/promotion/voucher/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucher"
+  ]
+ },
+ {
+  "path": "/api/v2/nodes",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/app/voucher/list",
+  "method": "?",
+  "names": [
+   "ListVoucherFromAppV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/create",
+  "method": "POST",
+  "names": [
+   "CreateVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/get",
+  "method": "POST",
+  "names": [
+   "GetVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/list",
+  "method": "POST",
+  "names": [
+   "ListVoucherV2"
+  ]
+ },
+ {
+  "path": "/api/v2/promotion/voucher/update",
+  "method": "POST",
+  "names": [
+   "UpdateVoucherV2"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/dynamic_configs/get",
+  "method": "POST",
+  "names": [
+   "GetDynamicConfigsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadTokenForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/promotion/list_seller_gray_config",
+  "method": "?",
+  "names": [
+   "ListSellerGrayConfigForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/promotion/mget_item_data",
+  "method": "POST",
+  "names": [
+   "MGetItemDataForWidget"
+  ]
+ }
+]

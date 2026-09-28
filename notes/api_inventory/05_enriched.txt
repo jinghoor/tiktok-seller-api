@@ -1,0 +1,50 @@
+唯一路径 564；能定出方法的 416
+
+方法分布: [('POST', 398), ('?', 148), ('GET', 18)]
+
+一级分组（前 45）:
+    76  affiliate/seller
+    63  affiliate/creator
+    54  affiliate/sample
+    34  affiliate/lux
+    27  affiliate/crm
+    24  affiliate/partner
+    23  affiliate/open_collaboration
+    21  affiliate/campaign
+    21  affiliate/compass
+    20  api/i18n_conf
+    18  affiliate/collaboration
+    18  affiliate/notification
+    17  api/affiliate
+    11  affiliate/plan
+    10  affiliate/backend
+    10  affiliate/cmp
+     9  affiliate/open_plan
+     6  affiliate/assets
+     6  affiliate/platform
+     4  affiliate/diagnosis
+     3  affiliate/account
+     3  affiliate/announcement
+     3  affiliate/creator_marketplace
+     3  affiliate/product
+     3  affiliate/shop_plan
+     3  insights/transaction-analysis
+     3  affiliate/guidance_page
+     3  api/sentry_verify
+     2  affiliate/auction_stock
+     2  affiliate/relation
+     2  affiliate/resource
+     2  affiliate/review
+     2  affiliate/shop_setting
+     2  affiliate/violation
+     2  affiliate/withhold_tax
+     2  api/bs
+     2  insights/affiliate
+     2  affiliate/shop
+     1  api/feelgood
+     1  affiliate/approve
+     1  affiliate/banner
+     1  affiliate/commission_unique
+     1  affiliate/config
+     1  affiliate/creator_application
+     1  affiliate/creator_data

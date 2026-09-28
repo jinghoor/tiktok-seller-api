@@ -1,0 +1,1072 @@
+[
+ {
+  "path": "/api/v1/seller/growth_center/shop/violation/quick_filter/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/api/v1/seller/growth_center/shop/warning/quick_filter/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/logistics/district/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/logistics/district/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/brand/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/brand/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/brand/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/brand/detail",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/brand/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/bundles/mactivate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/bundles/mdeactivate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/bundles/mdelete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/commission/config/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/commission/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/commission/set",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/duplication/title/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/guide_context/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/image/quality/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/images/msubmit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/bundle/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/bundle/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/bundles/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/edit/template",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/edit_image/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/image/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/product/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/product/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/local/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/logistics/service/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/parcel/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/products/activate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/products/deactivate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/products/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/products/recover",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/prohibited/words/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/promotion/price/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/shipping/fee/estimate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/shipping_template/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/batch_save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/config_product",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/get_bind_info",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/identify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/list_product_type",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/size_chart/search",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/price/cal",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/price/stocks/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/price/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/prices/mcal",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/stocks/decrease",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/sku/stocks/increase",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/product/spu/match",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/pssresource/external/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/black_word/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/category/banner_close",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/category/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/category_epr/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/category_epr/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/category_epr/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/epr/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/epr/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/epr/multisubmit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/epr_upload/epr/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/file/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/category_epr/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/category_epr/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/category_epr/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/epr/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/epr/edit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/epr_upload/epr/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/product/batch_link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/product/link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/product/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/product/unlink",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/translate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/manufacturer/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/product/batch_link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/product/link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/product/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/product/unlink",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/translate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/item/rp/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/product_qualification_task/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/fs/seller_service/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/product/batch_link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/product/link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/product/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/product/unlink",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/translate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/manufacturer/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/delete",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/batch_link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/link",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/relation/set",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/relations/change",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/product/unlink",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/translate",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/item/rp/update",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/multi_product_qualification_task/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/ocr",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/product_qualification_task/detail",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/product_qualification_task/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/product_qualification_task/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/rule/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/seller_service/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/seller_task_unique_epr/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/task/verification/jumio/callback",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/task/verification/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/trademark/banner_close",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/qualification/center/trademark/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/appeal_center/cancel",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/appeal_center/config/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/appeal_center/is_appealable",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/appeal_center/record/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/appeal_center/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/creator/violation/appeal/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/grey_test/contain_country",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/guard/appeal/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/guard/collection_appeal/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/overview/action_needed/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/overview/policy_violations_module/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/quiz/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/quiz/paper/commit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/quiz/start",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/reward_penalty/appeal/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/metrics_module/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/platform/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/unviewed_info/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/violation/record/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/violation/records/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/warning/record/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/shop/warning/records/list",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/violation/appeal/pre_validation",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/violation/appeal/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/violation/correction/detail/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/violation/correction/form/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/violation/correction/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/growth_center/warning/record/viewed",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/merchant/attestation/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/address_validation",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/appeal_info/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/company_name/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/company_trading_name/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/action/report",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/appeal",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/appeal_with_token",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/entity_number/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/experienced_platform/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/global_seller/create",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/shop/open",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/shop/pre_check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/cross_border/ubo/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/docusign_callback",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/invitation_code/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/br/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/br/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/es/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/es/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/id/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/id/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/id/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/id/toko_fast_onboard/start",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/id/toko_fast_onboard/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/irl/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/irl/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/my/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/my/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/my/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/ph/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/ph/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/ph/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/sandbox/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/sg/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/sg/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/sg/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/th/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/th/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/th/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/backfill/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/post_onboard/extra_submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/post_onboard/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/raw_lead",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/sandbox/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/us/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/vn/draft/save",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/vn/extra/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/local/vn/submit",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/widget/api/v1/seller/growth_center/shop/violation/quick_filter/query",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/widget/api/v1/seller/growth_center/shop/warning/quick_filter/query",
+  "method": "POST",
+  "names": []
+ }
+]

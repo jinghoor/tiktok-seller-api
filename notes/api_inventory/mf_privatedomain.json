@@ -1,0 +1,924 @@
+[
+ {
+  "path": "/api/v1/app/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetAppImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/common/region_domain",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/multimedia/file/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetFileUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImage"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/video/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetVideoUploadToken"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/check",
+  "method": "POST",
+  "names": [
+   "CheckWhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/multimedia/white_background/get",
+  "method": "POST",
+  "names": [
+   "GetWhiteBackgroundImage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/audit/dismiss",
+  "method": "POST",
+  "names": [
+   "DismissLatestAuditRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get",
+  "method": "?",
+  "names": [
+   "GetSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logo/aigc/add",
+  "method": "POST",
+  "names": [
+   "AddAigcLogoTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logo/aigc/detail",
+  "method": "?",
+  "names": [
+   "GetAigcLogoTaskDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logo/aigc/list",
+  "method": "POST",
+  "names": [
+   "ListAigcLogoTasks"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logo/aigc/submit",
+  "method": "POST",
+  "names": [
+   "SubmitAigcLogoTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "?",
+  "names": [
+   "GetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/config/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/deposit/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderFirstCategoryDeposit"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCrossBorderEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/global_seller/create",
+  "method": "POST",
+  "names": [
+   "CreateCrossBorderGlobalSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/onboard/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/open_shop/states/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderOpenShopStates"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/shop/open",
+  "method": "POST",
+  "names": [
+   "SubmitOpenShopCrossBorder"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderUBO"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo_check/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderUBOCheckState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "GetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "SendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign_callback",
+  "method": "POST",
+  "names": [
+   "DocusignCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "GetFeatureTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code/submit",
+  "method": "POST",
+  "names": [
+   "SubmitInvitationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code_tag/get",
+  "method": "POST",
+  "names": [
+   "GetInvitationCodeTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "JumioOcr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "?",
+  "names": [
+   "GetJumioConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "GetJumioLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalBROnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/config/get",
+  "method": "?",
+  "names": [
+   "GetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalESOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIRLOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_info/get",
+  "method": "?",
+  "names": [
+   "GetSingpassInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_link/get",
+  "method": "?",
+  "names": [
+   "GetSingpassLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/state/get",
+  "method": "?",
+  "names": [
+   "GetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/state/get",
+  "method": "?",
+  "names": [
+   "GetLocalUSOnboardBackFillState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboardBackFill"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "ExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/config",
+  "method": "?",
+  "names": [
+   "GetSellerProfileConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/semi/store/get",
+  "method": "POST",
+  "names": [
+   "GetSemiStores"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/semi/store/link",
+  "method": "POST",
+  "names": [
+   "LinkSemiStore"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/semi/store/unlink",
+  "method": "POST",
+  "names": [
+   "UnlinkSemiStore"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/semi/upgrade/get",
+  "method": "?",
+  "names": [
+   "GetSemiUpgrade"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop/get",
+  "method": "POST",
+  "names": [
+   "GetShop"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_name/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopLogo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/get",
+  "method": "GET",
+  "names": [
+   "GetImageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/multimedia/image/upload_token/get",
+  "method": "GET",
+  "names": [
+   "GetImageUploadTokenForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "?",
+  "names": [
+   "WidgetGetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "WidgetSendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetFeatureTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "WidgetJumioOcr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "?",
+  "names": [
+   "WidgetGetJumioConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetJumioLink"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/config/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/state/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "?",
+  "names": [
+   "WidgetGetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "WidgetRegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardShopName"
+  ]
+ }
+]

@@ -1,0 +1,31 @@
+{
+ "active": "tk01",
+ "shops": {
+  "tk01": {
+   "label": "TK01_CrossBorder_Shop",
+   "region": "VN",
+   "seller_id": "7494XXXXXXXXXX00",
+   "aid": "6556",
+   "cdp_port": CDP_PORT,
+   "api_host": "https://api16-normal-sg.tiktokshopglobalselling.com",
+   "seller_origin": "https://seller.tiktokshopglobalselling.com",
+   "affiliate_host": "https://affiliate.tiktokshopglobalselling.com",
+   "api_app_name": "i18n_ecom_shop",
+   "affiliate_app_name": "i18n_ecom_alliance",
+   "timezone_name": "Asia/Bangkok"
+  },
+  "tk89": {
+   "label": "TK89_Local_Shop)",
+   "region": "VN",
+   "seller_id": "7494XXXXXXXXXX00",
+   "aid": "4068",
+   "cdp_port": CDP_PORT,
+   "api_host": "https://seller-vn.tiktok.com",
+   "seller_origin": "https://seller-vn.tiktok.com",
+   "affiliate_host": "https://affiliate.tiktokshopglobalselling.com",
+   "api_app_name": "i18n_ecom_shop",
+   "affiliate_app_name": "i18n_ecom_alliance",
+   "timezone_name": "Asia/Ho_Chi_Minh"
+  }
+ }
+}

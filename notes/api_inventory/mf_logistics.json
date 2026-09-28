@@ -1,0 +1,4042 @@
+[
+ {
+  "path": "/api/v1/address_component/config",
+  "method": "GET",
+  "names": [
+   "GetAddressComponentConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/app/common/get",
+  "method": "GET",
+  "names": [
+   "GetAppCommon"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/actions/na/upload",
+  "method": "POST",
+  "names": [
+   "ActionsUploadImageNA"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/checklist/list",
+  "method": "POST",
+  "names": [
+   "ChecklistInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/config_center/get",
+  "method": "POST",
+  "names": [
+   "GetConfigCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/default/seller/get",
+  "method": "GET",
+  "names": [
+   "GetSellerDefault"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/delivery_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchDeliveryTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/delivery_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchDeliveryTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/doc/print_status/verify",
+  "method": "POST",
+  "names": [
+   "DocPrintStatusVerify"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/err_file",
+  "method": "POST",
+  "names": [
+   "ExportErrFile"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/file_submit",
+  "method": "POST",
+  "names": [
+   "ExportFileSubmit"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/file_upload",
+  "method": "POST",
+  "names": [
+   "ExportFileUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/fulfill_info/list",
+  "method": "POST",
+  "names": [
+   "ListFulfillInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/insurance/na/set_affidavit_auto_send_app",
+  "method": "POST",
+  "names": [
+   "SetAffidavitAutoSendSwitchApp"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/invoice_no/save",
+  "method": "POST",
+  "names": [
+   "SaveInvoiceNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "ListLogisticDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "ListProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/logistics_service/list",
+  "method": "POST",
+  "names": [
+   "ListLogisticsServiceList"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/create",
+  "method": "POST",
+  "names": [
+   "CreatePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/delivery_update",
+  "method": "POST",
+  "names": [
+   "UpdateSOFDeliveryResult"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/list",
+  "method": "POST",
+  "names": [
+   "ListPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/mcreate",
+  "method": "POST",
+  "names": [
+   "MCreatePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/update",
+  "method": "POST",
+  "names": [
+   "UpdatePkg"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/pickinglist/success",
+  "method": "POST",
+  "names": [
+   "SetPickingListPrintSuccess"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/reach/banner_list",
+  "method": "POST",
+  "names": [
+   "ListPlatformReachRules"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/reach/rules/violation_list",
+  "method": "POST",
+  "names": [
+   "PlatformRuleViolation"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/reverse/shipping/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformReverse"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_express/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExpress"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_setting/biz_switch",
+  "method": "POST",
+  "names": [
+   "GetSellerBizSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/ship_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchShipTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/ship_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchShipTemplateRequest"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/inoperable_packages/get",
+  "method": "GET",
+  "names": [
+   "GetInOperablePackages"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/fulfillment_decision",
+  "method": "POST",
+  "names": [
+   "GetFulfillmentDecision"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/insurance_price",
+  "method": "POST",
+  "names": [
+   "MCalculateInsurancePrice"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformNA"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/shipping_provider_fee",
+  "method": "POST",
+  "names": [
+   "GetShippingProviderFee"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/shipping_service",
+  "method": "POST",
+  "names": [
+   "GetFulfillmentShippingServiceNA"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na_dm/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformNADM"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/options",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingSettingOptions"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/outbound/set",
+  "method": "POST",
+  "names": [
+   "UpdateOutboundCheckStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/recommendation/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingRecommend"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatform"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/send_by_seller/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/strategy/pickup_type/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerPickupTypeConf"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/strategy/pickup_type/get",
+  "method": "POST",
+  "names": [
+   "GetSellerPickupTypeConf"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/strategy/pickup_type/rts_setting",
+  "method": "POST",
+  "names": [
+   "GetPickupTypeRTSSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/strategy/pickup_type/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPickupTypeConf"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/strategy/pickup_type_config/get_starling_key",
+  "method": "POST",
+  "names": [
+   "GetPickupTypeConfStarlingKey"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/analysis/get",
+  "method": "GET",
+  "names": [
+   "GetSellerAnalysis"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadSubsidyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/detail/export",
+  "method": "POST",
+  "names": [
+   "ExportSubsidyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/detail/list",
+  "method": "POST",
+  "names": [
+   "ListSubsidyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/program/get",
+  "method": "GET",
+  "names": [
+   "GetProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/program/quit_or_join",
+  "method": "POST",
+  "names": [
+   "QuitOrJoinProgram"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/approval_callback",
+  "method": "POST",
+  "names": [
+   "SubsidyStrategyApprovalCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/cancel_approval",
+  "method": "POST",
+  "names": [
+   "CancelApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/create",
+  "method": "POST",
+  "names": [
+   "CreateSubsidyStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/get",
+  "method": "GET",
+  "names": [
+   "GetSubsidyStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/list",
+  "method": "POST",
+  "names": [
+   "ListSubsidyStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/submit_approval",
+  "method": "POST",
+  "names": [
+   "SubmitApproval"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/strategy/update",
+  "method": "POST",
+  "names": [
+   "UpdateSubsidyStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency",
+  "method": "POST",
+  "names": [
+   "FormatCurrency"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "method": "POST",
+  "names": [
+   "FormatCurrencyV2"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByCurrencyCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByGEONameID"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_list",
+  "method": "GET",
+  "names": [
+   "GetCurrencySupportCurrencyList"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_region_list",
+  "method": "GET",
+  "names": [
+   "GetCurrencySupportRegionList",
+   "GetDSTResult"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/datetime/format_locale",
+  "method": "POST",
+  "names": [
+   "FormatLocale"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "method": "GET",
+  "names": [
+   "GetLanguageByLocale"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLanguageByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLocalesByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "method": "GET",
+  "names": [
+   "GetEuRegionInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "method": "GET",
+  "names": [
+   "GetDefaultTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "method": "POST",
+  "names": [
+   "GetDSTResult"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "method": "GET",
+  "names": [
+   "GetExactTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "method": "GET",
+  "names": [
+   "GetIANATimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "method": "GET",
+  "names": [
+   "GetRegionTimezoneInfo",
+   "GetUTCOffsetHour"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "method": "GET",
+  "names": [
+   "GetUTCOffset"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetHour"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetSec"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/app_market/provider/property/contact",
+  "method": "POST",
+  "names": [
+   "ContactProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/app_market/provider/property/get",
+  "method": "POST",
+  "names": [
+   "GetProviderProperty"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/app_market/provider/property/search",
+  "method": "POST",
+  "names": [
+   "SearchProviderProperty"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/district/get",
+  "method": "POST",
+  "names": [
+   "GetDistricts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/district/list",
+  "method": "POST",
+  "names": [
+   "ListDistricts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/cabin_management/list_big_bag",
+  "method": "POST",
+  "names": [
+   "ListBigBag"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/cabin_management/list_cabin_resource",
+  "method": "POST",
+  "names": [
+   "ListCabinResource"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/cabin_management/update_mawb_no_by_excel",
+  "method": "POST",
+  "names": [
+   "UpdateMawbNoByExcel"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/cabin_management/warehouse_code/list",
+  "method": "POST",
+  "names": [
+   "ListWarehouseCode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/batch_create",
+  "method": "POST",
+  "names": [
+   "BatchCreateDifferenceForm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/create",
+  "method": "POST",
+  "names": [
+   "CreateDifferenceForm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/download",
+  "method": "POST",
+  "names": [
+   "DownloadDifferenceForm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/pkg_info",
+  "method": "POST",
+  "names": [
+   "MGetDifferenceFormPkgInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/warehouse_info",
+  "method": "POST",
+  "names": [
+   "GetProviderWarehouseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form/weight_appeal/download",
+  "method": "POST",
+  "names": [
+   "DownloadDifferenceFormWeightAppealList"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/difference_form_pkg/search",
+  "method": "POST",
+  "names": [
+   "SearchDifferenceFormPkg"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/infra/message/list",
+  "method": "POST",
+  "names": [
+   "ListLPPReachMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/infra/message/mark_read",
+  "method": "POST",
+  "names": [
+   "MarkLPPReachMessageRead"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/infra/upload_task/search",
+  "method": "POST",
+  "names": [
+   "SearchUploadTask"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/laneproduct/list",
+  "method": "POST",
+  "names": [
+   "MGetLaneProductsPage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/laneproduct/region/list",
+  "method": "POST",
+  "names": [
+   "MGetRegionLaneProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/cabin/resource",
+  "method": "POST",
+  "names": [
+   "GetCabinResource"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/currency",
+  "method": "POST",
+  "names": [
+   "ListAirlineQuotationCurrency"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/detail",
+  "method": "POST",
+  "names": [
+   "GetAirlineQuotationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/file/get",
+  "method": "POST",
+  "names": [
+   "GetQuotationUploadTemplateFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/import",
+  "method": "POST",
+  "names": [
+   "ImportAirlineQuotation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/list",
+  "method": "POST",
+  "names": [
+   "ListAirlineQuotation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/air/quotation/operate",
+  "method": "POST",
+  "names": [
+   "OperateAirlineQuotation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/month/penalty/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadLinehaulMonthPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/month/penalty/detail/search",
+  "method": "POST",
+  "names": [
+   "SearchLinehaulMonthPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/penalty/appeal",
+  "method": "POST",
+  "names": [
+   "LinehaulPenaltyAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/penalty/assessment/search",
+  "method": "POST",
+  "names": [
+   "SearchLinehaulPenaltyAssessment"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/penalty/confirm",
+  "method": "POST",
+  "names": [
+   "LinehaulPenaltyConfirm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/penalty/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadLinehaulPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/linehaul/penalty/detail/search",
+  "method": "POST",
+  "names": [
+   "SearchLinehaulPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/appeal/upload",
+  "method": "POST",
+  "names": [
+   "UploadPenaltyAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/assessment/search",
+  "method": "POST",
+  "names": [
+   "SearchPenaltyAssessment"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/confirm/search",
+  "method": "POST",
+  "names": [
+   "SearchPenaltyConfirm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/confirm/upload",
+  "method": "POST",
+  "names": [
+   "UploadPenaltyConfirm"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/detail/search",
+  "method": "POST",
+  "names": [
+   "SearchPenaltyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/detail/view",
+  "method": "POST",
+  "names": [
+   "GetPenaltyDetailView"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/get_enum",
+  "method": "POST",
+  "names": [
+   "GetEnumForPenalty"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/record/confirm",
+  "method": "POST",
+  "names": [
+   "ConfirmPenaltyRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/penalty/rule/list",
+  "method": "POST",
+  "names": [
+   "ListPenaltyRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/auth",
+  "method": "POST",
+  "names": [
+   "QuotationAuth"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/bsa/version/list",
+  "method": "POST",
+  "names": [
+   "ListBSAVersion"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/delivery/timeliness/list",
+  "method": "POST",
+  "names": [
+   "ListDeliveryTimeliness"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/delivery/wave/list",
+  "method": "POST",
+  "names": [
+   "ListDeliveryWave"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/detail",
+  "method": "POST",
+  "names": [
+   "GetQuotationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/draft",
+  "method": "POST",
+  "names": [
+   "SaveQuotationDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/effective/template",
+  "method": "POST",
+  "names": [
+   "EffectiveQuotationTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/list",
+  "method": "POST",
+  "names": [
+   "ListQuotationPage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/logs",
+  "method": "POST",
+  "names": [
+   "ListOperationLogs"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/pickup_point/list",
+  "method": "POST",
+  "names": [
+   "ListPickupPoint"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/port/list",
+  "method": "POST",
+  "names": [
+   "ListPortCode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/region/list",
+  "method": "POST",
+  "names": [
+   "ListRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/source/list",
+  "method": "POST",
+  "names": [
+   "ListQuotationSource"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/submit",
+  "method": "POST",
+  "names": [
+   "SubmitQuotation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/quotation/update",
+  "method": "POST",
+  "names": [
+   "UpdateQuotation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/carton/download",
+  "method": "POST",
+  "names": [
+   "DownloadTruckTransferCarton"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/carton/exception/upload",
+  "method": "POST",
+  "names": [
+   "UploadTruckTransferCartonException"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/carton/search",
+  "method": "POST",
+  "names": [
+   "ListTruckTransferCarton"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/carton/status/get_all",
+  "method": "POST",
+  "names": [
+   "GetAllBigBagActionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/city/get_all",
+  "method": "POST",
+  "names": [
+   "GetAllTruckTransferCity"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/package/download",
+  "method": "POST",
+  "names": [
+   "DownloadTruckTransferPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/package/search",
+  "method": "POST",
+  "names": [
+   "SearchTruckTransferPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/package/status/update",
+  "method": "POST",
+  "names": [
+   "UpdateTruckTransferPackageStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/port/get_all",
+  "method": "POST",
+  "names": [
+   "GetAllPorts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/transfer_order/create",
+  "method": "POST",
+  "names": [
+   "CreateTruckTransferOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/transfer_order/detail/get",
+  "method": "POST",
+  "names": [
+   "GetTruckTransferOrderDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/transfer_order/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadTruckTransferOrderFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/transfer_order/search",
+  "method": "POST",
+  "names": [
+   "ListTruckTransferOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/truck_transfer/transfer_order/update",
+  "method": "POST",
+  "names": [
+   "UpdateTruckTransferOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/provider/management/waybill/print",
+  "method": "POST",
+  "names": [
+   "PrintWaybill"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/batch_details",
+  "method": "POST",
+  "names": [
+   "GetTokoGreyBatchDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/detail_file/download",
+  "method": "POST",
+  "names": [
+   "DownloadGreyBatchShopDetailFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/edit_grey_batch",
+  "method": "POST",
+  "names": [
+   "EditTokoGreyBatch"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/import",
+  "method": "POST",
+  "names": [
+   "ImportTokoBatchGreyRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/list",
+  "method": "POST",
+  "names": [
+   "GetSeaTokoBatchGreyRecordList"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/grey/update_shop_status",
+  "method": "POST",
+  "names": [
+   "UpdateTokoGreyBatchShopStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/pre_allocation_task/confirm",
+  "method": "POST",
+  "names": [
+   "ConfirmPreAllocationTask"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/pre_allocation_task/file/export",
+  "method": "POST",
+  "names": [
+   "ExportPreAllocationTaskFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/pre_allocation_task/file/update",
+  "method": "POST",
+  "names": [
+   "UpdatePreAllocationTaskFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/pre_allocation_task/file/validate",
+  "method": "POST",
+  "names": [
+   "ValidatePreAllocationTaskFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/pre_allocation_task/page",
+  "method": "POST",
+  "names": [
+   "PagePreAllocationTask"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/create",
+  "method": "POST",
+  "names": [
+   "CreateAllocSimulation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAllocSimulation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/detail/get",
+  "method": "POST",
+  "names": [
+   "GetAllocSimulationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/page",
+  "method": "POST",
+  "names": [
+   "PageAllocSimulation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/plan/address_level/page",
+  "method": "POST",
+  "names": [
+   "GetSimulationPlanAddressLevelData"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/plan/detail/data",
+  "method": "POST",
+  "names": [
+   "GetSimulationPlanDetailData"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/plan/overview",
+  "method": "POST",
+  "names": [
+   "GetSimulationPlanOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/plan/provider/distribution",
+  "method": "POST",
+  "names": [
+   "GetSimulationPlanProviderDistribution"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/plan/start",
+  "method": "POST",
+  "names": [
+   "StartSimulationPlan"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/strategy/release",
+  "method": "POST",
+  "names": [
+   "ReleaseSimulationAllocation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/simulation/update",
+  "method": "POST",
+  "names": [
+   "UpdateAllocSimulation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/capacity/limit/delete",
+  "method": "POST",
+  "names": [
+   "DeleteAllocCapacitLimit"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/capacity/limit/page",
+  "method": "POST",
+  "names": [
+   "PageAllocCapacityLimitDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/capacity/limit/update",
+  "method": "POST",
+  "names": [
+   "UpdateAllocCapacityLimit"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/capacity/page",
+  "method": "POST",
+  "names": [
+   "PageAllocCapacityDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/create",
+  "method": "POST",
+  "names": [
+   "CreateAllocStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/detail/export",
+  "method": "POST",
+  "names": [
+   "ExportStrategyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/detail/get",
+  "method": "POST",
+  "names": [
+   "GetAllocStrategyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/detail/page/get",
+  "method": "POST",
+  "names": [
+   "PageAllocStrategyDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/detail/search",
+  "method": "POST",
+  "names": [
+   "AllocSearchDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/details/upload/page",
+  "method": "POST",
+  "names": [
+   "PageAllocHistoryUploadDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/batch",
+  "method": "POST",
+  "names": [
+   "BatchImportDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/create",
+  "method": "POST",
+  "names": [
+   "CreateFactorDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/default/create",
+  "method": "POST",
+  "names": [
+   "CreateDefaultProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/default/delete",
+  "method": "POST",
+  "names": [
+   "DeleteDefaultProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/default/get",
+  "method": "POST",
+  "names": [
+   "GetDefaultProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/default/update",
+  "method": "POST",
+  "names": [
+   "UpdateDefaultProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/delete",
+  "method": "POST",
+  "names": [
+   "DeleteFactorDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/factor/detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateFactorDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/file/validate",
+  "method": "POST",
+  "names": [
+   "ValidateAllocStrategyFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/page",
+  "method": "POST",
+  "names": [
+   "PageAllocStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/release",
+  "method": "POST",
+  "names": [
+   "ReleaseAllocStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/strategy/update",
+  "method": "POST",
+  "names": [
+   "UpdateAllocStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/toko/diff",
+  "method": "POST",
+  "names": [
+   "GetTOKOAllocationDiff"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/toko/diff/details",
+  "method": "POST",
+  "names": [
+   "PageTokoAllocDiffDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/tts/diff",
+  "method": "POST",
+  "names": [
+   "GetTTSAllocationDiff"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/sea_allocation/tts/diff/details",
+  "method": "POST",
+  "names": [
+   "PageAllocDiffDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/seller/pickup_subscription/apply",
+  "method": "POST",
+  "names": [
+   "ApplyPickupSubscription"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/seller/pickup_subscription/cancel",
+  "method": "POST",
+  "names": [
+   "CancelPickupSubscription"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/supplier/qualification/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSupplierQualification"
+  ]
+ },
+ {
+  "path": "/api/v1/operation/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "OperationListLogisticDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/pearl/bff/cb-queen/dynamic-config/public/detail",
+  "method": "?",
+  "names": []
+ },
+ {
+  "path": "/api/v1/product/creator_stock/creator/list",
+  "method": "GET",
+  "names": [
+   "SearchCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/product/creator_stock/list",
+  "method": "POST",
+  "names": [
+   "ListCreatorStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/creator_stock/product/list",
+  "method": "GET",
+  "names": [
+   "SearchCreatorProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/product/creator_stock/status/check",
+  "method": "GET",
+  "names": [
+   "CheckCreatorStockStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/product/creator_stock/status/update",
+  "method": "POST",
+  "names": [
+   "UpdateCreatorStockStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/product/creator_stock/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCreatorStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/alert/export_reple_file",
+  "method": "POST",
+  "names": [
+   "ExportReplenishmentFile"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/alert/query_export_progress",
+  "method": "POST",
+  "names": [
+   "QueryReplenishFileGenProgress"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/alert/sales/forecast_option/update",
+  "method": "POST",
+  "names": [
+   "UpdateSalesForecastOption"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/alert/set_seller_alert",
+  "method": "POST",
+  "names": [
+   "SetSellerAlertStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/alert/set_stock",
+  "method": "POST",
+  "names": [
+   "SetInShopStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/banner/check",
+  "method": "GET",
+  "names": [
+   "CheckBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/banner/close",
+  "method": "GET",
+  "names": [
+   "CloseBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/flow/list",
+  "method": "POST",
+  "names": [
+   "ListStockFlow"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/list",
+  "method": "POST",
+  "names": [
+   "ListProductStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/negative/check",
+  "method": "POST",
+  "names": [
+   "CheckNegative"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/negative/close",
+  "method": "POST",
+  "names": [
+   "CloseNegative"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/query/inventory_health",
+  "method": "POST",
+  "names": [
+   "QueryInventoryHealth"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/query/sku",
+  "method": "POST",
+  "names": [
+   "QuerySKUStock"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/query/warehouse/stock_sale_type",
+  "method": "POST",
+  "names": [
+   "QueryWarehouseStockSaleType"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/sku/count/list",
+  "method": "POST",
+  "names": [
+   "CountSKUType"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/sku/list",
+  "method": "POST",
+  "names": [
+   "ListSKU"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/sku/order/list",
+  "method": "POST",
+  "names": [
+   "ListSKUOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/status_count/list",
+  "method": "POST",
+  "names": [
+   "CountProductStockStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/product/stock/warehouse/deactivatable/check",
+  "method": "POST",
+  "names": [
+   "CheckWarehouseDeactivatable"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/conversation/get",
+  "method": "?",
+  "names": [
+   "GetHelpdeskConversation"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/entrance/get",
+  "method": "POST",
+  "names": [
+   "GetByEntrance"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/unread_msg/get",
+  "method": "?",
+  "names": [
+   "GetUserUnreadMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/proxy/seller/helpdesk/user/get",
+  "method": "POST",
+  "names": [
+   "GenIMUser"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/get",
+  "method": "GET",
+  "names": [
+   "GetAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/switch/get",
+  "method": "GET",
+  "names": [
+   "GetAccountSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/update",
+  "method": "POST",
+  "names": [
+   "UpdateAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account_verification/get",
+  "method": "GET",
+  "names": [
+   "GetAccountVerification"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/address_verify/verify",
+  "method": "POST",
+  "names": [
+   "VerifyAddressByLogistics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ads_optimizers/get",
+  "method": "GET",
+  "names": [
+   "GetAdsOptimizersCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/affiliate_card/get",
+  "method": "GET",
+  "names": [
+   "GetAffiliateCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/allowed_geo_l0/get",
+  "method": "GET",
+  "names": [
+   "GetAllowedGeoL0"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/app/logistics_service/get_subscribable_service",
+  "method": "POST",
+  "names": [
+   "GetSellerSubscribableServiceForApp"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/is_read/get",
+  "method": "GET",
+  "names": [
+   "CheckSingleBadgeIsRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerBag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/create_file/create",
+  "method": "POST",
+  "names": [
+   "ExportCreateBagFile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/create_file/download",
+  "method": "POST",
+  "names": [
+   "DownloadCreateBagFile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/label/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBagLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/list",
+  "method": "POST",
+  "names": [
+   "ListSellerBag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/package/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBagPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/package/list",
+  "method": "POST",
+  "names": [
+   "ListSellerBagPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bag/providers/list",
+  "method": "POST",
+  "names": [
+   "GetSellerBagShippingProviders"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bonus_invoice_ability/get",
+  "method": "GET",
+  "names": [
+   "GetBonusInvoiceAbility"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/bonus_invoice_ability/upsert",
+  "method": "POST",
+  "names": [
+   "UpsertBonusInvoiceAbility"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/brand/get",
+  "method": "GET",
+  "names": [
+   "GetSellerBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/capacity_template/create_or_update",
+  "method": "POST",
+  "names": [
+   "CreateOrUpdateSellerCapacityTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/capacity_template/disable",
+  "method": "POST",
+  "names": [
+   "DisableSellerCapacityTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/capacity_template/get",
+  "method": "GET",
+  "names": [
+   "GetSellerCapacityTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/capacity_template/permission/check",
+  "method": "POST",
+  "names": [
+   "CheckSellerCapacityPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/check_and_cache_register_info",
+  "method": "POST",
+  "names": [
+   "CheckAndCacheRegisterInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/check_invite_code",
+  "method": "POST",
+  "names": [
+   "CheckInviteCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/check_verification_code",
+  "method": "POST",
+  "names": [
+   "CommonCheckVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/get",
+  "method": "GET",
+  "names": [
+   "GetSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/send_verification_code",
+  "method": "POST",
+  "names": [
+   "CommonSendVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common_extra/get",
+  "method": "GET",
+  "names": [
+   "GetCommonExtra"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creativityhub/get",
+  "method": "POST",
+  "names": [
+   "GetSellerCreativityHubInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator_availability/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorAvailability"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator_info/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/cross_border/delivery/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/set",
+  "method": "POST",
+  "names": [
+   "SetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource_config_list/get",
+  "method": "GET",
+  "names": [
+   "GetCustomRoleResourceConfigList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/customer_service/im/base_info/get",
+  "method": "GET",
+  "names": [
+   "GetIMBaseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/am/abort",
+  "method": "POST",
+  "names": [
+   "LogoutDelegationByAm"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/history/get",
+  "method": "GET",
+  "names": [
+   "GetDelegationLoginHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/info",
+  "method": "GET",
+  "names": [
+   "GetDelegationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/mode/set",
+  "method": "POST",
+  "names": [
+   "SetDelegationMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/seller/abort",
+  "method": "POST",
+  "names": [
+   "AbortDelegationBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delivery/get",
+  "method": "GET",
+  "names": [
+   "GetSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delivery/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/academy/get",
+  "method": "GET",
+  "names": [
+   "GetEduCompAcademy"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/faq/get",
+  "method": "GET",
+  "names": [
+   "GetEduCompFAQ"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ext_attr/get",
+  "method": "GET",
+  "names": [
+   "GetSellerExtAttr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feelgood/access_token/get",
+  "method": "POST",
+  "names": [
+   "GetFeelGoodAccessToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/bind",
+  "method": "POST",
+  "names": [
+   "BindFeishu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_binding_staff",
+  "method": "GET",
+  "names": [
+   "GetBindingFeishuStaff"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_invite_user",
+  "method": "GET",
+  "names": [
+   "GetInviteUserForFeishu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_recommend_groups",
+  "method": "GET",
+  "names": [
+   "GetRecommendFeishuGroups"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_all_unified_seller",
+  "method": "POST",
+  "names": [
+   "GetAllUnifiedSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_main_account_safe_phone",
+  "method": "POST",
+  "names": [
+   "GetMainAccountSafePhone"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_register_source",
+  "method": "POST",
+  "names": [
+   "GetRegisterSource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_unread_download_task_count",
+  "method": "GET",
+  "names": [
+   "GetUnreadDownloadTaskCount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/fe_gray_setting/get",
+  "method": "GET",
+  "names": [
+   "GetFEGraySetting"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddPlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/available/get",
+  "method": "GET",
+  "names": [
+   "GetAvailablePlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/delete",
+  "method": "POST",
+  "names": [
+   "DeletePlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouse/param_rule/get",
+  "method": "GET",
+  "names": [
+   "WarehouseParameterRule"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouse/prefill",
+  "method": "POST",
+  "names": [
+   "PrefillWarehouseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/available_region/get",
+  "method": "GET",
+  "names": [
+   "GetAvailableRegions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/deactivated_warehouse/get",
+  "method": "GET",
+  "names": [
+   "GetDeactivatedSellerWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/default/set",
+  "method": "POST",
+  "names": [
+   "SetDefaultWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/delete",
+  "method": "POST",
+  "names": [
+   "DeleteGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/permission/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalSellerWarehousesPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/priority/set",
+  "method": "POST",
+  "names": [
+   "SetWarehousePriority"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/status_transfer",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseStatusTransfer"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/switch",
+  "method": "POST",
+  "names": [
+   "SwitchGlobalWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/update",
+  "method": "POST",
+  "names": [
+   "UpdateGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_product_permission/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalProductPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_onboard_info/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalSellerOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/go_seller_center",
+  "method": "GET",
+  "names": [
+   "GoSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/check_new_message",
+  "method": "POST",
+  "names": [
+   "CheckNewPlatformMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/get_user_message_statistic",
+  "method": "POST",
+  "names": [
+   "GetUserMessageStatistics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/mark_read_user_message",
+  "method": "POST",
+  "names": [
+   "MarkReadUserMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/mark_remind_user_message",
+  "method": "POST",
+  "names": [
+   "MarkRemindUserMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/user_message_detail",
+  "method": "POST",
+  "names": [
+   "GetUserMessageDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/user_message_list",
+  "method": "POST",
+  "names": [
+   "GetUserMessageList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/course_detail/get",
+  "method": "GET",
+  "names": [
+   "GetCourseDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/get",
+  "method": "GET",
+  "names": [
+   "GetHelpInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/knowledge_detail/get",
+  "method": "GET",
+  "names": [
+   "GetKnowledgeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/holiday_mode/list",
+  "method": "GET",
+  "names": [
+   "ListHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/holiday_mode/set",
+  "method": "POST",
+  "names": [
+   "SetHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_assess_personas",
+  "method": "POST",
+  "names": [
+   "FsAssessPersonasCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_must_read_list",
+  "method": "GET",
+  "names": [
+   "GetMustReadList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_todo_list",
+  "method": "POST",
+  "names": [
+   "FsTodoCardData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_activity_marketing",
+  "method": "POST",
+  "names": [
+   "MarketingCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_assess_personas",
+  "method": "POST",
+  "names": [
+   "AssessPersonasCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_clue_card",
+  "method": "POST",
+  "names": [
+   "ClueCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_supplier_guidance",
+  "method": "POST",
+  "names": [
+   "SupplierGuidanceCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_task_card",
+  "method": "POST",
+  "names": [
+   "ListSupplierTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_todo_list",
+  "method": "POST",
+  "names": [
+   "TodoCardData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_card/get",
+  "method": "GET",
+  "names": [
+   "GetHomeCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_stage/get",
+  "method": "POST",
+  "names": [
+   "CheckLifeStage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_task/get",
+  "method": "GET",
+  "names": [
+   "GetHomeTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_allowlist/get",
+  "method": "GET",
+  "names": [
+   "GetHomePageAllowList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_widgets_group/get",
+  "method": "GET",
+  "names": [
+   "GetHomepageWidgetsGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/info/check",
+  "method": "POST",
+  "names": [
+   "CheckSellerInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/locales/get",
+  "method": "GET",
+  "names": [
+   "GetLocales"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics/service_performance",
+  "method": "POST",
+  "names": [
+   "GetSellerLogisticsPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics/shop_performance",
+  "method": "POST",
+  "names": [
+   "GetSellerShopPerformance"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics/switch_option_for_warehouse",
+  "method": "POST",
+  "names": [
+   "SwitchOptionForWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_details/get_fail_reason",
+  "method": "POST",
+  "names": [
+   "GetFailReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_mode/set",
+  "method": "POST",
+  "names": [
+   "SetSellerPreferLogisticsMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/active_seller_subscription",
+  "method": "POST",
+  "names": [
+   "ActiveSellerSubscription"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/banned_option/get",
+  "method": "POST",
+  "names": [
+   "GetSellerBannedOption"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/cbt_available_check",
+  "method": "POST",
+  "names": [
+   "CheckCBTAvailable"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/cbt_downgrade",
+  "method": "POST",
+  "names": [
+   "DowngradeCBT2Real4pl"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/disable_subscribed_service",
+  "method": "POST",
+  "names": [
+   "DisableSellerSubscribedService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/exit_new_4pl",
+  "method": "POST",
+  "names": [
+   "ExitNew4PLService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/get_subscribable_service",
+  "method": "POST",
+  "names": [
+   "GetSellerSubscribableService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/get_subscribed_aggregated_data",
+  "method": "POST",
+  "names": [
+   "GetSellerSubscribedAggregatedData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/get_subscribed_service",
+  "method": "POST",
+  "names": [
+   "GetSellerSubscribedService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/join_new_4pl",
+  "method": "POST",
+  "names": [
+   "JoinNew4PLService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/m_update_subscribe_service",
+  "method": "POST",
+  "names": [
+   "MUpdateSubscribeServices"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/real4pl_join_register/status",
+  "method": "POST",
+  "names": [
+   "GetReal4plJoinRegisterStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/real4pl_join_register/warehouse/status",
+  "method": "POST",
+  "names": [
+   "GetReal4plJoinWarehouseRegisterStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/subscribe_service",
+  "method": "POST",
+  "names": [
+   "SubscribeService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_service/subscribe_service_auto",
+  "method": "POST",
+  "names": [
+   "SubscribeServiceAuto"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_trackingno/mget_match_providers",
+  "method": "POST",
+  "names": [
+   "MGetMatchProviders"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/apply",
+  "method": "POST",
+  "names": [
+   "SaveMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/get",
+  "method": "GET",
+  "names": [
+   "GetMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/marketing_opt/set",
+  "method": "POST",
+  "names": [
+   "SetMarketingOption"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/badge/get",
+  "method": "GET",
+  "names": [
+   "GetBadge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/get",
+  "method": "GET",
+  "names": [
+   "GetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/set",
+  "method": "POST",
+  "names": [
+   "SetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/switch",
+  "method": "POST",
+  "names": [
+   "SwitchMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/merchant_vat_id/create",
+  "method": "POST",
+  "names": [
+   "CreateMerchantVatID"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/get",
+  "method": "GET",
+  "names": [
+   "GetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/set",
+  "method": "GET",
+  "names": [
+   "SetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/multi_seller_bind",
+  "method": "POST",
+  "names": [
+   "MultiSellerBind"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/namespace/badge_list/get",
+  "method": "GET",
+  "names": [
+   "GetUnreadBadges"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/get",
+  "method": "GET",
+  "names": [
+   "GetNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/read",
+  "method": "POST",
+  "names": [
+   "ReadNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/official_creator_contract/set",
+  "method": "POST",
+  "names": [
+   "SetOfficialCreatorContract"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/order/conf/get",
+  "method": "GET",
+  "names": [
+   "GetSellerOrderListConf"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/package/list",
+  "method": "POST",
+  "names": [
+   "ListSellerPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/package/overview/count",
+  "method": "POST",
+  "names": [
+   "CountPackageOverview"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/package/tag/update",
+  "method": "POST",
+  "names": [
+   "MUpdatePackageTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/payment_manage_link/get",
+  "method": "GET",
+  "names": [
+   "GetPaymentManageLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/permissions/get",
+  "method": "GET",
+  "names": [
+   "GetPermissions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/pipo_scene_link/get",
+  "method": "GET",
+  "names": [
+   "GetPipoSceneLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/pkg_center/bag/tab",
+  "method": "POST",
+  "names": [
+   "GetPkgCenterBagTab"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/pkg_center/bag/track_details",
+  "method": "POST",
+  "names": [
+   "GetBagTrackDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/popup/get_popup_list",
+  "method": "POST",
+  "names": [
+   "GetPopupLists"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/popup/popup_callback",
+  "method": "POST",
+  "names": [
+   "PopupCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/processing_time/get",
+  "method": "POST",
+  "names": [
+   "GetSellerProcessingTimeConf"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/processing_time/set",
+  "method": "POST",
+  "names": [
+   "SetSellerProcessingTimeConf"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/program/get",
+  "method": "POST",
+  "names": [
+   "GetSellerProgramStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/program/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerProgramStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/provider/get_agreement_license",
+  "method": "POST",
+  "names": [
+   "GetProviderAgreementLicense"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/provider/register_account",
+  "method": "POST",
+  "names": [
+   "RegisterProviderAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/region/auto/complete/detail",
+  "method": "POST",
+  "names": [
+   "GetAutoCompleteRegionDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/region/auto/complete/list",
+  "method": "POST",
+  "names": [
+   "ListAutoCompleteRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/register_account_for_seller_center",
+  "method": "POST",
+  "names": [
+   "RegisterContactForSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/register_contact_for_brand_hosting",
+  "method": "POST",
+  "names": [
+   "RegisterContactForBrandHosting"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/registration/get_details",
+  "method": "POST",
+  "names": [
+   "GetSellerRegistrationDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/registration/get_status",
+  "method": "POST",
+  "names": [
+   "GetSellerRegistrationStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/registration/register",
+  "method": "POST",
+  "names": [
+   "RegisterSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search/get",
+  "method": "POST",
+  "names": [
+   "GlobalSearchByKeywords"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search_query_suggestion/get",
+  "method": "GET",
+  "names": [
+   "GetQuerySuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_delivery_blocker/create_or_update",
+  "method": "POST",
+  "names": [
+   "MCreateOrUpdateSellerDeliveryBlocker"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_delivery_blocker/get_by_warehouse",
+  "method": "POST",
+  "names": [
+   "GetSellerDeliveryBlockerByWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_delivery_blocker/get_region_config",
+  "method": "POST",
+  "names": [
+   "GetSellerDeliveryBlockerRegionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_financing_link/get",
+  "method": "GET",
+  "names": [
+   "GetSellerFinancingLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_map/read",
+  "method": "POST",
+  "names": [
+   "ReadSellerMap"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_wallet_link/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWalletLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/settlement/account/get",
+  "method": "GET",
+  "names": [
+   "GetSettlementAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shipment_provider/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerShipmentProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shipping/get_seller_visible_shipping_service",
+  "method": "POST",
+  "names": [
+   "GetSellerVisibleShippingService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shipping/get_seller_warehouse_address",
+  "method": "POST",
+  "names": [
+   "GetSellerWarehouseAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shipping/get_shipping_fee",
+  "method": "POST",
+  "names": [
+   "GetFeeByShippingService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop/timezone/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopTimeZone"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/get",
+  "method": "GET",
+  "names": [
+   "GetShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/invitation/send",
+  "method": "POST",
+  "names": [
+   "SendShopCreatorInvitation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/unbind",
+  "method": "POST",
+  "names": [
+   "UnbindShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/unbound_roles/get",
+  "method": "GET",
+  "names": [
+   "GetShopCreatorUnboundRoles"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/get",
+  "method": "GET",
+  "names": [
+   "GetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/set",
+  "method": "POST",
+  "names": [
+   "SetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_limit_status/get",
+  "method": "GET",
+  "names": [
+   "GetShopLimitStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/get",
+  "method": "GET",
+  "names": [
+   "GetShopMetrics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/save",
+  "method": "POST",
+  "names": [
+   "SaveShopMetricsPreference"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/smart_bundle/get",
+  "method": "POST",
+  "names": [
+   "GetSellerSmartBundleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/smart_bundle/status/get",
+  "method": "POST",
+  "names": [
+   "GetSellerSmartBundleConfigStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/smart_bundle/update",
+  "method": "POST",
+  "names": [
+   "CreateOrUpdateSellerSmartBundleConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/special_paylater_link/get",
+  "method": "GET",
+  "names": [
+   "GetSpecialPayLaterLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/add",
+  "method": "POST",
+  "names": [
+   "AddSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/bind",
+  "method": "POST",
+  "names": [
+   "BindSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/list",
+  "method": "GET",
+  "names": [
+   "ListSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/roles/get",
+  "method": "GET",
+  "names": [
+   "GetRoles"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/update",
+  "method": "POST",
+  "names": [
+   "UpdateSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/click/save",
+  "method": "POST",
+  "names": [
+   "SaveTagsClickEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/get",
+  "method": "GET",
+  "names": [
+   "GetTags"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax/get",
+  "method": "GET",
+  "names": [
+   "GetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax/set",
+  "method": "POST",
+  "names": [
+   "SetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_num/get",
+  "method": "GET",
+  "names": [
+   "GetSellerTaxV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_num/set",
+  "method": "POST",
+  "names": [
+   "SetSellerTaxV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_registered_number/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTaxRegisterNum"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/term/set",
+  "method": "POST",
+  "names": [
+   "TermAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ticket_token/get",
+  "method": "GET",
+  "names": [
+   "GetTicketToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tools",
+  "method": "POST",
+  "names": [
+   "CommonTool"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/brand_name/get",
+  "method": "GET",
+  "names": [
+   "GetBrandName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/del",
+  "method": "POST",
+  "names": [
+   "DelTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/detail",
+  "method": "GET",
+  "names": [
+   "DetailTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/list",
+  "method": "GET",
+  "names": [
+   "ListTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/permission/get",
+  "method": "GET",
+  "names": [
+   "GetTrademarkPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/receipt/brand/get",
+  "method": "GET",
+  "names": [
+   "GetReceiptBrandList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/submit_profile/get",
+  "method": "GET",
+  "names": [
+   "GetSubmitTrademarkProfile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/valid",
+  "method": "GET",
+  "names": [
+   "ValidTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/entrance_knowledge_list/get",
+  "method": "GET",
+  "names": [
+   "GetEntranceKnowledgeList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/home/get",
+  "method": "GET",
+  "names": [
+   "GetUniversityHome"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge/get",
+  "method": "GET",
+  "names": [
+   "GetUniversityKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge_feedback/create",
+  "method": "POST",
+  "names": [
+   "CreateKnowledgeFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/user/check_user_auth",
+  "method": "POST",
+  "names": [
+   "CheckUserAuth"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/user/get_info",
+  "method": "GET",
+  "names": [
+   "GetUserInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/del",
+  "method": "POST",
+  "names": [
+   "DelSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/get_tt_return_warehouses",
+  "method": "GET",
+  "names": [
+   "GetTTReturnWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/task",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/white_list/batch_check",
+  "method": "POST",
+  "names": [
+   "BatchCheckWhiteList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/white_list/check",
+  "method": "POST",
+  "names": [
+   "CheckWhiteList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/widget/get",
+  "method": "GET",
+  "names": [
+   "GetWidget"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/workbench/get_all_sellers",
+  "method": "POST",
+  "names": [
+   "GetAllSellers"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/x_data_delivery/performance_data",
+  "method": "POST",
+  "names": [
+   "GetSellerXDayDeliveryPerformanceData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_settings/seller_whitelist/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWhiteList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_settings/settings/get",
+  "method": "GET",
+  "names": [
+   "GetSellerSettings"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/binding_info/get",
+  "method": "POST",
+  "names": [
+   "GetTemplateBindingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/binding_template/binding",
+  "method": "POST",
+  "names": [
+   "BindingTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/binding_template/get",
+  "method": "POST",
+  "names": [
+   "MGetSellerBindingTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/get_region",
+  "method": "POST",
+  "names": [
+   "GetTemplateRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/get_warehouse_relation",
+  "method": "POST",
+  "names": [
+   "GetTemplateWarehouseRelation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/improper_fee_template/get",
+  "method": "POST",
+  "names": [
+   "GetSellerImProperFeeTemplates"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/key_info_list/get",
+  "method": "POST",
+  "names": [
+   "GetSellerTemplatesKeyInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/modify",
+  "method": "POST",
+  "names": [
+   "ModifySellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/recommend_rule/get",
+  "method": "POST",
+  "names": [
+   "GetRecommendationRulePrice"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/rule_proper_fee/get",
+  "method": "POST",
+  "names": [
+   "GetTemplateRuleProperFee"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/shipping_info/get",
+  "method": "GET",
+  "names": [
+   "GetSellerShippingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_detail/get",
+  "method": "GET",
+  "names": [
+   "GetTemplateDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_meta/get_region_config",
+  "method": "POST",
+  "names": [
+   "GetTemplateRegionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_meta/list",
+  "method": "GET",
+  "names": [
+   "ListTemplateMeta"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_proper_fee/get",
+  "method": "POST",
+  "names": [
+   "GetTemplateProperFee"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/create",
+  "method": "POST",
+  "names": [
+   "USCreateSellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/modify",
+  "method": "POST",
+  "names": [
+   "USModifySellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/platform_pricing_service/get",
+  "method": "POST",
+  "names": [
+   "GetTemplatePlatformPricingSubscribableService"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/template_detail/get",
+  "method": "POST",
+  "names": [
+   "USGetTemplateDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/template_detail/list",
+  "method": "POST",
+  "names": [
+   "USListTemplateDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/us/warehouse/add",
+  "method": "POST",
+  "names": [
+   "USAddWarehouseToTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_warehouse/list/all_operation_time",
+  "method": "POST",
+  "names": [
+   "ListAllSellerWarehouseOperationTime"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_warehouse/save/operation_time",
+  "method": "POST",
+  "names": [
+   "SaveSellerWarehouseOperationTime"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_warehouse/x_data_delivery/performance_data",
+  "method": "POST",
+  "names": [
+   "GetSellerWarehouseXDayDeliveryPerformanceData"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddShopWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/warehouses/default/set",
+  "method": "POST",
+  "names": [
+   "SetDefaultWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/warehouses/get",
+  "method": "GET",
+  "names": [
+   "GetShopWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/warehouses/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/check_user_auth",
+  "method": "POST",
+  "names": [
+   "CheckUserAuthWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/common/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/get_all_unified_seller",
+  "method": "GET",
+  "names": [
+   "GetAllUnifiedSellerWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/menu/get",
+  "method": "GET",
+  "names": [
+   "GetMenuWebApp"
+  ]
+ },
+ {
+  "path": "/bytemap/v1/config/region_profile",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/add_seller_to_fbt_waitlist",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/enroll_product_value_plus",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_all_value_plus_products",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_content_for_module",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_merchant_by_fs_seller",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_merchant_by_seller",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_merchant_onboarding_cost",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_seller_in_opt_out_from_free_shipping_status",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_seller_latest_enrollment_stats",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/get_vat_status_by_fs_seller",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/go_to_fbt",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/message/seller_web_action",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/print_goods_barcode",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/fbt/api/landing/search_content_by_keywords",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/maps/api/js",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/v1/seller_warehouses/status",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/checklist/list",
+  "method": "POST",
+  "names": [
+   "ChecklistInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/default/seller/get",
+  "method": "GET",
+  "names": [
+   "GetSellerDefaultForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/delivery_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchDeliveryTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/delivery_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchDeliveryTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/doc/print_status/verify",
+  "method": "POST",
+  "names": [
+   "DocPrintStatusVerifyForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/fulfill_info/list",
+  "method": "POST",
+  "names": [
+   "ListFulfillInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/invoice_no/save",
+  "method": "POST",
+  "names": [
+   "SaveInvoiceNumberForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "ListLogisticDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "ListProviderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/create",
+  "method": "POST",
+  "names": [
+   "CreatePackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/delivery_update",
+  "method": "POST",
+  "names": [
+   "UpdateSOFDeliveryResultForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/list",
+  "method": "POST",
+  "names": [
+   "ListPackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/mcreate",
+  "method": "POST",
+  "names": [
+   "MCreatePackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/update",
+  "method": "POST",
+  "names": [
+   "UpdatePkgForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/pickinglist/success",
+  "method": "POST",
+  "names": [
+   "SetPickingListPrintSuccessForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/reach/banner_list",
+  "method": "POST",
+  "names": [
+   "ListPlatformReachRulesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/reach/rules/violation_list",
+  "method": "POST",
+  "names": [
+   "PlatformRuleViolationForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/seller_express/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExpressForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/seller_setting/biz_switch",
+  "method": "POST",
+  "names": [
+   "GetSellerBizSwitchForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/ship_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchShipTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/ship_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchShipTemplateRequestForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/inoperable_packages/get",
+  "method": "GET",
+  "names": [
+   "GetInOperablePackagesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/options",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingSettingOptionsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/outbound/set",
+  "method": "POST",
+  "names": [
+   "UpdateOutboundCheckStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/recommendation/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingRecommendForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/send_by_seller/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendBySellerForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/logistics/district/list",
+  "method": "POST",
+  "names": [
+   "WidgetListDistricts"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/affiliate_card/get",
+  "method": "GET",
+  "names": [
+   "GetAffiliateCardForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/global/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddGlobalSellerWarehousesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/global/warehouses/status_transfer",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseStatusTransferForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/marketing_opt/set",
+  "method": "POST",
+  "names": [
+   "WidgetSetMarketingOption"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/region/auto/complete/detail",
+  "method": "POST",
+  "names": [
+   "WidgetGetAutoCompleteRegionDetail"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/region/auto/complete/list",
+  "method": "POST",
+  "names": [
+   "WidgetListAutoCompleteRegion"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddSellerWarehousesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/white_list/check",
+  "method": "POST",
+  "names": [
+   "CheckWhiteListForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_settings/seller_whitelist/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWhiteListForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_settings/settings/get",
+  "method": "GET",
+  "names": [
+   "GetSellerSettingsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/get_region",
+  "method": "POST",
+  "names": [
+   "GetTemplateRegionForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/get_warehouse_relation",
+  "method": "POST",
+  "names": [
+   "GetTemplateWarehouseRelationForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/improper_fee_template/get",
+  "method": "POST",
+  "names": [
+   "GetSellerImProperFeeTemplatesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/modify",
+  "method": "POST",
+  "names": [
+   "ModifySellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/rule_proper_fee/get",
+  "method": "POST",
+  "names": [
+   "GetTemplateRuleProperFeeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/shipping_info/get",
+  "method": "GET",
+  "names": [
+   "GetSellerShippingInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_detail/get",
+  "method": "GET",
+  "names": [
+   "GetTemplateDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_meta/list",
+  "method": "GET",
+  "names": [
+   "ListTemplateMetaForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_proper_fee/get",
+  "method": "POST",
+  "names": [
+   "GetTemplateProperFeeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/us/create",
+  "method": "POST",
+  "names": [
+   "USCreateSellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/us/modify",
+  "method": "POST",
+  "names": [
+   "USModifySellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/us/template_detail/get",
+  "method": "POST",
+  "names": [
+   "USGetTemplateDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/us/template_detail/list",
+  "method": "POST",
+  "names": [
+   "USListTemplateDetailForWidget"
+  ]
+ }
+]

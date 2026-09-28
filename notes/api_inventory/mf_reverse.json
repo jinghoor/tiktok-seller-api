@@ -1,0 +1,2408 @@
+[
+ {
+  "path": "/api/v1/debugs/reverse/orders/list_main_orders",
+  "method": "POST",
+  "names": [
+   "ListUserMainOrderIds"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/actions/na/upload",
+  "method": "POST",
+  "names": [
+   "ActionsUploadImageNA"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/checklist/list",
+  "method": "POST",
+  "names": [
+   "ChecklistInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/config_center/get",
+  "method": "POST",
+  "names": [
+   "GetConfigCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/default/seller/get",
+  "method": "GET",
+  "names": [
+   "GetSellerDefault"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/delivery_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchDeliveryTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/delivery_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchDeliveryTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/doc/print_status/verify",
+  "method": "POST",
+  "names": [
+   "DocPrintStatusVerify"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/doc_record/generate",
+  "method": "POST",
+  "names": [
+   "GenDocRecord"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/err_file",
+  "method": "POST",
+  "names": [
+   "ExportErrFile"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/file_submit",
+  "method": "POST",
+  "names": [
+   "ExportFileSubmit"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/export/file_upload",
+  "method": "POST",
+  "names": [
+   "ExportFileUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/fulfill_info/list",
+  "method": "POST",
+  "names": [
+   "ListFulfillInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/insurance/na/set_affidavit_auto_send",
+  "method": "PUT",
+  "names": [
+   "SetAffidavitAutoSendSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/insurance/na/upload_affidavit",
+  "method": "POST",
+  "names": [
+   "UploadAffidavit"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/invoice/list",
+  "method": "POST",
+  "names": [
+   "InvoiceInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/invoice_no/save",
+  "method": "POST",
+  "names": [
+   "SaveInvoiceNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "ListLogisticDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "ListProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/order/history",
+  "method": "POST",
+  "names": [
+   "ListSellerMainOrderHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/create",
+  "method": "POST",
+  "names": [
+   "CreatePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/delivery_update",
+  "method": "POST",
+  "names": [
+   "UpdateSOFDeliveryResult"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/list",
+  "method": "POST",
+  "names": [
+   "ListPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/mcreate",
+  "method": "POST",
+  "names": [
+   "MCreatePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/package/update",
+  "method": "POST",
+  "names": [
+   "UpdatePkg"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/picking_list/getdata",
+  "method": "POST",
+  "names": [
+   "GetPickingListData"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/pickinglist/success",
+  "method": "POST",
+  "names": [
+   "SetPickingListPrintSuccess"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/reach/banner_list",
+  "method": "POST",
+  "names": [
+   "ListPlatformReachRules"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/reach/rules/violation_list",
+  "method": "POST",
+  "names": [
+   "PlatformRuleViolation"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/request_doc",
+  "method": "POST",
+  "names": [
+   "RequestDocument"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_create_label_setting/na/get",
+  "method": "GET",
+  "names": [
+   "GetSellerCreateLabelSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_create_label_setting/na/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerCreateLabelSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_express/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExpress"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_print_setting/na/get",
+  "method": "GET",
+  "names": [
+   "GetSellerPrintSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_print_setting/na/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerPrintSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/seller_setting/biz_switch",
+  "method": "POST",
+  "names": [
+   "GetSellerBizSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/ship_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchShipTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/ship_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchShipTemplateRequest"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/inoperable_packages/get",
+  "method": "GET",
+  "names": [
+   "GetInOperablePackages"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/fulfillment_decision",
+  "method": "POST",
+  "names": [
+   "GetFulfillmentDecision"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/insurance_price",
+  "method": "POST",
+  "names": [
+   "MCalculateInsurancePrice"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformNA"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/na/shipping_provider_fee",
+  "method": "POST",
+  "names": [
+   "GetShippingProviderFee"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/options",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingSettingOptions"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/outbound/set",
+  "method": "POST",
+  "names": [
+   "UpdateOutboundCheckStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/recommendation/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingRecommend"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatform"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping/send_by_seller/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping_doc/generate",
+  "method": "POST",
+  "names": [
+   "GenShippingDoc"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/shipping_label/list",
+  "method": "POST",
+  "names": [
+   "ShippingLabel"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadSubsidyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/fulfillment/subsidy/detail/export",
+  "method": "POST",
+  "names": [
+   "ExportSubsidyDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency",
+  "method": "POST",
+  "names": [
+   "FormatCurrency"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/format_currency_v2",
+  "method": "POST",
+  "names": [
+   "FormatCurrencyV2"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByCurrencyCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByGEONameID"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetCurrencyByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_currency_list",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/api/v1/i18n_conf/currency/get_region_list",
+  "method": "GET",
+  "names": [
+   "GetDSTResult"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_locale",
+  "method": "GET",
+  "names": [
+   "GetLanguageByLocale"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLanguageByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "method": "GET",
+  "names": [
+   "GetLocalesByRegionCode"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/region/get_eu_region_info",
+  "method": "GET",
+  "names": [
+   "GetEuRegionInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "method": "GET",
+  "names": [
+   "GetDefaultTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_dst_result",
+  "method": "POST",
+  "names": [
+   "GetDSTResult"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "method": "GET",
+  "names": [
+   "GetExactTimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "method": "GET",
+  "names": [
+   "GetIANATimezone"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetHour"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "method": "GET",
+  "names": [
+   "GetUTCOffset"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetHour"
+  ]
+ },
+ {
+  "path": "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "method": "GET",
+  "names": [
+   "GetUTCOffsetSec"
+  ]
+ },
+ {
+  "path": "/api/v1/operation/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "OperationListLogisticDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/NFe/get",
+  "method": "GET",
+  "names": [
+   "GetReverseOrderNFe"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/NFe/operate",
+  "method": "POST",
+  "names": [
+   "OperateReverseOrderNFe"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/aftersales_dashboard",
+  "method": "GET",
+  "names": [
+   "GetAftersalesDashboard"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/appeal/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddAppealEvidence"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/appeal/apply",
+  "method": "POST",
+  "names": [
+   "ApplyAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/appeal/get_details",
+  "method": "POST",
+  "names": [
+   "GetAppealDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/appeal/preview",
+  "method": "POST",
+  "names": [
+   "GetAppealPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/arbitration/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddArbitrationEvidence"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/arbitration/get",
+  "method": "POST",
+  "names": [
+   "GetArbitrationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/automatic_strategy/create",
+  "method": "POST",
+  "names": [
+   "CreateAutomaticStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/automatic_strategy/list",
+  "method": "POST",
+  "names": [
+   "ListSellerAutomaticStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/automatic_strategy/update",
+  "method": "POST",
+  "names": [
+   "UpdateAutomaticStrategy"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/automatic_strategy_template/get",
+  "method": "GET",
+  "names": [
+   "GetAutomaticStrategyTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/banner/list",
+  "method": "POST",
+  "names": [
+   "ListPlatformRules"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/banner/platform_managed_review_banner",
+  "method": "GET",
+  "names": [
+   "GetPlatformManagedReviewBanner"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/banner/update",
+  "method": "POST",
+  "names": [
+   "UpdatePlatformRule"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/compensation/get",
+  "method": "POST",
+  "names": [
+   "GetCompensationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/component/actions/list",
+  "method": "POST",
+  "names": [
+   "ListAvailableActions"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/component/orders/get",
+  "method": "POST",
+  "names": [
+   "GetReverseCard"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/component/orders/list",
+  "method": "POST",
+  "names": [
+   "ListReverseCards"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/component/preview/orders/get",
+  "method": "POST",
+  "names": [
+   "GetReverseCardForPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/component/preview/orders/list",
+  "method": "POST",
+  "names": [
+   "ListReverseCardsForPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/dashboard/get",
+  "method": "POST",
+  "names": [
+   "GetUrgentDashboard"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/download_file",
+  "method": "POST",
+  "names": [
+   "DownloadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/dtc/final_sale/add",
+  "method": "POST",
+  "names": [
+   "AddReverseDTCFinalSale"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/dtc/final_sale/delete",
+  "method": "POST",
+  "names": [
+   "DeleteReverseDTCFinalSale"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/dtc/final_sale/products_list",
+  "method": "POST",
+  "names": [
+   "GetReverseDTCFinalSaleProducts"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_available_after_sale_period_options",
+  "method": "POST",
+  "names": [
+   "GetAvailableAfterSalePeriodOptions"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_cancellation_window_setting",
+  "method": "POST",
+  "names": [
+   "GetCancellationWindowSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_request_cancel_window_setting",
+  "method": "POST",
+  "names": [
+   "GetRequestCancelWindowSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_return_metrics_info",
+  "method": "GET",
+  "names": [
+   "GetReturnMetricsInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_top_return_by_product_id",
+  "method": "GET",
+  "names": [
+   "GetTopReturnByProductId"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/get_top_return_by_reason",
+  "method": "GET",
+  "names": [
+   "GetTopReturnByReason"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/gray_info",
+  "method": "POST",
+  "names": [
+   "GetGrayInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/how_to_fulfill",
+  "method": "POST",
+  "names": [
+   "GetHowToFulfillDoc"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/list_return_reason",
+  "method": "GET",
+  "names": [
+   "ListReturnReason"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/add_tracking_number",
+  "method": "POST",
+  "names": [
+   "ActionAddTrackingNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/appeal/cancel",
+  "method": "POST",
+  "names": [
+   "SellerCancelApplyAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/appeal/create",
+  "method": "POST",
+  "names": [
+   "SellerApplyAppeal"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/appeal/get",
+  "method": "GET",
+  "names": [
+   "ActionCheckAppealRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/check_return_logistics",
+  "method": "POST",
+  "names": [
+   "ActionCheckReturnLogistics"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/check_return_records",
+  "method": "POST",
+  "names": [
+   "ActionCheckReturnRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/delay_receiving",
+  "method": "POST",
+  "names": [
+   "ActionDelayReceiving"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/direct_refund",
+  "method": "POST",
+  "names": [
+   "ActionDirectRefund"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/edit_tracking_number",
+  "method": "POST",
+  "names": [
+   "ActionEditTrackingNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/m_cancel_order",
+  "method": "POST",
+  "names": [
+   "ActionMCancelOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/negotiate_edit",
+  "method": "POST",
+  "names": [
+   "ActionNegotiateEdit"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/partial_refund",
+  "method": "POST",
+  "names": [
+   "ActionPartialRefund"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/quality_check_info",
+  "method": "GET",
+  "names": [
+   "GetReverseFulfillmentByROrderId"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/return_apply_accept",
+  "method": "POST",
+  "names": [
+   "ActionReturnApplyAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/return_apply_reject",
+  "method": "POST",
+  "names": [
+   "ActionReturnApplyReject"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/return_parcel_accept",
+  "method": "POST",
+  "names": [
+   "ActionReturnParcelAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/return_parcel_reject",
+  "method": "POST",
+  "names": [
+   "ActionReturnParcelReject"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/actions/start_reverse",
+  "method": "POST",
+  "names": [
+   "ActionStartReverse"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/cancel_reasons/get",
+  "method": "POST",
+  "names": [
+   "GetReverseCancelReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/check_action_executable",
+  "method": "POST",
+  "names": [
+   "CheckActionExecutable"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/check_limit",
+  "method": "POST",
+  "names": [
+   "CheckReverseLimit"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/download_file",
+  "method": "POST",
+  "names": [
+   "DownloadReverseMainOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/export",
+  "method": "POST",
+  "names": [
+   "ExportReverseMainOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/get",
+  "method": "GET",
+  "names": [
+   "GetSellerReverseMainOrderDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/get_can_reverse_details",
+  "method": "POST",
+  "names": [
+   "GetCanReverseDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/get_export_history",
+  "method": "POST",
+  "names": [
+   "GetExportHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/get_next_reverse_order",
+  "method": "POST",
+  "names": [
+   "GetSellerNextReverseMainOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/issue_refund_preview",
+  "method": "POST",
+  "names": [
+   "GetIssueRefundPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/list",
+  "method": "POST",
+  "names": [
+   "ListSellerReverseMainOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/list_logistics_service",
+  "method": "POST",
+  "names": [
+   "ListLogisticsService"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/list_seller_announcement",
+  "method": "POST",
+  "names": [
+   "ListSellerAppAnnouncements"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/order_lines/list",
+  "method": "POST",
+  "names": [
+   "ListSellerReverseOrderLines"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/partial_refund_preview",
+  "method": "POST",
+  "names": [
+   "GetPartialRefundPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/reverse_amount",
+  "method": "POST",
+  "names": [
+   "CalReverseAmount"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/reverse_preview",
+  "method": "POST",
+  "names": [
+   "GetReversePreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/reverse_reasons/get",
+  "method": "POST",
+  "names": [
+   "GetReverseReasons"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/orders/tag",
+  "method": "POST",
+  "names": [
+   "SetReverseOrderTag"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/platform_audit/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddPlatformAuditEvidence"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/platform_audit/get",
+  "method": "POST",
+  "names": [
+   "GetPlatformAuditDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/accept_reverse",
+  "method": "POST",
+  "names": [
+   "GetAcceptReversePreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/add_tracking_number",
+  "method": "POST",
+  "names": [
+   "GetAddTrackingNumberPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/cancel_order",
+  "method": "POST",
+  "names": [
+   "GetCancelOrderPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/customize_policy",
+  "method": "POST",
+  "names": [
+   "GetCustomizePolicyPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/direct_refund",
+  "method": "POST",
+  "names": [
+   "GetDirectRefundPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/reject_reverse",
+  "method": "POST",
+  "names": [
+   "GetRejectReversePreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/preview/replacement_setting",
+  "method": "POST",
+  "names": [
+   "GetReplacementSettingPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/search_fuzzy",
+  "method": "POST",
+  "names": [
+   "SearchFuzzyInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/search_layout",
+  "method": "POST",
+  "names": [
+   "GetSearchLayout"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/seller_function/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerFunctionConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/seller_rule/list",
+  "method": "POST",
+  "names": [
+   "ListSellerSettingRule"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/update_cancellation_window_setting",
+  "method": "POST",
+  "names": [
+   "UpdateCancellationWindowSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/reverse/update_request_cancel_window_setting",
+  "method": "POST",
+  "names": [
+   "UpdateRequestCancelWindowSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_settings/seller_whitelist/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWhiteList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_settings/settings/get",
+  "method": "GET",
+  "names": [
+   "GetSellerSettings"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/modify",
+  "method": "POST",
+  "names": [
+   "ModifySellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/shipping_info/get",
+  "method": "GET",
+  "names": [
+   "GetSellerShippingInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_detail/get",
+  "method": "GET",
+  "names": [
+   "GetTemplateDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTemplate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller_template/template_meta/list",
+  "method": "GET",
+  "names": [
+   "ListTemplateMeta"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/compensation/get",
+  "method": "GET",
+  "names": [
+   "GetSellerCompensationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/buyer",
+  "method": "POST",
+  "names": [
+   "ListMainOrderBuyerInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/confirm_rts",
+  "method": "POST",
+  "names": [
+   "ConfirmRTSSellerOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/download",
+  "method": "GET",
+  "names": [
+   "DownloadSellerMainOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerMainOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/export/list",
+  "method": "POST",
+  "names": [
+   "ListSellerExportRecords"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/get",
+  "method": "GET",
+  "names": [
+   "GetSellerMainOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/list",
+  "method": "POST",
+  "names": [
+   "ListSellerMainOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/note/list",
+  "method": "POST",
+  "names": [
+   "ListSellerNotes"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/note/set",
+  "method": "POST",
+  "names": [
+   "SetSellerNote"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/order_index/list",
+  "method": "POST",
+  "names": [
+   "ListSellerOrderIndex"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/order_lines/list",
+  "method": "POST",
+  "names": [
+   "ListSellerOrderLines"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/order_service_status/get",
+  "method": "GET",
+  "names": [
+   "GetUserOrderServiceStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/pick_up_conf",
+  "method": "POST",
+  "names": [
+   "ListMainOrderPickUpConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/refund",
+  "method": "POST",
+  "names": [
+   "RefundSellerOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/refund_preview",
+  "method": "POST",
+  "names": [
+   "RefundSellerOrdersPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/rts",
+  "method": "POST",
+  "names": [
+   "RTSSellerOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/shipment_patterns",
+  "method": "GET",
+  "names": [
+   "ListShipmentProviderPattern"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/tabs",
+  "method": "GET",
+  "names": [
+   "GetSellerOrderTabs"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/tag",
+  "method": "POST",
+  "names": [
+   "SetOrderTag"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/verify_rts",
+  "method": "POST",
+  "names": [
+   "VerifyRTSSellerOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/orders/warehouse/list",
+  "method": "GET",
+  "names": [
+   "ListSellerSaleWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/package/action",
+  "method": "POST",
+  "names": [
+   "StartSellerFulfillUnitAction"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/package/get",
+  "method": "GET",
+  "names": [
+   "GetSellerFulfillUnit"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/package/list",
+  "method": "POST",
+  "names": [
+   "ListSellerFulfillUnits"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/bulk_index",
+  "method": "POST",
+  "names": [
+   "ListMainOrderBulkShippingIndex"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/bulk_index_package",
+  "method": "POST",
+  "names": [
+   "ListPackageBulkShippingIndex"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/fee/estimated",
+  "method": "POST",
+  "names": [
+   "ListSellerEstimatedShippingFee"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/settings/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerFulfillSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/settings/get",
+  "method": "GET",
+  "names": [
+   "ListSellerFulfillSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/shipping/settings/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerFulfillSetting"
+  ]
+ },
+ {
+  "path": "/api/v1/trade/tracking_numbers/verify",
+  "method": "POST",
+  "names": [
+   "MVerifySellerTrackingNo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/debugs/reverse/orders/list_main_orders",
+  "method": "POST",
+  "names": [
+   "ListUserMainOrderIdsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/checklist/list",
+  "method": "POST",
+  "names": [
+   "ChecklistInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/default/seller/get",
+  "method": "GET",
+  "names": [
+   "GetSellerDefaultForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/delivery_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchDeliveryTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/delivery_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchDeliveryTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/doc/print_status/verify",
+  "method": "POST",
+  "names": [
+   "DocPrintStatusVerifyForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/doc_record/generate",
+  "method": "POST",
+  "names": [
+   "GenDocRecordForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/fulfill_info/list",
+  "method": "POST",
+  "names": [
+   "ListFulfillInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/invoice/list",
+  "method": "POST",
+  "names": [
+   "InvoiceInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/invoice_no/save",
+  "method": "POST",
+  "names": [
+   "SaveInvoiceNumberForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/logistic_detail/list",
+  "method": "GET",
+  "names": [
+   "ListLogisticDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/logistics/provider/list",
+  "method": "POST",
+  "names": [
+   "ListProviderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/order/history",
+  "method": "POST",
+  "names": [
+   "ListSellerMainOrderHistoryForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/create",
+  "method": "POST",
+  "names": [
+   "CreatePackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/delivery_update",
+  "method": "POST",
+  "names": [
+   "UpdateSOFDeliveryResultForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/list",
+  "method": "POST",
+  "names": [
+   "ListPackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/mcreate",
+  "method": "POST",
+  "names": [
+   "MCreatePackageForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/package/update",
+  "method": "POST",
+  "names": [
+   "UpdatePkgForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/picking_list/getdata",
+  "method": "POST",
+  "names": [
+   "GetPickingListDataForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/pickinglist/success",
+  "method": "POST",
+  "names": [
+   "SetPickingListPrintSuccessForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/reach/banner_list",
+  "method": "POST",
+  "names": [
+   "ListPlatformReachRulesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/reach/rules/violation_list",
+  "method": "POST",
+  "names": [
+   "PlatformRuleViolationForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/request_doc",
+  "method": "POST",
+  "names": [
+   "RequestDocumentForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/seller_express/get",
+  "method": "POST",
+  "names": [
+   "GetSellerExpressForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/seller_setting/biz_switch",
+  "method": "POST",
+  "names": [
+   "GetSellerBizSwitchForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/ship_template/download",
+  "method": "POST",
+  "names": [
+   "DownloadSellerBatchShipTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/ship_template/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerBatchShipTemplateRequestForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/inoperable_packages/get",
+  "method": "GET",
+  "names": [
+   "GetInOperablePackagesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/options",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingSettingOptionsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/outbound/set",
+  "method": "POST",
+  "names": [
+   "UpdateOutboundCheckStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/recommendation/get",
+  "method": "POST",
+  "names": [
+   "GetSellerShippingRecommendForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/send_by_platform/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendByPlatformForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping/send_by_seller/rts",
+  "method": "POST",
+  "names": [
+   "ReadyToShipSendBySellerForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping_doc/generate",
+  "method": "POST",
+  "names": [
+   "GenShippingDocForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/fulfillment/shipping_label/list",
+  "method": "POST",
+  "names": [
+   "ShippingLabelForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/appeal/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddAppealEvidenceForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/appeal/apply",
+  "method": "POST",
+  "names": [
+   "ApplyAppealForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/appeal/get_details",
+  "method": "POST",
+  "names": [
+   "GetAppealDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/appeal/preview",
+  "method": "POST",
+  "names": [
+   "GetAppealPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/arbitration/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddArbitrationEvidenceForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/arbitration/get",
+  "method": "POST",
+  "names": [
+   "GetArbitrationDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/automatic_strategy/create",
+  "method": "POST",
+  "names": [
+   "CreateAutomaticStrategyForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/automatic_strategy/list",
+  "method": "POST",
+  "names": [
+   "ListSellerAutomaticStrategyForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/automatic_strategy/update",
+  "method": "POST",
+  "names": [
+   "UpdateAutomaticStrategyForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/automatic_strategy_template/get",
+  "method": "GET",
+  "names": [
+   "GetAutomaticStrategyTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/banner/list",
+  "method": "POST",
+  "names": [
+   "ListPlatformRulesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/banner/update",
+  "method": "POST",
+  "names": [
+   "UpdatePlatformRuleForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/compensation/get",
+  "method": "POST",
+  "names": [
+   "GetCompensationDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/dashboard/get",
+  "method": "POST",
+  "names": [
+   "GetUrgentDashboardForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/download_file",
+  "method": "POST",
+  "names": [
+   "DownloadFileForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/get_cancellation_window_setting",
+  "method": "POST",
+  "names": [
+   "GetCancellationWindowSettingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/gray_info",
+  "method": "POST",
+  "names": [
+   "GetGrayInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/how_to_fulfill",
+  "method": "POST",
+  "names": [
+   "GetHowToFulfillDocForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/add_tracking_number",
+  "method": "POST",
+  "names": [
+   "ActionAddTrackingNumberForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/appeal/cancel",
+  "method": "POST",
+  "names": [
+   "SellerCancelApplyAppealForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/appeal/create",
+  "method": "POST",
+  "names": [
+   "SellerApplyAppealForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/appeal/get",
+  "method": "GET",
+  "names": [
+   "ActionCheckAppealRecordsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/check_return_logistics",
+  "method": "POST",
+  "names": [
+   "ActionCheckReturnLogisticsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/check_return_records",
+  "method": "POST",
+  "names": [
+   "ActionCheckReturnRecordsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/delay_receiving",
+  "method": "POST",
+  "names": [
+   "ActionDelayReceivingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/direct_refund",
+  "method": "POST",
+  "names": [
+   "ActionDirectRefundForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/edit_tracking_number",
+  "method": "POST",
+  "names": [
+   "ActionEditTrackingNumberForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/m_cancel_order",
+  "method": "POST",
+  "names": [
+   "ActionMCancelOrderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/partial_refund",
+  "method": "POST",
+  "names": [
+   "ActionPartialRefundForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/quality_check_info",
+  "method": "GET",
+  "names": [
+   "GetReverseFulfillmentByROrderIdForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/return_apply_accept",
+  "method": "POST",
+  "names": [
+   "ActionReturnApplyAcceptForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/return_apply_reject",
+  "method": "POST",
+  "names": [
+   "ActionReturnApplyRejectForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/return_parcel_accept",
+  "method": "POST",
+  "names": [
+   "ActionReturnParcelAcceptForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/return_parcel_reject",
+  "method": "POST",
+  "names": [
+   "ActionReturnParcelRejectForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/actions/start_reverse",
+  "method": "POST",
+  "names": [
+   "ActionStartReverseForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/cancel_reasons/get",
+  "method": "POST",
+  "names": [
+   "GetReverseCancelReasonsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/check_action_executable",
+  "method": "POST",
+  "names": [
+   "CheckActionExecutableForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/check_limit",
+  "method": "POST",
+  "names": [
+   "CheckReverseLimitForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/download_file",
+  "method": "POST",
+  "names": [
+   "DownloadReverseMainOrderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/export",
+  "method": "POST",
+  "names": [
+   "ExportReverseMainOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/get",
+  "method": "GET",
+  "names": [
+   "GetSellerReverseMainOrderDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/get_can_reverse_details",
+  "method": "POST",
+  "names": [
+   "GetCanReverseDetailsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/get_export_history",
+  "method": "POST",
+  "names": [
+   "GetExportHistoryForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/get_next_reverse_order",
+  "method": "POST",
+  "names": [
+   "GetSellerNextReverseMainOrderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/issue_refund_preview",
+  "method": "POST",
+  "names": [
+   "GetIssueRefundPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/list",
+  "method": "POST",
+  "names": [
+   "ListSellerReverseMainOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/list_logistics_service",
+  "method": "POST",
+  "names": [
+   "ListLogisticsServiceForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/list_seller_announcement",
+  "method": "POST",
+  "names": [
+   "ListSellerAppAnnouncementsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/order_lines/list",
+  "method": "POST",
+  "names": [
+   "ListSellerReverseOrderLinesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/partial_refund_preview",
+  "method": "POST",
+  "names": [
+   "GetPartialRefundPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/reverse_amount",
+  "method": "POST",
+  "names": [
+   "CalReverseAmountForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/reverse_preview",
+  "method": "POST",
+  "names": [
+   "GetReversePreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/reverse_reasons/get",
+  "method": "POST",
+  "names": [
+   "GetReverseReasonsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/orders/tag",
+  "method": "POST",
+  "names": [
+   "SetReverseOrderTagForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/platform_audit/add_evidence",
+  "method": "POST",
+  "names": [
+   "AddPlatformAuditEvidenceForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/platform_audit/get",
+  "method": "POST",
+  "names": [
+   "GetPlatformAuditDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/accept_reverse",
+  "method": "POST",
+  "names": [
+   "GetAcceptReversePreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/add_tracking_number",
+  "method": "POST",
+  "names": [
+   "GetAddTrackingNumberPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/cancel_order",
+  "method": "POST",
+  "names": [
+   "GetCancelOrderPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/customize_policy",
+  "method": "POST",
+  "names": [
+   "GetCustomizePolicyPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/direct_refund",
+  "method": "POST",
+  "names": [
+   "GetDirectRefundPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/reject_reverse",
+  "method": "POST",
+  "names": [
+   "GetRejectReversePreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/preview/replacement_setting",
+  "method": "POST",
+  "names": [
+   "GetReplacementSettingPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/search_fuzzy",
+  "method": "POST",
+  "names": [
+   "SearchFuzzyInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/search_layout",
+  "method": "POST",
+  "names": [
+   "GetSearchLayoutForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/seller_function/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerFunctionConfigForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/reverse/update_cancellation_window_setting",
+  "method": "POST",
+  "names": [
+   "UpdateCancellationWindowSettingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_settings/seller_whitelist/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWhiteListForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_settings/settings/get",
+  "method": "GET",
+  "names": [
+   "GetSellerSettingsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/delete",
+  "method": "POST",
+  "names": [
+   "DeleteTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/modify",
+  "method": "POST",
+  "names": [
+   "ModifySellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/shipping_info/get",
+  "method": "GET",
+  "names": [
+   "GetSellerShippingInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_detail/get",
+  "method": "GET",
+  "names": [
+   "GetTemplateDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_detail/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTemplateForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller_template/template_meta/list",
+  "method": "GET",
+  "names": [
+   "ListTemplateMetaForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/compensation/get",
+  "method": "GET",
+  "names": [
+   "GetSellerCompensationDetailForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/buyer",
+  "method": "POST",
+  "names": [
+   "ListMainOrderBuyerInfoForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/confirm_rts",
+  "method": "POST",
+  "names": [
+   "ConfirmRTSSellerOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/download",
+  "method": "GET",
+  "names": [
+   "DownloadSellerMainOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/export",
+  "method": "POST",
+  "names": [
+   "ExportSellerMainOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/export/list",
+  "method": "POST",
+  "names": [
+   "ListSellerExportRecordsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/get",
+  "method": "GET",
+  "names": [
+   "GetSellerMainOrderForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/list",
+  "method": "POST",
+  "names": [
+   "ListSellerMainOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/note/list",
+  "method": "POST",
+  "names": [
+   "ListSellerNotesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/note/set",
+  "method": "POST",
+  "names": [
+   "SetSellerNoteForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/order_index/list",
+  "method": "POST",
+  "names": [
+   "ListSellerOrderIndexForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/order_lines/list",
+  "method": "POST",
+  "names": [
+   "ListSellerOrderLinesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/order_service_status/get",
+  "method": "GET",
+  "names": [
+   "GetUserOrderServiceStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/pick_up_conf",
+  "method": "POST",
+  "names": [
+   "ListMainOrderPickUpConfigForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/refund",
+  "method": "POST",
+  "names": [
+   "RefundSellerOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/refund_preview",
+  "method": "POST",
+  "names": [
+   "RefundSellerOrdersPreviewForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/rts",
+  "method": "POST",
+  "names": [
+   "RTSSellerOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/shipment_patterns",
+  "method": "GET",
+  "names": [
+   "ListShipmentProviderPatternForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/tabs",
+  "method": "GET",
+  "names": [
+   "GetSellerOrderTabsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/tag",
+  "method": "POST",
+  "names": [
+   "SetOrderTagForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/verify_rts",
+  "method": "POST",
+  "names": [
+   "VerifyRTSSellerOrdersForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/orders/warehouse/list",
+  "method": "GET",
+  "names": [
+   "ListSellerSaleWarehouseForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/package/action",
+  "method": "POST",
+  "names": [
+   "StartSellerFulfillUnitActionForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/package/get",
+  "method": "GET",
+  "names": [
+   "GetSellerFulfillUnitForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/package/list",
+  "method": "POST",
+  "names": [
+   "ListSellerFulfillUnitsForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/bulk_index",
+  "method": "POST",
+  "names": [
+   "ListMainOrderBulkShippingIndexForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/bulk_index_package",
+  "method": "POST",
+  "names": [
+   "ListPackageBulkShippingIndexForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/fee/estimated",
+  "method": "POST",
+  "names": [
+   "ListSellerEstimatedShippingFeeForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/settings/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerFulfillSettingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/settings/get",
+  "method": "GET",
+  "names": [
+   "ListSellerFulfillSettingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/shipping/settings/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerFulfillSettingForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/trade/tracking_numbers/verify",
+  "method": "POST",
+  "names": [
+   "MVerifySellerTrackingNoForWidget"
+  ]
+ }
+]

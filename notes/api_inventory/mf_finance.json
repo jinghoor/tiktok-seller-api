@@ -1,0 +1,4891 @@
+[
+ {
+  "path": "/aff/member/switch/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/api/v1/address_component/config",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/api/v1/app/common/get",
+  "method": "?",
+  "names": [
+   "GetAppCommon"
+  ]
+ },
+ {
+  "path": "/api/v1/app/seller/entity/get",
+  "method": "POST",
+  "names": [
+   "GetAppEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/app/seller/profile/address_consent/set",
+  "method": "POST",
+  "names": [
+   "SetAppAddressConsent"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/agreement/cancel",
+  "method": "POST",
+  "names": [
+   "CancelAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/agreement/init",
+  "method": "POST",
+  "names": [
+   "InitAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/agreement/query",
+  "method": "POST",
+  "names": [
+   "QueryAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/balance_withdraw",
+  "method": "POST",
+  "names": [
+   "BalanceWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/creator_flow/get_flow_details",
+  "method": "POST",
+  "names": [
+   "MGetFundingFlowDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/light_refund/order/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringLightRefundOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/payment/biz_order/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringBizPayOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/payment/limit/query",
+  "method": "POST",
+  "names": [
+   "QueryPaymentLimit"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/payment/order/continue_pay",
+  "method": "POST",
+  "names": [
+   "ContinuePay"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/payment/order/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringPayOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/payment/order/pay",
+  "method": "POST",
+  "names": [
+   "Pay"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/query/account",
+  "method": "POST",
+  "names": [
+   "QueryUserAccountWithBalanceInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/refund/get_payout_url",
+  "method": "POST",
+  "names": [
+   "GetRefundPayoutUrl"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/refund/order/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringRefundOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/security_deposit_refund/order/list",
+  "method": "POST",
+  "names": [
+   "ListSecurityDepositRefundOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/spend/order/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringSpendOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/transaction/file/create",
+  "method": "POST",
+  "names": [
+   "CreateAcquiringTransactionFile"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/transaction/file/download",
+  "method": "POST",
+  "names": [
+   "DownloadAcquiringTransactionFile"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/acquiring/transaction/file/list",
+  "method": "POST",
+  "names": [
+   "ListAcquiringTransactionFiles"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/assistant/calculate",
+  "method": "POST",
+  "names": [
+   "CalculateCommission"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/assistant/config",
+  "method": "POST",
+  "names": [
+   "GetPricingAssistantConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/billing/policy/enrollment/query",
+  "method": "POST",
+  "names": [
+   "QueryPolicyEnrollment"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/billing/policy/jbp_process/query",
+  "method": "POST",
+  "names": [
+   "QueryJbpProcess"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/billing/policy/rebate_order/query",
+  "method": "POST",
+  "names": [
+   "QueryRebateOrderList"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/append_pay",
+  "method": "POST",
+  "names": [
+   "AppendPay"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/balance",
+  "method": "POST",
+  "names": [
+   "GetBalance"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/cashier/component",
+  "method": "POST",
+  "names": [
+   "GetCashierComponent"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/order/mget",
+  "method": "POST",
+  "names": [
+   "MGetPurchaseOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/pay",
+  "method": "POST",
+  "names": [
+   "MPayOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/recharge",
+  "method": "POST",
+  "names": [
+   "Recharge"
+  ]
+ },
+ {
+  "path": "/api/v1/finance/purchase/recharge/order",
+  "method": "POST",
+  "names": [
+   "GetRechargeOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/compliance/details/query",
+  "method": "POST",
+  "names": [
+   "QueryComplianceDetailsByPackageID"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/compliance/package/download",
+  "method": "POST",
+  "names": [
+   "DownloadCompliancePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/compliance/package/search",
+  "method": "POST",
+  "names": [
+   "SearchCompliancePackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category/download",
+  "method": "POST",
+  "names": [
+   "CustomsCategoryDownload"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category/search",
+  "method": "POST",
+  "names": [
+   "CustomsCategorySearch"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category/update",
+  "method": "POST",
+  "names": [
+   "CustomsCategoryUpdate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category/upload",
+  "method": "POST",
+  "names": [
+   "CustomsCategoryUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category_label/search",
+  "method": "POST",
+  "names": [
+   "CategoryLabelSearch"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category_label/update",
+  "method": "POST",
+  "names": [
+   "CategoryLabelUpdate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/category_label/upload",
+  "method": "POST",
+  "names": [
+   "CategoryLabelUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/country_ability/open",
+  "method": "POST",
+  "names": [
+   "GetAllCustomsCountryAbility"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/declare_mode/list",
+  "method": "POST",
+  "names": [
+   "SearchCustomsDeclareTypeConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/declare_mode/upload",
+  "method": "POST",
+  "names": [
+   "UploadCustomsDeclareTypeConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/export_mwb/list",
+  "method": "POST",
+  "names": [
+   "ListExportCustomsMasterWaybill"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/export_package_detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadExportCustomsPackageDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/export_package_detail/list",
+  "method": "POST",
+  "names": [
+   "ListExportCustomsPackageDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/file/download",
+  "method": "POST",
+  "names": [
+   "DownloadCustomsFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/algorithm/list",
+  "method": "POST",
+  "names": [
+   "ListAlgorithmHscode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/check/upload",
+  "method": "POST",
+  "names": [
+   "UploadAlgorithmHscodeCheckResult"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/classification_review/get",
+  "method": "POST",
+  "names": [
+   "ClassificationReviewGet"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/classify_review/list",
+  "method": "POST",
+  "names": [
+   "ListClassificationReview"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadHscodeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/detail/list",
+  "method": "POST",
+  "names": [
+   "ListHscodeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/detail/upload",
+  "method": "POST",
+  "names": [
+   "UploadHscodeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/expert_review/download",
+  "method": "POST",
+  "names": [
+   "DownloadExpertReview"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/hscode_base/download",
+  "method": "POST",
+  "names": [
+   "DownloadHscodeBase"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/hscode_base/query",
+  "method": "POST",
+  "names": [
+   "SearchHscodeBase"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/pr/list",
+  "method": "POST",
+  "names": [
+   "ListHscodePR"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/pr/upload",
+  "method": "POST",
+  "names": [
+   "UploadHscodePR"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/return_hscode/list",
+  "method": "POST",
+  "names": [
+   "ListPassedHscode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/return_hscode_log/list",
+  "method": "POST",
+  "names": [
+   "ListReturnHscodeLog"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/scene_lane/get",
+  "method": "POST",
+  "names": [
+   "GetLaneScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/scene_rule/create",
+  "method": "POST",
+  "names": [
+   "CreateSceneRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/scene_rule/get",
+  "method": "POST",
+  "names": [
+   "GetSceneRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/scene_rule/list",
+  "method": "POST",
+  "names": [
+   "ListSceneRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/scene_rule/update",
+  "method": "POST",
+  "names": [
+   "UpdateSceneRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/hscode/third_party_lib/download",
+  "method": "POST",
+  "names": [
+   "DownloadThirdPartyLib"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/invoice/get",
+  "method": "POST",
+  "names": [
+   "GetCustomsInvoice"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/ipr/search",
+  "method": "POST",
+  "names": [
+   "IprSearch"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/ipr/update",
+  "method": "POST",
+  "names": [
+   "IprUpdate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/ipr/upload",
+  "method": "POST",
+  "names": [
+   "IprUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/log/create",
+  "method": "POST",
+  "names": [
+   "CreateCustomsLog"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/log/query",
+  "method": "POST",
+  "names": [
+   "QueryCustomsLog"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb/detail",
+  "method": "?",
+  "names": [
+   "GetCustomsMasterWaybillDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb/download",
+  "method": "POST",
+  "names": [
+   "DownloadCustomsMasterWaybill"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsMasterWaybill"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb/repush",
+  "method": "POST",
+  "names": [
+   "RePushCustomsMasterWaybill"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb_package/download",
+  "method": "POST",
+  "names": [
+   "DownloadMasterWaybillPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb_settlement_info/get",
+  "method": "POST",
+  "names": [
+   "GetMWBSettlementInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/mwb_status/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsMasterWaybillStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/operation/log",
+  "method": "POST",
+  "names": [
+   "ListCustomsOperationLog"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/package/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/package/repush",
+  "method": "POST",
+  "names": [
+   "RePushCustomsPackage"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/page/config/get",
+  "method": "POST",
+  "names": [
+   "GetCustomsPageConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/port_code/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsPortCode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/prealert_email/log",
+  "method": "POST",
+  "names": [
+   "GetCustomsPreAlertEmailLog"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/prealert_email/preview",
+  "method": "POST",
+  "names": [
+   "GetCustomsPrealertEmailPreview"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/prealert_email/send",
+  "method": "POST",
+  "names": [
+   "SendCustomsPrealertEmail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/price_rule/create",
+  "method": "POST",
+  "names": [
+   "CreateCustomsPriceRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/price_rule/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsPriceRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/price_rule/update",
+  "method": "POST",
+  "names": [
+   "UpdateCustomsPriceRule"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/product/get",
+  "method": "POST",
+  "names": [
+   "GetCustomsProduct"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/product_detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadCustomsProductDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/product_detail/get",
+  "method": "POST",
+  "names": [
+   "GetCustomsProductDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/rule_option",
+  "method": "POST",
+  "names": [
+   "ListCustomsDeclarationRuleOption"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/abolish",
+  "method": "POST",
+  "names": [
+   "AbolishCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/approve",
+  "method": "POST",
+  "names": [
+   "ApproveCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/create",
+  "method": "POST",
+  "names": [
+   "CreateCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/detail",
+  "method": "POST",
+  "names": [
+   "GetCustomsDeclarationSceneDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/launch",
+  "method": "POST",
+  "names": [
+   "LaunchCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/list",
+  "method": "POST",
+  "names": [
+   "ListCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/reject",
+  "method": "POST",
+  "names": [
+   "RejectCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/rule_center/scene/update",
+  "method": "POST",
+  "names": [
+   "UpdateCustomsDeclarationScene"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/screen/open",
+  "method": "POST",
+  "names": [
+   "OpenCustomsScreen"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/screenshot/approve",
+  "method": "POST",
+  "names": [
+   "ApproveScreenshot"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/sensitive_word/search",
+  "method": "POST",
+  "names": [
+   "SensitiveWordSearch"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/sensitive_word/update",
+  "method": "POST",
+  "names": [
+   "SensitiveWordUpdate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/sensitive_word/upload",
+  "method": "POST",
+  "names": [
+   "SensitiveWordUpload"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/detail",
+  "method": "POST",
+  "names": [
+   "GetShortProductNameDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/download",
+  "method": "POST",
+  "names": [
+   "DownloadShortProductName"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/manual_check",
+  "method": "POST",
+  "names": [
+   "ManualCheckShortProductName"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/manual_confirm",
+  "method": "POST",
+  "names": [
+   "ManualConfirmShortProductName"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/review",
+  "method": "POST",
+  "names": [
+   "ManualReviewProductName"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/search",
+  "method": "?",
+  "names": [
+   "SearchShortProductName"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/short_product_name/upload",
+  "method": "POST",
+  "names": [
+   "UploadShortProductNameCheckResult"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/sku/download",
+  "method": "POST",
+  "names": [
+   "DownloadCustomsSku"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/sku/query",
+  "method": "POST",
+  "names": [
+   "SearchCustomsSku"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs/transaction_certificate/get",
+  "method": "POST",
+  "names": [
+   "GetTransactionCertificate"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs_declaration_management/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadStockingVatFile"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs_declaration_management/fulfillment/list",
+  "method": "POST",
+  "names": [
+   "ListStockingFulfillment"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs_declaration_management/mwb_declaration/list",
+  "method": "POST",
+  "names": [
+   "ListStockingMwbDeclaration"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/customs_declaration_management/sku/list",
+  "method": "POST",
+  "names": [
+   "ListDeclarationSku"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/district/get",
+  "method": "POST",
+  "names": [
+   "GetDistricts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/district/list",
+  "method": "POST",
+  "names": [
+   "ListDistricts"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/mawb/abnormal_report/download",
+  "method": "POST",
+  "names": [
+   "DownloadMAWBAbnormalReport"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/mawb/recover",
+  "method": "POST",
+  "names": [
+   "RecoverLineHaulMawb"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/mawb/report/download",
+  "method": "POST",
+  "names": [
+   "DownloadMAWBReport"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/mwb_status/list",
+  "method": "?",
+  "names": [
+   "ListMAWBStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/port_code/list",
+  "method": "POST",
+  "names": [
+   "ListMAWBPortCode"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/line_haul/transport_means",
+  "method": "POST",
+  "names": [
+   "ListTransportMeans"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/declare_callback/upload",
+  "method": "POST",
+  "names": [
+   "UploadProviderDeclareCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/item/download",
+  "method": "POST",
+  "names": [
+   "DownloadItemValuation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/provider_order/detail",
+  "method": "POST",
+  "names": [
+   "GetProviderOrderValuationDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/provider_order/download",
+  "method": "POST",
+  "names": [
+   "DownloadProviderOrderValuation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/provider_order/search",
+  "method": "POST",
+  "names": [
+   "SearchProviderOrderValuation"
+  ]
+ },
+ {
+  "path": "/api/v1/logistics/valuation/tax_bill/upload",
+  "method": "POST",
+  "names": [
+   "UploadTaxBill"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/account/info/get",
+  "method": "POST",
+  "names": [
+   "GetAccountInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/account/kyc/get",
+  "method": "POST",
+  "names": [
+   "GetUserKycInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/affiliate/statement/file/download",
+  "method": "POST",
+  "names": [
+   "DownloadAffiliateStatementFile"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/affiliate/statement/file/export",
+  "method": "POST",
+  "names": [
+   "ExportAffiliateStatementFile"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/affiliate/statement/file/export/history",
+  "method": "GET",
+  "names": [
+   "ListAffiliateStatementFileExportHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/creator/onboard",
+  "method": "POST",
+  "names": [
+   "OnboardForCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/creator/onboard_info/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardInfoForCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/creator/onboard_info/set",
+  "method": "POST",
+  "names": [
+   "SetOnboardInfoForCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/creator/tax_info/get",
+  "method": "POST",
+  "names": [
+   "GetTaxInfoForCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/creator/tax_info/set",
+  "method": "POST",
+  "names": [
+   "SetTaxInfoForCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/meta/info/get",
+  "method": "POST",
+  "names": [
+   "GetMetaInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/onboard",
+  "method": "POST",
+  "names": [
+   "Onboard"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/onboard_info/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/onboard_info/set",
+  "method": "POST",
+  "names": [
+   "SetOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/onboard_info/ubo_status/get",
+  "method": "POST",
+  "names": [
+   "GetUboStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/creator/get_commission",
+  "method": "?",
+  "names": [
+   "GetCommission"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/creator/grayscale_ui",
+  "method": "POST",
+  "names": [
+   "GetGrayscaleUI"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/creator/withdraw",
+  "method": "POST",
+  "names": [
+   "ManualWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/creator/withdraw_config",
+  "method": "POST",
+  "names": [
+   "UpdateWithdrawConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/creator/withdraw_settings",
+  "method": "?",
+  "names": [
+   "WithdrawSettings"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/seller/get_pi_infos",
+  "method": "POST",
+  "names": [
+   "MGetSellerPayoutPI"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/seller/payment/list",
+  "method": "?",
+  "names": [
+   "ListSellerPayment"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/payout/seller/set_pi_infos",
+  "method": "POST",
+  "names": [
+   "MSetSellerPayoutPI"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/amount/get",
+  "method": "POST",
+  "names": [
+   "GetSettlementAmount",
+   "GetSettlementAmountByGet"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/arrears/accept",
+  "method": "POST",
+  "names": [
+   "ArrearsAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/auto/withdraw/config",
+  "method": "GET",
+  "names": [
+   "ConfigAutoWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/auto/withdraw/info/query",
+  "method": "POST",
+  "names": [
+   "QueryAutoWithdrawInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/balance/detail/query",
+  "method": "POST",
+  "names": [
+   "QueryBalanceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/balance/get",
+  "method": "GET",
+  "names": [
+   "GetBalance"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/biz/deposit/freeze",
+  "method": "POST",
+  "names": [
+   "FreezeDeposit"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/detail/search",
+  "method": "GET",
+  "names": [
+   "SearchSettlementDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/details/order/fee/list",
+  "method": "POST",
+  "names": [
+   "ListSettlementDetailsOrderFee"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/details/other/fee/list",
+  "method": "POST",
+  "names": [
+   "ListSettlementDetailsOtherFee"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/file",
+  "method": "POST",
+  "names": [
+   "GetSettlementFile"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/file/download",
+  "method": "POST",
+  "names": [
+   "DownloadSettlementFile"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/file/export",
+  "method": "POST",
+  "names": [
+   "ExportSettlementFile"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/file/list",
+  "method": "GET",
+  "names": [
+   "ListSettlementFiles"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/identity/type/get",
+  "method": "POST",
+  "names": [
+   "GetIdentityType"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/identity/verify",
+  "method": "POST",
+  "names": [
+   "VerifyIdentity"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/info/compliance/security/get",
+  "method": "POST",
+  "names": [
+   "GetSecurityComplianceInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/invoice/search",
+  "method": "POST",
+  "names": [
+   "SearchInvoiceDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/orders/list",
+  "method": "POST",
+  "names": [
+   "ListSettlementOrders"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/bind_card",
+  "method": "POST",
+  "names": [
+   "BindCard"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/cancel_agreement",
+  "method": "POST",
+  "names": [
+   "CancelAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/create_or_update_payout_cycle",
+  "method": "POST",
+  "names": [
+   "CreateOrUpdatePayoutConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/init_agreement",
+  "method": "POST",
+  "names": [
+   "InitAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/manage_link",
+  "method": "POST",
+  "names": [
+   "GetPayoutManageLink"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/payment_date_info",
+  "method": "POST",
+  "names": [
+   "QueryPaymentDateInfoMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/pi_infos",
+  "method": "POST",
+  "names": [
+   "GetPayoutPiInfos"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/query_agreement",
+  "method": "POST",
+  "names": [
+   "QueryAgreement"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/query_payout_config",
+  "method": "POST",
+  "names": [
+   "QueryPayoutConfigInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/reverse_block_check",
+  "method": "GET",
+  "names": [
+   "PayoutReserveBlockCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/payout/reverse_retry",
+  "method": "POST",
+  "names": [
+   "PayoutReverseRetry"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/settings",
+  "method": "GET",
+  "names": [
+   "GetSettlementSettings"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/terms/get",
+  "method": "GET",
+  "names": [
+   "GetTerms"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw",
+  "method": "POST",
+  "names": [
+   "Withdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/detail/query",
+  "method": "POST",
+  "names": [
+   "QueryWithdrawDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/fail/msg/query",
+  "method": "GET",
+  "names": [
+   "QueryWithdrawFailMsg"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/retry",
+  "method": "POST",
+  "names": [
+   "WithdrawRetry"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/rules/get",
+  "method": "GET",
+  "names": [
+   "GetWithdrawRules"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/search",
+  "method": "POST",
+  "names": [
+   "SearchWithdraw"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/settlement/withdraw/settlement_info",
+  "method": "POST",
+  "names": [
+   "GetWithdrawSettlementInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/tax_audit",
+  "method": "POST",
+  "names": [
+   "TaxAudit"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/tax_info/get",
+  "method": "POST",
+  "names": [
+   "GetTaxInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/pay/tax_info/set",
+  "method": "POST",
+  "names": [
+   "SetTaxInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/get",
+  "method": "POST",
+  "names": [
+   "GetAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/switch/get",
+  "method": "?",
+  "names": [
+   "GetAccountSwitch"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account/update",
+  "method": "POST",
+  "names": [
+   "UpdateAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/account_verification/get",
+  "method": "?",
+  "names": [
+   "GetAccountVerification"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ads_optimizers/get",
+  "method": "?",
+  "names": [
+   "GetAdsOptimizersCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/affiliate_card/get",
+  "method": "?",
+  "names": [
+   "GetAffiliateCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/allowed_geo_l0/get",
+  "method": "?",
+  "names": [
+   "GetAllowedGeoL0"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/is_read/get",
+  "method": "?",
+  "names": [
+   "CheckSingleBadgeIsRead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/brand/get",
+  "method": "POST",
+  "names": [
+   "GetSellerBrand"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/check_and_cache_register_info",
+  "method": "POST",
+  "names": [
+   "CheckAndCacheRegisterInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/check_invite_code",
+  "method": "POST",
+  "names": [
+   "CheckInviteCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/check_verification_code",
+  "method": "POST",
+  "names": [
+   "CommonCheckVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/get",
+  "method": "?",
+  "names": [
+   "GetSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common/send_verification_code",
+  "method": "POST",
+  "names": [
+   "CommonSendVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/common_extra/get",
+  "method": "?",
+  "names": [
+   "GetCommonExtra"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creativityhub/get",
+  "method": "POST",
+  "names": [
+   "GetSellerCreativityHubInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator_availability/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorAvailability"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/creator_info/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCreatorInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/cross_border/delivery/get",
+  "method": "?",
+  "names": [
+   "GetCrossBorderSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource/set",
+  "method": "POST",
+  "names": [
+   "SetCustomRoleResource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/custom_role/resource_config_list/get",
+  "method": "POST",
+  "names": [
+   "GetCustomRoleResourceConfigList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/customer_service/im/base_info/get",
+  "method": "POST",
+  "names": [
+   "GetIMBaseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/am/abort",
+  "method": "POST",
+  "names": [
+   "LogoutDelegationByAm"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/history/get",
+  "method": "?",
+  "names": [
+   "GetDelegationLoginHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/info",
+  "method": "?",
+  "names": [
+   "GetDelegationInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/mode/set",
+  "method": "POST",
+  "names": [
+   "SetDelegationMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delegation/seller/abort",
+  "method": "POST",
+  "names": [
+   "AbortDelegationBySeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delivery/get",
+  "method": "POST",
+  "names": [
+   "GetSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/delivery/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerDelivery"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/district/match",
+  "method": "POST",
+  "names": [
+   "MatchDistrict"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/academy/get",
+  "method": "?",
+  "names": [
+   "GetEduCompAcademy"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/edu_comp/faq/get",
+  "method": "?",
+  "names": [
+   "GetEduCompFAQ"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/entity/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/entity/file_url/get",
+  "method": "POST",
+  "names": [
+   "GetFileURL"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/entity/get",
+  "method": "POST",
+  "names": [
+   "GetEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/entity/update",
+  "method": "POST",
+  "names": [
+   "UpdateEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ext_attr/get",
+  "method": "?",
+  "names": [
+   "GetSellerExtAttr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feelgood/access_token/get",
+  "method": "POST",
+  "names": [
+   "GetFeelGoodAccessToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/bind",
+  "method": "POST",
+  "names": [
+   "BindFeishu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_binding_staff",
+  "method": "?",
+  "names": [
+   "GetBindingFeishuStaff"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_invite_user",
+  "method": "POST",
+  "names": [
+   "GetInviteUserForFeishu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/feishu/get_recommend_groups",
+  "method": "?",
+  "names": [
+   "GetRecommendFeishuGroups"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_all_unified_seller",
+  "method": "POST",
+  "names": [
+   "GetAllUnifiedSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_invite_code",
+  "method": "POST",
+  "names": [
+   "GetInviteCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_main_account_safe_phone",
+  "method": "POST",
+  "names": [
+   "GetMainAccountSafePhone"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_register_source",
+  "method": "POST",
+  "names": [
+   "GetRegisterSource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_subscription_services",
+  "method": "POST",
+  "names": [
+   "GetSubscriptionServices"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/get_unread_download_task_count",
+  "method": "POST",
+  "names": [
+   "GetUnreadDownloadTaskCount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/fe_gray_setting/get",
+  "method": "POST",
+  "names": [
+   "GetFEGraySetting"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddPlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/available/get",
+  "method": "POST",
+  "names": [
+   "GetAvailablePlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/platform_warehouses/delete",
+  "method": "POST",
+  "names": [
+   "DeletePlatformWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouse/param_rule/get",
+  "method": "GET",
+  "names": [
+   "WarehouseParameterRule"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouse/prefill",
+  "method": "POST",
+  "names": [
+   "PrefillWarehouseInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/available_region/get",
+  "method": "GET",
+  "names": [
+   "GetAvailableRegions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/deactivated_warehouse/get",
+  "method": "GET",
+  "names": [
+   "GetDeactivatedSellerWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/default/set",
+  "method": "POST",
+  "names": [
+   "SetDefaultWarehouse"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/delete",
+  "method": "POST",
+  "names": [
+   "DeleteGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/get",
+  "method": "GET",
+  "names": [
+   "GetGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/permission/get",
+  "method": "?",
+  "names": [
+   "GetGlobalSellerWarehousesPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/priority/set",
+  "method": "POST",
+  "names": [
+   "SetWarehousePriority"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/status_transfer",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseStatusTransfer"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/switch",
+  "method": "POST",
+  "names": [
+   "SwitchGlobalWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global/warehouses/update",
+  "method": "POST",
+  "names": [
+   "UpdateGlobalSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_product_permission/get",
+  "method": "?",
+  "names": [
+   "GetGlobalProductPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_seller_onboard_info/get",
+  "method": "?",
+  "names": [
+   "GetGlobalSellerOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/global_shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyGlobalShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/go_seller_center",
+  "method": "POST",
+  "names": [
+   "GoSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/batch_mark_read_user_message",
+  "method": "POST",
+  "names": [
+   "BatchMarkReadUserMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/check_new_message",
+  "method": "POST",
+  "names": [
+   "CheckNewPlatformMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/get_merchant_headlines",
+  "method": "POST",
+  "names": [
+   "GetMerchantHeadlines"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/get_merchant_headlines_config",
+  "method": "POST",
+  "names": [
+   "GetMerchantHeadlinesConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/get_user_message_statistic",
+  "method": "POST",
+  "names": [
+   "GetUserMessageStatistics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/mark_read_user_message",
+  "method": "POST",
+  "names": [
+   "MarkReadUserMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/mark_remind_user_message",
+  "method": "POST",
+  "names": [
+   "MarkRemindUserMessage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/merchant_headlines_feedback",
+  "method": "POST",
+  "names": [
+   "MerchantHeadlinesFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/user_message_detail",
+  "method": "POST",
+  "names": [
+   "GetUserMessageDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/gs_message/user_message_list",
+  "method": "POST",
+  "names": [
+   "GetUserMessageList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/h5/register/reach",
+  "method": "POST",
+  "names": [
+   "ReachSellerAfterRegisterForH5Optimization"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/course_detail/get",
+  "method": "POST",
+  "names": [
+   "GetCourseDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/get",
+  "method": "?",
+  "names": [
+   "GetHelpInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/help_info/knowledge_detail/get",
+  "method": "?",
+  "names": [
+   "GetKnowledgeDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/holiday_mode/list",
+  "method": "POST",
+  "names": [
+   "ListHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/holiday_mode/set",
+  "method": "POST",
+  "names": [
+   "SetHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_assess_personas",
+  "method": "POST",
+  "names": [
+   "FsAssessPersonasCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_must_read_list",
+  "method": "POST",
+  "names": [
+   "GetMustReadList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/fs/get_todo_list",
+  "method": "POST",
+  "names": [
+   "FsTodoCardData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_activity_marketing",
+  "method": "POST",
+  "names": [
+   "MarketingCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_assess_personas",
+  "method": "POST",
+  "names": [
+   "AssessPersonasCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_clue_card",
+  "method": "POST",
+  "names": [
+   "ClueCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_supplier_guidance",
+  "method": "POST",
+  "names": [
+   "SupplierGuidanceCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_task_card",
+  "method": "POST",
+  "names": [
+   "ListSupplierTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home/get_todo_list",
+  "method": "POST",
+  "names": [
+   "TodoCardData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_card/get",
+  "method": "?",
+  "names": [
+   "GetHomeCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_stage/get",
+  "method": "POST",
+  "names": [
+   "CheckLifeStage"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/home_task/get",
+  "method": "?",
+  "names": [
+   "GetHomeTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_allowlist/get",
+  "method": "?",
+  "names": [
+   "GetHomePageAllowList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/homepage_widgets_group/get",
+  "method": "POST",
+  "names": [
+   "GetHomepageWidgetsGroup"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/create_seller",
+  "method": "POST",
+  "names": [
+   "CreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/business_type_todo/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderBusinessTypeTodo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/business_type_todo_draft/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderBusinessTypeTodoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/change_greater_market_region/confirm",
+  "method": "POST",
+  "names": [
+   "ConfirmCrossBorderChangeGreaterMarketRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/create_shop/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCreateShop"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/deposit/get",
+  "method": "POST",
+  "names": [
+   "GetFirstCategoryDeposit"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/onboard_info/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/qualification_todo_draft/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderQualificationTodoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/shop_setting_todo_draft/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderShopSettingTodoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/todo0/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTodo0"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/todo1/save-draft",
+  "method": "POST",
+  "names": [
+   "SaveDraftCrossBorderJoinTodo1"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/todo1/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderJoinTodo1"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/cross_border/todo2/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderJoinTodo2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/entity/verify",
+  "method": "POST",
+  "names": [
+   "VerifyEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/extended_field/submit",
+  "method": "POST",
+  "names": [
+   "SubmitExtendedField"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/get",
+  "method": "POST",
+  "names": [
+   "GetSellerJoin"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/invitation_code/submit",
+  "method": "POST",
+  "names": [
+   "SubmitInvitationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/local/company_certificate/save-draft",
+  "method": "POST",
+  "names": [
+   "SaveDraftSubmitCompanyCertificate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/local/personal_certificate/save-draft",
+  "method": "POST",
+  "names": [
+   "SaveDraftLocalPersonalCertificate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/markets/get",
+  "method": "POST",
+  "names": [
+   "GetMarkets"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/ocr",
+  "method": "POST",
+  "names": [
+   "Ocr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/register_create_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/todo1/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTodo1"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/todo2/company/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCompanyCertificate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/todo2/person/submit",
+  "method": "POST",
+  "names": [
+   "SubmitPersonalCertificate"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/tt_account/verification_code/send",
+  "method": "POST",
+  "names": [
+   "SendTtAccountVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/join/tt_account/verify",
+  "method": "POST",
+  "names": [
+   "VerifyTtAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/locales/get",
+  "method": "?",
+  "names": [
+   "GetLocales"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logistics_mode/set",
+  "method": "POST",
+  "names": [
+   "SetSellerPreferLogisticsMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/logout_seller_center",
+  "method": "POST",
+  "names": [
+   "LogoutSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/apply",
+  "method": "POST",
+  "names": [
+   "SaveMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/mall_status/get",
+  "method": "POST",
+  "names": [
+   "GetMallStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/marketing_opt/set",
+  "method": "POST",
+  "names": [
+   "SetMarketingOption"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/badge/get",
+  "method": "?",
+  "names": [
+   "GetBadge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/get",
+  "method": "POST",
+  "names": [
+   "GetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/set",
+  "method": "POST",
+  "names": [
+   "SetMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/menu/switch",
+  "method": "POST",
+  "names": [
+   "SwitchMenu"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/merchant/attestation/region/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderMerchantAttestationRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/merchant/attestation/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderMerchantAttestationState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/merchant/attestation/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderMerchantAttestation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/merchant_vat_id/create",
+  "method": "POST",
+  "names": [
+   "CreateMerchantVatID"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/get",
+  "method": "?",
+  "names": [
+   "GetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/msg_card/set",
+  "method": "?",
+  "names": [
+   "SetMsgCard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/multi_seller_bind",
+  "method": "POST",
+  "names": [
+   "MultiSellerBind"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/namespace/badge_list/get",
+  "method": "POST",
+  "names": [
+   "GetUnreadBadges"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/get",
+  "method": "POST",
+  "names": [
+   "GetNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/navigation_bar/read",
+  "method": "POST",
+  "names": [
+   "ReadNavigationBar"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/network/country/check",
+  "method": "POST",
+  "names": [
+   "NetworkCountryCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/official_creator_contract/set",
+  "method": "POST",
+  "names": [
+   "SetOfficialCreatorContract"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/company/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardCompanyInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/config/get",
+  "method": "GET",
+  "names": [
+   "GetOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/detail",
+  "method": "GET",
+  "names": [
+   "GetOnboardInfoDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/draft/get",
+  "method": "GET",
+  "names": [
+   "GetOnboardLocalDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/sg/personal/extra_submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitOnboardLocalSGPersonal"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardLocalUSDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveOnboardLocalUSDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/us/extra_submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitOnboardLocalUS"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/local/us/submit",
+  "method": "POST",
+  "names": [
+   "SubmitOnboardLocalUSInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/order/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardOrder"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/personal/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardPersonalInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/seller/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardSellerInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/seller_with_invitation_code/create",
+  "method": "POST",
+  "names": [
+   "CreateSellerWithInvitationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitOnboardInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/address_validation",
+  "method": "POST",
+  "names": [
+   "ValidateAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/appeal_info/get",
+  "method": "POST",
+  "names": [
+   "GetRcsAppealInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/company_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardCompanyName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/company_trading_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardCompanyTradingName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "GET",
+  "names": [
+   "GetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/action/report",
+  "method": "POST",
+  "names": [
+   "ReportCrossBorderAction"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/appeal",
+  "method": "POST",
+  "names": [
+   "AppealCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/appeal_with_token",
+  "method": "POST",
+  "names": [
+   "OnboardAppealWithToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/config/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/deposit/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderFirstCategoryDeposit"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveCrossBorderOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/entity/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCrossBorderEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/experienced_platform/verify",
+  "method": "POST",
+  "names": [
+   "VerifyCrossBorderExperiencedPlatform"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/global_seller/create",
+  "method": "POST",
+  "names": [
+   "CreateCrossBorderGlobalSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/onboard/route/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderOnboardRoute"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/onboard/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/open_shop/draft/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderOpenShopDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/open_shop/route/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderOpenShopRoute"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/open_shop/states/get",
+  "method": "GET",
+  "names": [
+   "GetCrossBorderOpenShopStates"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/shop/open",
+  "method": "POST",
+  "names": [
+   "SubmitOpenShopCrossBorder"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/shop/pre_check",
+  "method": "POST",
+  "names": [
+   "PreCheckCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo/submit",
+  "method": "POST",
+  "names": [
+   "SubmitCrossBorderUBO"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/cross_border/ubo_check/state/get",
+  "method": "POST",
+  "names": [
+   "GetCrossBorderUBOCheckState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "GetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "SendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/docusign_callback",
+  "method": "POST",
+  "names": [
+   "DocusignCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "VerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "GetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "GetFeatureTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code/submit",
+  "method": "POST",
+  "names": [
+   "SubmitInvitationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/invitation_code_tag/get",
+  "method": "POST",
+  "names": [
+   "GetInvitationCodeTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "JumioOcr"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "GET",
+  "names": [
+   "GetJumioConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "GetJumioLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/appeal_url/get",
+  "method": "GET",
+  "names": [
+   "GetSeaPipoAppealUrl"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalBROnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/br/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalBROnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/config/get",
+  "method": "GET",
+  "names": [
+   "GetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalESOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/es/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalESOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIDOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIDOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/criteria/check",
+  "method": "GET",
+  "names": [
+   "TOKOFastOnboardingCriteriaPreCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/start",
+  "method": "POST",
+  "names": [
+   "StartTOKOFastOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTOKOFastOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/id/toko_fast_onboard/toko_data/prefill",
+  "method": "POST",
+  "names": [
+   "GetTOKOData"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalIRLOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/irl/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalIRLOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalMYOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/my/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalMYOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalPHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/ph/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalPHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalSGOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_info/get",
+  "method": "GET",
+  "names": [
+   "GetSingpassInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/singpass_link/get",
+  "method": "GET",
+  "names": [
+   "GetSingpassLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/sg/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalSGOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/state/get",
+  "method": "GET",
+  "names": [
+   "GetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalTHOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/th/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalTHOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/state/get",
+  "method": "GET",
+  "names": [
+   "GetLocalUSOnboardBackFillState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/backfill/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboardBackFill"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "ExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/extra_submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/state",
+  "method": "POST",
+  "names": [
+   "GetLocalUSPostOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/post_onboard/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/raw_lead",
+  "method": "POST",
+  "names": [
+   "CreateRawLead"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/sandbox/submit",
+  "method": "POST",
+  "names": [
+   "SubmitSandboxLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "POST",
+  "names": [
+   "GetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/us/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalUSOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/get",
+  "method": "POST",
+  "names": [
+   "GetLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/draft/save",
+  "method": "POST",
+  "names": [
+   "SaveLocalVNOnboardDraft"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/extra/submit",
+  "method": "POST",
+  "names": [
+   "ExtraSubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/local/vn/submit",
+  "method": "POST",
+  "names": [
+   "SubmitLocalVNOnboard"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "RegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyOnboardShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/order/conf/get",
+  "method": "?",
+  "names": [
+   "GetSellerOrderListConf"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/payment_manage_link/get",
+  "method": "?",
+  "names": [
+   "GetPaymentManageLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/pc/register/reach",
+  "method": "POST",
+  "names": [
+   "ReachSellerAfterRegisterForPCOptimization"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/permissions/get",
+  "method": "?",
+  "names": [
+   "GetPermissions"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/pipo_scene_link/get",
+  "method": "?",
+  "names": [
+   "GetPipoSceneLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/popup/get_popup_list",
+  "method": "POST",
+  "names": [
+   "GetPopupLists"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/popup/popup_callback",
+  "method": "POST",
+  "names": [
+   "PopupCallback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/postcode/format/verify",
+  "method": "POST",
+  "names": [
+   "VerifyPostcodeFormat"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/postcode/verify",
+  "method": "POST",
+  "names": [
+   "VerifyPostcode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/address_consent/set",
+  "method": "POST",
+  "names": [
+   "SetAddressConsent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/bound_contact/verify",
+  "method": "POST",
+  "names": [
+   "VerifyBoundContact"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/bound_contact_email/update",
+  "method": "POST",
+  "names": [
+   "UpdateBoundContactEmail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/contact/get",
+  "method": "POST",
+  "names": [
+   "GetMaskedContactInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/contact_code/send",
+  "method": "POST",
+  "names": [
+   "SendContactVerificationCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/contact_email_code/send",
+  "method": "POST",
+  "names": [
+   "SendContactEmailCode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/contact_v2/get",
+  "method": "POST",
+  "names": [
+   "GetSellerContactInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/profile/whatsapp_number/update",
+  "method": "POST",
+  "names": [
+   "UpdateWhatsappNum"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/region/auto/complete/detail",
+  "method": "POST",
+  "names": [
+   "GetAutoCompleteRegionDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/region/auto/complete/list",
+  "method": "POST",
+  "names": [
+   "ListAutoCompleteRegion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/register/check",
+  "method": "POST",
+  "names": [
+   "NetworkCheck"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/register_account_for_seller_center",
+  "method": "POST",
+  "names": [
+   "RegisterContactForSellerCenter"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/register_contact_for_brand_hosting",
+  "method": "POST",
+  "names": [
+   "RegisterContactForBrandHosting"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search/get",
+  "method": "POST",
+  "names": [
+   "GlobalSearchByKeywords"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/search_query_suggestion/get",
+  "method": "?",
+  "names": [
+   "GetQuerySuggestion"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_financing_link/get",
+  "method": "?",
+  "names": [
+   "GetSellerFinancingLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_insurance_session/get",
+  "method": "?",
+  "names": [
+   "GetSellerInsuranceSession"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_map/read",
+  "method": "POST",
+  "names": [
+   "ReadSellerMap"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/seller_wallet_link/get",
+  "method": "?",
+  "names": [
+   "GetSellerWalletLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/settlement/account/get",
+  "method": "GET",
+  "names": [
+   "GetSettlementAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shipment_provider/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerShipmentProvider"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop/timezone/update",
+  "method": "POST",
+  "names": [
+   "UpdateShopTimeZone"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/get",
+  "method": "GET",
+  "names": [
+   "GetShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/invitation/send",
+  "method": "POST",
+  "names": [
+   "SendShopCreatorInvitation"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/unbind",
+  "method": "POST",
+  "names": [
+   "UnbindShopCreator"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_creator/unbound_roles/get",
+  "method": "POST",
+  "names": [
+   "GetShopCreatorUnboundRoles"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/get",
+  "method": "POST",
+  "names": [
+   "GetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/mget",
+  "method": "POST",
+  "names": [
+   "MGetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/mset",
+  "method": "POST",
+  "names": [
+   "MSetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_holiday_mode/set",
+  "method": "POST",
+  "names": [
+   "SetShopHolidayMode"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_limit_status/get",
+  "method": "?",
+  "names": [
+   "GetShopLimitStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/get",
+  "method": "POST",
+  "names": [
+   "GetShopMetrics"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_metrics/save",
+  "method": "POST",
+  "names": [
+   "SaveShopMetricsPreference"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "VerifyShopName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/source/report",
+  "method": "POST",
+  "names": [
+   "SetSellerSource"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/special_paylater_link/get",
+  "method": "?",
+  "names": [
+   "GetSpecialPayLaterLink"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/add",
+  "method": "POST",
+  "names": [
+   "AddSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/bind",
+  "method": "POST",
+  "names": [
+   "BindSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/delete",
+  "method": "POST",
+  "names": [
+   "DeleteSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/list",
+  "method": "POST",
+  "names": [
+   "ListSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/roles/get",
+  "method": "?",
+  "names": [
+   "GetRoles"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/sub_account/update",
+  "method": "POST",
+  "names": [
+   "UpdateSubAccount"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/click/save",
+  "method": "POST",
+  "names": [
+   "SaveTagsClickEvent"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tags/get",
+  "method": "POST",
+  "names": [
+   "GetTags"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax/get",
+  "method": "POST",
+  "names": [
+   "GetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax/set",
+  "method": "POST",
+  "names": [
+   "SetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_num/get",
+  "method": "POST",
+  "names": [
+   "GetSellerTaxV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_num/set",
+  "method": "POST",
+  "names": [
+   "SetSellerTaxV2"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tax_registered_number/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerTaxRegisterNum"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/term/set",
+  "method": "POST",
+  "names": [
+   "TermAccept"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/ticket_token/get",
+  "method": "POST",
+  "names": [
+   "GetTicketToken"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/tools",
+  "method": "POST",
+  "names": [
+   "CommonTool"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/brand_name/get",
+  "method": "?",
+  "names": [
+   "GetBrandName"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/del",
+  "method": "POST",
+  "names": [
+   "DelTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/detail",
+  "method": "POST",
+  "names": [
+   "DetailTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/list",
+  "method": "POST",
+  "names": [
+   "ListTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/permission/get",
+  "method": "?",
+  "names": [
+   "GetTrademarkPermission"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/receipt/brand/get",
+  "method": "?",
+  "names": [
+   "GetReceiptBrandList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/submit",
+  "method": "POST",
+  "names": [
+   "SubmitTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/submit_profile/get",
+  "method": "POST",
+  "names": [
+   "GetSubmitTrademarkProfile"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/trademark/valid",
+  "method": "?",
+  "names": [
+   "ValidTrademark"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/entrance_knowledge_list/get",
+  "method": "?",
+  "names": [
+   "GetEntranceKnowledgeList"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/home/get",
+  "method": "?",
+  "names": [
+   "GetUniversityHome"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge/get",
+  "method": "POST",
+  "names": [
+   "GetUniversityKnowledge"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/university/knowledge_feedback/create",
+  "method": "POST",
+  "names": [
+   "CreateKnowledgeFeedback"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/user/check_user_auth",
+  "method": "POST",
+  "names": [
+   "CheckUserAuth"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/user/get_info",
+  "method": "POST",
+  "names": [
+   "GetUserInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/del",
+  "method": "POST",
+  "names": [
+   "DelSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/get",
+  "method": "GET",
+  "names": [
+   "GetSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/get_tt_return_warehouses",
+  "method": "POST",
+  "names": [
+   "GetTTReturnWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/task",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseTask"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/warehouses/update",
+  "method": "POST",
+  "names": [
+   "UpdateSellerWarehouses"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/widget/get",
+  "method": "POST",
+  "names": [
+   "GetWidget"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/workbench/get_all_sellers",
+  "method": "POST",
+  "names": [
+   "GetAllSellers"
+  ]
+ },
+ {
+  "path": "/api/v1/seller/workbench/outreach/callback",
+  "method": "POST",
+  "names": [
+   "OutreachCallBack"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/profile/complaint_address/update",
+  "method": "POST",
+  "names": [
+   "UpdateComplaintAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/shop/profile/contact/get",
+  "method": "POST",
+  "names": [
+   "GetShopContactInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/bmbe",
+  "method": "POST",
+  "names": [
+   "SubmitBMBE",
+   "BMBEAuditHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/certificate/file",
+  "method": "?",
+  "names": [
+   "DownloadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/china_entity_income_report/search",
+  "method": "GET",
+  "names": [
+   "SearchChinaEntityIncomeReportListInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/china_entity_income_report_apply_time_list/get",
+  "method": "GET",
+  "names": [
+   "GetApplyReportTimeForChinaEntityIncome"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/china_entity_income_report_detail/download",
+  "method": "GET",
+  "names": [
+   "DownloadChinaEntityIncomeReportDetail"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/china_entity_income_report_exchange_rate/get",
+  "method": "POST",
+  "names": [
+   "GetExchangeRateForChinaEntityIncome"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/china_entity_income_report_taxpayer_list/get",
+  "method": "GET",
+  "names": [
+   "GetTaxpayerNameForChinaEntityIncome"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/contract/download_file",
+  "method": "POST",
+  "names": [
+   "DownloadContract"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/contract/download_invoice",
+  "method": "POST",
+  "names": [
+   "DownloadContractInovice"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/contract/search",
+  "method": "POST",
+  "names": [
+   "SearchContract"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/declare/query",
+  "method": "POST",
+  "names": [
+   "QueryTaxDeclare"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/declare/submit",
+  "method": "POST",
+  "names": [
+   "TaxDeclare"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/entity_change/tax_task",
+  "method": "POST",
+  "names": [
+   "GetEntityChangeTaxTask"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/estimated_gmv",
+  "method": "?",
+  "names": [
+   "EstimatedGMV"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/faq/tax_document",
+  "method": "POST",
+  "names": [
+   "GetTaxDocumentFaqList"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/file/upload",
+  "method": "POST",
+  "names": [
+   "UploadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/form1099k/detail/download",
+  "method": "POST",
+  "names": [
+   "DownloadFormDetail1099"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/form1099k/detail/generate",
+  "method": "POST",
+  "names": [
+   "GenerateFormDetail1099k"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/form1099k/detail/get_list",
+  "method": "GET",
+  "names": [
+   "GetFormDetail1099List"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/form1099k/download",
+  "method": "GET",
+  "names": [
+   "DownloadForm1099"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/form1099k/get_list",
+  "method": "GET",
+  "names": [
+   "GetForm1099List"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/ful_inv/get_list",
+  "method": "POST",
+  "names": [
+   "GetFulInvList"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/ful_inv/upload",
+  "method": "POST",
+  "names": [
+   "UploadFulInv"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/get_country_list",
+  "method": "POST",
+  "names": [
+   "GetCountryList"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/global_seller_info/clear",
+  "method": "POST",
+  "names": [
+   "ClearGlobalSellerEntityInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/global_seller_info/get",
+  "method": "POST",
+  "names": [
+   "GetGlobalSellerEntityInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/global_seller_info/set",
+  "method": "POST",
+  "names": [
+   "UpsertGlobalSellerEntityInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/grayscale",
+  "method": "POST",
+  "names": [
+   "QueryGrayscaleStatus"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/details_export",
+  "method": "POST",
+  "names": [
+   "ExportInvoiceDetails"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/export",
+  "method": "POST",
+  "names": [
+   "BatchExportInvoice"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/export_task",
+  "method": "GET",
+  "names": [
+   "ListExportedFiles"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/file",
+  "method": "GET",
+  "names": [
+   "DownloadFile"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/pay",
+  "method": "POST",
+  "names": [
+   "PayInvoice"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/invoice/search",
+  "method": "POST",
+  "names": [
+   "SearchInvoice"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/meta/info/get",
+  "method": "POST",
+  "names": [
+   "GetTaxMetaInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/nfe_tool/get",
+  "method": "POST",
+  "names": [
+   "GetNFeToolCfg"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/nfe_tool/refresh",
+  "method": "POST",
+  "names": [
+   "RefreshNFeToolCfg"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/nfe_tool/set",
+  "method": "POST",
+  "names": [
+   "SetNFeToolCfg"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/reimbursement/fee_list",
+  "method": "POST",
+  "names": [
+   "FeeList"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/reimbursement/history_task",
+  "method": "GET",
+  "names": [
+   "ListReimbursementTask"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/reimbursement/invoice_search",
+  "method": "POST",
+  "names": [
+   "SearchInvoiceForReimbursement"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/reimbursement/task",
+  "method": "POST",
+  "names": [
+   "SubmitReimbursementTask",
+   "GetReimbursementTask"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/reimbursement/tax_info",
+  "method": "POST",
+  "names": [
+   "DefaultTaxInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/report/search",
+  "method": "GET",
+  "names": [
+   "SearchReport"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/sd",
+  "method": "POST",
+  "names": [
+   "SubmitSD",
+   "SDAuditHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/shop_entity",
+  "method": "?",
+  "names": [
+   "ShopEntity"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/statement_letter",
+  "method": "POST",
+  "names": [
+   "SubmitSL",
+   "SLAuditHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_amount",
+  "method": "POST",
+  "names": [
+   "CalculateTax"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/clear",
+  "method": "POST",
+  "names": [
+   "ClearSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/confirm",
+  "method": "GET",
+  "names": [
+   "ConfirmTaxInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/get",
+  "method": "POST",
+  "names": [
+   "GetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/get_us_display_info",
+  "method": "POST",
+  "names": [
+   "GetUsDisplayInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/set",
+  "method": "POST",
+  "names": [
+   "SetSellerTax"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/set_addr",
+  "method": "POST",
+  "names": [
+   "SetSellerAddress"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/submit_verify",
+  "method": "POST",
+  "names": [
+   "SubmitVerify"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/tax_info/upsert_seller_invoice_payment_info",
+  "method": "POST",
+  "names": [
+   "UpsertSellerInvoicePaymentInfo"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/vcs/config/deactivate",
+  "method": "POST",
+  "names": [
+   "DeactivateVCSConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/vcs/config/list",
+  "method": "POST",
+  "names": [
+   "ListVCSConfigVersion"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/vcs/config/ptc_codes",
+  "method": "GET",
+  "names": [
+   "GetPTCCodes"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/vcs/config/upsert",
+  "method": "POST",
+  "names": [
+   "UpsertVCSConfig"
+  ]
+ },
+ {
+  "path": "/api/v1/tax/wht_certificate",
+  "method": "POST",
+  "names": [
+   "SubmitWhtCertificate",
+   "WhtCertificateHistory"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/check_user_auth",
+  "method": "POST",
+  "names": [
+   "CheckUserAuthWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/common/get",
+  "method": "?",
+  "names": [
+   "GetSellerWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/get_all_unified_seller",
+  "method": "?",
+  "names": [
+   "GetAllUnifiedSellerWebApp"
+  ]
+ },
+ {
+  "path": "/api/v1/webapp/seller/menu/get",
+  "method": "POST",
+  "names": [
+   "GetMenuWebApp"
+  ]
+ },
+ {
+  "path": "/api/v2/seller/onboard/v2/file/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/easesafe/oec_tax_qualification/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/aff/mobile/member/switch/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/auth/bind_with_mobile_login/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/auth/login/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/common/register/web/bind_verify_info/",
+  "method": "GET",
+  "names": []
+ },
+ {
+  "path": "/passport/mobile/check_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/mobile/send_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/mobile/unbind_limited_unusable_mobile/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/pin/check",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/pin/reset_by_ticket",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/pin/set",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/pin/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/account/verify/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/email/verify",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/pssresource/external/upload",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/user_info/common/v1/web_sdk_init/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/widget/api/v1/logistics/district/list",
+  "method": "POST",
+  "names": [
+   "WidgetListDistricts"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/creator/tax_info/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetTaxInfoForCreator"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/creator/tax_info/set",
+  "method": "POST",
+  "names": [
+   "WidgetSetTaxInfoForCreator"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/meta/info/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetMetaInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/settlement/payout/manage_link",
+  "method": "POST",
+  "names": [
+   "WidgetGetPayoutManageLink"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/settlement/payout/pi_infos",
+  "method": "POST",
+  "names": [
+   "WidgetGetPayoutPiInfos"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/tax_audit",
+  "method": "POST",
+  "names": [
+   "WidgetTaxAudit"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/tax_info/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetTaxInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/pay/tax_info/set",
+  "method": "POST",
+  "names": [
+   "WidgetSetTaxInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/affiliate_card/get",
+  "method": "?",
+  "names": [
+   "GetAffiliateCardForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/badge/set",
+  "method": "POST",
+  "names": [
+   "UpdateBadgeStatusForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/entity/file/upload",
+  "method": "POST",
+  "names": [
+   "WidgetUploadFile"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/entity/file_url/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetFileURL"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/global/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddGlobalSellerWarehousesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/global/warehouses/status_transfer",
+  "method": "POST",
+  "names": [
+   "SellerWarehouseStatusTransferForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/join/ocr",
+  "method": "POST",
+  "names": [
+   "WidgetOcr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/marketing_opt/set",
+  "method": "POST",
+  "names": [
+   "WidgetSetMarketingOption"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/address_validation",
+  "method": "POST",
+  "names": [
+   "WidgetValidateAddress"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/company_trading_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardCompanyTradingName"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/config_aggr/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetOnboardConfigAggr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/contact/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardContact"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/cross_border/experienced_platform/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyCrossBorderExperiencedPlatform"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/docusign/envelope/send",
+  "method": "POST",
+  "names": [
+   "WidgetSendDocusignEnvelope"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/entity_number/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyEntityNumber"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/faqs/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetOnboardFAQs"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/feature_tag/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetFeatureTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio/ocr",
+  "method": "POST",
+  "names": [
+   "WidgetJumioOcr"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_config/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetJumioConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/jumio_link/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetJumioLink"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/config/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetLocalOnboardConfig"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/state/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetLocalOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUKOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/full/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKFullOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/gray_tag/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUKOnboardGrayTag"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/uk/staged/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUKStagedOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetSaveLocalUSOnboardDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/submit",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSaveLocalUSOnboardUBOInfoDraft"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/full_stage/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUSFullStageOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/overview/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetLocalUSOnboardOverView"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/extra_submit",
+  "method": "POST",
+  "names": [
+   "WidgetExtraSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/state",
+  "method": "GET",
+  "names": [
+   "WidgetGetLocalUSPostOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/post_onboard/submit",
+  "method": "POST",
+  "names": [
+   "WidgetSubmitLocalUSPostOnboard"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/local/us/state/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetLocalUSOnboardState"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/register_create_seller",
+  "method": "POST",
+  "names": [
+   "WidgetRegisterCreateSeller"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/onboard/v1/shop_name/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyOnboardShopName"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/postcode/format/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyPostcodeFormat"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/postcode/verify",
+  "method": "POST",
+  "names": [
+   "WidgetVerifyPostcode"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/profile/contact_code/send",
+  "method": "POST",
+  "names": [
+   "WidgetSendContactVerificationCode"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/region/auto/complete/detail",
+  "method": "POST",
+  "names": [
+   "WidgetGetAutoCompleteRegionDetail"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/region/auto/complete/list",
+  "method": "POST",
+  "names": [
+   "WidgetListAutoCompleteRegion"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/seller/warehouses/add",
+  "method": "POST",
+  "names": [
+   "AddSellerWarehousesForWidget"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/tax/file/upload",
+  "method": "POST",
+  "names": [
+   "WidgetUploadFile"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/tax/meta/info/get",
+  "method": "POST",
+  "names": [
+   "WidgetGetTaxMetaInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/tax/tax_info/get",
+  "method": "GET",
+  "names": [
+   "WidgetGetSellerTax"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/tax/tax_info/get_us_display_info",
+  "method": "POST",
+  "names": [
+   "WidgetGetUsDisplayInfo"
+  ]
+ },
+ {
+  "path": "/widget/api/v1/tax/tax_info/set",
+  "method": "POST",
+  "names": [
+   "WidgetSetSellerTax"
+  ]
+ }
+]

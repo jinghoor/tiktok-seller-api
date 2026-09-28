@@ -1,0 +1,184 @@
+代码里出现的路径字面量 69 个
+
+  /api/v1/affiliate/account/info
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:account_info
+  /api/v1/affiliate/account/info_v2
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:account_info_v2
+  /api/v1/affiliate/config
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:config
+  /api/v1/affiliate/grayscale_strategy/check
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:grayscale_check
+  /api/v1/affiliate/lux/invitation/available_list
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:avail_invitation
+  /api/v1/affiliate/menu
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:menu
+  /api/v1/affiliate/notification/im/relation/update
+       ← tk01_im.py
+  /api/v1/affiliate/open_collaboration/opt_in/card/get
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:opt_in_card
+  /api/v1/affiliate/partner/invite/creator/batch/create
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:partner_batch_invite
+  /api/v1/affiliate/partner/invite/creator/mget
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:partner_invite_mget
+  /api/v1/affiliate/product_selection/list
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:product_selection
+  /api/v1/affiliate/resource/list/get
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:resource_list
+  /api/v1/affiliate/sample/group/list
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:sample_group_list
+  /api/v1/common/cdn_rule
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:cdn_rule
+  /api/v1/im/shop_creator/shop/conversation/search
+       ← tk01_im.py
+  /api/v1/im/shop_creator/shop/user/token/get
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:im_token_shop
+       ← tk01_im.py
+  /api/v1/insights/affiliate/creator/search/suggestions
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:search_suggestions
+  /api/v1/oec/affiliate/cmp/creator/rank/list/get
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:creator_rank
+  /api/v1/oec/affiliate/cmp/filter
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:cmp_filter
+  /api/v1/oec/affiliate/creator/marketplace/4partner/find
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:partner_find
+  /api/v1/oec/affiliate/creator/marketplace/4partner/option
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:partner_option
+  /api/v1/oec/affiliate/creator/marketplace/find
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:marketplace_find
+  /api/v1/oec/affiliate/creator/marketplace/option
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:marketplace_option
+  /api/v1/oec/affiliate/creator/marketplace/profile
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:marketplace_profile
+  /api/v1/oec/affiliate/crm/creator/upper_limit/get
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:crm_upper_limit
+  /api/v1/oec/affiliate/crm/im_messages/batch_send
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:crm_batch_send
+  /api/v1/oec/affiliate/seller/feature_control
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:feature_control
+  /api/v1/oec/affiliate/seller/im/get/token
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:im_token
+       ← tk01_im.py
+  /api/v1/oec/affiliate/seller/invitation_group/conflict_check
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_conflict
+  /api/v1/oec/affiliate/seller/invitation_group/conflict_check/resolve
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_conflict_fix
+  /api/v1/oec/affiliate/seller/invitation_group/create
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_create
+  /api/v1/oec/affiliate/seller/invitation_group/creators_add
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_creators_add
+  /api/v1/oec/affiliate/seller/invitation_group/detail
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_detail
+  /api/v1/oec/affiliate/seller/invitation_group/general/config
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:group_general_cfg
+  /api/v1/oec/affiliate/seller/invitation_group/invitation/limit
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:invitation_limit
+  /api/v1/oec/affiliate/seller/invitation_group/product_creator_relation
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:product_creator_rel
+  /api/v1/oec/affiliate/seller/invitation_group/search
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_search
+  /api/v1/oec/affiliate/seller/invitation_group/search/creator
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_search_creator
+  /api/v1/oec/affiliate/seller/invitation_group/sensitive_text_check
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_text_check
+  /api/v1/oec/affiliate/seller/invitation_group/terminate
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_terminate
+  /api/v1/oec/affiliate/seller/invitation_group/update
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:group_update
+  /api/v1/oec/affiliate/seller/wish_list/search/creator
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:POST:wishlist_search
+  /api/v1/partner/profile/partner_info
+       ← tk01_affiliate.py
+       ← tk01_affiliate.py:GET:partner_info
+  /api/v1/product/local/product/get
+       ← tk01_promo_client.py
+  /api/v1/product/oc/seller_product_opportunity
+       ← tk01_opportunity.py
+  /api/v1/product/web/local/products/list
+       ← tk01_opp_weekly.py
+       ← tk01_promo_client.py
+  /api/v1/promotion/config
+       ← tk01_promo_client.py
+  /api/v1/promotion/discount/create
+       ← tk01_promo_client.py
+  /api/v1/promotion/discount/get
+       ← tk01_promo_client.py
+  /api/v1/promotion/discount/list
+       ← tk01_promo_client.py
+  /api/v1/promotion/discount/update
+       ← tk01_promo_client.py
+  /api/v1/promotion/fixed_price/create
+       ← tk01_promo_client.py
+  /api/v1/promotion/fixed_price/update
+       ← tk01_promo_client.py
+  /api/v1/promotion/get_summary
+       ← tk01_promo_client.py
+  /api/v1/promotion/list_products
+       ← tk01_promo_client.py
+  /api/v1/promotion/list_products_by_cursor
+       ← tk01_promo_client.py
+  /api/v1/promotion/list_seller_gray_config
+       ← tk01_promo_client.py
+  /api/v1/promotion/shop_risk_info/get
+       ← tk01_promo_client.py
+  /api/v2/product/oc/seller_product_opportunity/submit/record/list
+       ← tk01_opportunity.py
+  api/v1/im/conversation/create
+       ← tk01_im.py
+  api/v1/im/search/search_conversation_by_users
+       ← tk01_im.py
+  api/v1/message/get_by_user_init
+       ← tk01_im.py
+  v1/message/get_by_conversation
+       ← tk01_im.py
+  v1/message/send
+       ← tk01_im.py
+  v2/message/get_by_user
+       ← tk01_im.py
+  v2/message/get_by_user_init
+       ← tk01_im.py
+  v3/conversation/get_min_index
+       ← tk01_im.py
+  v3/conversation/get_read_index
+       ← tk01_im.py
+  v3/conversation/mark_read
+       ← tk01_im.py

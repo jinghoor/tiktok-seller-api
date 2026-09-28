@@ -1,0 +1,300 @@
+总 1024 个路径
+
+============================================================================================================================
+pay/settlement（结算/提现/打款/押金）（41）
+============================================================================================================================
+  POST   /api/v1/pay/settlement/amount/get   ← GetSettlementAmount,GetSettlementAmountByGet
+  POST   /api/v1/pay/settlement/arrears/accept   ← ArrearsAccept
+  ?      /api/v1/pay/settlement/auto/withdraw/config   ← ConfigAutoWithdraw
+  POST   /api/v1/pay/settlement/auto/withdraw/info/query   ← QueryAutoWithdrawInfo
+  POST   /api/v1/pay/settlement/balance/detail/query   ← QueryBalanceDetail
+  ?      /api/v1/pay/settlement/balance/get   ← GetBalance
+  POST   /api/v1/pay/settlement/biz/deposit/freeze   ← FreezeDeposit
+  ?      /api/v1/pay/settlement/detail/search   ← SearchSettlementDetail
+  POST   /api/v1/pay/settlement/details/order/fee/list   ← ListSettlementDetailsOrderFee
+  POST   /api/v1/pay/settlement/details/other/fee/list   ← ListSettlementDetailsOtherFee
+  POST   /api/v1/pay/settlement/file   ← GetSettlementFile
+  POST   /api/v1/pay/settlement/file/download   ← DownloadSettlementFile
+  POST   /api/v1/pay/settlement/file/export   ← ExportSettlementFile
+  ?      /api/v1/pay/settlement/file/list   ← ListSettlementFiles
+  POST   /api/v1/pay/settlement/identity/type/get   ← GetIdentityType
+  POST   /api/v1/pay/settlement/identity/verify   ← VerifyIdentity
+  POST   /api/v1/pay/settlement/info/compliance/security/get   ← GetSecurityComplianceInfo
+  POST   /api/v1/pay/settlement/invoice/search   ← SearchInvoiceDetail
+  POST   /api/v1/pay/settlement/orders/list   ← ListSettlementOrders
+  POST   /api/v1/pay/settlement/payout/bind_card   ← BindCard
+  POST   /api/v1/pay/settlement/payout/cancel_agreement   ← CancelAgreement
+  POST   /api/v1/pay/settlement/payout/create_or_update_payout_cycle   ← CreateOrUpdatePayoutConfig
+  POST   /api/v1/pay/settlement/payout/init_agreement   ← InitAgreement
+  POST   /api/v1/pay/settlement/payout/manage_link   ← GetPayoutManageLink
+  POST   /api/v1/pay/settlement/payout/payment_date_info   ← QueryPaymentDateInfoMsg
+  POST   /api/v1/pay/settlement/payout/pi_infos   ← GetPayoutPiInfos
+  POST   /api/v1/pay/settlement/payout/query_agreement   ← QueryAgreement
+  POST   /api/v1/pay/settlement/payout/query_payout_config   ← QueryPayoutConfigInfo
+  ?      /api/v1/pay/settlement/payout/reverse_block_check   ← PayoutReserveBlockCheck
+  POST   /api/v1/pay/settlement/payout/reverse_retry   ← PayoutReverseRetry
+  ?      /api/v1/pay/settlement/settings   ← GetSettlementSettings
+  ?      /api/v1/pay/settlement/terms/get   ← GetTerms
+  POST   /api/v1/pay/settlement/withdraw   ← Withdraw
+  POST   /api/v1/pay/settlement/withdraw/detail/query   ← QueryWithdrawDetail
+  ?      /api/v1/pay/settlement/withdraw/fail/msg/query   ← QueryWithdrawFailMsg
+  POST   /api/v1/pay/settlement/withdraw/retry   ← WithdrawRetry
+  ?      /api/v1/pay/settlement/withdraw/rules/get   ← GetWithdrawRules
+  POST   /api/v1/pay/settlement/withdraw/search   ← SearchWithdraw
+  POST   /api/v1/pay/settlement/withdraw/settlement_info   ← GetWithdrawSettlementInfo
+  POST   /widget/api/v1/pay/settlement/payout/manage_link   ← WidgetGetPayoutManageLink
+  POST   /widget/api/v1/pay/settlement/payout/pi_infos   ← WidgetGetPayoutPiInfos
+
+============================================================================================================================
+pay/payout + pay/creator + pay/statement（24）
+============================================================================================================================
+  POST   /api/v1/pay/creator/onboard   ← OnboardForCreator
+  POST   /api/v1/pay/creator/onboard_info/get   ← GetOnboardInfoForCreator
+  POST   /api/v1/pay/creator/onboard_info/set   ← SetOnboardInfoForCreator
+  POST   /api/v1/pay/creator/tax_info/get   ← GetTaxInfoForCreator
+  POST   /api/v1/pay/creator/tax_info/set   ← SetTaxInfoForCreator
+  ?      /api/v1/pay/payout/creator/get_commission   ← GetCommission
+  POST   /api/v1/pay/payout/creator/grayscale_ui   ← GetGrayscaleUI
+  POST   /api/v1/pay/payout/creator/withdraw   ← ManualWithdraw
+  POST   /api/v1/pay/payout/creator/withdraw_config   ← UpdateWithdrawConfig
+  ?      /api/v1/pay/payout/creator/withdraw_settings   ← WithdrawSettings
+  POST   /api/v1/pay/payout/seller/get_pi_infos   ← MGetSellerPayoutPI
+  ?      /api/v1/pay/payout/seller/payment/list   ← ListSellerPayment
+  POST   /api/v1/pay/payout/seller/set_pi_infos   ← MSetSellerPayoutPI
+  POST   /api/v1/pay/statement/accounts/balance/list   ← SearchAccountsBalance
+  ?      /api/v1/pay/statement/balance/detail/query   ← QueryBalanceDetail
+  ?      /api/v1/pay/statement/fail/msg   ← GetStatementFailMsg
+  POST   /api/v1/pay/statement/gray   ← FetchStatementMerchantGrayInfo
+  ?      /api/v1/pay/statement/list/detail   ← SearchStatement
+  ?      /api/v1/pay/statement/notify/msg   ← GetNotifyMsg
+  ?      /api/v1/pay/statement/order/list   ← SearchStatementOrder
+  ?      /api/v1/pay/statement/payment/list   ← SearchPayment
+  ?      /api/v1/pay/statement/popup/msg   ← GetPopupMessage
+  ?      /api/v1/pay/statement/stat/info   ← GetAmountStatInfo
+  ?      /api/v1/pay/statement/transaction/detail   ← SearchTransactionDetail
+
+============================================================================================================================
+oec/pay/merchant/statement（新版对账单）（49）
+============================================================================================================================
+  ?      /api/oec/pay/merchant/statement/advance/profit_loss/spu/list   ← SearchMerchantAdvancedSpuProfitLossList
+  ?      /api/oec/pay/merchant/statement/advanced/profit_loss/create_download   ← CreateAdvancedDownloadTask
+  ?      /api/oec/pay/merchant/statement/advanced/profit_loss/search_agg   ← SearchMerchantAdvancedProfitLoss
+  ?      /api/oec/pay/merchant/statement/config/approve_requirement   ← ApproveStatementRequirement
+  ?      /api/oec/pay/merchant/statement/config/constants/list   ← QueryItemConfigConstants
+  ?      /api/oec/pay/merchant/statement/config/create_item_config   ← CreateStatementItemConfig
+  ?      /api/oec/pay/merchant/statement/config/create_requirement   ← CreateStatementRequirement
+  ?      /api/oec/pay/merchant/statement/config/deploy_statement_config_lane   ← DeployStatementConfigLane
+  ?      /api/oec/pay/merchant/statement/config/diff_config   ← DiffConfig
+  ?      /api/oec/pay/merchant/statement/config/draft/item_list   ← QueryItemDraftsByRequirement
+  ?      /api/oec/pay/merchant/statement/config/draft/operation_detail   ← QueryStatementRequirementDraftDetailById
+  ?      /api/oec/pay/merchant/statement/config/draft/template_list   ← QueryTemplateDraftsByRequirement
+  ?      /api/oec/pay/merchant/statement/config/item/detail   ← QueryStatementItemConfigById
+  ?      /api/oec/pay/merchant/statement/config/item/list   ← SearchItemList
+  ?      /api/oec/pay/merchant/statement/config/operation_detail   ← QueryStatementRequirementOperationDetailById
+  ?      /api/oec/pay/merchant/statement/config/query_template_draft_by_requirement   ← QueryTemplateDraftByRequirement
+  ?      /api/oec/pay/merchant/statement/config/rebase_requirement   ← RebaseRequirement
+  ?      /api/oec/pay/merchant/statement/config/requirement/list   ← SearchStatementRequirementPage
+  ?      /api/oec/pay/merchant/statement/config/rollback_requirement   ← RollbackStatementRequirement
+  ?      /api/oec/pay/merchant/statement/config/save_layout_template   ← SaveStatementLayoutTemplate
+  ?      /api/oec/pay/merchant/statement/config/save_open_api_flow   ← SaveStatementOpenAPIFlow
+  ?      /api/oec/pay/merchant/statement/config/save_report_template   ← SaveStatementReportTemplate
+  ?      /api/oec/pay/merchant/statement/config/submit_config   ← SubmitConfig
+  ?      /api/oec/pay/merchant/statement/config/template/detail   ← QueryTemplateProdById
+  ?      /api/oec/pay/merchant/statement/config/template/list   ← SearchTemplateList
+  ?      /api/oec/pay/merchant/statement/config/update_requirement   ← UpdateStatementRequirement
+  ?      /api/oec/pay/merchant/statement/files   ← ListStatementFile
+  ?      /api/oec/pay/merchant/statement/files/download   ← DownloadStatementFile
+  ?      /api/oec/pay/merchant/statement/files/export   ← ExportStatementFile
+  ?      /api/oec/pay/merchant/statement/profit_loss/config   ← GetMerchantProfitLossPageConfig
+  ?      /api/oec/pay/merchant/statement/profit_loss/create_download   ← CreateDownloadTask
+  ?      /api/oec/pay/merchant/statement/profit_loss/download_history   ← GetDownloadHistory
+  ?      /api/oec/pay/merchant/statement/profit_loss/search_agg   ← SearchMerchantProfitLoss
+  ?      /api/oec/pay/merchant/statement/profit_loss/skus   ← GetMerchantProfitLossOrderSkus
+  ?      /api/oec/pay/merchant/statement/profit_loss/update_download   ← UpdateDownloadTask
+  ?      /api/oec/pay/merchant/statement/view/amount_summary   ← QuerySummaryAmount
+  ?      /api/oec/pay/merchant/statement/view/base_account_transactions   ← SearchBaseAccountTransactionList
+  POST   /api/oec/pay/merchant/statement/view/config   ← GetMerchantStatementConfig
+  ?      /api/oec/pay/merchant/statement/view/finance_static_info   ← QueryFinanceStaticInfo
+  ?      /api/oec/pay/merchant/statement/view/fund_base_info   ← QuerySellerFinanceBasicInfo
+  ?      /api/oec/pay/merchant/statement/view/negative_balance_transactions   ← SearchNegativeBalanceTransactions
+  ?      /api/oec/pay/merchant/statement/view/onhold_orders   ← SearchOnholdOrderList
+  ?      /api/oec/pay/merchant/statement/view/order_breakdown   ← SearchOrderBreakdown
+  ?      /api/oec/pay/merchant/statement/view/reserve_orders   ← SearchReserveOrderList
+  ?      /api/oec/pay/merchant/statement/view/settled_orders   ← SearchSettledOrderList
+  ?      /api/oec/pay/merchant/statement/view/statements   ← SearchStatementList
+  ?      /api/oec/pay/merchant/statement/view/summary_breakdown   ← SearchSummaryBreakdown
+  ?      /api/oec/pay/merchant/statement/view/trade_order_fund_orders   ← SearchTradeOrderFundOrderList
+  ?      /api/oec/pay/merchant/statement/view/trade_order_related_transactions   ← QueryTradeOrderRelatedTransaction
+
+============================================================================================================================
+finance/acquiring（收单/资金）（19）
+============================================================================================================================
+  POST   /api/v1/finance/acquiring/agreement/cancel   ← CancelAgreement
+  POST   /api/v1/finance/acquiring/agreement/init   ← InitAgreement
+  POST   /api/v1/finance/acquiring/agreement/query   ← QueryAgreement
+  POST   /api/v1/finance/acquiring/balance_withdraw   ← BalanceWithdraw
+  POST   /api/v1/finance/acquiring/creator_flow/get_flow_details   ← MGetFundingFlowDetails
+  POST   /api/v1/finance/acquiring/light_refund/order/list   ← ListAcquiringLightRefundOrders
+  POST   /api/v1/finance/acquiring/payment/biz_order/list   ← ListAcquiringBizPayOrders
+  POST   /api/v1/finance/acquiring/payment/limit/query   ← QueryPaymentLimit
+  POST   /api/v1/finance/acquiring/payment/order/continue_pay   ← ContinuePay
+  POST   /api/v1/finance/acquiring/payment/order/list   ← ListAcquiringPayOrders
+  POST   /api/v1/finance/acquiring/payment/order/pay   ← Pay
+  POST   /api/v1/finance/acquiring/query/account   ← QueryUserAccountWithBalanceInfo
+  POST   /api/v1/finance/acquiring/refund/get_payout_url   ← GetRefundPayoutUrl
+  POST   /api/v1/finance/acquiring/refund/order/list   ← ListAcquiringRefundOrders
+  POST   /api/v1/finance/acquiring/security_deposit_refund/order/list   ← ListSecurityDepositRefundOrders
+  POST   /api/v1/finance/acquiring/spend/order/list   ← ListAcquiringSpendOrders
+  POST   /api/v1/finance/acquiring/transaction/file/create   ← CreateAcquiringTransactionFile
+  POST   /api/v1/finance/acquiring/transaction/file/download   ← DownloadAcquiringTransactionFile
+  POST   /api/v1/finance/acquiring/transaction/file/list   ← ListAcquiringTransactionFiles
+
+============================================================================================================================
+finance/purchase（充值/收银台）（7）
+============================================================================================================================
+  POST   /api/v1/finance/purchase/append_pay   ← AppendPay
+  POST   /api/v1/finance/purchase/balance   ← GetBalance
+  POST   /api/v1/finance/purchase/cashier/component   ← GetCashierComponent
+  POST   /api/v1/finance/purchase/order/mget   ← MGetPurchaseOrder
+  POST   /api/v1/finance/purchase/pay   ← MPayOrder
+  POST   /api/v1/finance/purchase/recharge   ← Recharge
+  POST   /api/v1/finance/purchase/recharge/order   ← GetRechargeOrder
+
+============================================================================================================================
+tax（税务/发票/1099）（61）
+============================================================================================================================
+  POST   /api/v1/tax/bmbe   ← SubmitBMBE,BMBEAuditHistory
+  ?      /api/v1/tax/certificate/file   ← DownloadFile
+  ?      /api/v1/tax/china_entity_income_report/search   ← SearchChinaEntityIncomeReportListInfo
+  ?      /api/v1/tax/china_entity_income_report_apply_time_list/get   ← GetApplyReportTimeForChinaEntityIncome
+  ?      /api/v1/tax/china_entity_income_report_detail/download   ← DownloadChinaEntityIncomeReportDetail
+  POST   /api/v1/tax/china_entity_income_report_exchange_rate/get   ← GetExchangeRateForChinaEntityIncome
+  ?      /api/v1/tax/china_entity_income_report_taxpayer_list/get   ← GetTaxpayerNameForChinaEntityIncome
+  POST   /api/v1/tax/contract/download_file   ← DownloadContract
+  POST   /api/v1/tax/contract/download_invoice   ← DownloadContractInovice
+  POST   /api/v1/tax/contract/search   ← SearchContract
+  POST   /api/v1/tax/declare/query   ← QueryTaxDeclare
+  POST   /api/v1/tax/declare/submit   ← TaxDeclare
+  POST   /api/v1/tax/entity_change/tax_task   ← GetEntityChangeTaxTask
+  ?      /api/v1/tax/estimated_gmv   ← EstimatedGMV
+  POST   /api/v1/tax/faq/tax_document   ← GetTaxDocumentFaqList
+  POST   /api/v1/tax/file/upload   ← UploadFile
+  POST   /api/v1/tax/form1099k/detail/download   ← DownloadFormDetail1099
+  POST   /api/v1/tax/form1099k/detail/generate   ← GenerateFormDetail1099k
+  ?      /api/v1/tax/form1099k/detail/get_list   ← GetFormDetail1099List
+  ?      /api/v1/tax/form1099k/download   ← DownloadForm1099
+  ?      /api/v1/tax/form1099k/get_list   ← GetForm1099List
+  POST   /api/v1/tax/ful_inv/get_list   ← GetFulInvList
+  POST   /api/v1/tax/ful_inv/upload   ← UploadFulInv
+  POST   /api/v1/tax/get_country_list   ← GetCountryList
+  POST   /api/v1/tax/global_seller_info/clear   ← ClearGlobalSellerEntityInfo
+  POST   /api/v1/tax/global_seller_info/get   ← GetGlobalSellerEntityInfo
+  POST   /api/v1/tax/global_seller_info/set   ← UpsertGlobalSellerEntityInfo
+  POST   /api/v1/tax/grayscale   ← QueryGrayscaleStatus
+  POST   /api/v1/tax/invoice/details_export   ← ExportInvoiceDetails
+  POST   /api/v1/tax/invoice/export   ← BatchExportInvoice
+  ?      /api/v1/tax/invoice/export_task   ← ListExportedFiles
+  ?      /api/v1/tax/invoice/file   ← DownloadFile
+  POST   /api/v1/tax/invoice/pay   ← PayInvoice
+  POST   /api/v1/tax/invoice/search   ← SearchInvoice
+  POST   /api/v1/tax/meta/info/get   ← GetTaxMetaInfo
+  POST   /api/v1/tax/nfe_tool/get   ← GetNFeToolCfg
+  POST   /api/v1/tax/nfe_tool/refresh   ← RefreshNFeToolCfg
+  POST   /api/v1/tax/nfe_tool/set   ← SetNFeToolCfg
+  POST   /api/v1/tax/reimbursement/fee_list   ← FeeList
+  ?      /api/v1/tax/reimbursement/history_task   ← ListReimbursementTask
+  POST   /api/v1/tax/reimbursement/invoice_search   ← SearchInvoiceForReimbursement
+  POST   /api/v1/tax/reimbursement/task   ← SubmitReimbursementTask,GetReimbursementTask
+  POST   /api/v1/tax/reimbursement/tax_info   ← DefaultTaxInfo
+  ?      /api/v1/tax/report/search   ← SearchReport
+  POST   /api/v1/tax/sd   ← SubmitSD,SDAuditHistory
+  ?      /api/v1/tax/shop_entity   ← ShopEntity
+  POST   /api/v1/tax/statement_letter   ← SubmitSL,SLAuditHistory
+  POST   /api/v1/tax/tax_amount   ← CalculateTax
+  POST   /api/v1/tax/tax_info/clear   ← ClearSellerTax
+  ?      /api/v1/tax/tax_info/confirm   ← ConfirmTaxInfo
+  POST   /api/v1/tax/tax_info/get   ← GetSellerTax
+  POST   /api/v1/tax/tax_info/get_us_display_info   ← GetUsDisplayInfo
+  POST   /api/v1/tax/tax_info/set   ← SetSellerTax
+  POST   /api/v1/tax/tax_info/set_addr   ← SetSellerAddress
+  POST   /api/v1/tax/tax_info/submit_verify   ← SubmitVerify
+  POST   /api/v1/tax/tax_info/upsert_seller_invoice_payment_info   ← UpsertSellerInvoicePaymentInfo
+  POST   /api/v1/tax/vcs/config/deactivate   ← DeactivateVCSConfig
+  POST   /api/v1/tax/vcs/config/list   ← ListVCSConfigVersion
+  ?      /api/v1/tax/vcs/config/ptc_codes   ← GetPTCCodes
+  POST   /api/v1/tax/vcs/config/upsert   ← UpsertVCSConfig
+  POST   /api/v1/tax/wht_certificate   ← SubmitWhtCertificate,WhtCertificateHistory
+
+============================================================================================================================
+widget/api/v1/pay（挂件版）（8）
+============================================================================================================================
+  POST   /widget/api/v1/pay/creator/tax_info/get   ← WidgetGetTaxInfoForCreator
+  POST   /widget/api/v1/pay/creator/tax_info/set   ← WidgetSetTaxInfoForCreator
+  POST   /widget/api/v1/pay/meta/info/get   ← WidgetGetMetaInfo
+  POST   /widget/api/v1/pay/settlement/payout/manage_link   ← WidgetGetPayoutManageLink
+  POST   /widget/api/v1/pay/settlement/payout/pi_infos   ← WidgetGetPayoutPiInfos
+  POST   /widget/api/v1/pay/tax_audit   ← WidgetTaxAudit
+  POST   /widget/api/v1/pay/tax_info/get   ← WidgetGetTaxInfo
+  POST   /widget/api/v1/pay/tax_info/set   ← WidgetSetTaxInfo
+
+============================================================================================================================
+oec/finance/ai_infra（AI 损益分析）（8）
+============================================================================================================================
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/analyze   ← Analyze
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/analyze/stream   ← AnalyzeStream
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/eval/statement/billing-order-explain   ← StatementBillingOrderExplainEval
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/feedback   ← SubmitFeedback,GetFeedbackStatus
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/guidance/evaluate   ← EvaluateGuidance
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/statement/billing-order-explain   ← StatementBillingOrderExplain
+  POST   /api/oec/finance/ai_infra/pnl_roi_agent/statement/billing-order-explain-stream   ← StatementBillingOrderExplainStream
+  ?      /api/oec/finance/ai_infra/statement-explain-list   ← GetStatementExplainList
+
+============================================================================================================================
+seller/join + cross_border deposit（入驻押金）（28）
+============================================================================================================================
+  POST   /api/v1/seller/join/create_seller   ← CreateSeller
+  POST   /api/v1/seller/join/cross_border/business_type_todo/submit   ← SubmitCrossBorderBusinessTypeTodo
+  POST   /api/v1/seller/join/cross_border/business_type_todo_draft/submit   ← SubmitCrossBorderBusinessTypeTodoDraft
+  POST   /api/v1/seller/join/cross_border/change_greater_market_region/confirm   ← ConfirmCrossBorderChangeGreaterMarketRegion
+  POST   /api/v1/seller/join/cross_border/create_shop/submit   ← SubmitCreateShop
+  POST   /api/v1/seller/join/cross_border/deposit/get   ← GetFirstCategoryDeposit
+  ?      /api/v1/seller/join/cross_border/onboard_info/get   ← GetCrossBorderOnboardInfo
+  POST   /api/v1/seller/join/cross_border/qualification_todo_draft/submit   ← SubmitCrossBorderQualificationTodoDraft
+  POST   /api/v1/seller/join/cross_border/shop_setting_todo_draft/submit   ← SubmitCrossBorderShopSettingTodoDraft
+  POST   /api/v1/seller/join/cross_border/todo0/submit   ← SubmitTodo0
+  POST   /api/v1/seller/join/cross_border/todo1/save-draft   ← SaveDraftCrossBorderJoinTodo1
+  POST   /api/v1/seller/join/cross_border/todo1/submit   ← SubmitCrossBorderJoinTodo1
+  POST   /api/v1/seller/join/cross_border/todo2/submit   ← SubmitCrossBorderJoinTodo2
+  POST   /api/v1/seller/join/entity/verify   ← VerifyEntity
+  POST   /api/v1/seller/join/extended_field/submit   ← SubmitExtendedField
+  POST   /api/v1/seller/join/get   ← GetSellerJoin
+  POST   /api/v1/seller/join/invitation_code/submit   ← SubmitInvitationCode
+  POST   /api/v1/seller/join/local/company_certificate/save-draft   ← SaveDraftSubmitCompanyCertificate
+  POST   /api/v1/seller/join/local/personal_certificate/save-draft   ← SaveDraftLocalPersonalCertificate
+  ?      /api/v1/seller/join/markets/get   ← GetMarkets
+  POST   /api/v1/seller/join/ocr   ← Ocr
+  POST   /api/v1/seller/join/register_create_seller   ← RegisterCreateSeller
+  POST   /api/v1/seller/join/todo1/submit   ← SubmitTodo1
+  POST   /api/v1/seller/join/todo2/company/submit   ← SubmitCompanyCertificate
+  POST   /api/v1/seller/join/todo2/person/submit   ← SubmitPersonalCertificate
+  POST   /api/v1/seller/join/tt_account/verification_code/send   ← SendTtAccountVerificationCode
+  POST   /api/v1/seller/join/tt_account/verify   ← VerifyTtAccount
+  ?      /api/v1/seller/onboard/v1/cross_border/deposit/get   ← GetCrossBorderFirstCategoryDeposit
+
+============================================================================================================================
+seller/settlement + warehouses + account（13）
+============================================================================================================================
+  POST   /api/v1/seller/account/common/cerberus/resource/edit   ← EditCerberusResource
+  ?      /api/v1/seller/account/common/cerberus/resource/get   ← GetCerberusResource
+  POST   /api/v1/seller/account/get   ← GetAccount
+  ?      /api/v1/seller/account/switch/get   ← GetAccountSwitch
+  POST   /api/v1/seller/account/update   ← UpdateAccount
+  ?      /api/v1/seller/account_verification/get   ← GetAccountVerification
+  ?      /api/v1/seller/settlement/account/get   ← GetSettlementAccount
+  POST   /api/v1/seller/warehouses/add   ← AddSellerWarehouses
+  POST   /api/v1/seller/warehouses/del   ← DelSellerWarehouses
+  ?      /api/v1/seller/warehouses/get   ← GetSellerWarehouses
+  POST   /api/v1/seller/warehouses/get_tt_return_warehouses   ← GetTTReturnWarehouses
+  POST   /api/v1/seller/warehouses/task   ← SellerWarehouseTask
+  POST   /api/v1/seller/warehouses/update   ← UpdateSellerWarehouses
+

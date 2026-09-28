@@ -1,0 +1,564 @@
+{
+ "biz": [
+  "/api/v1/affiliate/config",
+  "/api/v1/oec/affiliate/cmp/creator/ec/stats",
+  "/api/v1/oec/affiliate/creator/marketplace/profile",
+  "/api/v1/oec/affiliate/crm/creator/create",
+  "/api/v1/oec/affiliate/seller/wish_list/update/creator",
+  "/api/v2/affiliate/open_plan/create",
+  "/api/v2/affiliate/open_plan/delete",
+  "/api/v2/affiliate/open_plan/list",
+  "/api/v2/affiliate/open_plan/product_selection/list",
+  "/api/v2/affiliate/open_plan/update",
+  "/api/v2/affiliate/shop_plan/create",
+  "/api/v2/affiliate/shop_plan/get",
+  "/api/v2/affiliate/shop_plan/quit",
+  "/api/v2/affiliate/shop_plan/update",
+  "/api/v2/affiliate/target_plan/create",
+  "/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list",
+  "/api/v2/affiliate/target_plan/update",
+  "v1/message/v1/message/get_by_conversation_search"
+ ],
+ "other": [
+  "/api/feelgood/v1/answer",
+  "/api/v1/bs/rt",
+  "/api/v1/bs/setting",
+  "/api/v1/i18n_conf/currency/format_currency",
+  "/api/v1/i18n_conf/currency/format_currency_v2",
+  "/api/v1/i18n_conf/currency/get_currency_by_currency_code",
+  "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id",
+  "/api/v1/i18n_conf/currency/get_currency_by_region_code",
+  "/api/v1/i18n_conf/currency/get_currency_list",
+  "/api/v1/i18n_conf/currency/get_region_list",
+  "/api/v1/i18n_conf/datetime/format_locale",
+  "/api/v1/i18n_conf/language/get_language_by_locale",
+  "/api/v1/i18n_conf/language/get_language_by_region_code",
+  "/api/v1/i18n_conf/language/get_locales_by_region_code",
+  "/api/v1/i18n_conf/region/get_eu_region_info",
+  "/api/v1/i18n_conf/timezone/get_default_timezone",
+  "/api/v1/i18n_conf/timezone/get_dst_result",
+  "/api/v1/i18n_conf/timezone/get_exact_timezone",
+  "/api/v1/i18n_conf/timezone/get_icann_timezone",
+  "/api/v1/i18n_conf/timezone/get_region_timezone_info",
+  "/api/v1/i18n_conf/timezone/get_utc_offset",
+  "/api/v1/i18n_conf/timezone/get_utc_offset_hour",
+  "/api/v1/i18n_conf/timezone/get_utc_offset_sec",
+  "/api/v1/im",
+  "/api/v1/sentry_verify/get_idv",
+  "/api/v1/sentry_verify/report_user_event",
+  "/api/v1/sentry_verify/verify_idv",
+  "/api/v2/sitebuilder",
+  "/v1/list",
+  "/v1/list_test",
+  "/v1/user/webid",
+  "v1/account/offline",
+  "v1/account/online",
+  "v1/blocklist/check",
+  "v1/blocklist/get",
+  "v1/blocklist/set",
+  "v1/broadcast/recv_message",
+  "v1/broadcast/send_message",
+  "v1/broadcast/user_counter",
+  "v1/channel/heartbeat",
+  "v1/client/batch_ack",
+  "v1/client/get_unread_count",
+  "v1/client/input_status",
+  "v1/client/report_metrics",
+  "v1/client/unread_count",
+  "v1/client/user_action",
+  "v1/config/get",
+  "v1/conversation/add_participants",
+  "v1/conversation/batch_get_conversation_participants_readindex",
+  "v1/conversation/block_conversation",
+  "v1/conversation/block_member",
+  "v1/conversation/delete",
+  "v1/conversation/dissolve",
+  "v1/conversation/get_audit",
+  "v1/conversation/get_checkinfo",
+  "v1/conversation/get_core_info",
+  "v1/conversation/get_group_list",
+  "v1/conversation/get_list",
+  "v1/conversation/get_ticket",
+  "v1/conversation/leave",
+  "v1/conversation/list",
+  "v1/conversation/mget_participants",
+  "v1/conversation/participants_list",
+  "v1/conversation/remove_participants",
+  "v1/conversation/set_core_info",
+  "v1/conversation/set_setting_info",
+  "v1/conversation/update_audit",
+  "v1/conversation/update_participant",
+  "v1/conversation/upsert_core_ext_info",
+  "v1/conversation/upsert_settings_ext",
+  "v1/media/get_status",
+  "v1/media/get_urls",
+  "v1/media/upload_config",
+  "v1/message/ack",
+  "v1/message/batch_unmark",
+  "v1/message/delete",
+  "v1/message/get",
+  "v1/message/get_by_conversation",
+  "v1/message/get_by_id",
+  "v1/message/get_by_user",
+  "v1/message/get_by_user_combo",
+  "v1/message/get_checkinfo",
+  "v1/message/get_mark_count",
+  "v1/message/get_message_by_init",
+  "v1/message/mark",
+  "v1/message/modify_ext",
+  "v1/message/pull_mark",
+  "v1/message/recall",
+  "v1/message/report_mark_count",
+  "v1/message/send",
+  "v1/message/set_property",
+  "v1/profile/get_info",
+  "v1/send_message/p2p",
+  "v1/stranger/delete_all_conversations",
+  "v1/stranger/delete_conversation",
+  "v1/stranger/delete_message",
+  "v1/stranger/get_conversation_list",
+  "v1/stranger/get_messages",
+  "v1/stranger/mark_read_all_conversations",
+  "v1/stranger/mark_read_conversation",
+  "v1/voip/call",
+  "v1/voip/create",
+  "v1/voip/update",
+  "v2/conversation/create",
+  "v2/conversation/get_by_favorite",
+  "v2/conversation/get_by_top",
+  "v2/conversation/get_info",
+  "v2/conversation/get_info_list",
+  "v2/message/get_by_user_init",
+  "v3/conversation/get_min_index",
+  "v3/conversation/get_read_index",
+  "v3/conversation/mark_read"
+ ],
+ "all": {
+  "/api/feelgood/v1/answer": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/affiliate/config": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/bs/rt": [
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/api/v1/bs/setting": [
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/api/v1/i18n_conf/currency/format_currency": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/format_currency_v2": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/get_currency_by_currency_code": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/get_currency_by_geo_name_id": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/get_currency_by_region_code": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/get_currency_list": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/currency/get_region_list": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/datetime/format_locale": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/language/get_language_by_locale": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/language/get_language_by_region_code": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/language/get_locales_by_region_code": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/region/get_eu_region_info": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_default_timezone": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_dst_result": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_exact_timezone": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_icann_timezone": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_region_timezone_info": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_utc_offset": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_utc_offset_hour": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/i18n_conf/timezone/get_utc_offset_sec": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/im": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v1/oec/affiliate/cmp/creator/ec/stats": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_"
+  ],
+  "/api/v1/oec/affiliate/creator/marketplace/profile": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_"
+  ],
+  "/api/v1/oec/affiliate/crm/creator/create": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_"
+  ],
+  "/api/v1/oec/affiliate/seller/wish_list/update/creator": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_"
+  ],
+  "/api/v1/sentry_verify/get_idv": [
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/api/v1/sentry_verify/report_user_event": [
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/api/v1/sentry_verify/verify_idv": [
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/api/v2/affiliate/open_plan/create": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/open_plan/delete": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/open_plan/list": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/open_plan/product_selection/list": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/open_plan/update": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/shop_plan/create": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/shop_plan/get": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/shop_plan/quit": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/shop_plan/update": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/target_plan/create": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/affiliate/target_plan/update": [
+   "lf16-oversea.goofy-cdn.com_obj_goofy-sg_",
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/api/v2/sitebuilder": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "/v1/list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell",
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/v1/list_test": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell",
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "/v1/user/webid": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell",
+   "sf16-website-login.neutral.ttwstatic.com"
+  ],
+  "v1/account/offline": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/account/online": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/blocklist/check": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/blocklist/get": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/blocklist/set": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/broadcast/recv_message": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/broadcast/send_message": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/broadcast/user_counter": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/channel/heartbeat": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/batch_ack": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/get_unread_count": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/input_status": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/report_metrics": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/unread_count": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/client/user_action": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/config/get": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/add_participants": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/batch_get_conversation_participants_readindex": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/block_conversation": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/block_member": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/delete": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/dissolve": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_audit": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_checkinfo": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_core_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_group_list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/get_ticket": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/leave": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/mget_participants": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/participants_list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/remove_participants": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/set_core_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/set_setting_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/update_audit": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/update_participant": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/upsert_core_ext_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/conversation/upsert_settings_ext": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/media/get_status": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/media/get_urls": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/media/upload_config": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/ack": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/batch_unmark": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/delete": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_by_conversation": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_by_id": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_by_user": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_by_user_combo": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_checkinfo": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_mark_count": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/get_message_by_init": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/mark": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/modify_ext": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/pull_mark": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/recall": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/report_mark_count": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/send": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/set_property": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/message/v1/message/get_by_conversation_search": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/profile/get_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/send_message/p2p": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/delete_all_conversations": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/delete_conversation": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/delete_message": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/get_conversation_list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/get_messages": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/mark_read_all_conversations": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/stranger/mark_read_conversation": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/voip/call": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/voip/create": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v1/voip/update": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/conversation/create": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/conversation/get_by_favorite": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/conversation/get_by_top": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/conversation/get_info": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/conversation/get_info_list": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v2/message/get_by_user_init": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v3/conversation/get_min_index": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v3/conversation/get_read_index": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ],
+  "v3/conversation/mark_read": [
+   "lf16-scmcdn.oecstatic.com_obj_oec-magell"
+  ]
+ }
+}
