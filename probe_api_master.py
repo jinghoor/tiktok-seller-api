@@ -46,25 +46,30 @@ WRITE_RX = re.compile(
     r"batch_|bulk_|import|sync|send|push|mark_|activate|deactivate|enable|disable|reset)",
     re.I)
 
-JS = """async (jobs) => {
-  const out = [];
-  for (const j of jobs) {
+JS = """async ({jobs, conc}) => {
+  // 一批里的请求并发发（原来串行等 25 次往返，慢 8-10 倍）
+  const one = async (j) => {
+    // ★ fetch 必须带超时 —— 服务端不响应时 fetch 会永久挂起，
+    //   整个批次的 Promise.all 就永远不 resolve（实测卡死在 60/4205）。
+    const ac = new AbortController();
+    const timer = setTimeout(() => ac.abort(), j.tmo || 9000);
     try {
-      const opt = { method: j.m, credentials: 'include',
-                    headers: { 'content-type': 'application/json; charset=utf-8',
-                               'accept': 'application/json, text/plain, */*' } };
-      if (j.m !== 'GET' && j.body !== undefined && j.body !== null)
-        opt.body = JSON.stringify(j.body);
+      const opt = { method: j.m, credentials: 'include', signal: ac.signal,
+                    headers: { 'content-type': 'application/json; charset=utf-8' } };
+      if (j.m !== 'GET') opt.body = '{}';
       const r = await fetch(j.url, opt);
       const t = await r.text();
-      let code = null, msg = '';
-      try { const d = JSON.parse(t); code = d.code; msg = String(d.message || '').slice(0, 80); }
-      catch (e) { msg = t.replace(/\\s+/g, ' ').slice(0, 50); }
-      out.push({ path: j.path, m: j.m, http: r.status, code, msg });
+      return { path: j.path, m: j.m, http: r.status, body: t.slice(0, 160) };
     } catch (e) {
-      out.push({ path: j.path, m: j.m, http: 0, code: null, msg: String(e).slice(0, 60) });
+      return { path: j.path, m: j.m, http: 0,
+               body: 'TIMEOUT/ERR: ' + String(e).slice(0, 50) };
+    } finally {
+      clearTimeout(timer);
     }
-  }
+  };
+  const out = [];
+  for (let i = 0; i < jobs.length; i += conc)
+    out.push(...await Promise.all(jobs.slice(i, i + conc).map(one)));
   return JSON.stringify(out);
 }"""
 
@@ -155,7 +160,7 @@ def main():
         res = []
         for i in range(0, len(jobs), a.batch):
             try:
-                res += json.loads(pg.evaluate(JS, jobs[i:i + a.batch]))
+                res += json.loads(pg.evaluate(JS, {"jobs": jobs[i:i + a.batch], "conc": min(8, a.batch)}))
             except Exception as e:
                 print(f"    批次 {i} 失败 {str(e)[:90]}")
             print(f"    {min(i+a.batch, len(jobs))}/{len(jobs)}", flush=True)
@@ -169,7 +174,7 @@ def main():
             print(f"  404 的 {len(retry)} 个试 v2 …", flush=True)
             for i in range(0, len(retry), a.batch):
                 try:
-                    res += json.loads(pg.evaluate(JS, retry[i:i + a.batch]))
+                    res += json.loads(pg.evaluate(JS, {"jobs": retry[i:i + a.batch], "conc": min(8, a.batch)}))
                 except Exception:
                     pass
 

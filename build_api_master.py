@@ -138,9 +138,44 @@ def load_all():
     return acc
 
 
+def dedup_prefixless(paths: dict) -> tuple[dict, int]:
+    """合并「缺 /api 前缀」的重复条目。
+
+    微前端里同一批接口有两种写法：``uriPrefix + "/api/v1/insights/x"`` 和
+    单独抽出来的 ``"/insights/x"``（后者来自"路径紧邻 method"的邻接判据，
+    因为 uriPrefix 是运行时的，抽不到）。后者补上 ``/api/vN`` 后往往**已经在表里**。
+
+    实测：791 个无前缀条目里 **668 个是纯重复**（`/insights/*`、`/qualification/*`、
+    `/seller/onboard/*`、`/seller/growth_center/*`），只有 123 个是真的独立服务
+    前缀（`/passport/*` 登录、`/aff/*` 会员、`/easesafe/*`）。
+
+    不合并的后果有两个：主表虚高 668 条；而且这些条目探测时返回
+    **http=200 + 空 body**（打到了 SPA 而不是 API），白白污染实测结果。
+    """
+    noprefix = [p for p in list(paths)
+                if not p.startswith("/api") and not p.startswith("/widget")]
+    merged = 0
+    for p in noprefix:
+        target = next((c for c in (f"/api/v1{p}", f"/api/v2{p}") if c in paths), None)
+        if target is None:
+            continue
+        for k, v in paths[p].items():
+            if k == "sources":
+                paths[target]["sources"] = sorted(set(paths[target].get("sources", [])) | set(v))
+            elif k == "names":
+                paths[target]["names"] = sorted(set(paths[target].get("names", [])) | set(v))
+            elif not paths[target].get(k):
+                paths[target][k] = v
+        del paths[p]
+        merged += 1
+    return paths, merged
+
+
 def main():
     acc = load_all()
-    print(f"汇总唯一接口 {len(acc)} 个")
+    raw_n = len(acc)
+    acc, merged = dedup_prefixless(acc)
+    print(f"汇总唯一接口 {raw_n} 个 → 合并缺前缀重复 {merged} 个 → 实得 {len(acc)} 个")
 
     by_domain = collections.defaultdict(list)
     for p, e in acc.items():

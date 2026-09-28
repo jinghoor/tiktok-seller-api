@@ -32,20 +32,30 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import tk01_config as CFG  # noqa: E402
 
-JS = """async (jobs) => {
-  const out = [];
-  for (const j of jobs) {
+JS = """async ({jobs, conc}) => {
+  // 一批里的请求并发发（原来串行等 25 次往返，慢 8-10 倍）
+  const one = async (j) => {
+    // ★ fetch 必须带超时 —— 服务端不响应时 fetch 会永久挂起，
+    //   整个批次的 Promise.all 就永远不 resolve（实测卡死在 60/4205）。
+    const ac = new AbortController();
+    const timer = setTimeout(() => ac.abort(), j.tmo || 9000);
     try {
-      const opt = { method: j.m, credentials: 'include',
+      const opt = { method: j.m, credentials: 'include', signal: ac.signal,
                     headers: { 'content-type': 'application/json; charset=utf-8' } };
       if (j.m !== 'GET') opt.body = '{}';
       const r = await fetch(j.url, opt);
       const t = await r.text();
-      out.push({ path: j.path, m: j.m, http: r.status, body: t.slice(0, 160) });
+      return { path: j.path, m: j.m, http: r.status, body: t.slice(0, 160) };
     } catch (e) {
-      out.push({ path: j.path, m: j.m, http: 0, body: String(e).slice(0, 60) });
+      return { path: j.path, m: j.m, http: 0,
+               body: 'TIMEOUT/ERR: ' + String(e).slice(0, 50) };
+    } finally {
+      clearTimeout(timer);
     }
-  }
+  };
+  const out = [];
+  for (let i = 0; i < jobs.length; i += conc)
+    out.push(...await Promise.all(jobs.slice(i, i + conc).map(one)));
   return JSON.stringify(out);
 }"""
 
@@ -122,9 +132,20 @@ def main():
         res = []
         for i in range(0, len(jobs), a.batch):
             try:
-                res += json.loads(pg.evaluate(JS, jobs[i:i + a.batch]))
+                res += json.loads(pg.evaluate(JS, {"jobs": jobs[i:i + a.batch], "conc": min(8, a.batch)}))
             except Exception as e:
-                print(f"    批次 {i} 失败 {str(e)[:80]}")
+                # 页面导航 / 上下文销毁：重新借一个页面再继续，不要整轮报废
+                msg = str(e)[:60]
+                print(f"    批次 {i} 失败({msg})，重新借页面…", flush=True)
+                try:
+                    pg = next((p for p in ctx.pages
+                               if p.url.startswith(shop["seller_origin"])), None)
+                    if pg is None:
+                        print("    ✗ 没有可用页面了，中止")
+                        break
+                    res += json.loads(pg.evaluate(JS, {"jobs": jobs[i:i + a.batch], "conc": min(8, a.batch)}))
+                except Exception as e2:
+                    print(f"    重试仍失败 {str(e2)[:60]}")
             if (i // a.batch) % 8 == 0:
                 print(f"    {min(i+a.batch, len(jobs))}/{len(jobs)}", flush=True)
         for r in res:
