@@ -5082,6 +5082,81 @@
   ]
  },
  {
+  "path": "/baike/v2/api/highlight_ignore/set",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/safe/two_step_verification/add_auth_device/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/safe/two_step_verification/add_verification/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/safe/two_step_verification/remove_auth_device/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/safe/two_step_verification/remove_verification/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/account/verify/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/email/check_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/email/send_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/login_by_ticket/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/mobile/check_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/oidc/callback/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/send_code/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/totp/register/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/totp/unregister/",
+  "method": "POST",
+  "names": []
+ },
+ {
+  "path": "/passport/web/totp/verify/",
+  "method": "POST",
+  "names": []
+ },
+ {
   "path": "/widget/api/v1/seller/affiliate_card/get",
   "method": "GET",
   "names": [

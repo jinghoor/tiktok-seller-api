@@ -2827,6 +2827,11 @@
   "bytes": 9805576,
   "endpoints": [
    {
+    "path": "/aff/member/switch/",
+    "method": "POST",
+    "names": []
+   },
+   {
     "path": "/api/v1/address_component/config",
     "method": "GET",
     "names": []
@@ -7207,6 +7212,86 @@
    },
    {
     "path": "/api/v2/seller/onboard/v2/file/upload",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/easesafe/oec_tax_qualification/upload",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/aff/mobile/member/switch/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/auth/bind_with_mobile_login/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/auth/login/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/common/register/web/bind_verify_info/",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/passport/mobile/check_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/mobile/send_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/mobile/unbind_limited_unusable_mobile/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/pin/check",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/pin/reset_by_ticket",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/pin/set",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/pin/verify",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/account/verify/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/email/verify",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/pssresource/external/upload",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/user_info/common/v1/web_sdk_init/",
     "method": "POST",
     "names": []
    },
@@ -12285,6 +12370,91 @@
     ]
    },
    {
+    "path": "/bytemap/v1/config/region_profile",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/add_seller_to_fbt_waitlist",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/enroll_product_value_plus",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_all_value_plus_products",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_content_for_module",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_merchant_by_fs_seller",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_merchant_by_seller",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_merchant_onboarding_cost",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_seller_in_opt_out_from_free_shipping_status",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_seller_latest_enrollment_stats",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/get_vat_status_by_fs_seller",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/go_to_fbt",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/message/seller_web_action",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/print_goods_barcode",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/fbt/api/landing/search_content_by_keywords",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/maps/api/js",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/v1/seller_warehouses/status",
+    "method": "GET",
+    "names": []
+   },
+   {
     "path": "/widget/api/v1/fulfillment/checklist/list",
     "method": "POST",
     "names": [
@@ -16657,6 +16827,21 @@
     "names": [
      "VideoUploadToken"
     ]
+   },
+   {
+    "path": "/bytemap/v1/config/region_profile",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/maps/api/js",
+    "method": "GET",
+    "names": []
+   },
+   {
+    "path": "/maps/api/key",
+    "method": "POST",
+    "names": []
    },
    {
     "path": "/widget/api/v1/fulfillment/checklist/list",
@@ -30974,6 +31159,11 @@
     "names": [
      "MGetItemDataForWidget"
     ]
+   },
+   {
+    "path": "/wsos_v2/oec_promotion_backends_file_system/upload",
+    "method": "POST",
+    "names": []
    }
   ]
  },
@@ -38476,6 +38666,81 @@
     "names": [
      "QueryGlobalSellerRegistrationChannel"
     ]
+   },
+   {
+    "path": "/baike/v2/api/highlight_ignore/set",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/safe/two_step_verification/add_auth_device/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/safe/two_step_verification/add_verification/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/safe/two_step_verification/remove_auth_device/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/safe/two_step_verification/remove_verification/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/account/verify/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/email/check_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/email/send_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/login_by_ticket/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/mobile/check_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/oidc/callback/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/send_code/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/totp/register/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/totp/unregister/",
+    "method": "POST",
+    "names": []
+   },
+   {
+    "path": "/passport/web/totp/verify/",
+    "method": "POST",
+    "names": []
    },
    {
     "path": "/widget/api/v1/seller/affiliate_card/get",

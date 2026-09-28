@@ -3,29 +3,35 @@
 > 汇总来源：微前端 bundle 抽取 + 联盟/财务专项 + 早期抽取 + 客户端实现。
 > 自动生成，重跑 `python3 build_api_master.py` 刷新。
 
-**唯一接口 4091 个**；来源分布：微前端 5026 / 财务bundle 1024 / 早期 638 / 联盟bundle 552 / 客户端 131
+**唯一接口 4873 个**；来源分布：微前端 5812 / 财务bundle 1024 / 早期 638 / 联盟bundle 552 / 客户端 131
 
 | 业务域 | 接口数 |
 |---|---|
 | 履约 / 物流 / 面单 | 384 |
 | 财务 / 结算 / 税务 | 251 |
-| 联盟 / 达人 | 524 |
-| 商品 / 库存 / 定价 | 431 |
-| 订单 / 售后 | 102 |
-| 营销 / 促销 | 408 |
-| 数据 / 罗盘 / 报表 | 502 |
-| 消息 / IM / 通知 | 156 |
-| 治理 / 违规 / 申诉 | 16 |
-| 商家 / 入驻 / 资质 | 309 |
-| 店铺运营 / 工作台 | 89 |
-| 内容创作 / 视频中心 | 198 |
+| 联盟 / 达人 | 525 |
+| 商品 / 库存 / 定价 | 433 |
+| 订单 / 售后 | 171 |
+| 营销 / 促销 | 532 |
+| 数据 / 罗盘 / 报表 | 874 |
+| 消息 / IM / 通知 | 157 |
+| 治理 / 违规 / 申诉 | 75 |
+| 商家 / 入驻 / 资质 | 374 |
+| 店铺运营 / 工作台 | 105 |
+| 私域 / 粉丝 / 会员 | 2 |
+| 账号安全 / 通行证 | 25 |
+| 客服消息 / 站内信 | 27 |
+| 直播 / 达人运营 | 27 |
+| 学习中心 / 内容 | 86 |
+| 店铺授权 / 子账号 / 角色 | 30 |
+| 内容创作 / 视频中心 | 153 |
 | 商品成长 / 优化 / 机会 | 63 |
 | 交易（/trade 前缀，另一套） | 64 |
 | 全球仓 / 跨境 / 区域 | 36 |
 | 达人外联 / 任务消息 | 21 |
 | 开店 / 入驻清单 | 17 |
-| 平台基础设施 | 46 |
-| 其他 / 未分类 | 474 |
+| 平台基础设施 | 51 |
+| 其他 / 未分类 | 390 |
 
 ## 履约 / 物流 / 面单（384）
 
@@ -672,7 +678,7 @@
 | `POST` | `/widget/api/v1/tax/tax_info/get_us_display_info` | 微前端,财务bundle | `WidgetGetUsDisplayInfo` |
 | `POST` | `/widget/api/v1/tax/tax_info/set` | 微前端,财务bundle | `WidgetSetSellerTax` |
 
-## 联盟 / 达人（524）
+## 联盟 / 达人（525）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -1200,8 +1206,9 @@
 | `POST` | `/api/v2/affiliate/target_plan/create` | 联盟bundle |  |
 | `POST` | `/api/v2/affiliate/target_plan/product_selection/guide_new_seller/list` | 联盟bundle |  |
 | `POST` | `/api/v2/affiliate/target_plan/update` | 联盟bundle |  |
+| `POST` | `/insights/seller/ttp/product/traffic/affiliate/list` | 微前端 |  |
 
-## 商品 / 库存 / 定价（431）
+## 商品 / 库存 / 定价（433）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -1636,8 +1643,10 @@
 | `POST` | `/api/v1/sea_product/growth/update_task_status` | 微前端 | `UpdateTaskStatus` |
 | `?` | `/api/v2/product/oc/seller_product_opportunity/submit/record/list` | 客户端 |  |
 | `POST` | `/instant/api/v1/product/local/product/create` | 早期,早期 |  |
+| `POST` | `/product/local/product/create` | 微前端 |  |
+| `POST` | `/product/local/product/edit` | 微前端 |  |
 
-## 订单 / 售后（102）
+## 订单 / 售后（171）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -1743,8 +1752,77 @@
 | `POST` | `/api/v1/shop_im/shop/order/get_buyer_order_outer_url` | 微前端,财务bundle | `GetBuyerOrderOuterURL` |
 | `?` | `/api/v1/shop_im/shop/order/get_simple_info` | 微前端,财务bundle | `GetSimpleOrderInfo` |
 | `?` | `/api/v1/shop_im/shop/order/mget_contact_buyer_link` | 微前端,财务bundle | `MGetContactBuyerLinkByOrder` |
+| `POST` | `/insights/seller/shop/logistics/product/order/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/logistics/product/order/list/export` | 微前端 |  |
+| `POST` | `/widget/api/v1/reverse/appeal/add_evidence` | 微前端 | `AddAppealEvidenceForWidget` |
+| `POST` | `/widget/api/v1/reverse/appeal/apply` | 微前端 | `ApplyAppealForWidget` |
+| `POST` | `/widget/api/v1/reverse/appeal/get_details` | 微前端 | `GetAppealDetailForWidget` |
+| `POST` | `/widget/api/v1/reverse/appeal/preview` | 微前端 | `GetAppealPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/arbitration/add_evidence` | 微前端 | `AddArbitrationEvidenceForWidget` |
+| `POST` | `/widget/api/v1/reverse/arbitration/get` | 微前端 | `GetArbitrationDetailForWidget` |
+| `POST` | `/widget/api/v1/reverse/automatic_strategy/create` | 微前端 | `CreateAutomaticStrategyForWidget` |
+| `POST` | `/widget/api/v1/reverse/automatic_strategy/list` | 微前端 | `ListSellerAutomaticStrategyForWidget` |
+| `POST` | `/widget/api/v1/reverse/automatic_strategy/update` | 微前端 | `UpdateAutomaticStrategyForWidget` |
+| `GET` | `/widget/api/v1/reverse/automatic_strategy_template/get` | 微前端 | `GetAutomaticStrategyTemplateForWidget` |
+| `POST` | `/widget/api/v1/reverse/banner/list` | 微前端 | `ListPlatformRulesForWidget` |
+| `POST` | `/widget/api/v1/reverse/banner/update` | 微前端 | `UpdatePlatformRuleForWidget` |
+| `POST` | `/widget/api/v1/reverse/compensation/get` | 微前端 | `GetCompensationDetailForWidget` |
+| `POST` | `/widget/api/v1/reverse/dashboard/get` | 微前端 | `GetUrgentDashboardForWidget` |
+| `POST` | `/widget/api/v1/reverse/download_file` | 微前端 | `DownloadFileForWidget` |
+| `POST` | `/widget/api/v1/reverse/get_cancellation_window_setting` | 微前端 | `GetCancellationWindowSettingForWidget` |
+| `POST` | `/widget/api/v1/reverse/gray_info` | 微前端 | `GetGrayInfoForWidget` |
+| `POST` | `/widget/api/v1/reverse/how_to_fulfill` | 微前端 | `GetHowToFulfillDocForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/add_tracking_number` | 微前端 | `ActionAddTrackingNumberForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/appeal/cancel` | 微前端 | `SellerCancelApplyAppealForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/appeal/create` | 微前端 | `SellerApplyAppealForWidget` |
+| `GET` | `/widget/api/v1/reverse/orders/actions/appeal/get` | 微前端 | `ActionCheckAppealRecordsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/check_return_logistics` | 微前端 | `ActionCheckReturnLogisticsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/check_return_records` | 微前端 | `ActionCheckReturnRecordsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/delay_receiving` | 微前端 | `ActionDelayReceivingForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/direct_refund` | 微前端 | `ActionDirectRefundForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/edit_tracking_number` | 微前端 | `ActionEditTrackingNumberForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/m_cancel_order` | 微前端 | `ActionMCancelOrderForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/partial_refund` | 微前端 | `ActionPartialRefundForWidget` |
+| `GET` | `/widget/api/v1/reverse/orders/actions/quality_check_info` | 微前端 | `GetReverseFulfillmentByROrderIdForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/return_apply_accept` | 微前端 | `ActionReturnApplyAcceptForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/return_apply_reject` | 微前端 | `ActionReturnApplyRejectForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/return_parcel_accept` | 微前端 | `ActionReturnParcelAcceptForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/return_parcel_reject` | 微前端 | `ActionReturnParcelRejectForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/actions/start_reverse` | 微前端 | `ActionStartReverseForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/cancel_reasons/get` | 微前端 | `GetReverseCancelReasonsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/check_action_executable` | 微前端 | `CheckActionExecutableForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/check_limit` | 微前端 | `CheckReverseLimitForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/download_file` | 微前端 | `DownloadReverseMainOrderForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/export` | 微前端 | `ExportReverseMainOrdersForWidget` |
+| `GET` | `/widget/api/v1/reverse/orders/get` | 微前端 | `GetSellerReverseMainOrderDetailForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/get_can_reverse_details` | 微前端 | `GetCanReverseDetailsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/get_export_history` | 微前端 | `GetExportHistoryForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/get_next_reverse_order` | 微前端 | `GetSellerNextReverseMainOrderForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/issue_refund_preview` | 微前端 | `GetIssueRefundPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/list` | 微前端 | `ListSellerReverseMainOrdersForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/list_logistics_service` | 微前端 | `ListLogisticsServiceForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/list_seller_announcement` | 微前端 | `ListSellerAppAnnouncementsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/order_lines/list` | 微前端 | `ListSellerReverseOrderLinesForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/partial_refund_preview` | 微前端 | `GetPartialRefundPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/reverse_amount` | 微前端 | `CalReverseAmountForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/reverse_preview` | 微前端 | `GetReversePreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/reverse_reasons/get` | 微前端 | `GetReverseReasonsForWidget` |
+| `POST` | `/widget/api/v1/reverse/orders/tag` | 微前端 | `SetReverseOrderTagForWidget` |
+| `POST` | `/widget/api/v1/reverse/platform_audit/add_evidence` | 微前端 | `AddPlatformAuditEvidenceForWidget` |
+| `POST` | `/widget/api/v1/reverse/platform_audit/get` | 微前端 | `GetPlatformAuditDetailForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/accept_reverse` | 微前端 | `GetAcceptReversePreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/add_tracking_number` | 微前端 | `GetAddTrackingNumberPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/cancel_order` | 微前端 | `GetCancelOrderPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/customize_policy` | 微前端 | `GetCustomizePolicyPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/direct_refund` | 微前端 | `GetDirectRefundPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/reject_reverse` | 微前端 | `GetRejectReversePreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/preview/replacement_setting` | 微前端 | `GetReplacementSettingPreviewForWidget` |
+| `POST` | `/widget/api/v1/reverse/search_fuzzy` | 微前端 | `SearchFuzzyInfoForWidget` |
+| `POST` | `/widget/api/v1/reverse/search_layout` | 微前端 | `GetSearchLayoutForWidget` |
+| `POST` | `/widget/api/v1/reverse/seller_function/update` | 微前端 | `UpdateSellerFunctionConfigForWidget` |
+| `POST` | `/widget/api/v1/reverse/update_cancellation_window_setting` | 微前端 | `UpdateCancellationWindowSettingForWidget` |
 
-## 营销 / 促销（408）
+## 营销 / 促销（532）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -2154,10 +2232,134 @@
 | `POST` | `/api/v2/promotion/voucher/get` | 微前端,微前端,微前端,早期 | `GetVoucherV2` |
 | `POST` | `/api/v2/promotion/voucher/list` | 微前端,微前端,微前端,早期 | `ListVoucherV2` |
 | `POST` | `/api/v2/promotion/voucher/update` | 微前端,微前端,微前端,早期 | `UpdateVoucherV2` |
+| `POST` | `/insights/seller/shop/campaign/annual/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/bcp/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/bcp/status` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/offline/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/realtime/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/realtime/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/report/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/target` | 微前端 |  |
+| `POST` | `/insights/seller/shop/campaign/trend/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/marketing/campaign/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/marketing/promotion/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/today/campaign/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/creator/performance/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/creator/performance/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/detail/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/period/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/promotion/stats` | 微前端 |  |
+| `POST` | `/product/promotion/price/get` | 微前端 |  |
+| `POST` | `/promotion/allocation/create` | 微前端 |  |
+| `POST` | `/promotion/allocation/delete` | 微前端 |  |
+| `POST` | `/promotion/allocation/list` | 微前端 |  |
+| `POST` | `/promotion/allocation/prizes/get` | 微前端 |  |
+| `POST` | `/promotion/allocation/prizes/update` | 微前端 |  |
+| `POST` | `/promotion/app/buy_more_save_more/create` | 微前端 |  |
+| `POST` | `/promotion/app/buy_more_save_more/update` | 微前端 |  |
+| `POST` | `/promotion/app/config` | 微前端 |  |
+| `POST` | `/promotion/app/flash_sale/create` | 微前端 |  |
+| `POST` | `/promotion/app/home_page_info` | 微前端 |  |
+| `POST` | `/promotion/app/list_products` | 微前端 |  |
+| `POST` | `/promotion/app/mget_item_data` | 微前端 |  |
+| `POST` | `/promotion/app/price_details/get` | 微前端 |  |
+| `POST` | `/promotion/app/product_discount/create` | 微前端 |  |
+| `POST` | `/promotion/app/recommended_promotion_tool/list` | 微前端 |  |
+| `POST` | `/promotion/app/search_products` | 微前端 |  |
+| `POST` | `/promotion/app/voucher/create` | 微前端 |  |
+| `POST` | `/promotion/app/voucher/destroy` | 微前端 |  |
+| `POST` | `/promotion/batch_upload/products/upload` | 微前端 |  |
+| `POST` | `/promotion/bundle_deal/create` | 微前端 |  |
+| `POST` | `/promotion/bundle_deal/update` | 微前端 |  |
+| `POST` | `/promotion/buy_more_save_more/create` | 微前端 |  |
+| `POST` | `/promotion/buy_more_save_more/update` | 微前端 |  |
+| `POST` | `/promotion/creator_exclusive_price/create` | 微前端 |  |
+| `POST` | `/promotion/creator_exclusive_price/update` | 微前端 |  |
+| `POST` | `/promotion/diagnosis_recommend_strategy/list` | 微前端 |  |
+| `POST` | `/promotion/discount/create` | 微前端 |  |
+| `POST` | `/promotion/discount/list` | 微前端 |  |
+| `POST` | `/promotion/discount/update` | 微前端 |  |
+| `POST` | `/promotion/fixed_price/create` | 微前端 |  |
+| `POST` | `/promotion/fixed_price/list` | 微前端 |  |
+| `POST` | `/promotion/fixed_price/update` | 微前端 |  |
+| `POST` | `/promotion/flash_sale/batch_update` | 微前端 |  |
+| `POST` | `/promotion/flash_sale/create` | 微前端 |  |
+| `POST` | `/promotion/flash_sale/update` | 微前端 |  |
+| `POST` | `/promotion/free_shipping/create` | 微前端 |  |
+| `POST` | `/promotion/free_shipping/list` | 微前端 |  |
+| `POST` | `/promotion/free_shipping/update` | 微前端 |  |
+| `POST` | `/promotion/gift_with_purchase/create` | 微前端 |  |
+| `POST` | `/promotion/gift_with_purchase/update` | 微前端 |  |
+| `POST` | `/promotion/live_app/create` | 微前端 |  |
+| `POST` | `/promotion/live_app/get` | 微前端 |  |
+| `POST` | `/promotion/live_app/get_shop_risk_info` | 微前端 |  |
+| `POST` | `/promotion/live_app/search_products` | 微前端 |  |
+| `POST` | `/promotion/live_app/update` | 微前端 |  |
+| `POST` | `/promotion/live_manager/mget_item_data` | 微前端 |  |
+| `POST` | `/promotion/live_manager/recommended_promotion_tool/list` | 微前端 |  |
+| `POST` | `/promotion/live_manager/seller_experiment_info/get` | 微前端 |  |
+| `POST` | `/promotion/live_manager/voucher/create` | 微前端 |  |
+| `POST` | `/promotion/plan/create` | 微前端 |  |
+| `POST` | `/promotion/plan/data_overview` | 微前端 |  |
+| `POST` | `/promotion/plan/deactivate` | 微前端 |  |
+| `POST` | `/promotion/plan/get` | 微前端 |  |
+| `POST` | `/promotion/plan/list` | 微前端 |  |
+| `POST` | `/promotion/plan/list_product` | 微前端 |  |
+| `POST` | `/promotion/plan/product_label` | 微前端 |  |
+| `POST` | `/promotion/plan/update` | 微前端 |  |
+| `POST` | `/promotion/plan/update_product` | 微前端 |  |
+| `POST` | `/promotion/price/calc_estimate_promotion_price` | 微前端 |  |
+| `POST` | `/promotion/price/calc_future_promotion_price` | 微前端 |  |
+| `POST` | `/promotion/price/calc_promotion_stacking_info` | 微前端 |  |
+| `POST` | `/promotion/price/get_promotion_stacking_info` | 微前端 |  |
+| `POST` | `/promotion/price_details/get` | 微前端 |  |
+| `POST` | `/promotion/prize/create` | 微前端 |  |
+| `POST` | `/promotion/prize/delete` | 微前端 |  |
+| `POST` | `/promotion/prize/get` | 微前端 |  |
+| `POST` | `/promotion/prize/list` | 微前端 |  |
+| `POST` | `/promotion/prize/update_quantity` | 微前端 |  |
+| `POST` | `/promotion/promo_code/create` | 微前端 |  |
+| `POST` | `/promotion/promo_code/delete` | 微前端 |  |
+| `POST` | `/promotion/promo_code/generate` | 微前端 |  |
+| `POST` | `/promotion/promo_code/get` | 微前端 |  |
+| `POST` | `/promotion/promo_code/update` | 微前端 |  |
+| `POST` | `/promotion/promo_code/validate` | 微前端 |  |
+| `POST` | `/promotion/recommended_promotion_tool/list` | 微前端 |  |
+| `POST` | `/promotion/recommended_promotion_tools/label_list` | 微前端 |  |
+| `POST` | `/promotion/recommended_promotion_tools/live_overview` | 微前端 |  |
+| `POST` | `/promotion/seller_audit_log/query` | 微前端 |  |
+| `POST` | `/promotion/seller_experiment_info/get` | 微前端 |  |
+| `POST` | `/promotion/seller_platform/list` | 微前端 |  |
+| `POST` | `/promotion/seller_platform/update` | 微前端 |  |
+| `POST` | `/promotion/seller_recently_used_tools/list` | 微前端 |  |
+| `POST` | `/promotion/shop_metrics/overview/get` | 微前端 |  |
+| `POST` | `/promotion/shop_risk_info/get` | 微前端 |  |
+| `POST` | `/promotion/single_discount/list` | 微前端 |  |
+| `POST` | `/promotion/sns_product_discount/check_deactivate` | 微前端 |  |
+| `POST` | `/promotion/sns_product_discount/create` | 微前端 |  |
+| `POST` | `/promotion/sns_product_discount/update` | 微前端 |  |
+| `POST` | `/promotion/tool_info/list` | 微前端 |  |
+| `POST` | `/promotion/tools_metrics/overview/get` | 微前端 |  |
+| `POST` | `/promotion/voucher/check_conflict` | 微前端 |  |
+| `POST` | `/promotion/voucher/check_voucher_overlap` | 微前端 |  |
+| `POST` | `/promotion/voucher/create` | 微前端 |  |
+| `POST` | `/promotion/voucher/destroy` | 微前端 |  |
+| `POST` | `/promotion/voucher/get` | 微前端 |  |
+| `POST` | `/promotion/voucher/list` | 微前端 |  |
+| `POST` | `/promotion/voucher/list_products` | 微前端 |  |
+| `POST` | `/promotion/voucher/update` | 微前端 |  |
 | `GET` | `/widget/api/v1/promotion/list_seller_gray_config` | 微前端,微前端,早期 | `ListSellerGrayConfigForWidget` |
 | `POST` | `/widget/api/v1/promotion/mget_item_data` | 微前端,微前端,早期 | `MGetItemDataForWidget` |
 
-## 数据 / 罗盘 / 报表（502）
+## 数据 / 罗盘 / 报表（874）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -2623,9 +2825,381 @@
 | `POST` | `/api/v1/shop_im/shop/risk/report_customer` | 微前端,财务bundle | `ReportCustomer` |
 | `?` | `/api/v2/data_infra/metric_platform/version_management/get_data` | 微前端 |  |
 | `?` | `/api/v2/data_infra/metric_query/version_management/query_snapshot` | 微前端 |  |
+| `POST` | `/insights/pop/product/optimize/data/get` | 微前端 |  |
+| `POST` | `/insights/pop/product/optimize/optimized/list` | 微前端 |  |
+| `POST` | `/insights/seller/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/core/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/creator/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/creator/live/diagnosis/stats` | 微前端 |  |
+| `POST` | `/insights/seller/creator/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/creator/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/creator/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/data/overview/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/creator/list/search` | 微前端 |  |
+| `POST` | `/insights/seller/live/diagnosis/creator/details` | 微前端 |  |
+| `POST` | `/insights/seller/live/diagnosis/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/diagnosis/creator/suggestion/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/live/optimizer/account/suggestion` | 微前端 |  |
+| `POST` | `/insights/seller/live/optimizer/session/suggestion` | 微前端 |  |
+| `POST` | `/insights/seller/live/optimizer/summary` | 微前端 |  |
+| `POST` | `/insights/seller/live/performance/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/live/stats` | 微前端 |  |
+| `POST` | `/insights/seller/live/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/notifications` | 微前端 |  |
+| `POST` | `/insights/seller/notifications/get` | 微前端 |  |
+| `POST` | `/insights/seller/notifications/set` | 微前端 |  |
+| `POST` | `/insights/seller/shop/ab_experiment/enabled` | 微前端 |  |
+| `POST` | `/insights/seller/shop/analytics/insights/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/analytics/insights/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/analytics/insights/report/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/analytics/insights/report/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/analytics/insights/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/authorization/get` | 微前端 |  |
+| `POST` | `/insights/seller/shop/authorization/set` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/boosted/impression/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/boosted/impression/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/boosted/impression/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/boosted/impression/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/channel/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/channel/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/channel/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/channel/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/channel/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/main/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/main/core/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/product/list/categories` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/rank/shop/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/rank/shop/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/core/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/products/issues/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/products/issues/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/products/newly_passed/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/products/newly_passed/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/recommendation/status/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/ttp/channel/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/ttp/main/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/center/ttp/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/data/available/date` | 微前端 |  |
+| `POST` | `/insights/seller/shop/export/task/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/gtm/display/judge` | 微前端 |  |
+| `POST` | `/insights/seller/shop/gtm/display/save` | 微前端 |  |
+| `POST` | `/insights/seller/shop/im/agent/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/im/agent/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/im/agent/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/im/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/keyword/details/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/keyword/details/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/keyword/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/keyword/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/account/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/account/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/account/stats/tooltip` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/ads/diagnosis` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/benchmark_category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnose/core` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnosis/benchmark_live/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnosis/core/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnosis/info/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnosis/label/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/diagnosis/violation/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/linked_account/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/list/tooltip` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/stats/tooltip` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/account/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/account/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/channel/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/live/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/live/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/live/traffic/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/logistics/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/logistics/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/logistics/provider/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/logistics/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/blueocean/rank` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/blueocean/rank/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/blueocean/trend` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/high_potential/rank/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/high_potential/rank/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/high_potential/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/popular/rank` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/popular/rank/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/popular/trend` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/skyrocketing/rank` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/skyrocketing/rank/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/market/query/skyrocketing/trend` | 微前端 |  |
+| `POST` | `/insights/seller/shop/negative/review/available/date` | 微前端 |  |
+| `POST` | `/insights/seller/shop/negative/review/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/negative/review/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/opportunity/center/product/card/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/ads_banner/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/diagnosis/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/gmv_snapshot/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/gmv_snapshot/product_card/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/gmv_snapshot/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/gmv_snapshot/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/marketing/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/marketing/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/gross_revenue/breakdown/latest_date` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/gross_revenue/breakdown/latest_date_v2` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/gross_revenue/breakdown/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/gross_revenue/breakdown/stats_v2` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/insights/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/nrr/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/today/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/overview/performance/today/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/performance/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/performance/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/diagnosis` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/product/traffic/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/traffic/sources/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/traffic/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/traffic/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/user/action` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/card/user/suggestion/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/channel/content` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/creator/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/diagnosis/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/diagnosis/quality/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/diagnosis/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/live/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/search` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/sku/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/sku/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/video/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/product/voc/detail` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/bcd/category/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/bcd/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/bcd/register/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/bcd/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/eams/register/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/flashsale/category/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/flashsale/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/flashsale/register/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/flashsale/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/page/display/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/shipping/register/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/program/shipping/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/livestream/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/livestream/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/product/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/video_inspiration/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/video_inspiration/skill/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/rank/video_inspiration/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/optimisation/product/optimised/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/optimisation/product/optimised/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/optimisation/product/optimised/trend` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/optimisation/product/sale/keyword/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/optimisation/product/sale/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/store/keyword/details/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/store/keyword/details/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/store/keyword/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/search/store/keyword/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/service/shipping/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/short/video/center/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/short/video/center/video/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/short/video/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/short/video/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/available/date` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/data_source` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/add` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/delete` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/update` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/user_profile` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/report/user_profile/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/spillover/user_profile` | 微前端 |  |
+| `POST` | `/insights/seller/shop/toko/feature_flag` | 微前端 |  |
+| `POST` | `/insights/seller/shop/us/overview/data/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/us/overview/today/data/available` | 微前端 |  |
+| `POST` | `/insights/seller/shop/user/composition` | 微前端 |  |
+| `POST` | `/insights/seller/shop/user/portrait` | 微前端 |  |
+| `POST` | `/insights/seller/shop/user/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/user/trend` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/ads/diagnosis` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/account/performance/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/ads/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/photo/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/photo/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/photo_product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/product/related/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/traffic/channel/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/traffic/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/content/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/diagnosis` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/diagnosis/suggestion/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/profile/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/analytics/video/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/content/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/info` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/product/related/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/profile/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/traffic/channel/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/traffic/stats` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/traffic_card/list` | 微前端 |  |
+| `POST` | `/insights/seller/shop/video/traffic_card/redeem` | 微前端 |  |
+| `POST` | `/insights/seller/store/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/core/stats/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/ongoing_live/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/post_purchase/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/revenue_ranking/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/data_overview/todays_performance/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/edm/set_auth_info` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/ace/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/affiliate_retarget_creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/suggestion/feedback` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/suggestion/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/video_filter/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/opportunity_insights/viewer_traffic/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/category/list/latest/offline` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/content/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/content/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/creator/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/detail/info` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/inventory` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/list/export/v2` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/list/v2` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/optimisation` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/price/tracking` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_performance/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_recommendation/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_recommendation/not_recommended/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_reward/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_subscription/behavior/order_type` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_subscription/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/product_subscription/products/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/reversed/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/review` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/sku/count_by_stock_status` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/sku/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/sku/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/traffic/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/traffic/total/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product/traffic/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product_traffic/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/product_traffic/stats/get` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/realtime/ongoing_live/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/creator/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/dayofweek/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/ecommerce_video/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/ecommerce_video/list/export` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/gross_revenue_with_subsidy/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/live_count_and_duration/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sales/realtime/core/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/seller_center/homepage/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/cancel_and_returns/orders/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/cancel_and_returns/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/cancel_and_returns/product_category/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/order_complaints/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/order_complaints/product_category/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/order_complaints/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/review/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/review/product_category/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/service/review/score_distribution/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/creator/publish/info` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/live/highlight/category/script_skills/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/live/highlight/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/live_performance/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/low/quality/video/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/os_api/latest_available/date` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/product/card/trending/product/info` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/product/card/trending/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/product/card/trending/product/recommendation/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/product/card/trending/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop/video/post/suggestion/info` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop_page/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/shop_page/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sub_campaign/live/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sub_campaign/product/list` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sub_campaign/product/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sub_campaign/stats` | 微前端 |  |
+| `POST` | `/insights/seller/ttp/sub_campaign/video/list` | 微前端 |  |
+| `POST` | `/insights/seller/us/shop/rank/category/list` | 微前端 |  |
+| `POST` | `/insights/seller/us/shop/rank/list` | 微前端 |  |
+| `POST` | `/insights/shopify/seller/shop/data/available/date` | 微前端 |  |
+| `POST` | `/insights/shopify/seller/shop/video/analytics/creator/list` | 微前端 |  |
+| `POST` | `/insights/shopify/seller/shop/video/analytics/video/list` | 微前端 |  |
+| `POST` | `/seller/growth_center/appeal_center/cancel` | 微前端 |  |
+| `POST` | `/seller/growth_center/appeal_center/config/get` | 微前端 |  |
+| `POST` | `/seller/growth_center/appeal_center/is_appealable` | 微前端 |  |
+| `POST` | `/seller/growth_center/appeal_center/record/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/appeal_center/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/creator/violation/appeal/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/grey_test/contain_country` | 微前端 |  |
+| `POST` | `/seller/growth_center/guard/appeal/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/guard/collection_appeal/create` | 微前端 |  |
+| `POST` | `/seller/growth_center/overview/action_needed/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/overview/policy_violations_module/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/quiz/create` | 微前端 |  |
+| `POST` | `/seller/growth_center/quiz/paper/commit` | 微前端 |  |
+| `POST` | `/seller/growth_center/quiz/start` | 微前端 |  |
+| `POST` | `/seller/growth_center/reward_penalty/appeal/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/metrics_module/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/platform/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/unviewed_info/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/violation/record/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/violation/records/list` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/warning/record/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/shop/warning/records/list` | 微前端 |  |
+| `POST` | `/seller/growth_center/violation/appeal/pre_validation` | 微前端 |  |
+| `POST` | `/seller/growth_center/violation/appeal/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/violation/correction/detail/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/violation/correction/form/query` | 微前端 |  |
+| `POST` | `/seller/growth_center/violation/correction/submit` | 微前端 |  |
+| `POST` | `/seller/growth_center/warning/record/viewed` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/action/report` | 微前端 |  |
 | `POST` | `/widget/api/v1/pop/product/optimize/compass/mget` | 微前端 | `MGetProductsForMultiEditForWidget` |
 | `POST` | `/widget/api/v1/product/optimization/report/metrics` | 微前端 | `ReportOptimizationMetricsForWidget` |
-| `POST` | `/widget/api/v1/reverse/dashboard/get` | 微前端 | `GetUrgentDashboardForWidget` |
 | `GET` | `/widget/api/v1/seller/growth_center/benefit/is_show_benefit` | 早期 |  |
 | `GET` | `/widget/api/v1/seller/growth_center/creator/entrance_knowledge/get` | 早期 |  |
 | `POST` | `/widget/api/v1/seller/growth_center/creator/violation/appeal/submit` | 早期 |  |
@@ -2664,7 +3238,7 @@
 | `POST` | `/widget/api/v1/seller/outreach/task_message/report_action` | 微前端 | `ReportActionForWidget` |
 | `POST` | `/widget/api/v1/seller/sell/v2/plan/report/setting` | 微前端 | `WidgetReportPlanSetting` |
 
-## 消息 / IM / 通知（156）
+## 消息 / IM / 通知（157）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -2817,6 +3391,7 @@
 | `POST` | `/api/v1/shop_im/shop/workbench/data/list` | 财务bundle | `ListWorkbenchData` |
 | `POST` | `/api/v2/conversations` | 微前端 |  |
 | `POST` | `/api/v3/conversation/clear_unread_msg` | 微前端 | `ClearConversationUnreadMsg` |
+| `POST` | `/fbt/api/landing/message/seller_web_action` | 微前端 |  |
 | `POST` | `/widget/api/v1/seller/message/clear_red_point` | 微前端 | `ClearRedPointForWidget` |
 | `POST` | `/widget/api/v1/seller/message/focus_config/set` | 微前端 | `SetFocusConfigForWidget` |
 | `POST` | `/widget/api/v1/seller/message/get_msg_tabs` | 微前端 | `GetMsgTabsForWeidget` |
@@ -2825,7 +3400,7 @@
 | `?` | `/widget/api/v1/seller/message/pull_by_category_v2` | 微前端 | `PullMessageByCategoryV2ForWidget` |
 | `POST` | `/widget/api/v1/seller/messagev2/get` | 微前端 | `GetMessageV2ForWidget` |
 
-## 治理 / 违规 / 申诉（16）
+## 治理 / 违规 / 申诉（75）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -2837,16 +3412,75 @@
 | `POST` | `/api/v1/seller/onboard/v2/appeal/get` | 财务bundle | `GetRcsAppealInfo` |
 | `POST` | `/api/v1/seller/onboard/v2/appeal/rcs` | 财务bundle | `OnboardAppealRCS` |
 | `POST` | `/api/v1/seller/onboard/v2/appeal/rcs_with_token` | 财务bundle | `OnboardAppealWithToken` |
-| `POST` | `/widget/api/v1/reverse/appeal/add_evidence` | 微前端 | `AddAppealEvidenceForWidget` |
-| `POST` | `/widget/api/v1/reverse/appeal/apply` | 微前端 | `ApplyAppealForWidget` |
-| `POST` | `/widget/api/v1/reverse/appeal/get_details` | 微前端 | `GetAppealDetailForWidget` |
-| `POST` | `/widget/api/v1/reverse/appeal/preview` | 微前端 | `GetAppealPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/appeal/cancel` | 微前端 | `SellerCancelApplyAppealForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/appeal/create` | 微前端 | `SellerApplyAppealForWidget` |
-| `GET` | `/widget/api/v1/reverse/orders/actions/appeal/get` | 微前端 | `ActionCheckAppealRecordsForWidget` |
+| `POST` | `/qualification/center/black_word/check` | 微前端 |  |
+| `POST` | `/qualification/center/category/banner_close` | 微前端 |  |
+| `POST` | `/qualification/center/category/submit` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/category_epr/delete` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/category_epr/edit` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/category_epr/submit` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/epr/delete` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/epr/edit` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/epr/multisubmit` | 微前端 |  |
+| `POST` | `/qualification/center/epr_upload/epr/submit` | 微前端 |  |
+| `POST` | `/qualification/center/file/upload` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/category_epr/delete` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/category_epr/edit` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/category_epr/submit` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/epr/delete` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/epr/edit` | 微前端 |  |
+| `POST` | `/qualification/center/fs/epr_upload/epr/submit` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/create` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/product/batch_link` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/product/link` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/product/list` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/product/unlink` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/translate` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/manufacturer/update` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/create` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/delete` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/product/batch_link` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/product/link` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/product/list` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/product/unlink` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/translate` | 微前端 |  |
+| `POST` | `/qualification/center/fs/item/rp/update` | 微前端 |  |
+| `POST` | `/qualification/center/fs/product_qualification_task/list` | 微前端 |  |
+| `POST` | `/qualification/center/fs/seller_service/submit` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/create` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/product/batch_link` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/product/link` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/product/list` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/product/unlink` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/translate` | 微前端 |  |
+| `POST` | `/qualification/center/item/manufacturer/update` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/create` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/delete` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/batch_link` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/link` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/list` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/relation/set` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/relations/change` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/product/unlink` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/translate` | 微前端 |  |
+| `POST` | `/qualification/center/item/rp/update` | 微前端 |  |
+| `POST` | `/qualification/center/multi_product_qualification_task/list` | 微前端 |  |
+| `POST` | `/qualification/center/ocr` | 微前端 |  |
+| `POST` | `/qualification/center/product_qualification_task/detail` | 微前端 |  |
+| `POST` | `/qualification/center/product_qualification_task/get` | 微前端 |  |
+| `POST` | `/qualification/center/product_qualification_task/list` | 微前端 |  |
+| `POST` | `/qualification/center/rule/list` | 微前端 |  |
+| `POST` | `/qualification/center/seller_service/submit` | 微前端 |  |
+| `POST` | `/qualification/center/seller_task_unique_epr/list` | 微前端 |  |
+| `POST` | `/qualification/center/task/verification/jumio/callback` | 微前端 |  |
+| `POST` | `/qualification/center/task/verification/submit` | 微前端 |  |
+| `POST` | `/qualification/center/trademark/banner_close` | 微前端 |  |
+| `POST` | `/qualification/center/trademark/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/appeal_info/get` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/appeal` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/appeal_with_token` | 微前端 |  |
 | `POST` | `/widget/api/v1/seller/onboard/v2/appeal/rcs` | 财务bundle | `WidgetOnboardAppealRCS` |
 
-## 商家 / 入驻 / 资质（309）
+## 商家 / 入驻 / 资质（374）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -3077,6 +3711,71 @@
 | `POST` | `/api/v1/usseller/onboard/v1/local/us/raw_lead` | 微前端 | `CreateRawLead` |
 | `POST` | `/api/v1/usseller/onboard/v1/registration_channel` | 微前端 | `QueryGlobalSellerRegistrationChannel` |
 | `POST` | `/api/v2/seller/onboard/v2/file/upload` | 微前端,财务bundle |  |
+| `POST` | `/passport/web/account/verify` | 微前端,微前端 |  |
+| `POST` | `/seller/account/switch/get` | 微前端 |  |
+| `POST` | `/seller/account/update` | 微前端 |  |
+| `POST` | `/seller/gs_message/merchant_headlines_feedback` | 微前端 |  |
+| `POST` | `/seller/merchant/attestation/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/address_validation` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/company_name/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/company_trading_name/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/contact/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/entity_number/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/experienced_platform/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/global_seller/create` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/shop/open` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/shop/pre_check` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/cross_border/ubo/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/docusign/envelope/send` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/docusign_callback` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/entity_number/verify` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/faqs/get` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/invitation_code/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/jumio/ocr` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/br/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/br/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/es/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/es/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/id/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/id/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/id/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/id/toko_fast_onboard/start` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/id/toko_fast_onboard/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/irl/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/irl/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/my/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/my/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/my/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/ph/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/ph/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/ph/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/sandbox/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/sg/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/sg/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/sg/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/th/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/th/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/th/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/uk/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/uk/full/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/uk/staged/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/backfill/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/full_stage/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/full_stage/extra/ubo/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/full_stage/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/post_onboard/extra_submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/post_onboard/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/raw_lead` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/sandbox/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/us/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/vn/draft/save` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/vn/extra/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/local/vn/submit` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/register_create_seller` | 微前端 |  |
+| `POST` | `/seller/onboard/v1/shop_name/verify` | 微前端 |  |
 | `POST` | `/widget/api/v1/seller/entity/file/upload` | 微前端,财务bundle | `WidgetUploadFile` |
 | `POST` | `/widget/api/v1/seller/entity/file_url/get` | 微前端,财务bundle | `WidgetGetFileURL` |
 | `POST` | `/widget/api/v1/seller/entity/v2/change` | 财务bundle | `WidgetSubmitEntityChange` |
@@ -3160,7 +3859,7 @@
 | `POST` | `/widget/api/v1/usseller/onboard/v1/company_info/validate/query` | 微前端 | `WidgetGetCompanyNameAndAddressValidateResult` |
 | `POST` | `/widget/api/v1/usseller/onboard/v1/registration_channel` | 微前端 | `WidgetQueryGlobalSellerRegistrationChannel` |
 
-## 店铺运营 / 工作台（89）
+## 店铺运营 / 工作台（105）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -3244,6 +3943,22 @@
 | `POST` | `/aweme/api/v1/seller/tasks/join` | 早期 |  |
 | `GET` | `/aweme/api/v1/seller/tasks/list` | 早期 |  |
 | `POST` | `/aweme/api/v1/seller/tasks/update_progress` | 早期 |  |
+| `POST` | `/seller/badge/set` | 微前端 |  |
+| `POST` | `/seller/home/fs/get_assess_personas` | 微前端 |  |
+| `POST` | `/seller/home/fs/get_todo_list` | 微前端 |  |
+| `POST` | `/seller/home/get_activity_marketing` | 微前端 |  |
+| `POST` | `/seller/home/get_assess_personas` | 微前端 |  |
+| `POST` | `/seller/home/get_clue_card` | 微前端 |  |
+| `POST` | `/seller/home/get_supplier_guidance` | 微前端 |  |
+| `POST` | `/seller/home/get_task_card` | 微前端 |  |
+| `POST` | `/seller/home/get_todo_list` | 微前端 |  |
+| `POST` | `/seller/home_stage/get` | 微前端 |  |
+| `POST` | `/seller/homepage_widgets_group/get` | 微前端 |  |
+| `POST` | `/seller/menu/set` | 微前端 |  |
+| `POST` | `/seller/menu/switch` | 微前端 |  |
+| `POST` | `/seller/popup/get_popup_list` | 微前端 |  |
+| `POST` | `/seller/popup/popup_callback` | 微前端 |  |
+| `POST` | `/seller/workbench/get_all_sellers` | 微前端 |  |
 | `POST` | `/widget/api/v1/seller/badge/set` | 微前端,微前端,微前端,微前端,财务bundle | `UpdateBadgeStatusForWidget` |
 | `POST` | `/widget/api/v1/seller/tasks/claim_reward_v2` | 微前端,微前端 | `WidgetClaimTaskRewardV2` |
 | `POST` | `/widget/api/v1/seller/tasks/event/post` | 微前端,微前端,早期 | `WidgetPostEvent` |
@@ -3254,24 +3969,145 @@
 | `POST` | `/widget/api/v1/seller/tasks/update_progress` | 微前端,微前端,早期 | `WidgetUpdateProgress` |
 | `GET` | `/widget/api/v1/seller/video_center/homepage/get` | 微前端 | `WidgetGetVideoHomepage` |
 
-## 内容创作 / 视频中心（198）
+## 私域 / 粉丝 / 会员（2）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
-| `GET` | `/api/v1/app/multimedia/image/upload_token/get` | 微前端,微前端,微前端 | `GetAppImageUploadToken` |
-| `POST` | `/api/v1/image/upload` | 微前端 | `History` |
-| `GET` | `/api/v1/multimedia/file/upload_token/get` | 微前端,微前端,微前端 | `GetFileUploadToken` |
-| `GET` | `/api/v1/multimedia/image/get` | 微前端,微前端,微前端 | `GetImage` |
-| `GET` | `/api/v1/multimedia/image/upload_token/get` | 微前端,微前端,微前端 | `GetImageUploadToken` |
-| `?` | `/api/v1/multimedia/upload_completion/notify` | 微前端 | `NotifyUploadCompletion` |
-| `?` | `/api/v1/multimedia/video/get` | 微前端 | `GetVideo` |
-| `GET` | `/api/v1/multimedia/video/upload_token/get` | 微前端,微前端,微前端 | `GetVideoUploadToken` |
-| `POST` | `/api/v1/multimedia/white_background/check` | 微前端,微前端,微前端,早期 | `CheckWhiteBackgroundImage` |
-| `POST` | `/api/v1/multimedia/white_background/get` | 微前端,微前端,微前端,早期 | `GetWhiteBackgroundImage` |
-| `POST` | `/api/v1/seller/logo/aigc/add` | 微前端 | `AddAigcLogoTask` |
-| `?` | `/api/v1/seller/logo/aigc/detail` | 微前端 | `GetAigcLogoTaskDetail` |
-| `POST` | `/api/v1/seller/logo/aigc/list` | 微前端 | `ListAigcLogoTasks` |
-| `POST` | `/api/v1/seller/logo/aigc/submit` | 微前端 | `SubmitAigcLogoTask` |
+| `POST` | `/aff/member/switch` | 微前端 |  |
+| `POST` | `/passport/aff/mobile/member/switch` | 微前端 |  |
+
+## 账号安全 / 通行证（25）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `?` | `/api/v1/login` | 微前端 |  |
+| `POST` | `/passport/auth/bind_with_mobile_login` | 微前端 |  |
+| `POST` | `/passport/auth/login` | 微前端 |  |
+| `GET` | `/passport/common/register/web/bind_verify_info` | 微前端 |  |
+| `POST` | `/passport/mobile/check_code` | 微前端 |  |
+| `POST` | `/passport/mobile/send_code` | 微前端 |  |
+| `POST` | `/passport/mobile/unbind_limited_unusable_mobile` | 微前端 |  |
+| `POST` | `/passport/pin/check` | 微前端 |  |
+| `POST` | `/passport/pin/reset_by_ticket` | 微前端 |  |
+| `POST` | `/passport/pin/set` | 微前端 |  |
+| `POST` | `/passport/pin/verify` | 微前端 |  |
+| `POST` | `/passport/safe/two_step_verification/add_auth_device` | 微前端 |  |
+| `POST` | `/passport/safe/two_step_verification/add_verification` | 微前端 |  |
+| `POST` | `/passport/safe/two_step_verification/remove_auth_device` | 微前端 |  |
+| `POST` | `/passport/safe/two_step_verification/remove_verification` | 微前端 |  |
+| `POST` | `/passport/web/email/check_code` | 微前端 |  |
+| `POST` | `/passport/web/email/send_code` | 微前端 |  |
+| `POST` | `/passport/web/email/verify` | 微前端 |  |
+| `POST` | `/passport/web/login_by_ticket` | 微前端 |  |
+| `POST` | `/passport/web/mobile/check_code` | 微前端 |  |
+| `POST` | `/passport/web/oidc/callback` | 微前端 |  |
+| `POST` | `/passport/web/send_code` | 微前端 |  |
+| `POST` | `/passport/web/totp/register` | 微前端 |  |
+| `POST` | `/passport/web/totp/unregister` | 微前端 |  |
+| `POST` | `/passport/web/totp/verify` | 微前端 |  |
+
+## 客服消息 / 站内信（27）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `POST` | `/api/v1/proxy/seller/helpdesk/entrance/get` | 微前端,微前端 | `GetByEntrance` |
+| `GET` | `/api/v1/proxy/seller/helpdesk/unread_msg/get` | 微前端,微前端 | `GetUserUnreadMsg` |
+| `POST` | `/api/v1/proxy/seller/helpdesk/user/get` | 微前端,微前端 | `GenIMUser` |
+| `POST` | `/api/v1/seller/gs_message/batch_mark_read_user_message` | 微前端,微前端,财务bundle | `BatchMarkReadUserMessage` |
+| `POST` | `/api/v1/seller/gs_message/check_new_message` | 微前端,微前端,微前端,财务bundle | `CheckNewPlatformMessage` |
+| `POST` | `/api/v1/seller/gs_message/get_merchant_headlines` | 微前端,微前端,财务bundle | `GetMerchantHeadlines` |
+| `POST` | `/api/v1/seller/gs_message/get_merchant_headlines_config` | 微前端,微前端,财务bundle | `GetMerchantHeadlinesConfig` |
+| `POST` | `/api/v1/seller/gs_message/get_user_message_statistic` | 微前端,微前端,微前端,财务bundle | `GetUserMessageStatistics` |
+| `POST` | `/api/v1/seller/gs_message/mark_read_user_message` | 微前端,微前端,微前端,财务bundle | `MarkReadUserMessage` |
+| `POST` | `/api/v1/seller/gs_message/mark_remind_user_message` | 微前端,微前端,微前端,财务bundle | `MarkRemindUserMessage` |
+| `POST` | `/api/v1/seller/gs_message/user_message_detail` | 微前端,微前端,微前端,财务bundle | `GetUserMessageDetail` |
+| `POST` | `/api/v1/seller/gs_message/user_message_list` | 微前端,微前端,微前端,财务bundle | `GetUserMessageList` |
+| `GET` | `/api/v1/seller/msg_card/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetMsgCard` |
+| `GET` | `/api/v1/seller/msg_card/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetMsgCard` |
+| `GET` | `/api/v1/sellerassistant/discover_chatbotevent` | 微前端 | `DiscoverChatbotEvent` |
+| `GET` | `/api/v1/sellerassistant/discover_sst` | 微前端 | `DiscoverSST` |
+| `POST` | `/api/v1/sellerassistant/event_status/set` | 微前端 | `SetEventStatus` |
+| `POST` | `/api/v1/sellerassistant/sst/dismiss` | 微前端 | `DismissSST` |
+| `POST` | `/seller/gs_message/batch_mark_read_user_message` | 微前端 |  |
+| `POST` | `/seller/gs_message/check_new_message` | 微前端 |  |
+| `POST` | `/seller/gs_message/get_merchant_headlines` | 微前端 |  |
+| `POST` | `/seller/gs_message/get_merchant_headlines_config` | 微前端 |  |
+| `POST` | `/seller/gs_message/get_user_message_statistic` | 微前端 |  |
+| `POST` | `/seller/gs_message/mark_read_user_message` | 微前端 |  |
+| `POST` | `/seller/gs_message/mark_remind_user_message` | 微前端 |  |
+| `POST` | `/seller/gs_message/user_message_detail` | 微前端 |  |
+| `POST` | `/seller/gs_message/user_message_list` | 微前端 |  |
+
+## 直播 / 达人运营（27）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `?` | `/api/v1/seller/creator/agg/get` | 微前端,微前端 | `GetAppShopCreator` |
+| `POST` | `/api/v1/seller/creator/agg/verify/invite` | 微前端,微前端 | `VerifyAndInviteCreator` |
+| `POST` | `/api/v1/seller/creator/availability/verify` | 微前端,微前端 | `VerifyCreatorAvailability` |
+| `?` | `/api/v1/seller/creator/get` | 微前端,微前端 | `GetShopCreators` |
+| `POST` | `/api/v1/seller/creator/info/get` | 微前端,微前端 | `GetShopCreatorInfo` |
+| `POST` | `/api/v1/seller/creator/info/verify` | 微前端,微前端 | `VerifyCreatorInfo` |
+| `POST` | `/api/v1/seller/creator/invitation/send` | 微前端,微前端 | `SendShopCreatorInvitation` |
+| `POST` | `/api/v1/seller/creator/official_creator/bind` | 微前端,微前端 | `BindOfficialShopCreator` |
+| `POST` | `/api/v1/seller/creator/official_creator/get` | 微前端,微前端 | `GetOfficialShopCreator` |
+| `POST` | `/api/v1/seller/creator/official_creator/upgrade` | 微前端,微前端 | `UpgradeOfficialShopCreator` |
+| `POST` | `/api/v1/seller/creator/qrcode/check` | 微前端,微前端 | `CheckQRCodeStatus` |
+| `POST` | `/api/v1/seller/creator/remain/get` | 微前端,微前端 | `GetShopCreatorRoleRemainCondition` |
+| `POST` | `/api/v1/seller/creator/unbind` | 微前端,微前端 | `UnbindShopCreator` |
+| `POST` | `/api/v1/seller/creator/unbind_apply/get` | 微前端,微前端 | `GetUnbindApply` |
+| `POST` | `/api/v1/seller/creator/unbind_apply/update` | 微前端,微前端 | `UpdateUnbindApply` |
+| `POST` | `/api/v1/seller/live_center/event/post` | 微前端 | `PostLiveEvent` |
+| `GET` | `/api/v1/seller/live_center/inspiration/get` | 微前端 | `GetLiveInspiration` |
+| `GET` | `/api/v1/seller/live_center/live_base_info/get` | 微前端 | `GetSellerLiveBaseInfo` |
+| `POST` | `/api/v1/seller/live_center/live_product/add` | 微前端 | `AddLiveProducts` |
+| `POST` | `/api/v1/seller/live_center/live_product/delete` | 微前端 | `DelLiveProducts` |
+| `GET` | `/api/v1/seller/live_center/live_product/get` | 微前端 | `GetLiveProducts` |
+| `GET` | `/api/v1/seller/live_center/modal/get` | 微前端 | `GetLiveModal` |
+| `POST` | `/api/v1/seller/live_center/product/search` | 微前端 | `SearchProductForLive` |
+| `GET` | `/api/v1/seller/live_center/scripts/get` | 微前端 | `GetVideoScripts` |
+| `POST` | `/api/v1/seller/live_center/tips/get` | 微前端 | `GetLiveTips` |
+| `GET` | `/api/v1/seller/live_center/tips/options/get` | 微前端 | `GetLiveTipOptions` |
+| `POST` | `/api/v1/seller/official_creator_contract/set` | 微前端,微前端,微前端,财务bundle | `SetOfficialCreatorContract` |
+
+## 学习中心 / 内容（86）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `POST` | `/api/v1/seller/creativityhub/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetSellerCreativityHubInfo` |
+| `GET` | `/api/v1/seller/edu_comp/academy/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEduCompAcademy` |
+| `GET` | `/api/v1/seller/edu_comp/faq/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEduCompFAQ` |
+| `?` | `/api/v1/seller/learning_center/banner/get` | 微前端 | `GetBanner` |
+| `?` | `/api/v1/seller/learning_center/banner/v2/get` | 微前端 | `GetBannerV2` |
+| `?` | `/api/v1/seller/learning_center/contents/get` | 微前端 | `GetContentsTree` |
+| `?` | `/api/v1/seller/learning_center/contents/list` | 微前端 | `ListContents` |
+| `?` | `/api/v1/seller/learning_center/course_detail/get` | 微前端 | `GetCourseDetail` |
+| `?` | `/api/v1/seller/learning_center/courses/list` | 微前端 | `ListCourses` |
+| `?` | `/api/v1/seller/learning_center/creator/get` | 微前端 | `GetCreator` |
+| `POST` | `/api/v1/seller/learning_center/feedback/create` | 微前端 | `CreateUserCommentFeedback` |
+| `?` | `/api/v1/seller/learning_center/h5/home/get` | 微前端 | `GetH5Home` |
+| `POST` | `/api/v1/seller/learning_center/home/explore/get` | 微前端 | `GetExplore` |
+| `?` | `/api/v1/seller/learning_center/home/faq/get` | 微前端 | `GetHomeFaq` |
+| `?` | `/api/v1/seller/learning_center/home/growth/get` | 微前端 | `GetHomeGrowth` |
+| `GET` | `/api/v1/seller/learning_center/id/get` | 微前端 | `GetLearningCenterId` |
+| `?` | `/api/v1/seller/learning_center/knowledge/list` | 微前端 | `ListKnowledge` |
+| `?` | `/api/v1/seller/learning_center/knowledge_detail/get` | 微前端 | `GetKnowledgeDetail` |
+| `?` | `/api/v1/seller/learning_center/knowledge_detail/simple/get` | 微前端 | `GetKnowledgeDetailSimple` |
+| `?` | `/api/v1/seller/learning_center/module/contents/list` | 微前端 | `ListModuleContents` |
+| `?` | `/api/v1/seller/learning_center/modules/get` | 微前端 | `GetModules` |
+| `?` | `/api/v1/seller/learning_center/obj_detail/get` | 微前端 | `GetObjDetail` |
+| `?` | `/api/v1/seller/learning_center/policy/courses/get` | 微前端 | `GetPolicyCourses` |
+| `?` | `/api/v1/seller/learning_center/policy/latest/get` | 微前端 | `GetLatestPolicy` |
+| `?` | `/api/v1/seller/learning_center/policy/notice/get` | 微前端 | `GetPolicyNotice` |
+| `GET` | `/api/v1/seller/learning_center/recommend/content/list` | 微前端 | `ListRecommendContent` |
+| `GET` | `/api/v1/seller/learning_center/recommend_reads/get` | 微前端 | `AcademyRecommendReads` |
+| `GET` | `/api/v1/seller/learning_center/recommend_reads_default/get` | 微前端 | `AcademyRecommendReadsDefault` |
+| `POST` | `/api/v1/seller/learning_center/search` | 微前端 | `SearchByKeyword` |
+| `GET` | `/api/v1/seller/learning_center/site_links/get` | 微前端 | `GetSiteLinks` |
+| `GET` | `/api/v1/seller/learning_center/sitemap/urls/get` | 微前端 | `GetSitemapUrls` |
+| `POST` | `/api/v1/seller/learning_center/star/create` | 微前端 | `CreateFiveStarComment` |
+| `POST` | `/api/v1/seller/learning_center/star/get` | 微前端 | `GetFiveStarComment` |
+| `?` | `/api/v1/seller/learning_center/video/play_info/get` | 微前端 | `GetVideoPlayInfo` |
 | `POST` | `/api/v1/seller/university/cms/catalog/content/add` | 微前端 | `AddContentToCatalog` |
 | `POST` | `/api/v1/seller/university/cms/catalog/content/unbind` | 微前端 | `UnbindContentToCatalog` |
 | `POST` | `/api/v1/seller/university/cms/catalog/create` | 微前端 | `CreateCatalog` |
@@ -3317,6 +4153,67 @@
 | `POST` | `/api/v1/seller/university/cms/upload/key/get` | 微前端 | `GetUploadKey` |
 | `POST` | `/api/v1/seller/university/cms/video/play_info/get` | 微前端 | `GetVideoPlayInfo` |
 | `POST` | `/api/v1/seller/university/cms/video/save` | 微前端 | `SaveVideo` |
+| `GET` | `/api/v1/seller/university/entrance_knowledge_list/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEntranceKnowledgeList` |
+| `GET` | `/api/v1/seller/university/home/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetUniversityHome` |
+| `POST` | `/api/v1/seller/university/knowledge/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetUniversityKnowledge` |
+| `POST` | `/api/v1/seller/university/knowledge_feedback/create` | 微前端,微前端,微前端,微前端,财务bundle | `CreateKnowledgeFeedback` |
+| `POST` | `/seller/creativityhub/get` | 微前端 |  |
+| `POST` | `/seller/university/knowledge_feedback/create` | 微前端 |  |
+| `GET` | `/widget/api/v1/seller/learning_center/video/play_info/get` | 微前端 | `WidgetGetVideoPlayInfo` |
+
+## 店铺授权 / 子账号 / 角色（30）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `?` | `/api/v1/seller/custom_role/allowed_config_menu/get` | 微前端 | `GetCustomRoleAllowedConfigMenu` |
+| `POST` | `/api/v1/seller/custom_role/menu/get` | 微前端 | `GetCustomRoleMenu` |
+| `POST` | `/api/v1/seller/custom_role/menu/set` | 微前端 | `SetCustomRoleMenu` |
+| `POST` | `/api/v1/seller/custom_role/resource/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetCustomRoleResource` |
+| `POST` | `/api/v1/seller/custom_role/resource/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetCustomRoleResource` |
+| `POST` | `/api/v1/seller/custom_role/resource_config_list/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetCustomRoleResourceConfigList` |
+| `POST` | `/api/v1/seller/delegation/am/abort` | 微前端,微前端,微前端,微前端,财务bundle | `LogoutDelegationByAm` |
+| `GET` | `/api/v1/seller/delegation/history/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetDelegationLoginHistory` |
+| `GET` | `/api/v1/seller/delegation/info` | 微前端,微前端,微前端,微前端,财务bundle | `GetDelegationInfo` |
+| `POST` | `/api/v1/seller/delegation/mode/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetDelegationMode` |
+| `POST` | `/api/v1/seller/delegation/seller/abort` | 微前端,微前端,微前端,微前端,财务bundle | `AbortDelegationBySeller` |
+| `POST` | `/api/v1/seller/semi/store/get` | 微前端 | `GetSemiStores` |
+| `POST` | `/api/v1/seller/semi/store/link` | 微前端 | `LinkSemiStore` |
+| `POST` | `/api/v1/seller/semi/store/unlink` | 微前端 | `UnlinkSemiStore` |
+| `?` | `/api/v1/seller/semi/upgrade/get` | 微前端 | `GetSemiUpgrade` |
+| `POST` | `/api/v1/seller/sub_account/add` | 微前端,微前端,微前端,财务bundle | `AddSubAccount` |
+| `POST` | `/api/v1/seller/sub_account/bind` | 微前端,微前端,微前端,财务bundle | `BindSubAccount` |
+| `POST` | `/api/v1/seller/sub_account/delete` | 微前端,微前端,微前端,财务bundle | `DeleteSubAccount` |
+| `POST` | `/api/v1/seller/sub_account/list` | 微前端,微前端,微前端,财务bundle | `ListSubAccount` |
+| `GET` | `/api/v1/seller/sub_account/roles/get` | 微前端,微前端,微前端,财务bundle | `GetRoles` |
+| `POST` | `/api/v1/seller/sub_account/update` | 微前端,微前端,微前端,财务bundle | `UpdateSubAccount` |
+| `GET` | `/api/v1/seller_settings/seller_whitelist/get` | 微前端,微前端,微前端 | `GetSellerWhiteList` |
+| `GET` | `/api/v1/seller_settings/settings/get` | 微前端,微前端,微前端 | `GetSellerSettings` |
+| `POST` | `/seller/custom_role/resource/get` | 微前端 |  |
+| `POST` | `/seller/custom_role/resource/set` | 微前端 |  |
+| `POST` | `/seller/delegation/am/abort` | 微前端 |  |
+| `POST` | `/seller/delegation/mode/set` | 微前端 |  |
+| `POST` | `/seller/delegation/seller/abort` | 微前端 |  |
+| `GET` | `/widget/api/v1/seller_settings/seller_whitelist/get` | 微前端,微前端,微前端 | `GetSellerWhiteListForWidget` |
+| `GET` | `/widget/api/v1/seller_settings/settings/get` | 微前端,微前端,微前端 | `GetSellerSettingsForWidget` |
+
+## 内容创作 / 视频中心（153）
+
+| 方法 | 路径 | 来源 | 调用点 |
+|---|---|---|---|
+| `GET` | `/api/v1/app/multimedia/image/upload_token/get` | 微前端,微前端,微前端 | `GetAppImageUploadToken` |
+| `POST` | `/api/v1/image/upload` | 微前端 | `History` |
+| `GET` | `/api/v1/multimedia/file/upload_token/get` | 微前端,微前端,微前端 | `GetFileUploadToken` |
+| `GET` | `/api/v1/multimedia/image/get` | 微前端,微前端,微前端 | `GetImage` |
+| `GET` | `/api/v1/multimedia/image/upload_token/get` | 微前端,微前端,微前端 | `GetImageUploadToken` |
+| `?` | `/api/v1/multimedia/upload_completion/notify` | 微前端 | `NotifyUploadCompletion` |
+| `?` | `/api/v1/multimedia/video/get` | 微前端 | `GetVideo` |
+| `GET` | `/api/v1/multimedia/video/upload_token/get` | 微前端,微前端,微前端 | `GetVideoUploadToken` |
+| `POST` | `/api/v1/multimedia/white_background/check` | 微前端,微前端,微前端,早期 | `CheckWhiteBackgroundImage` |
+| `POST` | `/api/v1/multimedia/white_background/get` | 微前端,微前端,微前端,早期 | `GetWhiteBackgroundImage` |
+| `POST` | `/api/v1/seller/logo/aigc/add` | 微前端 | `AddAigcLogoTask` |
+| `?` | `/api/v1/seller/logo/aigc/detail` | 微前端 | `GetAigcLogoTaskDetail` |
+| `POST` | `/api/v1/seller/logo/aigc/list` | 微前端 | `ListAigcLogoTasks` |
+| `POST` | `/api/v1/seller/logo/aigc/submit` | 微前端 | `SubmitAigcLogoTask` |
 | `POST` | `/api/v1/seller/video_center/app/pre_gen_video/get` | 微前端 | `GetAPPVideoAutoGenTask` |
 | `POST` | `/api/v1/seller/video_center/app/product_pre_gen_video/submit` | 微前端 | `SubmitAPPProductVideoAutoGenTask` |
 | `POST` | `/api/v1/seller/video_center/benchmark_account/list` | 微前端 | `ListBenchmarkAccount` |
@@ -3683,7 +4580,7 @@
 | `POST` | `/widget/api/v1/seller/open_shop/v2/state/list` | 微前端,微前端,财务bundle | `WidgetGetOpenShopStateList` |
 | `POST` | `/widget/api/v1/seller/open_shop/v2/submit` | 微前端,微前端,财务bundle | `WidgetSubmitOpenShop` |
 
-## 平台基础设施（46）
+## 平台基础设施（51）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -3730,11 +4627,16 @@
 | `POST` | `/api/v3/init/session/core` | 微前端 | `InitSessionCore` |
 | `POST` | `/api/v3/init/session/feature` | 微前端 | `InitSessionFeature` |
 | `POST` | `/common/current_timestamp/get` | 联盟bundle |  |
+| `POST` | `/seller/common/check_verification_code` | 微前端 |  |
+| `POST` | `/seller/common/send_verification_code` | 微前端 |  |
+| `POST` | `/seller/feelgood/access_token/get` | 微前端 |  |
+| `POST` | `/user_info/common/v1/web_sdk_init` | 微前端 |  |
 | `?` | `/v1/user/webid` | 联盟bundle |  |
+| `POST` | `/webapp/seller/common/get` | 微前端 |  |
 | `POST` | `/widget/api/v1/debugs/reverse/orders/list_main_orders` | 微前端 | `ListUserMainOrderIdsForWidget` |
 | `POST` | `/widget/api/v1/dynamic_configs/get` | 微前端,微前端 | `GetDynamicConfigsForWidget` |
 
-## 其他 / 未分类（474）
+## 其他 / 未分类（390）
 
 | 方法 | 路径 | 来源 | 调用点 |
 |---|---|---|---|
@@ -3749,14 +4651,10 @@
 | `POST` | `/api/v1/config` | 微前端 | `InitSessionCore` |
 | `?` | `/api/v1/imagex/url` | 微前端 | `InitSessionFeature` |
 | `?` | `/api/v1/jwt` | 微前端 |  |
-| `?` | `/api/v1/login` | 微前端 |  |
 | `?` | `/api/v1/operation/form_open/user_page/query_by_code` | 微前端 |  |
 | `GET` | `/api/v1/operation/fulfillment/logistic_detail/list` | 微前端,微前端,微前端 | `OperationListLogisticDetail` |
 | `?` | `/api/v1/pearl/bff/cb-queen/dynamic-config/public/detail` | 微前端 |  |
 | `POST` | `/api/v1/pop/product/category/list` | 微前端 | `GetProductCategoryListQuery` |
-| `POST` | `/api/v1/proxy/seller/helpdesk/entrance/get` | 微前端,微前端 | `GetByEntrance` |
-| `GET` | `/api/v1/proxy/seller/helpdesk/unread_msg/get` | 微前端,微前端 | `GetUserUnreadMsg` |
-| `POST` | `/api/v1/proxy/seller/helpdesk/user/get` | 微前端,微前端 | `GenIMUser` |
 | `POST` | `/api/v1/resource/upload/token` | 微前端 |  |
 | `?` | `/api/v1/selfsvc/getfaq` | 微前端 |  |
 | `POST` | `/api/v1/seller/address_verify/verify` | 微前端,微前端 | `VerifyAddressByLogistics` |
@@ -3794,43 +4692,14 @@
 | `POST` | `/api/v1/seller/contract/notify/get` | 微前端 | `ListNotification` |
 | `POST` | `/api/v1/seller/contract/notify/skip` | 微前端 | `SkipNotification` |
 | `POST` | `/api/v1/seller/contract/sign` | 微前端 | `SignContract` |
-| `POST` | `/api/v1/seller/creativityhub/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetSellerCreativityHubInfo` |
-| `?` | `/api/v1/seller/creator/agg/get` | 微前端,微前端 | `GetAppShopCreator` |
-| `POST` | `/api/v1/seller/creator/agg/verify/invite` | 微前端,微前端 | `VerifyAndInviteCreator` |
-| `POST` | `/api/v1/seller/creator/availability/verify` | 微前端,微前端 | `VerifyCreatorAvailability` |
-| `?` | `/api/v1/seller/creator/get` | 微前端,微前端 | `GetShopCreators` |
-| `POST` | `/api/v1/seller/creator/info/get` | 微前端,微前端 | `GetShopCreatorInfo` |
-| `POST` | `/api/v1/seller/creator/info/verify` | 微前端,微前端 | `VerifyCreatorInfo` |
-| `POST` | `/api/v1/seller/creator/invitation/send` | 微前端,微前端 | `SendShopCreatorInvitation` |
-| `POST` | `/api/v1/seller/creator/official_creator/bind` | 微前端,微前端 | `BindOfficialShopCreator` |
-| `POST` | `/api/v1/seller/creator/official_creator/get` | 微前端,微前端 | `GetOfficialShopCreator` |
-| `POST` | `/api/v1/seller/creator/official_creator/upgrade` | 微前端,微前端 | `UpgradeOfficialShopCreator` |
-| `POST` | `/api/v1/seller/creator/qrcode/check` | 微前端,微前端 | `CheckQRCodeStatus` |
-| `POST` | `/api/v1/seller/creator/remain/get` | 微前端,微前端 | `GetShopCreatorRoleRemainCondition` |
-| `POST` | `/api/v1/seller/creator/unbind` | 微前端,微前端 | `UnbindShopCreator` |
-| `POST` | `/api/v1/seller/creator/unbind_apply/get` | 微前端,微前端 | `GetUnbindApply` |
-| `POST` | `/api/v1/seller/creator/unbind_apply/update` | 微前端,微前端 | `UpdateUnbindApply` |
 | `POST` | `/api/v1/seller/creator_availability/verify` | 微前端,微前端,微前端,财务bundle | `VerifyCreatorAvailability` |
 | `POST` | `/api/v1/seller/creator_info/verify` | 微前端,微前端,微前端,财务bundle | `VerifyCreatorInfo` |
-| `?` | `/api/v1/seller/custom_role/allowed_config_menu/get` | 微前端 | `GetCustomRoleAllowedConfigMenu` |
-| `POST` | `/api/v1/seller/custom_role/menu/get` | 微前端 | `GetCustomRoleMenu` |
-| `POST` | `/api/v1/seller/custom_role/menu/set` | 微前端 | `SetCustomRoleMenu` |
-| `POST` | `/api/v1/seller/custom_role/resource/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetCustomRoleResource` |
-| `POST` | `/api/v1/seller/custom_role/resource/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetCustomRoleResource` |
-| `POST` | `/api/v1/seller/custom_role/resource_config_list/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetCustomRoleResourceConfigList` |
-| `POST` | `/api/v1/seller/delegation/am/abort` | 微前端,微前端,微前端,微前端,财务bundle | `LogoutDelegationByAm` |
-| `GET` | `/api/v1/seller/delegation/history/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetDelegationLoginHistory` |
-| `GET` | `/api/v1/seller/delegation/info` | 微前端,微前端,微前端,微前端,财务bundle | `GetDelegationInfo` |
-| `POST` | `/api/v1/seller/delegation/mode/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetDelegationMode` |
-| `POST` | `/api/v1/seller/delegation/seller/abort` | 微前端,微前端,微前端,微前端,财务bundle | `AbortDelegationBySeller` |
 | `POST` | `/api/v1/seller/district/match` | 微前端,财务bundle | `MatchDistrict` |
 | `POST` | `/api/v1/seller/dynamic_commission/ads_tr_detail/list` | 早期 |  |
 | `GET` | `/api/v1/seller/dynamic_commission/banner/get` | 早期 |  |
 | `GET` | `/api/v1/seller/dynamic_commission/landing_page/get` | 早期 |  |
 | `POST` | `/api/v1/seller/dynamic_commission/product_info/list` | 早期 |  |
 | `GET` | `/api/v1/seller/dynamic_commission/unified_waiver/get` | 早期 |  |
-| `GET` | `/api/v1/seller/edu_comp/academy/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEduCompAcademy` |
-| `GET` | `/api/v1/seller/edu_comp/faq/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEduCompFAQ` |
 | `GET` | `/api/v1/seller/ext_attr/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetSellerExtAttr` |
 | `?` | `/api/v1/seller/fbt_opportunities/get` | 微前端 | `GetSellerFbtOpportunities` |
 | `POST` | `/api/v1/seller/feishu/bind` | 微前端,微前端,微前端,财务bundle | `BindFeishu` |
@@ -3852,15 +4721,6 @@
 | `POST` | `/api/v1/seller/global_seller_withdraw/publicity_period_open` | 微前端 | `OpenGlobalSellerWithdrawPublicityPeriod` |
 | `POST` | `/api/v1/seller/global_shop_name/verify` | 微前端,财务bundle | `VerifyGlobalShopName` |
 | `POST` | `/api/v1/seller/go_seller_center` | 微前端,微前端,微前端,微前端,财务bundle | `GoSellerCenter` |
-| `POST` | `/api/v1/seller/gs_message/batch_mark_read_user_message` | 微前端,微前端,财务bundle | `BatchMarkReadUserMessage` |
-| `POST` | `/api/v1/seller/gs_message/check_new_message` | 微前端,微前端,微前端,财务bundle | `CheckNewPlatformMessage` |
-| `POST` | `/api/v1/seller/gs_message/get_merchant_headlines` | 微前端,微前端,财务bundle | `GetMerchantHeadlines` |
-| `POST` | `/api/v1/seller/gs_message/get_merchant_headlines_config` | 微前端,微前端,财务bundle | `GetMerchantHeadlinesConfig` |
-| `POST` | `/api/v1/seller/gs_message/get_user_message_statistic` | 微前端,微前端,微前端,财务bundle | `GetUserMessageStatistics` |
-| `POST` | `/api/v1/seller/gs_message/mark_read_user_message` | 微前端,微前端,微前端,财务bundle | `MarkReadUserMessage` |
-| `POST` | `/api/v1/seller/gs_message/mark_remind_user_message` | 微前端,微前端,微前端,财务bundle | `MarkRemindUserMessage` |
-| `POST` | `/api/v1/seller/gs_message/user_message_detail` | 微前端,微前端,微前端,财务bundle | `GetUserMessageDetail` |
-| `POST` | `/api/v1/seller/gs_message/user_message_list` | 微前端,微前端,微前端,财务bundle | `GetUserMessageList` |
 | `POST` | `/api/v1/seller/h5/register/reach` | 微前端,财务bundle | `ReachSellerAfterRegisterForH5Optimization` |
 | `POST` | `/api/v1/seller/help_info/course_detail/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetCourseDetail` |
 | `GET` | `/api/v1/seller/help_info/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetHelpInfo` |
@@ -3870,48 +4730,6 @@
 | `GET` | `/api/v1/seller/incentives/overview/get` | 微前端,微前端,早期 | `GetIncentivesOverview` |
 | `?` | `/api/v1/seller/incentives/tasks/list` | 微前端,微前端 | `ListIncentivesTasks` |
 | `POST` | `/api/v1/seller/info/check` | 微前端,微前端 | `CheckSellerInfo` |
-| `?` | `/api/v1/seller/learning_center/banner/get` | 微前端 | `GetBanner` |
-| `?` | `/api/v1/seller/learning_center/banner/v2/get` | 微前端 | `GetBannerV2` |
-| `?` | `/api/v1/seller/learning_center/contents/get` | 微前端 | `GetContentsTree` |
-| `?` | `/api/v1/seller/learning_center/contents/list` | 微前端 | `ListContents` |
-| `?` | `/api/v1/seller/learning_center/course_detail/get` | 微前端 | `GetCourseDetail` |
-| `?` | `/api/v1/seller/learning_center/courses/list` | 微前端 | `ListCourses` |
-| `?` | `/api/v1/seller/learning_center/creator/get` | 微前端 | `GetCreator` |
-| `POST` | `/api/v1/seller/learning_center/feedback/create` | 微前端 | `CreateUserCommentFeedback` |
-| `?` | `/api/v1/seller/learning_center/h5/home/get` | 微前端 | `GetH5Home` |
-| `POST` | `/api/v1/seller/learning_center/home/explore/get` | 微前端 | `GetExplore` |
-| `?` | `/api/v1/seller/learning_center/home/faq/get` | 微前端 | `GetHomeFaq` |
-| `?` | `/api/v1/seller/learning_center/home/growth/get` | 微前端 | `GetHomeGrowth` |
-| `GET` | `/api/v1/seller/learning_center/id/get` | 微前端 | `GetLearningCenterId` |
-| `?` | `/api/v1/seller/learning_center/knowledge/list` | 微前端 | `ListKnowledge` |
-| `?` | `/api/v1/seller/learning_center/knowledge_detail/get` | 微前端 | `GetKnowledgeDetail` |
-| `?` | `/api/v1/seller/learning_center/knowledge_detail/simple/get` | 微前端 | `GetKnowledgeDetailSimple` |
-| `?` | `/api/v1/seller/learning_center/module/contents/list` | 微前端 | `ListModuleContents` |
-| `?` | `/api/v1/seller/learning_center/modules/get` | 微前端 | `GetModules` |
-| `?` | `/api/v1/seller/learning_center/obj_detail/get` | 微前端 | `GetObjDetail` |
-| `?` | `/api/v1/seller/learning_center/policy/courses/get` | 微前端 | `GetPolicyCourses` |
-| `?` | `/api/v1/seller/learning_center/policy/latest/get` | 微前端 | `GetLatestPolicy` |
-| `?` | `/api/v1/seller/learning_center/policy/notice/get` | 微前端 | `GetPolicyNotice` |
-| `GET` | `/api/v1/seller/learning_center/recommend/content/list` | 微前端 | `ListRecommendContent` |
-| `GET` | `/api/v1/seller/learning_center/recommend_reads/get` | 微前端 | `AcademyRecommendReads` |
-| `GET` | `/api/v1/seller/learning_center/recommend_reads_default/get` | 微前端 | `AcademyRecommendReadsDefault` |
-| `POST` | `/api/v1/seller/learning_center/search` | 微前端 | `SearchByKeyword` |
-| `GET` | `/api/v1/seller/learning_center/site_links/get` | 微前端 | `GetSiteLinks` |
-| `GET` | `/api/v1/seller/learning_center/sitemap/urls/get` | 微前端 | `GetSitemapUrls` |
-| `POST` | `/api/v1/seller/learning_center/star/create` | 微前端 | `CreateFiveStarComment` |
-| `POST` | `/api/v1/seller/learning_center/star/get` | 微前端 | `GetFiveStarComment` |
-| `?` | `/api/v1/seller/learning_center/video/play_info/get` | 微前端 | `GetVideoPlayInfo` |
-| `POST` | `/api/v1/seller/live_center/event/post` | 微前端 | `PostLiveEvent` |
-| `GET` | `/api/v1/seller/live_center/inspiration/get` | 微前端 | `GetLiveInspiration` |
-| `GET` | `/api/v1/seller/live_center/live_base_info/get` | 微前端 | `GetSellerLiveBaseInfo` |
-| `POST` | `/api/v1/seller/live_center/live_product/add` | 微前端 | `AddLiveProducts` |
-| `POST` | `/api/v1/seller/live_center/live_product/delete` | 微前端 | `DelLiveProducts` |
-| `GET` | `/api/v1/seller/live_center/live_product/get` | 微前端 | `GetLiveProducts` |
-| `GET` | `/api/v1/seller/live_center/modal/get` | 微前端 | `GetLiveModal` |
-| `POST` | `/api/v1/seller/live_center/product/search` | 微前端 | `SearchProductForLive` |
-| `GET` | `/api/v1/seller/live_center/scripts/get` | 微前端 | `GetVideoScripts` |
-| `POST` | `/api/v1/seller/live_center/tips/get` | 微前端 | `GetLiveTips` |
-| `GET` | `/api/v1/seller/live_center/tips/options/get` | 微前端 | `GetLiveTipOptions` |
 | `GET` | `/api/v1/seller/livecenter/category/get` | 微前端 | `GetCategory` |
 | `GET` | `/api/v1/seller/livecenter/livestream/detail/get` | 微前端 | `GetLivestreamCenterDetail` |
 | `GET` | `/api/v1/seller/livecenter/livestream/summary/get` | 微前端 | `GetLivestreamCenterSummary` |
@@ -3951,14 +4769,11 @@
 | `POST` | `/api/v1/seller/mall_status/apply` | 微前端,微前端,微前端,微前端,财务bundle | `SaveMallStatus` |
 | `POST` | `/api/v1/seller/mall_status/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetMallStatus` |
 | `POST` | `/api/v1/seller/marketing_opt/set` | 微前端,微前端,微前端,财务bundle | `SetMarketingOption` |
-| `GET` | `/api/v1/seller/msg_card/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetMsgCard` |
-| `GET` | `/api/v1/seller/msg_card/set` | 微前端,微前端,微前端,微前端,财务bundle | `SetMsgCard` |
 | `POST` | `/api/v1/seller/multi_seller_bind` | 微前端,微前端,微前端,财务bundle | `MultiSellerBind` |
 | `POST` | `/api/v1/seller/namespace/badge_list/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetUnreadBadges` |
 | `POST` | `/api/v1/seller/navigation_bar/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetNavigationBar` |
 | `POST` | `/api/v1/seller/navigation_bar/read` | 微前端,微前端,微前端,微前端,财务bundle | `ReadNavigationBar` |
 | `POST` | `/api/v1/seller/network/country/check` | 微前端,财务bundle | `NetworkCountryCheck` |
-| `POST` | `/api/v1/seller/official_creator_contract/set` | 微前端,微前端,微前端,财务bundle | `SetOfficialCreatorContract` |
 | `POST` | `/api/v1/seller/org_account/bind` | 微前端,微前端 | `BindOrgAccount` |
 | `POST` | `/api/v1/seller/org_account/list` | 微前端,微前端 | `ListOrgAccount` |
 | `POST` | `/api/v1/seller/org_account/verify` | 微前端,微前端 | `VerifyOrgAccount` |
@@ -4022,10 +4837,6 @@
 | `?` | `/api/v1/seller/seller_insurance_session/get` | 微前端,微前端,财务bundle | `GetSellerInsuranceSession` |
 | `POST` | `/api/v1/seller/seller_map/read` | 微前端,微前端,微前端,微前端,财务bundle | `ReadSellerMap` |
 | `GET` | `/api/v1/seller/seller_wallet_link/get` | 微前端,微前端,微前端,财务bundle | `GetSellerWalletLink` |
-| `POST` | `/api/v1/seller/semi/store/get` | 微前端 | `GetSemiStores` |
-| `POST` | `/api/v1/seller/semi/store/link` | 微前端 | `LinkSemiStore` |
-| `POST` | `/api/v1/seller/semi/store/unlink` | 微前端 | `UnlinkSemiStore` |
-| `?` | `/api/v1/seller/semi/upgrade/get` | 微前端 | `GetSemiUpgrade` |
 | `POST` | `/api/v1/seller/shipment_provider/update` | 微前端,微前端,微前端,财务bundle | `UpdateSellerShipmentProvider` |
 | `POST` | `/api/v1/seller/shipping/get_seller_visible_shipping_service` | 微前端,微前端 | `GetSellerVisibleShippingService` |
 | `POST` | `/api/v1/seller/shipping/get_seller_warehouse_address` | 微前端,微前端 | `GetSellerWarehouseAddress` |
@@ -4053,12 +4864,6 @@
 | `POST` | `/api/v1/seller/smart_bundle/status/get` | 微前端,微前端 | `GetSellerSmartBundleConfigStatus` |
 | `POST` | `/api/v1/seller/smart_bundle/update` | 微前端,微前端 | `CreateOrUpdateSellerSmartBundleConfig` |
 | `GET` | `/api/v1/seller/special_paylater_link/get` | 微前端,微前端,微前端,财务bundle | `GetSpecialPayLaterLink` |
-| `POST` | `/api/v1/seller/sub_account/add` | 微前端,微前端,微前端,财务bundle | `AddSubAccount` |
-| `POST` | `/api/v1/seller/sub_account/bind` | 微前端,微前端,微前端,财务bundle | `BindSubAccount` |
-| `POST` | `/api/v1/seller/sub_account/delete` | 微前端,微前端,微前端,财务bundle | `DeleteSubAccount` |
-| `POST` | `/api/v1/seller/sub_account/list` | 微前端,微前端,微前端,财务bundle | `ListSubAccount` |
-| `GET` | `/api/v1/seller/sub_account/roles/get` | 微前端,微前端,微前端,财务bundle | `GetRoles` |
-| `POST` | `/api/v1/seller/sub_account/update` | 微前端,微前端,微前端,财务bundle | `UpdateSubAccount` |
 | `POST` | `/api/v1/seller/tags/click/save` | 微前端,微前端,微前端,微前端,财务bundle | `SaveTagsClickEvent` |
 | `POST` | `/api/v1/seller/tags/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetTags` |
 | `POST` | `/api/v1/seller/tax_num/get` | 微前端,微前端,微前端,财务bundle | `GetSellerTaxV2` |
@@ -4076,10 +4881,6 @@
 | `POST` | `/api/v1/seller/trademark/submit` | 微前端,微前端,微前端,财务bundle | `SubmitTrademark` |
 | `POST` | `/api/v1/seller/trademark/submit_profile/get` | 微前端,微前端,微前端,财务bundle | `GetSubmitTrademarkProfile` |
 | `GET` | `/api/v1/seller/trademark/valid` | 微前端,微前端,微前端,财务bundle | `ValidTrademark` |
-| `GET` | `/api/v1/seller/university/entrance_knowledge_list/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetEntranceKnowledgeList` |
-| `GET` | `/api/v1/seller/university/home/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetUniversityHome` |
-| `POST` | `/api/v1/seller/university/knowledge/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetUniversityKnowledge` |
-| `POST` | `/api/v1/seller/university/knowledge_feedback/create` | 微前端,微前端,微前端,微前端,财务bundle | `CreateKnowledgeFeedback` |
 | `POST` | `/api/v1/seller/update` | 微前端 | `UpdateShopLogo` |
 | `POST` | `/api/v1/seller/user/check_user_auth` | 微前端,微前端,微前端,财务bundle | `CheckUserAuth` |
 | `POST` | `/api/v1/seller/user/get_info` | 微前端,微前端,微前端,财务bundle | `GetUserInfo` |
@@ -4096,15 +4897,9 @@
 | `POST` | `/api/v1/seller/x_day_delivery/opportunity_lane` | 微前端 | `GetSellerXDayDeliveryOpportunityLane` |
 | `POST` | `/api/v1/seller/xdd_auto_enroll_task/get` | 微前端 | `GetSellerXDDAutoEnrollTask` |
 | `POST` | `/api/v1/seller/xdd_auto_enroll_task/update` | 微前端 | `UpdateSellerXDDAutoEnrollTask` |
-| `GET` | `/api/v1/seller_settings/seller_whitelist/get` | 微前端,微前端,微前端 | `GetSellerWhiteList` |
-| `GET` | `/api/v1/seller_settings/settings/get` | 微前端,微前端,微前端 | `GetSellerSettings` |
 | `POST` | `/api/v1/seller_warehouse/list/all_operation_time` | 微前端,微前端 | `ListAllSellerWarehouseOperationTime` |
 | `POST` | `/api/v1/seller_warehouse/save/operation_time` | 微前端,微前端 | `SaveSellerWarehouseOperationTime` |
 | `POST` | `/api/v1/seller_warehouse/x_data_delivery/performance_data` | 微前端,微前端 | `GetSellerWarehouseXDayDeliveryPerformanceData` |
-| `GET` | `/api/v1/sellerassistant/discover_chatbotevent` | 微前端 | `DiscoverChatbotEvent` |
-| `GET` | `/api/v1/sellerassistant/discover_sst` | 微前端 | `DiscoverSST` |
-| `POST` | `/api/v1/sellerassistant/event_status/set` | 微前端 | `SetEventStatus` |
-| `POST` | `/api/v1/sellerassistant/sst/dismiss` | 微前端 | `DismissSST` |
 | `POST` | `/api/v1/shop/profile/complaint_address/update` | 微前端,财务bundle | `UpdateComplaintAddress` |
 | `POST` | `/api/v1/shop/profile/contact/get` | 微前端,财务bundle | `GetShopContactInfo` |
 | `POST` | `/api/v1/shop/warehouses/add` | 微前端,微前端 | `AddShopWarehouses` |
@@ -4124,7 +4919,91 @@
 | `POST` | `/api/v3/session/takeaction` | 微前端 | `SessionTakeAction` |
 | `POST` | `/api/v3/video/play_info` | 微前端 | `VideoPlayInfo` |
 | `POST` | `/api/v3/video/upload_token` | 微前端 | `VideoUploadToken` |
+| `POST` | `/baike/v2/api/highlight_ignore/set` | 微前端 |  |
+| `GET` | `/bytemap/v1/config/region_profile` | 微前端,微前端 |  |
+| `POST` | `/easesafe/oec_tax_qualification/upload` | 微前端 |  |
+| `POST` | `/fbt/api/landing/add_seller_to_fbt_waitlist` | 微前端 |  |
+| `GET` | `/fbt/api/landing/enroll_product_value_plus` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_all_value_plus_products` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_content_for_module` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_merchant_by_fs_seller` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_merchant_by_seller` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_merchant_onboarding_cost` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_seller_in_opt_out_from_free_shipping_status` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_seller_latest_enrollment_stats` | 微前端 |  |
+| `POST` | `/fbt/api/landing/get_vat_status_by_fs_seller` | 微前端 |  |
+| `POST` | `/fbt/api/landing/go_to_fbt` | 微前端 |  |
+| `POST` | `/fbt/api/landing/print_goods_barcode` | 微前端 |  |
+| `POST` | `/fbt/api/landing/search_content_by_keywords` | 微前端 |  |
 | `GET` | `/instant/api/v1/product/product_creation/preload` | 早期,早期 |  |
+| `POST` | `/logistics/district/get` | 微前端 |  |
+| `POST` | `/logistics/district/list` | 微前端 |  |
+| `GET` | `/maps/api/js` | 微前端,微前端 |  |
+| `POST` | `/maps/api/key` | 微前端 |  |
+| `POST` | `/product/brand/check` | 微前端 |  |
+| `POST` | `/product/brand/create` | 微前端 |  |
+| `POST` | `/product/brand/delete` | 微前端 |  |
+| `POST` | `/product/brand/detail` | 微前端 |  |
+| `POST` | `/product/brand/update` | 微前端 |  |
+| `POST` | `/product/bundles/mactivate` | 微前端 |  |
+| `POST` | `/product/bundles/mdeactivate` | 微前端 |  |
+| `POST` | `/product/bundles/mdelete` | 微前端 |  |
+| `POST` | `/product/commission/config/get` | 微前端 |  |
+| `POST` | `/product/commission/delete` | 微前端 |  |
+| `POST` | `/product/commission/set` | 微前端 |  |
+| `POST` | `/product/duplication/title/check` | 微前端 |  |
+| `POST` | `/product/guide_context/get` | 微前端 |  |
+| `POST` | `/product/image/quality/check` | 微前端 |  |
+| `POST` | `/product/images/msubmit` | 微前端 |  |
+| `POST` | `/product/local/bundle/create` | 微前端 |  |
+| `POST` | `/product/local/bundle/edit` | 微前端 |  |
+| `POST` | `/product/local/bundles/list` | 微前端 |  |
+| `POST` | `/product/local/draft/save` | 微前端 |  |
+| `POST` | `/product/local/edit/template` | 微前端 |  |
+| `POST` | `/product/local/edit_image/list` | 微前端 |  |
+| `POST` | `/product/local/image/save` | 微前端 |  |
+| `POST` | `/product/local/upload` | 微前端 |  |
+| `POST` | `/product/logistics/service/check` | 微前端 |  |
+| `POST` | `/product/parcel/check` | 微前端 |  |
+| `POST` | `/product/products/activate` | 微前端 |  |
+| `POST` | `/product/products/deactivate` | 微前端 |  |
+| `POST` | `/product/products/delete` | 微前端 |  |
+| `POST` | `/product/products/recover` | 微前端 |  |
+| `POST` | `/product/prohibited/words/check` | 微前端 |  |
+| `POST` | `/product/shipping/fee/estimate` | 微前端 |  |
+| `POST` | `/product/shipping_template/check` | 微前端 |  |
+| `POST` | `/product/size_chart/batch_save` | 微前端 |  |
+| `POST` | `/product/size_chart/config_product` | 微前端 |  |
+| `POST` | `/product/size_chart/delete` | 微前端 |  |
+| `POST` | `/product/size_chart/edit` | 微前端 |  |
+| `POST` | `/product/size_chart/get_bind_info` | 微前端 |  |
+| `POST` | `/product/size_chart/identify` | 微前端 |  |
+| `POST` | `/product/size_chart/list_product_type` | 微前端 |  |
+| `POST` | `/product/size_chart/save` | 微前端 |  |
+| `POST` | `/product/size_chart/search` | 微前端 |  |
+| `POST` | `/product/sku/price/cal` | 微前端 |  |
+| `POST` | `/product/sku/price/stocks/update` | 微前端 |  |
+| `POST` | `/product/sku/price/update` | 微前端 |  |
+| `POST` | `/product/sku/prices/mcal` | 微前端 |  |
+| `POST` | `/product/sku/stocks/decrease` | 微前端 |  |
+| `POST` | `/product/sku/stocks/increase` | 微前端 |  |
+| `POST` | `/product/spu/match` | 微前端 |  |
+| `POST` | `/pssresource/external/upload` | 微前端,微前端 |  |
+| `POST` | `/seller/mall_status/apply` | 微前端 |  |
+| `POST` | `/seller/navigation_bar/read` | 微前端 |  |
+| `POST` | `/seller/search/get` | 微前端 |  |
+| `POST` | `/seller/search_query_suggestion/get` | 微前端 |  |
+| `POST` | `/seller/seller_map/read` | 微前端 |  |
+| `POST` | `/seller/shop/timezone/update` | 微前端 |  |
+| `POST` | `/seller/shop_holiday_mode/mset` | 微前端 |  |
+| `POST` | `/seller/shop_holiday_mode/set` | 微前端 |  |
+| `POST` | `/seller/shop_metrics/save` | 微前端 |  |
+| `POST` | `/seller/tags/click/save` | 微前端 |  |
+| `POST` | `/seller/term/set` | 微前端 |  |
+| `POST` | `/seller/user/check_user_auth` | 微前端 |  |
+| `POST` | `/seller/user/get_info` | 微前端 |  |
+| `GET` | `/v1/seller_warehouses/status` | 微前端 |  |
+| `POST` | `/webapp/seller/check_user_auth` | 微前端 |  |
 | `POST` | `/widget/api/v1/logistics/district/list` | 微前端,微前端,微前端,财务bundle | `WidgetListDistricts` |
 | `GET` | `/widget/api/v1/product/local/product/subscribe/get` | 微前端 | `GetProductSubscribeForWidget` |
 | `GET` | `/widget/api/v1/product/local/product/subscribe/save` | 微前端 | `SaveProductSubscribeForWidget` |
@@ -4138,67 +5017,7 @@
 | `POST` | `/widget/api/v1/product/size_chart/list_product_type` | 微前端,早期,早期 | `ListSizeChartProductTypeForWidget` |
 | `POST` | `/widget/api/v1/product/size_chart/save` | 微前端,早期,早期 | `CreateSizeChartForWidget` |
 | `POST` | `/widget/api/v1/product/size_chart/search` | 微前端,早期,早期 | `SearchSizeChartForWidget` |
-| `POST` | `/widget/api/v1/reverse/arbitration/add_evidence` | 微前端 | `AddArbitrationEvidenceForWidget` |
-| `POST` | `/widget/api/v1/reverse/arbitration/get` | 微前端 | `GetArbitrationDetailForWidget` |
-| `POST` | `/widget/api/v1/reverse/automatic_strategy/create` | 微前端 | `CreateAutomaticStrategyForWidget` |
-| `POST` | `/widget/api/v1/reverse/automatic_strategy/list` | 微前端 | `ListSellerAutomaticStrategyForWidget` |
-| `POST` | `/widget/api/v1/reverse/automatic_strategy/update` | 微前端 | `UpdateAutomaticStrategyForWidget` |
-| `GET` | `/widget/api/v1/reverse/automatic_strategy_template/get` | 微前端 | `GetAutomaticStrategyTemplateForWidget` |
-| `POST` | `/widget/api/v1/reverse/banner/list` | 微前端 | `ListPlatformRulesForWidget` |
-| `POST` | `/widget/api/v1/reverse/banner/update` | 微前端 | `UpdatePlatformRuleForWidget` |
-| `POST` | `/widget/api/v1/reverse/compensation/get` | 微前端 | `GetCompensationDetailForWidget` |
-| `POST` | `/widget/api/v1/reverse/download_file` | 微前端 | `DownloadFileForWidget` |
-| `POST` | `/widget/api/v1/reverse/get_cancellation_window_setting` | 微前端 | `GetCancellationWindowSettingForWidget` |
-| `POST` | `/widget/api/v1/reverse/gray_info` | 微前端 | `GetGrayInfoForWidget` |
-| `POST` | `/widget/api/v1/reverse/how_to_fulfill` | 微前端 | `GetHowToFulfillDocForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/add_tracking_number` | 微前端 | `ActionAddTrackingNumberForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/check_return_logistics` | 微前端 | `ActionCheckReturnLogisticsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/check_return_records` | 微前端 | `ActionCheckReturnRecordsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/delay_receiving` | 微前端 | `ActionDelayReceivingForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/direct_refund` | 微前端 | `ActionDirectRefundForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/edit_tracking_number` | 微前端 | `ActionEditTrackingNumberForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/m_cancel_order` | 微前端 | `ActionMCancelOrderForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/partial_refund` | 微前端 | `ActionPartialRefundForWidget` |
-| `GET` | `/widget/api/v1/reverse/orders/actions/quality_check_info` | 微前端 | `GetReverseFulfillmentByROrderIdForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/return_apply_accept` | 微前端 | `ActionReturnApplyAcceptForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/return_apply_reject` | 微前端 | `ActionReturnApplyRejectForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/return_parcel_accept` | 微前端 | `ActionReturnParcelAcceptForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/return_parcel_reject` | 微前端 | `ActionReturnParcelRejectForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/actions/start_reverse` | 微前端 | `ActionStartReverseForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/cancel_reasons/get` | 微前端 | `GetReverseCancelReasonsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/check_action_executable` | 微前端 | `CheckActionExecutableForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/check_limit` | 微前端 | `CheckReverseLimitForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/download_file` | 微前端 | `DownloadReverseMainOrderForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/export` | 微前端 | `ExportReverseMainOrdersForWidget` |
-| `GET` | `/widget/api/v1/reverse/orders/get` | 微前端 | `GetSellerReverseMainOrderDetailForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/get_can_reverse_details` | 微前端 | `GetCanReverseDetailsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/get_export_history` | 微前端 | `GetExportHistoryForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/get_next_reverse_order` | 微前端 | `GetSellerNextReverseMainOrderForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/issue_refund_preview` | 微前端 | `GetIssueRefundPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/list` | 微前端 | `ListSellerReverseMainOrdersForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/list_logistics_service` | 微前端 | `ListLogisticsServiceForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/list_seller_announcement` | 微前端 | `ListSellerAppAnnouncementsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/order_lines/list` | 微前端 | `ListSellerReverseOrderLinesForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/partial_refund_preview` | 微前端 | `GetPartialRefundPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/reverse_amount` | 微前端 | `CalReverseAmountForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/reverse_preview` | 微前端 | `GetReversePreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/reverse_reasons/get` | 微前端 | `GetReverseReasonsForWidget` |
-| `POST` | `/widget/api/v1/reverse/orders/tag` | 微前端 | `SetReverseOrderTagForWidget` |
-| `POST` | `/widget/api/v1/reverse/platform_audit/add_evidence` | 微前端 | `AddPlatformAuditEvidenceForWidget` |
-| `POST` | `/widget/api/v1/reverse/platform_audit/get` | 微前端 | `GetPlatformAuditDetailForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/accept_reverse` | 微前端 | `GetAcceptReversePreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/add_tracking_number` | 微前端 | `GetAddTrackingNumberPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/cancel_order` | 微前端 | `GetCancelOrderPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/customize_policy` | 微前端 | `GetCustomizePolicyPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/direct_refund` | 微前端 | `GetDirectRefundPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/reject_reverse` | 微前端 | `GetRejectReversePreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/preview/replacement_setting` | 微前端 | `GetReplacementSettingPreviewForWidget` |
-| `POST` | `/widget/api/v1/reverse/search_fuzzy` | 微前端 | `SearchFuzzyInfoForWidget` |
-| `POST` | `/widget/api/v1/reverse/search_layout` | 微前端 | `GetSearchLayoutForWidget` |
-| `POST` | `/widget/api/v1/reverse/seller_function/update` | 微前端 | `UpdateSellerFunctionConfigForWidget` |
-| `POST` | `/widget/api/v1/reverse/update_cancellation_window_setting` | 微前端 | `UpdateCancellationWindowSettingForWidget` |
 | `GET` | `/widget/api/v1/seller/affiliate_card/get` | 微前端,微前端,微前端,微前端,财务bundle | `GetAffiliateCardForWidget` |
-| `GET` | `/widget/api/v1/seller/learning_center/video/play_info/get` | 微前端 | `WidgetGetVideoPlayInfo` |
 | `GET` | `/widget/api/v1/seller/livecenter/category/get` | 微前端 | `WidgetGetCategory` |
 | `POST` | `/widget/api/v1/seller/livecenter/video_feed/list` | 微前端 | `WidgetListVideoFeed` |
 | `POST` | `/widget/api/v1/seller/livestream/event/post` | 微前端 | `WidgetPostEvent` |
@@ -4210,5 +5029,4 @@
 | `GET` | `/widget/api/v1/seller/sell/v3/detail/get` | 微前端 | `WidgetGetSellOnTiktokV3` |
 | `POST` | `/widget/api/v1/seller/warehouses/add` | 微前端,微前端,微前端,财务bundle | `AddSellerWarehousesForWidget` |
 | `POST` | `/widget/api/v1/seller/white_list/check` | 微前端,微前端 | `CheckWhiteListForWidget` |
-| `GET` | `/widget/api/v1/seller_settings/seller_whitelist/get` | 微前端,微前端,微前端 | `GetSellerWhiteListForWidget` |
-| `GET` | `/widget/api/v1/seller_settings/settings/get` | 微前端,微前端,微前端 | `GetSellerSettingsForWidget` |
+| `POST` | `/wsos_v2/oec_promotion_backends_file_system/upload` | 微前端 |  |
