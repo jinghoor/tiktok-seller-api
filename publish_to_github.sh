@@ -110,4 +110,4 @@ echo "══ 4/4 推送 ══"
 git push -q origin HEAD:main 2>&1 | tail -3
 echo "  ✅ https://github.com/$REPO_SLUG"
 echo
-echo "暂存目录：$STAGE（可随时删，历史在 GitHub 上）"
+echo "暂存目录: ${STAGE}  (可随时删, 历史在 GitHub 上)"
